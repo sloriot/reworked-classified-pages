@@ -101,21 +101,21 @@ Advanced Classes
 Concepts
 --------------
 
-`FuzzyQueryItem`
+- `FuzzyQueryItem`
 
-`GeneralDistance`
+- `GeneralDistance`
 
-`OrthogonalDistance`
+- `OrthogonalDistance`
 
-`SearchTraits`
+- `SearchTraits`
 
-`RangeSearchTraits`
+- `RangeSearchTraits`
 
-`SpatialSeparator`
+- `SpatialSeparator`
 
-`SpatialTree`
+- `SpatialTree`
 
-`Splitter`
+- `Splitter`
 
 
 

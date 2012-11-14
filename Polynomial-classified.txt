@@ -6,111 +6,111 @@
 
 ## Concepts ##
 
-`Polynomial_d`
+- `Polynomial_d`
 
-`PolynomialTraits_d`
+- `PolynomialTraits_d`
 
-`PolynomialTraits_d::ConstructPolynomial`
+- `PolynomialTraits_d::ConstructPolynomial`
 
-`PolynomialTraits_d::GetCoefficient`
+- `PolynomialTraits_d::GetCoefficient`
 
-`PolynomialTraits_d::GetInnermostCoefficient`
+- `PolynomialTraits_d::GetInnermostCoefficient`
 
-`PolynomialTraits_d::MonomialRepresentation`
+- `PolynomialTraits_d::MonomialRepresentation`
 
-`PolynomialTraits_d::ConstructCoefficientConstIteratorRange`
+- `PolynomialTraits_d::ConstructCoefficientConstIteratorRange`
 
-`PolynomialTraits_d::ConstructInnermostCoefficientConstIteratorRange`
+- `PolynomialTraits_d::ConstructInnermostCoefficientConstIteratorRange`
 
-`PolynomialTraits_d::Permute`
+- `PolynomialTraits_d::Permute`
 
-`PolynomialTraits_d::Swap`
+- `PolynomialTraits_d::Swap`
 
-`PolynomialTraits_d::Move`
+- `PolynomialTraits_d::Move`
 
-`PolynomialTraits_d::Degree`
+- `PolynomialTraits_d::Degree`
 
-`PolynomialTraits_d::TotalDegree`
+- `PolynomialTraits_d::TotalDegree`
 
-`PolynomialTraits_d::DegreeVector`
+- `PolynomialTraits_d::DegreeVector`
 
-`PolynomialTraits_d::LeadingCoefficient`
+- `PolynomialTraits_d::LeadingCoefficient`
 
-`PolynomialTraits_d::InnermostLeadingCoefficient`
+- `PolynomialTraits_d::InnermostLeadingCoefficient`
 
-`PolynomialTraits_d::Canonicalize`
+- `PolynomialTraits_d::Canonicalize`
 
-`PolynomialTraits_d::Differentiate`
+- `PolynomialTraits_d::Differentiate`
 
-`PolynomialTraits_d::Evaluate`
+- `PolynomialTraits_d::Evaluate`
 
-`PolynomialTraits_d::EvaluateHomogeneous`
+- `PolynomialTraits_d::EvaluateHomogeneous`
 
-`PolynomialTraits_d::Substitute`
+- `PolynomialTraits_d::Substitute`
 
-`PolynomialTraits_d::SubstituteHomogeneous`
+- `PolynomialTraits_d::SubstituteHomogeneous`
 
-`PolynomialTraits_d::IsZeroAt`
+- `PolynomialTraits_d::IsZeroAt`
 
-`PolynomialTraits_d::IsZeroAtHomogeneous`
+- `PolynomialTraits_d::IsZeroAtHomogeneous`
 
-`PolynomialTraits_d::SignAt`
+- `PolynomialTraits_d::SignAt`
 
-`PolynomialTraits_d::SignAtHomogeneous`
+- `PolynomialTraits_d::SignAtHomogeneous`
 
-`PolynomialTraits_d::Compare`
+- `PolynomialTraits_d::Compare`
 
-`PolynomialTraits_d::UnivariateContent`
+- `PolynomialTraits_d::UnivariateContent`
 
-`PolynomialTraits_d::MultivariateContent`
+- `PolynomialTraits_d::MultivariateContent`
 
-`PolynomialTraits_d::SquareFreeFactorize`
+- `PolynomialTraits_d::SquareFreeFactorize`
 
-`PolynomialTraits_d::MakeSquareFree`
+- `PolynomialTraits_d::MakeSquareFree`
 
-`PolynomialTraits_d::IsSquareFree`
+- `PolynomialTraits_d::IsSquareFree`
 
-`PolynomialTraits_d::PseudoDivision`
+- `PolynomialTraits_d::PseudoDivision`
 
-`PolynomialTraits_d::PseudoDivisionQuotient`
+- `PolynomialTraits_d::PseudoDivisionQuotient`
 
-`PolynomialTraits_d::PseudoDivisionRemainder`
+- `PolynomialTraits_d::PseudoDivisionRemainder`
 
-`PolynomialTraits_d::GcdUpToConstantFactor`
+- `PolynomialTraits_d::GcdUpToConstantFactor`
 
-`PolynomialTraits_d::IntegralDivisionUpToConstantFactor`
+- `PolynomialTraits_d::IntegralDivisionUpToConstantFactor`
 
-`PolynomialTraits_d::UnivariateContentUpToConstantFactor`
+- `PolynomialTraits_d::UnivariateContentUpToConstantFactor`
 
-`PolynomialTraits_d::SquareFreeFactorizeUpToConstantFactor`
+- `PolynomialTraits_d::SquareFreeFactorizeUpToConstantFactor`
 
-`PolynomialTraits_d::Shift`
+- `PolynomialTraits_d::Shift`
 
-`PolynomialTraits_d::Negate`
+- `PolynomialTraits_d::Negate`
 
-`PolynomialTraits_d::Invert`
+- `PolynomialTraits_d::Invert`
 
-`PolynomialTraits_d::Translate`
+- `PolynomialTraits_d::Translate`
 
-`PolynomialTraits_d::TranslateHomogeneous`
+- `PolynomialTraits_d::TranslateHomogeneous`
 
-`PolynomialTraits_d::Scale`
+- `PolynomialTraits_d::Scale`
 
-`PolynomialTraits_d::ScaleHomogeneous`
+- `PolynomialTraits_d::ScaleHomogeneous`
 
-`PolynomialTraits_d::Resultant`
+- `PolynomialTraits_d::Resultant`
 
-`PolynomialTraits_d::PolynomialSubresultants`
+- `PolynomialTraits_d::PolynomialSubresultants`
 
-`PolynomialTraits_d::PolynomialSubresultantsWithCofactors`
+- `PolynomialTraits_d::PolynomialSubresultantsWithCofactors`
 
-`PolynomialTraits_d::PrincipalSubresultants`
+- `PolynomialTraits_d::PrincipalSubresultants`
 
-`PolynomialTraits_d::SturmHabichtSequence`
+- `PolynomialTraits_d::SturmHabichtSequence`
 
-`PolynomialTraits_d::SturmHabichtSequenceWithCofactors`
+- `PolynomialTraits_d::SturmHabichtSequenceWithCofactors`
 
-`PolynomialTraits_d::PrincipalSturmHabichtSequence`
+- `PolynomialTraits_d::PrincipalSturmHabichtSequence`
 
 ## Classes ##
 

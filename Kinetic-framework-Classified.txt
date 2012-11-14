@@ -19,30 +19,30 @@ Main Support Classes and Concepts
 
 Here we list the main classes and concepts provided by the framework to support implementing kinetic data structures
 
-`Kinetic::ActiveObjectsTable`
+- `Kinetic::ActiveObjectsTable`
 - `CGAL::Kinetic::Active_objects_vector<MovingObject>`
 - `::Kinetic::Cartesian<FunctionKernel>`
-`Kinetic::FunctionKernel`
-`Kinetic::InstantaneousKernel`
+- `Kinetic::FunctionKernel`
+- `Kinetic::InstantaneousKernel`
 - `CGAL::Kinetic::Default_instantaneous_kernel<ActiveObjectsTable, StaticKernel>`
-`Kinetic::Kernel`
-`Kinetic::SimulationTraits`
-`Kinetic::Simulator`
+- `Kinetic::Kernel`
+- `Kinetic::SimulationTraits`
+- `Kinetic::Simulator`
 - `CGAL::Kinetic::Default_simulator<FunctionKernel, EventQueue>`
 
 Other Concepts
 --------------
 
-`Key`
-`Kinetic::Certificate`
-`Kinetic::CertificateGenerator`
-`Kinetic::EventQueue`
-`Kinetic::FunctionKernel::ConstructFunction`
-`Key`
-`Kinetic::FunctionKernel::Function`
-`Kinetic::RootStack`
-`Kinetic::Simulator::Event`
-`Kinetic::Simulator::Time`
+- `Key`
+- `Kinetic::Certificate`
+- `Kinetic::CertificateGenerator`
+- `Kinetic::EventQueue`
+- `Kinetic::FunctionKernel::ConstructFunction`
+- `Key`
+- `Kinetic::FunctionKernel::Function`
+- `Kinetic::RootStack`
+- `Kinetic::Simulator::Event`
+- `Kinetic::Simulator::Time`
 
 Other Classes
 --------------

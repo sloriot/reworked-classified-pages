@@ -65,21 +65,21 @@ of the alpha complex where singular faces are removed.
 
 ## Concepts ##
 
-`AlphaShapeTraits_3`
+- `AlphaShapeTraits_3`
 
-`WeightedAlphaShapeTraits_3`
+- `WeightedAlphaShapeTraits_3`
 
-`AlphaShapeCell_3`
+- `AlphaShapeCell_3`
 
-`AlphaShapeVertex_3`
+- `AlphaShapeVertex_3`
 
-`FixedAlphaShapeTraits_3`
+- `FixedAlphaShapeTraits_3`
 
-`FixedWeightedAlphaShapeTraits_3`
+- `FixedWeightedAlphaShapeTraits_3`
 
-`FixedAlphaShapeCell_3`
+- `FixedAlphaShapeCell_3`
 
-`FixedAlphaShapeVertex_3`
+- `FixedAlphaShapeVertex_3`
 
 ## Classes ##
 

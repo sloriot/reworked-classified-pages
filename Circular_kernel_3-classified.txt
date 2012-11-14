@@ -1,93 +1,93 @@
 
 # Geometric Concepts #
 
-`SphericalKernel`
+- `SphericalKernel`
 
 ## Object types ##
 
-`SphericalKernel::CircularArc_3`
+- `SphericalKernel::CircularArc_3`
 
-`SphericalKernel::CircularArcPoint_3`
+- `SphericalKernel::CircularArcPoint_3`
 
-`SphericalKernel::LineArc_3`
+- `SphericalKernel::LineArc_3`
 
 ## Functors ##
 
-`SphericalKernel::ConstructPlane_3`
+- `SphericalKernel::ConstructPlane_3`
 
-`SphericalKernel::ConstructSphere_3`
+- `SphericalKernel::ConstructSphere_3`
 
-`SphericalKernel::ConstructLine_3`
+- `SphericalKernel::ConstructLine_3`
 
-`SphericalKernel::ConstructCircle_3`
+- `SphericalKernel::ConstructCircle_3`
 
-`SphericalKernel::ConstructCircularArcPoint_3`
+- `SphericalKernel::ConstructCircularArcPoint_3`
 
-`SphericalKernel::ConstructLineArc_3`
+- `SphericalKernel::ConstructLineArc_3`
 
-`SphericalKernel::ConstructCircularArc_3`
+- `SphericalKernel::ConstructCircularArc_3`
 
-`SphericalKernel::ConstructCircularMinVertex_3`
+- `SphericalKernel::ConstructCircularMinVertex_3`
 
-`SphericalKernel::ConstructCircularMaxVertex_3`
+- `SphericalKernel::ConstructCircularMaxVertex_3`
 
-`SphericalKernel::ConstructCircularSourceVertex_3`
+- `SphericalKernel::ConstructCircularSourceVertex_3`
 
-`SphericalKernel::ConstructCircularTargetVertex_3`
+- `SphericalKernel::ConstructCircularTargetVertex_3`
 
-`SphericalKernel::ConstructBbox_3`
+- `SphericalKernel::ConstructBbox_3`
 
-`SphericalKernel::CompareX_3`
+- `SphericalKernel::CompareX_3`
 
-`SphericalKernel::CompareY_3`
+- `SphericalKernel::CompareY_3`
 
-`SphericalKernel::CompareZ_3`
+- `SphericalKernel::CompareZ_3`
 
-`SphericalKernel::CompareXY_3`
+- `SphericalKernel::CompareXY_3`
 
-`SphericalKernel::CompareXYZ_3`
+- `SphericalKernel::CompareXYZ_3`
 
-`SphericalKernel::CompareTheta_3`
+- `SphericalKernel::CompareTheta_3`
 
-`SphericalKernel::CompareThetaZ_3`
+- `SphericalKernel::CompareThetaZ_3`
 
-`SphericalKernel::CompareZAtTheta_3`
+- `SphericalKernel::CompareZAtTheta_3`
 
-`SphericalKernel::CompareZToRight_3`
+- `SphericalKernel::CompareZToRight_3`
 
-`SphericalKernel::Equal_3`
+- `SphericalKernel::Equal_3`
 
-`SphericalKernel::HasOn_3`
+- `SphericalKernel::HasOn_3`
 
-`SphericalKernel::DoOverlap_3`
+- `SphericalKernel::DoOverlap_3`
 
-`SphericalKernel::DoIntersect_3`
+- `SphericalKernel::DoIntersect_3`
 
-`SphericalKernel::IsThetaMonotone_3`
+- `SphericalKernel::IsThetaMonotone_3`
 
-`SphericalKernel::BoundedSide_3`
+- `SphericalKernel::BoundedSide_3`
 
-`SphericalKernel::HasOnBoundedSide_3`
+- `SphericalKernel::HasOnBoundedSide_3`
 
-`SphericalKernel::HasOnUnboundedSide_3`
+- `SphericalKernel::HasOnUnboundedSide_3`
 
-`SphericalKernel::Intersect_3`
+- `SphericalKernel::Intersect_3`
 
-`SphericalKernel::Split_3`
+- `SphericalKernel::Split_3`
 
-`SphericalKernel::MakeThetaMonotone_3`
+- `SphericalKernel::MakeThetaMonotone_3`
 
-`SphericalKernel::ComputeCircularX_3`
+- `SphericalKernel::ComputeCircularX_3`
 
-`SphericalKernel::ComputeCircularY_3`
+- `SphericalKernel::ComputeCircularY_3`
 
-`SphericalKernel::ComputeCircularZ_3`
+- `SphericalKernel::ComputeCircularZ_3`
 
-`SphericalKernel::ComputeApproximateSquaredLength_3`
+- `SphericalKernel::ComputeApproximateSquaredLength_3`
 
-`SphericalKernel::ComputeApproximateAngle_3`
+- `SphericalKernel::ComputeApproximateAngle_3`
 
-`SphericalKernel::GetEquation`
+- `SphericalKernel::GetEquation`
 
 # Geometric Kernels and Classes #
 
@@ -153,35 +153,35 @@
 
 # Algebraic Concepts #
 
-`AlgebraicKernelForSpheres`
+- `AlgebraicKernelForSpheres`
 
 ## Functors ##
 
-`AlgebraicKernelForSpheres::ConstructPolynomial_1_3`
+- `AlgebraicKernelForSpheres::ConstructPolynomial_1_3`
 
-`AlgebraicKernelForSpheres::ConstructPolynomialForSpheres_2_3`
+- `AlgebraicKernelForSpheres::ConstructPolynomialForSpheres_2_3`
 
-`AlgebraicKernelForSpheres::ConstructPolynomialsForLines_3`
+- `AlgebraicKernelForSpheres::ConstructPolynomialsForLines_3`
 
-`AlgebraicKernelForSpheres::CompareX`
+- `AlgebraicKernelForSpheres::CompareX`
 
-`AlgebraicKernelForSpheres::CompareY`
+- `AlgebraicKernelForSpheres::CompareY`
 
-`AlgebraicKernelForSpheres::CompareZ`
+- `AlgebraicKernelForSpheres::CompareZ`
 
-`AlgebraicKernelForSpheres::CompareXY`
+- `AlgebraicKernelForSpheres::CompareXY`
 
-`AlgebraicKernelForSpheres::CompareXYZ`
+- `AlgebraicKernelForSpheres::CompareXYZ`
 
-`AlgebraicKernelForSpheres::SignAt`
+- `AlgebraicKernelForSpheres::SignAt`
 
-`AlgebraicKernelForSpheres::XCriticalPoints`
+- `AlgebraicKernelForSpheres::XCriticalPoints`
 
-`AlgebraicKernelForSpheres::YCriticalPoints`
+- `AlgebraicKernelForSpheres::YCriticalPoints`
 
-`AlgebraicKernelForSpheres::ZCriticalPoints`
+- `AlgebraicKernelForSpheres::ZCriticalPoints`
 
-`AlgebraicKernelForSpheres::Solve`
+- `AlgebraicKernelForSpheres::Solve`
 
 # Algebraic Kernel and Classes #
 

@@ -13,9 +13,9 @@ and segment trees in the same data structure.
 Concepts
 --------------
 
-`RangeSegmentTreeTraits_k`
+- `RangeSegmentTreeTraits_k`
 
-`Sublayer`
+- `Sublayer`
 
 Traits Classes
 --------------

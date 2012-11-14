@@ -4,13 +4,13 @@
 
 ## Concepts ##
 
-`Modularizable`
+- `Modularizable`
 
-`ModularTraits`
+- `ModularTraits`
 
-`ModularTraits::ModularImage`
+- `ModularTraits::ModularImage`
 
-`ModularTraits::ModularImageRepresentative`
+- `ModularTraits::ModularImageRepresentative`
 
 ## Types ##
 

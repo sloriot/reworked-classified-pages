@@ -1,7 +1,7 @@
 
 
 A halfedge data structure (abbreviated as `HalfedgeDS`, or
-`HDS` for template parameters) is an edge-centered data structure
+- `HDS` for template parameters) is an edge-centered data structure
 capable of maintaining incidence information of vertices, edges and
 faces, for example for planar maps or polyhedral surfaces. It is a
 combinatorial data structure, geometric interpretation is added by
@@ -28,11 +28,11 @@ found in \cite k-ugpdd-99.
 
 ## Concepts ##
 
-`HalfedgeDS<Traits,Items,Alloc>`
+- `HalfedgeDS<Traits,Items,Alloc>`
 
-`HalfedgeDSItems`
+- `HalfedgeDSItems`
 
-`HalfedgeDSVertex`
+- `HalfedgeDSVertex`
 
 - `::HalfedgeDSHalfedge`
 

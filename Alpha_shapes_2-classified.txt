@@ -49,11 +49,11 @@ finite number of different \f$ \alpha\f$-shapes and corresponding
 
 \subsection gitConcepts Concepts
 
-`AlphaShapeTraits_2`
+- `AlphaShapeTraits_2`
 
-`AlphaShapeFace_2`
+- `AlphaShapeFace_2`
 
-`AlphaShapeVertex_2`
+- `AlphaShapeVertex_2`
 
 \subsection gitClasses Classes
 

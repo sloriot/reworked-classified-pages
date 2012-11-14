@@ -36,25 +36,25 @@ Figure  \ref Triangulation3figorient.
 
 ## Concepts ##
 
-`TriangulationTraits_3`
+- `TriangulationTraits_3`
 
-`DelaunayTriangulationTraits_3`
+- `DelaunayTriangulationTraits_3`
 
-`RegularTriangulationTraits_3`
+- `RegularTriangulationTraits_3`
 
-`TriangulationCellBase_3`
+- `TriangulationCellBase_3`
 
-`TriangulationVertexBase_3`
+- `TriangulationVertexBase_3`
 
-`TriangulationVertexBaseWithInfo_3`
+- `TriangulationVertexBaseWithInfo_3`
 
-`TriangulationHierarchyVertexBase_3`
+- `TriangulationHierarchyVertexBase_3`
 
-`RegularTriangulationCellBase_3`
+- `RegularTriangulationCellBase_3`
 
-`TriangulationDataStructure_3`
+- `TriangulationDataStructure_3`
 
-`WeightedPoint`
+- `WeightedPoint`
 
 ## Classes ##
 

@@ -32,7 +32,7 @@ defining `CGAL_CH_CHECK_EXPENSIVE`
 Concepts
 --------------
 
-`ConvexHullTraits_2`
+- `ConvexHullTraits_2`
 
 Traits Classes
 --------------

@@ -7,7 +7,7 @@ with the algorithms of the <span class="textsc">Bgl</span>, as well as a new gra
 Concepts
 --------------
 
-`HalfedgeGraph`
+- `HalfedgeGraph`
 
 Enums
 --------------

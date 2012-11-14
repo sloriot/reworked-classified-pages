@@ -20,7 +20,7 @@ diagram cell is unique.
 
 ## Concepts ##
 
-`EnvelopeTraits_3`
+- `EnvelopeTraits_3`
 
 ## Classes ##
 

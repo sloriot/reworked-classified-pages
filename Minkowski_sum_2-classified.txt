@@ -28,7 +28,7 @@ bounds, in order to speed up the computation time.
 
 ## Concepts ##
 
-`PolygonConvexDecomposition_2`
+- `PolygonConvexDecomposition_2`
 
 ## Classes ##
 

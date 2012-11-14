@@ -9,7 +9,7 @@ introduction.
 Concepts
 --------------
 
-`ExtendedKernelTraits_2`
+- `ExtendedKernelTraits_2`
 
 Classes
 --------------

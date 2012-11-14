@@ -23,7 +23,7 @@ the interval skip list class is parameterized.
 
 ## Concepts ##
 
-`Interval`
+- `Interval`
 
 ## Classes ##
 

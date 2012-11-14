@@ -24,15 +24,15 @@ Section  \ref TDS3secintro.)
 
 ## Concepts ##
 
-`TriangulationDataStructure_3`
+- `TriangulationDataStructure_3`
 
-`TriangulationDataStructure_3::Cell`
+- `TriangulationDataStructure_3::Cell`
 
-`TriangulationDataStructure_3::Vertex`
+- `TriangulationDataStructure_3::Vertex`
 
-`TriangulationDSCellBase_3`
+- `TriangulationDSCellBase_3`
 
-`TriangulationDSVertexBase_3`
+- `TriangulationDSVertexBase_3`
 
 ## Classes ##
 

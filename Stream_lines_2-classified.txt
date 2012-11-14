@@ -25,20 +25,20 @@ The main class in this package, the `Stream_lines_2` class of \cgal depends on t
 parameters.  The first template parameter stands for a class which
 represents both the vector field and the visualization domain with
 operations on them, and should be instantiated by a model of the concept
-`VectorField_2`.  The second template parameter stands for a
+- `VectorField_2`.  The second template parameter stands for a
 function object that ensures the numerical integration used to
 construct the streamlines, and should be instantiated by a model of the concept
-`Integrator_2`.
+- `Integrator_2`.
 
 # Classified Reference Pages #
 
 ## Concepts ##
 
-`StreamLinesTraits_2`
+- `StreamLinesTraits_2`
 
-`Integrator_2`
+- `Integrator_2`
 
-`VectorField_2`
+- `VectorField_2`
 
 ## Classes ##
 

@@ -15,16 +15,16 @@ member functions of the point set class.
 
 ## Concepts ##
 
-`PointSetTraits`
+- `PointSetTraits`
 
 ## Classes ##
 
-`CGAL::Point_set_2`
+- `CGAL::Point_set_2`
 
 ## Functions ##
 
-`CGAL::nearest_neighbor`
+- `CGAL::nearest_neighbor`
 
-`CGAL::nearest_neighbors`
+- `CGAL::nearest_neighbors`
 
-`CGAL::range_search`
+- `CGAL::range_search`

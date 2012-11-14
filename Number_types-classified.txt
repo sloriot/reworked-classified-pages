@@ -4,67 +4,67 @@
 
 ## Number Type Classes and Concepts ##
 
-`int`
+- `int`
 
-`short int`
+- `short int`
 
-`long  int`
+- `long  int`
 
-`long  long int`
+- `long  long int`
 
-`float`
+- `float`
 
-`double`
+- `double`
 
-`long double`
+- `long double`
 
 ## CORE ##
 
-`CORE::BigInt`
+- `CORE::BigInt`
 
-`CORE::BigRat`
+- `CORE::BigRat`
 
-`CORE::BigFloat`
+- `CORE::BigFloat`
 
-`CORE::Expr`
+- `CORE::Expr`
 
 ## LEDA ##
 
-`leda_integer`
+- `leda_integer`
 
-`leda_rational`
+- `leda_rational`
 
-`leda_bigfloat`
+- `leda_bigfloat`
 
-`leda_real`
+- `leda_real`
 
 ## GMP ##
 
-`mpz_class`
+- `mpz_class`
 
-`mpq_class`
+- `mpq_class`
 
-`CGAL::Gmpz`
+- `CGAL::Gmpz`
 
-`CGAL::Gmpq`
+- `CGAL::Gmpq`
 
-`CGAL::Gmpzf`
+- `CGAL::Gmpzf`
 
-`CGAL::Gmpfr`
+- `CGAL::Gmpfr`
 
-`CGAL::Gmpfi`
+- `CGAL::Gmpfi`
 
 ## CGAL ##
 
-`CGAL::MP_Float`
+- `CGAL::MP_Float`
 
-`CGAL::Interval_nt<Protected>`
+- `CGAL::Interval_nt<Protected>`
 
-`CGAL::Lazy_exact_nt<NT>`
+- `CGAL::Lazy_exact_nt<NT>`
 
-`CGAL::Quotient<NT>`
+- `CGAL::Quotient<NT>`
 
-`CGAL::Number_type_checker<NT1,NT2,Comparator>`
+- `CGAL::Number_type_checker<NT1,NT2,Comparator>`
 
 ## Relates Rational ##
 

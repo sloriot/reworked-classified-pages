@@ -20,11 +20,11 @@ computing the nearest and furthest side Delaunay triangulation.
 Concepts
 --------------
 
-`ConvexHullTraits_d`
+- `ConvexHullTraits_d`
 
-`DelaunayLiftedTraits_d`
+- `DelaunayLiftedTraits_d`
 
-`DelaunayTraits_d`
+- `DelaunayTraits_d`
 
 Classes
 --------------

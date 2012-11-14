@@ -2,11 +2,11 @@
 
 ## Concepts ##
 
-`TriangulatedSurfaceMesh`
+- `TriangulatedSurfaceMesh`
 
-`Vertex2FTPropertyMap`
+- `Vertex2FTPropertyMap`
 
-`Vertex2VectorPropertyMap`
+- `Vertex2VectorPropertyMap`
 
 ## Enums ##
 
@@ -36,5 +36,4 @@
 
 - `CGAL::compute_umbilics`
 
-The insert operator \f$ <<\f$ is overloaded for the classes `Ridge_line` and
-`Umbilic`.
+The insert operator \f$ <<\f$ is overloaded for the classes `Ridge_line` and `Umbilic`.

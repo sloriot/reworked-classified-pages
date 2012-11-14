@@ -6,42 +6,42 @@
 
 Here are the main concepts of this package:
 
-`MeshComplex_3InTriangulation_3`
+- `MeshComplex_3InTriangulation_3`
 
-`MeshComplexWithFeatures_3InTriangulation_3`
+- `MeshComplexWithFeatures_3InTriangulation_3`
 
-`MeshDomain_3`
+- `MeshDomain_3`
 
-`MeshDomainWithFeatures_3`
+- `MeshDomainWithFeatures_3`
 
-`MeshCriteria_3`
+- `MeshCriteria_3`
 
-`MeshCriteriaWithFeatures_3`
+- `MeshCriteriaWithFeatures_3`
 
-`MeshCellCriteria_3`
+- `MeshCellCriteria_3`
 
-`MeshFacetCriteria_3`
+- `MeshFacetCriteria_3`
 
-`MeshEdgeCriteria_3`
+- `MeshEdgeCriteria_3`
 
 The following concepts are secondary concepts,
 related to the template parameters of some models of the main concepts:
 
-`BisectionGeometricTraits_3`
+- `BisectionGeometricTraits_3`
 
-`IntersectionGeometricTraits_3`
+- `IntersectionGeometricTraits_3`
 
-`LabeledImage_3`
+- `LabeledImage_3`
 
-`MeshCellBase_3`
+- `MeshCellBase_3`
 
-`MeshVertexBase_3`
+- `MeshVertexBase_3`
 
-`MeshDomainField_3`
+- `MeshDomainField_3`
 
-`MeshPolyline_3`
+- `MeshPolyline_3`
 
-`TriangleAccessor_3`
+- `TriangleAccessor_3`
 
 ## Classes ##
 

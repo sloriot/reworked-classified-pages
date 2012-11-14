@@ -12,7 +12,7 @@ Sorting
 
 - `::Kinetic::Sort<Traits, Visitor>`
 
-`Kinetic::SortVisitor`
+- `Kinetic::SortVisitor`
 
 - `CGAL::Kinetic::Sort_visitor_base`
 
@@ -23,7 +23,7 @@ Delaunay Triangulation in 2D
 
 - `CGAL::Kinetic::Delaunay_triangulation_2<Traits, Visitor, Triangulation>`
 
-`Kinetic::DelaunayTriangulationVisitor_2`
+- `Kinetic::DelaunayTriangulationVisitor_2`
 
 - `CGAL::Kinetic::Delaunay_triangulation_event_log_visitor_2`
 
@@ -38,7 +38,7 @@ Delaunay and Regular Triangulations in 3D
 
 - `CGAL::Kinetic::Delaunay_triangulation_3<Traits, Visitor, Triangulation>`
 
-`Kinetic::DelaunayTriangulationVisitor_3`
+- `Kinetic::DelaunayTriangulationVisitor_3`
 
 - `CGAL::Kinetic::Delaunay_triangulation_event_log_visitor_3`
 
@@ -48,7 +48,7 @@ Delaunay and Regular Triangulations in 3D
 
 - `CGAL::Kinetic::Regular_triangulation_3<Traits, Visitor, Triangulation>`
 
-`Kinetic::RegularTriangulationVisitor_3`
+- `Kinetic::RegularTriangulationVisitor_3`
 
 - `CGAL::Kinetic::Regular_triangulation_visitor_base_3`
 
