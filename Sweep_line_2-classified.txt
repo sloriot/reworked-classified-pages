@@ -14,7 +14,5 @@ manner.
 ## Functions ##
 
 - `CGAL::compute_intersection_points`
-
 - `CGAL::compute_subcurves`
-
 - `CGAL::do_curves_intersect`

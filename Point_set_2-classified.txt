@@ -24,7 +24,5 @@ member functions of the point set class.
 ## Functions ##
 
 - `CGAL::nearest_neighbor`
-
 - `CGAL::nearest_neighbors`
-
 - `CGAL::range_search`

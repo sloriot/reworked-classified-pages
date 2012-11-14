@@ -22,27 +22,18 @@ surface can be used without knowing the halfedge data structure.
 ## Concepts ##
 
 - `PolyhedronTraits_3`
-
 - `PolyhedronItems_3`
 
 ## Classes ##
 
 - `CGAL::Polyhedron_3<Traits>`
-
 - `CGAL::Polyhedron_3<Traits>::Vertex`
-
 - `CGAL::Polyhedron_3<Traits>::Halfedge`
-
 - `CGAL::Polyhedron_3<Traits>::Facet`
-
 - `CGAL::Polyhedron_traits_3<Kernel>`
-
 - `CGAL::Polyhedron_traits_with_normals_3<Kernel>`
-
 - `CGAL::Polyhedron_items_3`
-
 - `CGAL::Polyhedron_min_items_3`
-
 - `CGAL::Polyhedron_incremental_builder_3<HDS>`
 
 ## Functions ##

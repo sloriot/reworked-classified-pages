@@ -5,15 +5,11 @@
 ## Concepts ##
 
 - `Modularizable`
-
 - `ModularTraits`
-
 - `ModularTraits::ModularImage`
-
 - `ModularTraits::ModularImageRepresentative`
 
 ## Types ##
 
 - `CGAL::Residue`
-
 - `CGAL::Modular_traits<T>`

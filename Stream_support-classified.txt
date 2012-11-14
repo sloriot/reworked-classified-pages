@@ -15,39 +15,23 @@ the printing mode.
 ## Functions ##
 
 - `CGAL::get_mode`
-
 - `CGAL::is_ascii`
-
 - `CGAL::is_binary`
-
 - `CGAL::is_pretty`
-
 - `CGAL::set_mode`
-
 - `CGAL::set_ascii_mode`
-
 - `CGAL::set_binary_mode`
-
 - `CGAL::set_pretty_mode`
-
 - `CGAL::operator>>`
-
 - `CGAL::operator<<`
-
 - `CGAL::iformat`
-
 - `CGAL::oformat`
 
 ## Classes ##
 
 - `CGAL::Color`
-
 - `CGAL::Istream_iterator<T,Stream>`
-
 - `CGAL::Ostream_iterator<T,Stream>`
-
 - `CGAL::Verbose_ostream`
-
 - `CGAL::Input_rep<T,F>`
-
 - `CGAL::Output_rep<T,F>`
