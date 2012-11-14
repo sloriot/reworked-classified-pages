@@ -27,6 +27,9 @@
 <I>Reference&nbsp;Manual</I></h1>
 <P>
 
+<p class="subtitle">Menelaos Karavelas  and Mariette Yvinec</p>
+<P>
+
 This chapter introduces the concepts and classes of the triangulated surface mesh simplification package.<BR>
 
 The packages provides a policy-based algorithm for the simplification of triangulated surface meshes

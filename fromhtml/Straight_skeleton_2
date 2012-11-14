@@ -27,6 +27,9 @@
 <I>Reference&nbsp;Manual</I></h1>
 <P>
 
+<p class="subtitle">Menelaos Karavelas  and Mariette Yvinec</p>
+<P>
+
 This chapter introduces the concepts and classes that correspond to the <span class="textsc">Cgal</span> <I>2D Straight Skeleton</I> package.<BR>
 
 The packages provides an algorithm for the construction of the
