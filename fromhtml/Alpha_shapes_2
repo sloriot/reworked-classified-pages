@@ -1,33 +1,3 @@
-
-    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html lang="en-US"> <head>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-<meta name="generator" content="CGAL latex_to_html converter">
-<!-- by cc_extract_html, $Id: cc_extract_html.cpp 44195 2008-07-16 08:46:48Z spion $ -->
-<!-- LaTeX source file: './Alpha_shapes_2_ref/intro.tex' -->
-<link rel="canonical" href="http://www.cgal.org/Manual/latest/doc_html/cgal_manual/Alpha_shapes_2_ref/Chapter_intro.html">
-<link href="../latex_to_html.css" rel="STYLESHEET">
-<title>2D Alpha Shapes Reference&nbsp;Manual</title>
-</head>
-<body bgcolor="white">
-
-<div class="NavTop">
-  
-  <strong>Navigation:</strong>
-<a href="Chapter_intro.html">Up</a>&nbsp;&nbsp;
-  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
-  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
-  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
-  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
-  <a href="../title.html">Title</a>
-  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
-<P>
-
-<h1>2D Alpha Shapes<BR>
-<I>Reference&nbsp;Manual</I></h1>
-
- 
-<p class="subtitle">Tran Kai Frank Da</p>
 <P>
 
 This chapter presents a framework for alpha shapes. The description is based on
@@ -111,38 +81,3 @@ finite number of different <span class="math">&alpha;</span>-shapes and correspo
 
 <a name="Section_42.6"></a>
         
-<h2>42.6&nbsp;&nbsp;&nbsp;Alphabetical List of Reference Pages</h2>
-<P>
-
-<table cellpadding="0">
-    
-  <tr><td> <a href="Concept_AlphaShapeFace_2.html"><I>AlphaShapeFace_2</I></a></td></tr>
-  <tr><td> <a href="Concept_AlphaShapeTraits_2.html"><I>AlphaShapeTraits_2</I></a></td></tr>
-  <tr><td> <a href="Concept_AlphaShapeVertex_2.html"><I>AlphaShapeVertex_2</I></a></td></tr>
-  <tr><td> <a href="Class_Alpha_shape_2.html"><I>Alpha_shape_2&lt;Dt,ExactAlphaComparisonTag&gt;</I></a></td></tr>
-  <tr><td> <a href="Class_Alpha_shape_face_base_2.html"><I>Alpha_shape_face_base_2&lt;Traits,  	                                         Fb,                                            ExactAlphaComparisonTag&gt;</I></a></td></tr>
-  <tr><td> <a href="Class_Alpha_shape_vertex_base_2.html"><I>Alpha_shape_vertex_base_2&lt; Traits,                                               Vb,                                               ExactAlphaComparisonTag&gt;</I></a></td></tr>
-  <tr><td> <a href="Class_Weighted_alpha_shape_euclidean_traits_2.html"><I>Weighted_alpha_shape_euclidean_traits_2&lt;K&gt;</I></a></td></tr>
-    </table>
-    
-  
-
-  <div class="NavNext">Next chapter: <a href="../Alpha_shapes_3/Chapter_main.html">3D Alpha Shapes</a></div>
-    
-  <div class="NavBottom">
-  
-  <strong>Navigation:</strong>
-<a href="../Alpha_shapes_3/Chapter_main.html">Up</a>&nbsp;&nbsp;
-  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
-  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
-  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
-  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
-  <a href="../title.html">Title</a>
-  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
-
-<div class="NavAddress">
-<SMALL><a href="http://www.cgal.org" target="_top">CGAL Open Source Project</a>.
-Release 4.1.
-23 October 2012.</SMALL>
-</div>
-</body>  </html>

@@ -1,33 +1,3 @@
-
-    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html lang="en-US"> <head>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-<meta name="generator" content="CGAL latex_to_html converter">
-<!-- by cc_extract_html, $Id: cc_extract_html.cpp 44195 2008-07-16 08:46:48Z spion $ -->
-<!-- LaTeX source file: './Periodic_3_triangulation_3_ref/intro.tex' -->
-<link rel="canonical" href="http://www.cgal.org/Manual/latest/doc_html/cgal_manual/Periodic_3_triangulation_3_ref/Chapter_intro.html">
-<link href="../latex_to_html.css" rel="STYLESHEET">
-<title>3D Periodic Triangulations Reference&nbsp;Manual</title>
-</head>
-<body bgcolor="white">
-
-<div class="NavTop">
-  
-  <strong>Navigation:</strong>
-<a href="Chapter_intro.html">Up</a>&nbsp;&nbsp;
-  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
-  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
-  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
-  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
-  <a href="../title.html">Title</a>
-  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
-<P>
-
-<h1>3D Periodic Triangulations<BR>
-<I>Reference&nbsp;Manual</I></h1>
-
- 
-<p class="subtitle">Manuel Caroli  and Monique Teillaud</p>
 <P>
 
 The main classes of the 3D Periodic Triangulation package are
@@ -128,44 +98,3 @@ of the concept <I><A HREF="Concept_Periodic_3Offset_3.html#Cross_link_anchor_140
 
 <a name="Section_41.9"></a>
         
-<h2>41.9&nbsp;&nbsp;&nbsp;Alphabetical List of Reference Pages</h2>
-<P>
-
-<table cellpadding="0">
-    
-  <tr><td> <a href="Concept_Periodic_3DelaunayTriangulationTraits_3.html"><I>Periodic_3DelaunayTriangulationTraits_3</I></a></td></tr>
-  <tr><td> <a href="Concept_Periodic_3Offset_3.html"><I>Periodic_3Offset_3</I></a></td></tr>
-  <tr><td> <a href="Concept_Periodic_3TriangulationDSCellBase_3.html"><I>Periodic_3TriangulationDSCellBase_3</I></a></td></tr>
-  <tr><td> <a href="Concept_Periodic_3TriangulationDSVertexBase_3.html"><I>Periodic_3TriangulationDSVertexBase_3</I></a></td></tr>
-  <tr><td> <a href="Class_Periodic_3_Delaunay_triangulation_3.html"><I>Periodic_3_Delaunay_triangulation_3&lt;PT,TDS&gt;</I></a></td></tr>
-  <tr><td> <a href="Class_Periodic_3_offset_3.html"><I>Periodic_3_offset_3</I></a></td></tr>
-  <tr><td> <a href="Enum_Periodic_3_triangulation_3--Iterator_type.html"><I>Periodic_3_triangulation_3::Iterator_type</I></a></td></tr>
-  <tr><td> <a href="Enum_Periodic_3_triangulation_3--Locate_type.html"><I>Periodic_3_triangulation_3::Locate_type</I></a></td></tr>
-  <tr><td> <a href="Class_Periodic_3_triangulation_3.html"><I>Periodic_3_triangulation_3&lt;PT,TDS&gt;</I></a></td></tr>
-  <tr><td> <a href="Class_Periodic_3_triangulation_ds_cell_base_3.html"><I>Periodic_3_triangulation_ds_cell_base_3&lt;&gt;</I></a></td></tr>
-  <tr><td> <a href="Class_Periodic_3_triangulation_ds_vertex_base_3.html"><I>Periodic_3_triangulation_ds_vertex_base_3&lt;&gt;</I></a></td></tr>
-  <tr><td> <a href="Class_Periodic_3_triangulation_hierarchy_3.html"><I>Periodic_3_triangulation_hierarchy_3&lt;PTr&gt;</I></a></td></tr>
-  <tr><td> <a href="Class_Periodic_3_triangulation_traits_3.html"><I>Periodic_3_triangulation_traits_3&lt;Traits,Periodic_3Offset_3&gt;</I></a></td></tr>
-    </table>
-    
-  
-
-  <div class="NavNext">Next chapter: <a href="../Alpha_shapes_2/Chapter_main.html">2D Alpha Shapes</a></div>
-    
-  <div class="NavBottom">
-  
-  <strong>Navigation:</strong>
-<a href="../Alpha_shapes_2/Chapter_main.html">Up</a>&nbsp;&nbsp;
-  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
-  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
-  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
-  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
-  <a href="../title.html">Title</a>
-  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
-
-<div class="NavAddress">
-<SMALL><a href="http://www.cgal.org" target="_top">CGAL Open Source Project</a>.
-Release 4.1.
-23 October 2012.</SMALL>
-</div>
-</body>  </html>

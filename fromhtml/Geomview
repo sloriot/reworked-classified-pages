@@ -1,33 +1,3 @@
-
-    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html lang="en-US"> <head>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-<meta name="generator" content="CGAL latex_to_html converter">
-<!-- by cc_extract_html, $Id: cc_extract_html.cpp 44195 2008-07-16 08:46:48Z spion $ -->
-<!-- LaTeX source file: './Geomview_ref/intro.tex' -->
-<link rel="canonical" href="http://www.cgal.org/Manual/latest/doc_html/cgal_manual/Geomview_ref/Chapter_intro.html">
-<link href="../latex_to_html.css" rel="STYLESHEET">
-<title>Geomview Reference&nbsp;Manual</title>
-</head>
-<body bgcolor="white">
-
-<div class="NavTop">
-  
-  <strong>Navigation:</strong>
-<a href="Chapter_intro.html">Up</a>&nbsp;&nbsp;
-  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
-  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
-  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
-  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
-  <a href="../title.html">Title</a>
-  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
-<P>
-
-<h1>Geomview<BR>
-<I>Reference&nbsp;Manual</I></h1>
-
-  
-<p class="subtitle">Andreas Fabri  and Sylvain Pion</p>
 <P>
 
 This chapter presents the <span class="textsc">Cgal</span> interface to Geomview<A HREF="#Footnote_1"><SUP>1</SUP></A>, which is a
@@ -45,41 +15,3 @@ Geomview 1.8.1 is required.
 
 <a name="Section_80.4"></a>
         
-<h2>80.4&nbsp;&nbsp;&nbsp;Alphabetical List of Reference Pages</h2>
-<P>
-
-<table cellpadding="0">
-    
-  <tr><td> <a href="Class_Geomview_stream.html"><I>Geomview_stream</I></a></td></tr>
-    </table>
-<P>
-
-<HR><H3>Footnotes</H3>
-<P>
-
-<TABLE><TR><TD VALIGN=TOP>
-<TR><TD VALIGN=TOP>
-        <A NAME="Footnote_1">&nbsp;<SUP>1</SUP>&nbsp;</A><TD VALIGN=TOP>
-http://www.geomview.org/
-<TR><TD VALIGN=TOP>
-        <A NAME="Footnote_2">&nbsp;<SUP>2</SUP>&nbsp;</A><TD VALIGN=TOP>
-http://www.geom.umn.edu/
-</TABLE><div class="NavNext">Next chapter: <a href="../GraphicsView/Chapter_main.html">CGAL and the Qt Graphics View Framework</a></div>
-    
-  <div class="NavBottom">
-  
-  <strong>Navigation:</strong>
-<a href="../GraphicsView/Chapter_main.html">Up</a>&nbsp;&nbsp;
-  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
-  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
-  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
-  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
-  <a href="../title.html">Title</a>
-  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
-
-<div class="NavAddress">
-</TT><SMALL><TT><a href="http://www.cgal.org" target="_top">CGAL Open Source Project</a>.
-Release 4.1.
-23 October 2012.</TT></SMALL><TT>
-</div>
-</body>  </html>

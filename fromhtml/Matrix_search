@@ -1,33 +1,3 @@
-
-    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html lang="en-US"> <head>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-<meta name="generator" content="CGAL latex_to_html converter">
-<!-- by cc_extract_html, $Id: cc_extract_html.cpp 44195 2008-07-16 08:46:48Z spion $ -->
-<!-- LaTeX source file: './Matrix_search_ref/intro.tex' -->
-<link rel="canonical" href="http://www.cgal.org/Manual/latest/doc_html/cgal_manual/Matrix_search_ref/Chapter_intro.html">
-<link href="../latex_to_html.css" rel="STYLESHEET">
-<title>Monotone and Sorted Matrix Search Reference&nbsp;Manual</title>
-</head>
-<body bgcolor="white">
-
-<div class="NavTop">
-  
-  <strong>Navigation:</strong>
-<a href="Chapter_intro.html">Up</a>&nbsp;&nbsp;
-  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
-  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
-  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
-  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
-  <a href="../title.html">Title</a>
-  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
-<P>
-
-<h1>Monotone and Sorted Matrix Search<BR>
-<I>Reference&nbsp;Manual</I></h1>
-
- 
-<p class="subtitle">Michael Hoffmann</p>
 <P>
 
 This chapter describes concepts, classes, and functions for 
@@ -76,38 +46,3 @@ checking off, cf.&nbsp;Section&nbsp;<A HREF="../Preliminaries/Chapter_main.html#
 
 <a name="Section_9.2"></a>
         
-<h2>9.2&nbsp;&nbsp;&nbsp;Alphabetical List of Reference Pages</h2>
-<P>
-
-<table cellpadding="0">
-    
-  <tr><td> <a href="Concept_BasicMatrix.html"><I>BasicMatrix</I></a></td></tr>
-  <tr><td> <a href="Class_Dynamic_matrix.html"><I>Dynamic_matrix&lt;M&gt;</I></a></td></tr>
-  <tr><td> <a href="Concept_MonotoneMatrixSearchTraits.html"><I>MonotoneMatrixSearchTraits</I></a></td></tr>
-  <tr><td> <a href="Function_monotone_matrix_search.html"><I>monotone_matrix_search</I></a></td></tr>
-  <tr><td> <a href="Concept_SortedMatrixSearchTraits.html"><I>SortedMatrixSearchTraits</I></a></td></tr>
-  <tr><td> <a href="Class_Sorted_matrix_search_traits_adaptor.html"><I>Sorted_matrix_search_traits_adaptor&lt;F,M&gt;</I></a></td></tr>
-  <tr><td> <a href="Function_sorted_matrix_search.html"><I>sorted_matrix_search</I></a></td></tr>
-    </table>
-    
-  
-
-  <div class="NavNext">Next chapter: <a href="../QP_solver/Chapter_main.html">Linear and Quadratic Programming Solver</a></div>
-    
-  <div class="NavBottom">
-  
-  <strong>Navigation:</strong>
-<a href="../QP_solver/Chapter_main.html">Up</a>&nbsp;&nbsp;
-  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
-  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
-  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
-  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
-  <a href="../title.html">Title</a>
-  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
-
-<div class="NavAddress">
-<SMALL><a href="http://www.cgal.org" target="_top">CGAL Open Source Project</a>.
-Release 4.1.
-23 October 2012.</SMALL>
-</div>
-</body>  </html>

@@ -1,34 +1,3 @@
-
-    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html lang="en-US"> <head>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-<meta name="generator" content="CGAL latex_to_html converter">
-<!-- by cc_extract_html, $Id: cc_extract_html.cpp 44195 2008-07-16 08:46:48Z spion $ -->
-<!-- LaTeX source file: './Envelope_3_ref/intro.tex' -->
-<link rel="canonical" href="http://www.cgal.org/Manual/latest/doc_html/cgal_manual/Envelope_3_ref/Chapter_intro.html">
-<link href="../latex_to_html.css" rel="STYLESHEET">
-<title>Envelopes of Surfaces in 3D Reference&nbsp;Manual</title>
-</head>
-<body bgcolor="white">
-
-<div class="NavTop">
-  
-  <strong>Navigation:</strong>
-<a href="Chapter_intro.html">Up</a>&nbsp;&nbsp;
-  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
-  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
-  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
-  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
-  <a href="../title.html">Title</a>
-  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
-<P>
-
-<A NAME="chapterEnvelope_3_ref"></A><h1>Envelopes of Surfaces in 3D<BR>
-<I>Reference&nbsp;Manual</I></h1>
-
- 
-
-<p class="subtitle">Dan Halperin, Michal Meyerovitch, Ron Wein and Baruch Zukerman</p>
 <P>
 
 <h2>Introduction</h2>
@@ -80,41 +49,3 @@ diagram cell is unique.
 
 <a name="Section_36.4"></a>
         
-<h2>36.4&nbsp;&nbsp;&nbsp;Alphabetical List of Reference Pages</h2>
-<P>
-
-<table cellpadding="0">
-    
-  <tr><td> <a href="Concept_EnvelopeTraits_3.html"><I>EnvelopeTraits_3</I></a></td></tr>
-  <tr><td> <a href="Class_Envelope_diagram_2.html"><I>Envelope_diagram_2&lt;EnvTraits&gt;</I></a></td></tr>
-  <tr><td> <a href="Class_Env_plane_traits_3.html"><I>Env_plane_traits_3&lt;Kernel&gt;</I></a></td></tr>
-  <tr><td> <a href="Class_Env_sphere_traits_3.html"><I>Env_sphere_traits_3&lt;ConicTraits&gt;</I></a></td></tr>
-  <tr><td> <a href="Class_Env_surface_data_traits_3.html"><I>Env_surface_data_traits_3&lt;Traits,XyData,SData,Cnv&gt;</I></a></td></tr>
-  <tr><td> <a href="Class_Env_triangle_traits_3.html"><I>Env_triangle_traits_3&lt;Kernel&gt;</I></a></td></tr>
-  <tr><td> <a href="Function_lower_envelope_3.html"><I>lower_envelope_3</I></a></td></tr>
-  <tr><td> <a href="Function_lower_envelope_xy_monotone_3.html"><I>lower_envelope_xy_monotone_3</I></a></td></tr>
-  <tr><td> <a href="Function_upper_envelope_3.html"><I>upper_envelope_3</I></a></td></tr>
-  <tr><td> <a href="Function_upper_envelope_xy_monotone_3.html"><I>upper_envelope_xy_monotone_3</I></a></td></tr>
-    </table>
-    
-  
-
-  
-    
-  <div class="NavBottom">
-  
-  <strong>Navigation:</strong>
-
-  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
-  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
-  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
-  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
-  <a href="../title.html">Title</a>
-  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
-
-<div class="NavAddress">
-<SMALL><a href="http://www.cgal.org" target="_top">CGAL Open Source Project</a>.
-Release 4.1.
-23 October 2012.</SMALL>
-</div>
-</body>  </html>

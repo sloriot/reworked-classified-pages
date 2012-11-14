@@ -1,34 +1,3 @@
-
-    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html lang="en-US"> <head>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-<meta name="generator" content="CGAL latex_to_html converter">
-<!-- by cc_extract_html, $Id: cc_extract_html.cpp 44195 2008-07-16 08:46:48Z spion $ -->
-<!-- LaTeX source file: './Miscellany_ref/intro.tex' -->
-<link rel="canonical" href="http://www.cgal.org/Manual/latest/doc_html/cgal_manual/Miscellany_ref/Chapter_intro.html">
-<link href="../latex_to_html.css" rel="STYLESHEET">
-<title>Profiling tools, Hash Map, Union-find, Modifiers Reference&nbsp;Manual</title>
-</head>
-<body bgcolor="white">
-
-<div class="NavTop">
-  
-  <strong>Navigation:</strong>
-<a href="Chapter_intro.html">Up</a>&nbsp;&nbsp;
-  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
-  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
-  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
-  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
-  <a href="../title.html">Title</a>
-  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
-<P>
-
-<A NAME="chap:union_find"></A><h1>Profiling tools, Hash Map, Union-find, Modifiers<BR>
-<I>Reference&nbsp;Manual</I></h1>
-
- 
-<A NAME="chap:hash_map"></A>
-<p class="subtitle">Lutz Kettner, Sylvain Pion, and Michael Seel</p>
 <P>
 
 This chapter decribes classes for measuring user process time and real time
@@ -83,40 +52,3 @@ is documented.
 
 <a name="Section_78.8"></a>
         
-<h2>78.8&nbsp;&nbsp;&nbsp;Alphabetical List of Reference Pages</h2>
-<P>
-
-<table cellpadding="0">
-    
-  <tr><td> <a href="Class_Handle_hash_function.html"><I>Handle_hash_function</I></a></td></tr>
-  <tr><td> <a href="Class_Memory_sizer.html"><I>Memory_sizer</I></a></td></tr>
-  <tr><td> <a href="Class_Modifier_base.html"><I>Modifier_base&lt;R&gt;</I></a></td></tr>
-  <tr><td> <a href="Class_Profile_counter.html"><I>Profile_counter</I></a></td></tr>
-  <tr><td> <a href="Class_Real_timer.html"><I>Real_timer</I></a></td></tr>
-  <tr><td> <a href="Class_Timer.html"><I>Timer</I></a></td></tr>
-  <tr><td> <a href="Class_Union_find.html"><I>Union_find&lt;T,A&gt;</I></a></td></tr>
-  <tr><td> <a href="Concept_UniqueHashFunction.html"><I>UniqueHashFunction</I></a></td></tr>
-  <tr><td> <a href="Class_Unique_hash_map.html"><I>Unique_hash_map&lt;Key,Data,UniqueHashFunction&gt;</I></a></td></tr>
-    </table>
-    
-  
-
-  <div class="NavNext">Next chapter: <a href="../IOstream/Chapter_main.html">IO Streams</a></div>
-    
-  <div class="NavBottom">
-  
-  <strong>Navigation:</strong>
-<a href="../IOstream/Chapter_main.html">Up</a>&nbsp;&nbsp;
-  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
-  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
-  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
-  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
-  <a href="../title.html">Title</a>
-  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
-
-<div class="NavAddress">
-<SMALL><a href="http://www.cgal.org" target="_top">CGAL Open Source Project</a>.
-Release 4.1.
-23 October 2012.</SMALL>
-</div>
-</body>  </html>
