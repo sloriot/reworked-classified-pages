@@ -1,0 +1,1334 @@
+
+    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en-US"> <head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="generator" content="CGAL latex_to_html converter">
+<!-- by cc_extract_html, $Id: cc_extract_html.cpp 44195 2008-07-16 08:46:48Z spion $ -->
+<!-- LaTeX source file: './Kernel_23_ref/intro.tex' -->
+<link rel="canonical" href="http://www.cgal.org/Manual/latest/doc_html/cgal_manual/Kernel_23_ref/Chapter_intro.html">
+<link href="../latex_to_html.css" rel="STYLESHEET">
+<title>2D and 3D Geometry Kernel Reference&nbsp;Manual</title>
+</head>
+<body bgcolor="white">
+
+<div class="NavTop">
+  
+  <strong>Navigation:</strong>
+<a href="Chapter_intro.html">Up</a>&nbsp;&nbsp;
+  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
+  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
+  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
+  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
+  <a href="../title.html">Title</a>
+  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
+<P>
+
+<h1>2D and 3D Geometry Kernel<BR>
+<I>Reference&nbsp;Manual</I></h1>
+
+ 
+<p class="subtitle">Herv&eacute; Br&ouml;nnimann, Andreas Fabri, Geert-Jan Giezeman, Susan Hert, Michael Hoffmann, Lutz Kettner, Sylvain Pion, and Stefan Schirra </p>
+<P>
+
+The following pages give a complete overview on the functionality provided
+in the kernel.
+<P>
+
+<a name="Section_11.8"></a>
+        
+<h2>11.8&nbsp;&nbsp;&nbsp;Concepts</h2>
+<P>
+
+<table cellpadding="0">
+      <tr><td><a href="Concept_Kernel.html"><I>Kernel</I></a></td></tr>
+<P>
+
+</table>
+    
+
+
+<a name="Section_11.9"></a>
+        
+<h2>11.9&nbsp;&nbsp;&nbsp;Kernel Classes and Operations</h2>
+<P>
+
+<table cellpadding="0">
+      <tr><td><a href="Class_Cartesian.html"><I>Cartesian&lt;FieldNumberType&gt;</I></a></td></tr>
+<P>
+
+<tr><td><a href="Class_Cartesian_converter.html"><I>Cartesian_converter&lt;K1, K2, NTConverter&gt;</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_cartesian_to_homogeneous.html"><I>cartesian_to_homogeneous</I></a></td></tr>
+<P>
+
+<tr><td><a href="Class_Filtered_kernel.html"><I>Filtered_kernel&lt;CK&gt;</I></a></td></tr>
+<P>
+
+<tr><td><a href="Class_Filtered_kernel_adaptor.html"><I>Filtered_kernel_adaptor&lt;CK&gt;</I></a></td></tr>
+<P>
+
+<tr><td><a href="Class_Filtered_predicate.html"><I>Filtered_predicate&lt;EP, FP, C2E, C2F&gt;</I></a></td></tr>
+<P>
+
+<tr><td><a href="Class_Homogeneous.html"><I>Homogeneous&lt;RingNumberType&gt;</I></a></td></tr>
+<P>
+
+<tr><td><a href="Class_Homogeneous_converter.html"><I>Homogeneous_converter&lt;K1, K2, RTConverter, FTConverter&gt;</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_homogeneous_to_cartesian.html"><I>homogeneous_to_cartesian</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_homogeneous_to_quotient_cartesian.html"><I>homogeneous_to_quotient_cartesian</I></a></td></tr>
+<P>
+
+<tr><td><a href="Class_Kernel_traits.html"><I>Kernel_traits&lt;T&gt;</I></a></td></tr>
+<P>
+
+<tr><td><a href="Class_Simple_cartesian.html"><I>Simple_cartesian&lt;FieldNumberType&gt;</I></a></td></tr>
+<P>
+
+<tr><td><a href="Class_Simple_homogeneous.html"><I>Simple_homogeneous&lt;RingNumberType&gt;</I></a></td></tr>
+<P>
+
+<tr><td><a href="Class_Projection_traits_xy_3.html"><I>Projection_traits_xy_3&lt;K&gt;</I></a></td></tr>
+<P>
+
+</table>
+    
+
+
+<a name="Section_11.10"></a>
+        
+<h2>11.10&nbsp;&nbsp;&nbsp;Predefined Kernels</h2>
+<P>
+
+<table cellpadding="0">
+      <tr><td><a href="Class_Exact_predicates_exact_constructions_kernel.html"><I>Exact_predicates_exact_constructions_kernel</I></a></td></tr>
+<P>
+
+<tr><td><a href="Class_Exact_predicates_exact_constructions_kernel_with_sqrt.html"><I>Exact_predicates_exact_constructions_kernel_with_sqrt</I></a></td></tr>
+<P>
+
+<tr><td><a href="Class_Exact_predicates_inexact_constructions_kernel.html"><I>Exact_predicates_inexact_constructions_kernel</I></a></td></tr>
+<P>
+
+</table>
+    
+
+
+<a name="Section_11.11"></a>
+        
+<h2>11.11&nbsp;&nbsp;&nbsp;Kernel Objects</h2>
+<P>
+
+<a name="Subsection_11.11.1"></a>
+<h3>11.11.1&nbsp;&nbsp;&nbsp;Two-dimensional Objects</h3>
+<P>
+
+<table cellpadding="0">
+      <tr><td><a href="Class_Aff_transformation_2.html"><I>Aff_transformation_2&lt;Kernel&gt;</I></a></td></tr>
+<P>
+
+<tr><td><a href="Class_Bbox_2.html"><I>Bbox_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="Class_Circle_2.html"><I>Circle_2&lt;Kernel&gt;</I></a></td></tr>
+<P>
+
+<tr><td><a href="Class_Direction_2.html"><I>Direction_2&lt;Kernel&gt;</I></a></td></tr>
+<P>
+
+<tr><td><a href="Class_Iso_rectangle_2.html"><I>Iso_rectangle_2&lt;Kernel&gt;</I></a></td></tr>
+<P>
+
+<tr><td><a href="Class_Line_2.html"><I>Line_2&lt;Kernel&gt;</I></a></td></tr>
+<P>
+
+<tr><td><a href="Class_Point_2.html"><I>Point_2&lt;Kernel&gt;</I></a></td></tr>
+<P>
+
+<tr><td><a href="Class_Ray_2.html"><I>Ray_2&lt;Kernel&gt;</I></a></td></tr>
+<P>
+
+<tr><td><a href="Class_Segment_2.html"><I>Segment_2&lt;Kernel&gt;</I></a></td></tr>
+<P>
+
+<tr><td><a href="Class_Triangle_2.html"><I>Triangle_2&lt;Kernel&gt;</I></a></td></tr>
+<P>
+
+<tr><td><a href="Class_Vector_2.html"><I>Vector_2&lt;Kernel&gt;</I></a></td></tr>
+<P>
+
+</table>
+    
+
+<a name="Subsection_11.11.2"></a>
+<h3>11.11.2&nbsp;&nbsp;&nbsp;Three-dimensional Objects</h3>
+<P>
+
+<table cellpadding="0">
+      <tr><td><a href="Class_Bbox_3.html"><I>Bbox_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="Class_Aff_transformation_3.html"><I>Aff_transformation_3&lt;Kernel&gt;</I></a></td></tr>
+<P>
+
+<tr><td><a href="Class_Direction_3.html"><I>Direction_3&lt;Kernel&gt;</I></a></td></tr>
+<P>
+
+<tr><td><a href="Class_Iso_cuboid_3.html"><I>Iso_cuboid_3&lt;Kernel&gt;</I></a></td></tr>
+<P>
+
+<tr><td><a href="Class_Line_3.html"><I>Line_3&lt;Kernel&gt;</I></a></td></tr>
+<P>
+
+<tr><td><a href="Class_Plane_3.html"><I>Plane_3&lt;Kernel&gt;</I></a></td></tr>
+<P>
+
+<tr><td><a href="Class_Point_3.html"><I>Point_3&lt;Kernel&gt;</I></a></td></tr>
+<P>
+
+<tr><td><a href="Class_Ray_3.html"><I>Ray_3&lt;Kernel&gt;</I></a></td></tr>
+<P>
+
+<tr><td><a href="Class_Segment_3.html"><I>Segment_3&lt;Kernel&gt;</I></a></td></tr>
+<P>
+
+<tr><td><a href="Class_Circle_3.html"><I>Circle_3&lt;Kernel&gt;</I></a></td></tr>
+<P>
+
+<tr><td><a href="Class_Sphere_3.html"><I>Sphere_3&lt;Kernel&gt;</I></a></td></tr>
+<P>
+
+<tr><td><a href="Class_Tetrahedron_3.html"><I>Tetrahedron_3&lt;Kernel&gt;</I></a></td></tr>
+<P>
+
+<tr><td><a href="Class_Triangle_3.html"><I>Triangle_3&lt;Kernel&gt;</I></a></td></tr>
+<P>
+
+<tr><td><a href="Class_Vector_3.html"><I>Vector_3&lt;Kernel&gt;</I></a></td></tr>
+<P>
+
+</table>
+    
+
+
+<a name="Section_11.12"></a>
+        
+<h2>11.12&nbsp;&nbsp;&nbsp;Constants and Enumerations</h2>
+<P>
+
+<table cellpadding="0">
+      <tr><td><a href="Enum_Angle.html"><I>Angle</I></a></td></tr>
+<P>
+
+<tr><td><a href="Enum_Bounded_side.html"><I>Bounded_side</I></a></td></tr>
+<P>
+
+<tr><td><a href="Enum_Comparison_result.html"><I>Comparison_result</I></a></td></tr>
+<P>
+
+<tr><td><a href="Enum_Sign.html"><I>Sign</I></a></td></tr>
+<P>
+
+<tr><td><a href="Enum_Orientation.html"><I>Orientation</I></a></td></tr>
+<P>
+
+<tr><td><a href="Enum_Oriented_side.html"><I>Oriented_side</I></a></td></tr>
+<P>
+
+<tr><td><a href="Constant_CLOCKWISE.html"><I>CLOCKWISE</I></a></td></tr>
+<P>
+
+<tr><td><a href="Constant_COUNTERCLOCKWISE.html"><I>COUNTERCLOCKWISE</I></a></td></tr>
+<P>
+
+<tr><td><a href="Constant_COLLINEAR.html"><I>COLLINEAR</I></a></td></tr>
+<P>
+
+<tr><td><a href="Constant_LEFT_TURN.html"><I>LEFT_TURN</I></a></td></tr>
+<P>
+
+<tr><td><a href="Constant_RIGHT_TURN.html"><I>RIGHT_TURN</I></a></td></tr>
+<P>
+
+<tr><td><a href="Constant_COPLANAR.html"><I>COPLANAR</I></a></td></tr>
+<P>
+
+<tr><td><a href="Constant_DEGENERATE.html"><I>DEGENERATE</I></a></td></tr>
+<P>
+
+<tr><td><a href="Class_Null_vector.html"><I>Null_vector</I></a></td></tr>
+<P>
+
+<tr><td><a href="Constant_NULL_VECTOR.html"><I>NULL_VECTOR</I></a></td></tr>
+<P>
+
+<tr><td><a href="Class_Origin.html"><I>Origin</I></a></td></tr>
+<P>
+
+<tr><td><a href="Constant_ORIGIN.html"><I>ORIGIN</I></a></td></tr>
+<P>
+
+<tr><td><a href="Class_Identity_transformation.html"><I>Identity_transformation</I></a></td></tr>
+<P>
+
+<tr><td><a href="Class_Reflection.html"><I>Reflection</I></a></td></tr>
+<P>
+
+<tr><td><a href="Class_Rotation.html"><I>Rotation</I></a></td></tr>
+<P>
+
+<tr><td><a href="Class_Scaling.html"><I>Scaling</I></a></td></tr>
+<P>
+
+<tr><td><a href="Class_Translation.html"><I>Translation</I></a></td></tr>
+<P>
+
+</table>
+    
+
+
+<a name="Section_11.13"></a>
+        
+<h2>11.13&nbsp;&nbsp;&nbsp;Global Functions</h2>
+<P>
+
+<table cellpadding="0">
+      <tr><td><a href="Function_angle.html"><I>angle</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_are_ordered_along_line.html"><I>are_ordered_along_line</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_are_strictly_ordered_along_line.html"><I>are_strictly_ordered_along_line</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_area.html"><I>area</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_barycenter.html"><I>barycenter</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_bisector.html"><I>bisector</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_centroid.html"><I>centroid</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_circumcenter.html"><I>circumcenter</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_collinear.html"><I>collinear</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_collinear_are_ordered_along_line.html"><I>collinear_are_ordered_along_line</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_collinear_are_strictly_ordered_along_line.html"><I>collinear_are_strictly_ordered_along_line</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_compare_distance_to_point.html"><I>compare_distance_to_point</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_compare_lexicographically.html"><I>compare_lexicographically</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_compare_signed_distance_to_line.html"><I>compare_signed_distance_to_line</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_compare_signed_distance_to_plane.html"><I>compare_signed_distance_to_plane</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_compare_slopes.html"><I>compare_slopes</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_compare_dihedral_angle.html"><I>compare_dihedral_angle</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_compare_squared_distance.html"><I>compare_squared_distance</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_compare_squared_radius.html"><I>compare_squared_radius</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_compare_x.html"><I>compare_x</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_compare_xy.html"><I>compare_xy</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_compare_xyz.html"><I>compare_xyz</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_compare_x_at_y.html"><I>compare_x_at_y</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_compare_y.html"><I>compare_y</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_compare_y_at_x.html"><I>compare_y_at_x</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_compare_yx.html"><I>compare_yx</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_compare_z.html"><I>compare_z</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_coplanar.html"><I>coplanar</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_coplanar_orientation.html"><I>coplanar_orientation</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_coplanar_side_of_bounded_circle.html"><I>coplanar_side_of_bounded_circle</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_cross_product.html"><I>cross_product</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_determinant.html"><I>determinant</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_do_intersect.html"><I>do_intersect</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_do_overlap.html"><I>do_overlap</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_enum_cast.html"><I>enum_cast</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_equidistant_line.html"><I>equidistant_line</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_has_larger_distance_to_point.html"><I>has_larger_distance_to_point</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_has_larger_signed_distance_to_line.html"><I>has_larger_signed_distance_to_line</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_has_larger_signed_distance_to_plane.html"><I>has_larger_signed_distance_to_plane</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_has_smaller_distance_to_point.html"><I>has_smaller_distance_to_point</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_has_smaller_signed_distance_to_line.html"><I>has_smaller_signed_distance_to_line</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_has_smaller_signed_distance_to_plane.html"><I>has_smaller_signed_distance_to_plane</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_intersection.html"><I>intersection</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_left_turn.html"><I>left_turn</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_lexicographically_xyz_smaller.html"><I>lexicographically_xyz_smaller</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_lexicographically_xyz_smaller_or_equal.html"><I>lexicographically_xyz_smaller_or_equal</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_lexicographically_xy_larger.html"><I>lexicographically_xy_larger</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_lexicographically_xy_larger_or_equal.html"><I>lexicographically_xy_larger_or_equal</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_lexicographically_xy_smaller.html"><I>lexicographically_xy_smaller</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_lexicographically_xy_smaller_or_equal.html"><I>lexicographically_xy_smaller_or_equal</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_max_vertex.html"><I>max_vertex</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_midpoint.html"><I>midpoint</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_normal.html"><I>normal</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_min_vertex.html"><I>min_vertex</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_operator+.html"><I>operator+</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_operator-.html"><I>operator-</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_operator_star.html"><I>operator*</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_opposite.html"><I>opposite</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_orthogonal_vector.html"><I>orthogonal_vector</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_orientation.html"><I>orientation</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_parallel.html"><I>parallel</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_quotient_cartesian_to_homogeneous.html"><I>quotient_cartesian_to_homogeneous</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_radical_plane.html"><I>radical_plane</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_radical_line.html"><I>radical_line</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_rational_rotation_approximation.html"><I>rational_rotation_approximation</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_right_turn.html"><I>right_turn</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_side_of_bounded_circle.html"><I>side_of_bounded_circle</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_side_of_bounded_sphere.html"><I>side_of_bounded_sphere</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_side_of_oriented_circle.html"><I>side_of_oriented_circle</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_side_of_oriented_sphere.html"><I>side_of_oriented_sphere</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_squared_area.html"><I>squared_area</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_squared_distance.html"><I>squared_distance</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_squared_radius.html"><I>squared_radius</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_unit_normal.html"><I>unit_normal</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_volume.html"><I>volume</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_x_equal.html"><I>x_equal</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_y_equal.html"><I>y_equal</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_z_equal.html"><I>z_equal</I></a></td></tr>
+<P>
+
+</table>
+    
+
+
+<a name="Section_11.14"></a>
+        
+<h2>11.14&nbsp;&nbsp;&nbsp;Kernel Geometric Object Concepts</h2>
+<P>
+
+<table cellpadding="0">
+      <tr><td><a href="Concept_Kernel--Circle_2.html"><I>Kernel::Circle_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="Concept_Kernel--Circle_3.html"><I>Kernel::Circle_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="Concept_Kernel--Direction_2.html"><I>Kernel::Direction_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="Concept_Kernel--Direction_3.html"><I>Kernel::Direction_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="Concept_Kernel--IsoCuboid_3.html"><I>Kernel::IsoCuboid_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="Concept_Kernel--IsoRectangle_2.html"><I>Kernel::IsoRectangle_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="Concept_Kernel--Line_2.html"><I>Kernel::Line_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="Concept_Kernel--Line_3.html"><I>Kernel::Line_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="Concept_Kernel--Object_2.html"><I>Kernel::Object_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="Concept_Kernel--Object_3.html"><I>Kernel::Object_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="Concept_Kernel--Plane_3.html"><I>Kernel::Plane_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="Concept_Kernel--Point_2.html"><I>Kernel::Point_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="Concept_Kernel--Point_3.html"><I>Kernel::Point_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="Concept_Kernel--Ray_2.html"><I>Kernel::Ray_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="Concept_Kernel--Ray_3.html"><I>Kernel::Ray_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="Concept_Kernel--Segment_2.html"><I>Kernel::Segment_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="Concept_Kernel--Segment_3.html"><I>Kernel::Segment_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="Concept_Kernel--Sphere_3.html"><I>Kernel::Sphere_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="Concept_Kernel--Tetrahedron_3.html"><I>Kernel::Tetrahedron_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="Concept_Kernel--Triangle_2.html"><I>Kernel::Triangle_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="Concept_Kernel--Triangle_3.html"><I>Kernel::Triangle_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="Concept_Kernel--Vector_2.html"><I>Kernel::Vector_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="Concept_Kernel--Vector_3.html"><I>Kernel::Vector_3</I></a></td></tr>
+<P>
+
+</table>
+    
+
+
+<a name="Section_11.15"></a>
+        
+<h2>11.15&nbsp;&nbsp;&nbsp;Kernel Function Object Concepts</h2>
+<P>
+
+<table cellpadding="0">
+      <tr><td><a href="FunctionObjectConcept_Kernel--Angle_2.html"><I>Kernel::Angle_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--Angle_3.html"><I>Kernel::Angle_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--AreOrderedAlongLine_2.html"><I>Kernel::AreOrderedAlongLine_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--AreOrderedAlongLine_3.html"><I>Kernel::AreOrderedAlongLine_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--AreParallel_2.html"><I>Kernel::AreParallel_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--AreParallel_3.html"><I>Kernel::AreParallel_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--AreStrictlyOrderedAlongLine_2.html"><I>Kernel::AreStrictlyOrderedAlongLine_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--AreStrictlyOrderedAlongLine_3.html"><I>Kernel::AreStrictlyOrderedAlongLine_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--Assign_2.html"><I>Kernel::Assign_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--Assign_3.html"><I>Kernel::Assign_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--BoundedSide_2.html"><I>Kernel::BoundedSide_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--BoundedSide_3.html"><I>Kernel::BoundedSide_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--CollinearAreOrderedAlongLine_2.html"><I>Kernel::CollinearAreOrderedAlongLine_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--CollinearAreOrderedAlongLine_3.html"><I>Kernel::CollinearAreOrderedAlongLine_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--CollinearAreStrictlyOrderedAlongLine_2.html"><I>Kernel::CollinearAreStrictlyOrderedAlongLine_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--CollinearAreStrictlyOrderedAlongLine_3.html"><I>Kernel::CollinearAreStrictlyOrderedAlongLine_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--CollinearHasOn_2.html"><I>Kernel::CollinearHasOn_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--Collinear_2.html"><I>Kernel::Collinear_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--Collinear_3.html"><I>Kernel::Collinear_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--CompareAngleWithXAxis_2.html"><I>Kernel::CompareAngleWithXAxis_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--CompareDihedralAngle_3.html"><I>Kernel::CompareDihedralAngle_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--CompareDistance_2.html"><I>Kernel::CompareDistance_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--CompareDistance_3.html"><I>Kernel::CompareDistance_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--CompareSlope_2.html"><I>Kernel::CompareSlope_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--CompareSquaredDistance_2.html"><I>Kernel::CompareSquaredDistance_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--CompareSquaredDistance_3.html"><I>Kernel::CompareSquaredDistance_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--CompareSquaredRadius_3.html"><I>Kernel::CompareSquaredRadius_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--CompareXAtY_2.html"><I>Kernel::CompareXAtY_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--CompareXYZ_3.html"><I>Kernel::CompareXYZ_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--CompareXY_2.html"><I>Kernel::CompareXY_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--CompareXY_3.html"><I>Kernel::CompareXY_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--CompareX_2.html"><I>Kernel::CompareX_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--CompareX_3.html"><I>Kernel::CompareX_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--CompareYAtX_2.html"><I>Kernel::CompareYAtX_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--CompareY_2.html"><I>Kernel::CompareY_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--CompareY_3.html"><I>Kernel::CompareY_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--CompareYX_2.html"><I>Kernel::CompareYX_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--CompareZ_3.html"><I>Kernel::CompareZ_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ComputeA_2.html"><I>Kernel::ComputeA_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ComputeB_2.html"><I>Kernel::ComputeB_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ComputeC_2.html"><I>Kernel::ComputeC_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ComputeApproximateArea_3.html"><I>Kernel::ComputeApproximateArea_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ComputeApproximateSquaredLength_3.html"><I>Kernel::ComputeApproximateSquaredLength_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ComputeArea_2.html"><I>Kernel::ComputeArea_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ComputeArea_3.html"><I>Kernel::ComputeArea_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ComputeAreaDividedByPi_3.html"><I>Kernel::ComputeAreaDividedByPi_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ComputeDeterminant_2.html"><I>Kernel::ComputeDeterminant_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ComputeDeterminant_3.html"><I>Kernel::ComputeDeterminant_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ComputeDx_2.html"><I>Kernel::ComputeDx_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ComputeDy_2.html"><I>Kernel::ComputeDy_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ComputeHx_2.html"><I>Kernel::ComputeHx_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ComputeHy_2.html"><I>Kernel::ComputeHy_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ComputeScalarProduct_2.html"><I>Kernel::ComputeScalarProduct_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ComputeScalarProduct_3.html"><I>Kernel::ComputeScalarProduct_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ComputeSquaredArea_3.html"><I>Kernel::ComputeSquaredArea_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ComputeSquaredDistance_2.html"><I>Kernel::ComputeSquaredDistance_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ComputeSquaredDistance_3.html"><I>Kernel::ComputeSquaredDistance_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ComputeSquaredLength_2.html"><I>Kernel::ComputeSquaredLength_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ComputeSquaredLength_3.html"><I>Kernel::ComputeSquaredLength_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ComputeSquaredLengthDividedByPiSquare_3.html"><I>Kernel::ComputeSquaredLengthDividedByPiSquare_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ComputeSquaredRadius_2.html"><I>Kernel::ComputeSquaredRadius_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ComputeSquaredRadius_3.html"><I>Kernel::ComputeSquaredRadius_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ComputeVolume_3.html"><I>Kernel::ComputeVolume_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ComputeX_2.html"><I>Kernel::ComputeX_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ComputeX_3.html"><I>Kernel::ComputeX_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ComputeY_2.html"><I>Kernel::ComputeY_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ComputeY_3.html"><I>Kernel::ComputeY_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ComputeZ_3.html"><I>Kernel::ComputeZ_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ComputeXmin_2.html"><I>Kernel::ComputeXmin_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ComputeYmin_2.html"><I>Kernel::ComputeYmin_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ComputeXmax_2.html"><I>Kernel::ComputeXmax_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ComputeYmax_2.html"><I>Kernel::ComputeYmax_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ComputeYAtX_2.html"><I>Kernel::ComputeYAtX_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructBarycenter_2.html"><I>Kernel::ConstructBarycenter_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructBarycenter_3.html"><I>Kernel::ConstructBarycenter_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructBaseVector_3.html"><I>Kernel::ConstructBaseVector_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructBbox_2.html"><I>Kernel::ConstructBbox_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructBbox_3.html"><I>Kernel::ConstructBbox_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructBisector_2.html"><I>Kernel::ConstructBisector_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructBisector_3.html"><I>Kernel::ConstructBisector_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructCartesianConstIterator_2.html"><I>Kernel::ConstructCartesianConstIterator_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructCartesianConstIterator_3.html"><I>Kernel::ConstructCartesianConstIterator_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructCenter_2.html"><I>Kernel::ConstructCenter_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructCenter_3.html"><I>Kernel::ConstructCenter_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructCentroid_2.html"><I>Kernel::ConstructCentroid_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructCentroid_3.html"><I>Kernel::ConstructCentroid_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructCircle_2.html"><I>Kernel::ConstructCircle_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructCircle_3.html"><I>Kernel::ConstructCircle_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructCircumcenter_2.html"><I>Kernel::ConstructCircumcenter_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructCircumcenter_3.html"><I>Kernel::ConstructCircumcenter_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructCrossProductVector_3.html"><I>Kernel::ConstructCrossProductVector_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructDifferenceOfVectors_2.html"><I>Kernel::ConstructDifferenceOfVectors_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructDifferenceOfVectors_3.html"><I>Kernel::ConstructDifferenceOfVectors_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructDirection_2.html"><I>Kernel::ConstructDirection_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructDirection_3.html"><I>Kernel::ConstructDirection_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructDividedVector_2.html"><I>Kernel::ConstructDividedVector_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructDividedVector_3.html"><I>Kernel::ConstructDividedVector_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructEquidistantLine_3.html"><I>Kernel::ConstructEquidistantLine_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructIsoCuboid_3.html"><I>Kernel::ConstructIsoCuboid_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructIsoRectangle_2.html"><I>Kernel::ConstructIsoRectangle_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructLiftedPoint_3.html"><I>Kernel::ConstructLiftedPoint_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructLine_2.html"><I>Kernel::ConstructLine_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructLine_3.html"><I>Kernel::ConstructLine_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructMaxVertex_2.html"><I>Kernel::ConstructMaxVertex_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructMaxVertex_3.html"><I>Kernel::ConstructMaxVertex_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructMidpoint_2.html"><I>Kernel::ConstructMidpoint_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructMidpoint_3.html"><I>Kernel::ConstructMidpoint_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructMinVertex_2.html"><I>Kernel::ConstructMinVertex_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructMinVertex_3.html"><I>Kernel::ConstructMinVertex_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructNormal_3.html"><I>Kernel::ConstructNormal_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructObject_2.html"><I>Kernel::ConstructObject_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructObject_3.html"><I>Kernel::ConstructObject_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructOppositeCircle_2.html"><I>Kernel::ConstructOppositeCircle_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructOppositeDirection_2.html"><I>Kernel::ConstructOppositeDirection_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructOppositeDirection_3.html"><I>Kernel::ConstructOppositeDirection_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructOppositeLine_2.html"><I>Kernel::ConstructOppositeLine_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructOppositeLine_3.html"><I>Kernel::ConstructOppositeLine_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructOppositePlane_3.html"><I>Kernel::ConstructOppositePlane_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructOppositeRay_2.html"><I>Kernel::ConstructOppositeRay_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructOppositeRay_3.html"><I>Kernel::ConstructOppositeRay_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructOppositeSegment_2.html"><I>Kernel::ConstructOppositeSegment_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructOppositeSegment_3.html"><I>Kernel::ConstructOppositeSegment_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructOppositeSphere_3.html"><I>Kernel::ConstructOppositeSphere_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructOppositeTriangle_2.html"><I>Kernel::ConstructOppositeTriangle_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructOppositeVector_2.html"><I>Kernel::ConstructOppositeVector_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructOppositeVector_3.html"><I>Kernel::ConstructOppositeVector_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructOrthogonalVector_3.html"><I>Kernel::ConstructOrthogonalVector_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructPerpendicularDirection_2.html"><I>Kernel::ConstructPerpendicularDirection_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructPerpendicularLine_2.html"><I>Kernel::ConstructPerpendicularLine_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructPerpendicularLine_3.html"><I>Kernel::ConstructPerpendicularLine_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructPerpendicularPlane_3.html"><I>Kernel::ConstructPerpendicularPlane_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructPerpendicularVector_2.html"><I>Kernel::ConstructPerpendicularVector_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructPlane_3.html"><I>Kernel::ConstructPlane_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructPointOn_2.html"><I>Kernel::ConstructPointOn_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructPointOn_3.html"><I>Kernel::ConstructPointOn_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructPoint_2.html"><I>Kernel::ConstructPoint_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructPoint_3.html"><I>Kernel::ConstructPoint_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructProjectedPoint_2.html"><I>Kernel::ConstructProjectedPoint_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructProjectedPoint_3.html"><I>Kernel::ConstructProjectedPoint_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructProjectedXYPoint_2.html"><I>Kernel::ConstructProjectedXYPoint_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructRadicalLine_2.html"><I>Kernel::ConstructRadicalLine_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructRadicalPlane_3.html"><I>Kernel::ConstructRadicalPlane_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructRay_2.html"><I>Kernel::ConstructRay_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructRay_3.html"><I>Kernel::ConstructRay_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructScaledVector_2.html"><I>Kernel::ConstructScaledVector_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructScaledVector_3.html"><I>Kernel::ConstructScaledVector_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructSecondPoint_2.html"><I>Kernel::ConstructSecondPoint_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructSegment_2.html"><I>Kernel::ConstructSegment_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructSegment_3.html"><I>Kernel::ConstructSegment_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructSource_2.html"><I>Kernel::ConstructSource_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructSphere_3.html"><I>Kernel::ConstructSphere_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructSumOfVectors_2.html"><I>Kernel::ConstructSumOfVectors_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructSumOfVectors_3.html"><I>Kernel::ConstructSumOfVectors_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructSupportingPlane_3.html"><I>Kernel::ConstructSupportingPlane_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructTarget_2.html"><I>Kernel::ConstructTarget_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructTetrahedron_3.html"><I>Kernel::ConstructTetrahedron_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructTranslatedPoint_2.html"><I>Kernel::ConstructTranslatedPoint_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructTranslatedPoint_3.html"><I>Kernel::ConstructTranslatedPoint_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructTriangle_2.html"><I>Kernel::ConstructTriangle_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructTriangle_3.html"><I>Kernel::ConstructTriangle_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructUnitNormal_3.html"><I>Kernel::ConstructUnitNormal_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructVector_2.html"><I>Kernel::ConstructVector_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructVector_3.html"><I>Kernel::ConstructVector_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructVertex_2.html"><I>Kernel::ConstructVertex_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructVertex_3.html"><I>Kernel::ConstructVertex_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="Concept_Kernel--CartesianConstIterator_2.html"><I>Kernel::CartesianConstIterator_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="Concept_Kernel--CartesianConstIterator_3.html"><I>Kernel::CartesianConstIterator_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--CoplanarOrientation_3.html"><I>Kernel::CoplanarOrientation_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--CoplanarSideOfBoundedCircle_3.html"><I>Kernel::CoplanarSideOfBoundedCircle_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--Coplanar_3.html"><I>Kernel::Coplanar_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--CounterclockwiseInBetween_2.html"><I>Kernel::CounterclockwiseInBetween_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--DoIntersect_2.html"><I>Kernel::DoIntersect_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--DoIntersect_3.html"><I>Kernel::DoIntersect_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--EqualXY_3.html"><I>Kernel::EqualXY_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--EqualX_2.html"><I>Kernel::EqualX_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--EqualX_3.html"><I>Kernel::EqualX_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--EqualY_2.html"><I>Kernel::EqualY_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--EqualY_3.html"><I>Kernel::EqualY_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--EqualZ_3.html"><I>Kernel::EqualZ_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--Equal_2.html"><I>Kernel::Equal_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--Equal_3.html"><I>Kernel::Equal_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--HasOnBoundary_2.html"><I>Kernel::HasOnBoundary_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--HasOnBoundary_3.html"><I>Kernel::HasOnBoundary_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--HasOnBoundedSide_2.html"><I>Kernel::HasOnBoundedSide_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--HasOnBoundedSide_3.html"><I>Kernel::HasOnBoundedSide_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--HasOnNegativeSide_2.html"><I>Kernel::HasOnNegativeSide_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--HasOnNegativeSide_3.html"><I>Kernel::HasOnNegativeSide_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--HasOnPositiveSide_2.html"><I>Kernel::HasOnPositiveSide_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--HasOnPositiveSide_3.html"><I>Kernel::HasOnPositiveSide_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--HasOnUnboundedSide_2.html"><I>Kernel::HasOnUnboundedSide_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--HasOnUnboundedSide_3.html"><I>Kernel::HasOnUnboundedSide_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--HasOn_2.html"><I>Kernel::HasOn_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--HasOn_3.html"><I>Kernel::HasOn_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--Intersect_2.html"><I>Kernel::Intersect_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--Intersect_3.html"><I>Kernel::Intersect_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--IsDegenerate_2.html"><I>Kernel::IsDegenerate_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--IsDegenerate_3.html"><I>Kernel::IsDegenerate_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--IsHorizontal_2.html"><I>Kernel::IsHorizontal_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--IsVertical_2.html"><I>Kernel::IsVertical_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--LeftTurn_2.html"><I>Kernel::LeftTurn_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--LessDistanceToPoint_2.html"><I>Kernel::LessDistanceToPoint_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--LessDistanceToPoint_3.html"><I>Kernel::LessDistanceToPoint_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--LessRotateCCW_2.html"><I>Kernel::LessRotateCCW_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--LessSignedDistanceToLine_2.html"><I>Kernel::LessSignedDistanceToLine_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--LessSignedDistanceToPlane_3.html"><I>Kernel::LessSignedDistanceToPlane_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--LessXYZ_3.html"><I>Kernel::LessXYZ_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--LessXY_2.html"><I>Kernel::LessXY_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--LessXY_3.html"><I>Kernel::LessXY_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--LessX_2.html"><I>Kernel::LessX_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--LessX_3.html"><I>Kernel::LessX_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--LessYX_2.html"><I>Kernel::LessYX_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--LessY_2.html"><I>Kernel::LessY_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--LessY_3.html"><I>Kernel::LessY_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--LessZ_3.html"><I>Kernel::LessZ_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--Orientation_2.html"><I>Kernel::Orientation_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--Orientation_3.html"><I>Kernel::Orientation_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--OrientedSide_2.html"><I>Kernel::OrientedSide_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--OrientedSide_3.html"><I>Kernel::OrientedSide_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--SideOfBoundedCircle_2.html"><I>Kernel::SideOfBoundedCircle_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--SideOfBoundedSphere_3.html"><I>Kernel::SideOfBoundedSphere_3</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--SideOfOrientedCircle_2.html"><I>Kernel::SideOfOrientedCircle_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--SideOfOrientedSphere_3.html"><I>Kernel::SideOfOrientedSphere_3</I></a></td></tr>
+<P>
+
+</table>
+    
+
+
+<a name="Section_11.16"></a>
+        
+<h2>11.16&nbsp;&nbsp;&nbsp;Dimension handling tools</h2>
+<P>
+
+<table cellpadding="0">
+      <tr><td><a href="Class_Ambient_dimension.html"><I>Ambient_dimension&lt;T, K&gt;</I></a></td></tr>
+<P>
+
+<tr><td><a href="Class_Feature_dimension.html"><I>Feature_dimension&lt;T, K&gt;</I></a></td></tr>
+<P>
+
+<tr><td><a href="Class_Dimension_tag.html"><I>Dimension_tag&lt;int dim&gt;</I></a></td></tr>
+<P>
+
+<tr><td><a href="Class_Dynamic_dimension_tag.html"><I>Dynamic_dimension_tag</I></a></td></tr>
+<P>
+
+</table>
+    
+
+
+
+  <div class="NavNext">Next chapter: <a href="../Kernel_d/Chapter_main.html">dD Geometry Kernel</a></div>
+    
+  <div class="NavBottom">
+  
+  <strong>Navigation:</strong>
+<a href="../Kernel_d/Chapter_main.html">Up</a>&nbsp;&nbsp;
+  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
+  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
+  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
+  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
+  <a href="../title.html">Title</a>
+  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
+
+<div class="NavAddress">
+<SMALL><a href="http://www.cgal.org" target="_top">CGAL Open Source Project</a>.
+Release 4.1.
+23 October 2012.</SMALL>
+</div>
+</body>  </html>

@@ -1,0 +1,114 @@
+
+    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en-US"> <head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="generator" content="CGAL latex_to_html converter">
+<!-- by cc_extract_html, $Id: cc_extract_html.cpp 44195 2008-07-16 08:46:48Z spion $ -->
+<!-- LaTeX source file: './Interval_skip_list_ref/intro.tex' -->
+<link rel="canonical" href="http://www.cgal.org/Manual/latest/doc_html/cgal_manual/Interval_skip_list_ref/Chapter_intro.html">
+<link href="../latex_to_html.css" rel="STYLESHEET">
+<title>Interval Skip List Reference&nbsp;Manual</title>
+</head>
+<body bgcolor="white">
+
+<div class="NavTop">
+  
+  <strong>Navigation:</strong>
+<a href="Chapter_intro.html">Up</a>&nbsp;&nbsp;
+  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
+  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
+  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
+  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
+  <a href="../title.html">Title</a>
+  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
+<P>
+
+<A NAME="chap:interval_skip_list_ref"></A><h1>Interval Skip List<BR>
+<I>Reference&nbsp;Manual</I></h1>
+<P>
+
+<p class="subtitle">Andreas Fabri</p>
+<P>
+
+This chapter presents the interval skip list introduced by Hanson&nbsp;[<A HREF="../biblio.html#Biblio_h-islds-91">Han91</A>],
+and derived from the skip list data structure&nbsp;[<A HREF="../biblio.html#Biblio_p-slpab-90">Pug90</A>].
+<P>
+
+The data structure stores intervals and allows to perform stabbing queries,
+that is to test whether a point is covered by any of the intervals.
+It further allows to find all intervals that contain a point.
+<P>
+
+The interval skip list is, as far as its functionality is concerned,
+related to the <I>Segment_tree</I>. Both allow to do stabbing queries
+and both allow to find all intervals that contain a given point.  The
+implementation of segment trees in <span class="textsc">Cgal</span> works in higher
+dimensions, whereas the interval skip list is limited to the 1D
+case. However, this interval skip list implementation is fully
+dynamic, whereas the segment tree implementation in <span class="textsc">Cgal</span> is
+static, that is all intervals must be known in advance.
+<P>
+
+This package has one concept, namely for the interval with which 
+the interval skip list class is parameterized.
+<P>
+
+<a name="Section_60.3"></a>
+        
+<h2>60.3&nbsp;&nbsp;&nbsp;Classified Reference Pages</h2>
+<P>
+
+<h3>Concepts</h3>
+<P>
+
+<I><A HREF="Concept_Interval.html#Cross_link_anchor_1679">Interval</A></I><BR>
+
+
+<P>
+
+<h3>Classes</h3>
+<P>
+
+<I><A HREF="Class_Interval_skip_list.html#Cross_link_anchor_1678">CGAL::Interval_skip_list</A>&lt;<A HREF="Concept_Interval.html#Cross_link_anchor_1679">Interval</A>&gt;</I><BR>
+
+<I><A HREF="Class_Interval_skip_list_interval.html#Cross_link_anchor_1680">CGAL::Interval_skip_list_interval&lt;Value&gt;</A></I><BR>
+
+<I><A HREF="Class_Level_interval.html#Cross_link_anchor_1681">CGAL::Level_interval&lt;FaceHandle&gt;</A></I><BR>
+
+
+<P>
+
+<a name="Section_60.4"></a>
+        
+<h2>60.4&nbsp;&nbsp;&nbsp;Alphabetical List of Reference Pages</h2>
+<P>
+
+<table cellpadding="0">
+    
+  <tr><td> <a href="Class_Interval_skip_list.html"><I>Interval_skip_list&lt;Interval&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Interval_skip_list_interval.html"><I>Interval_skip_list_interval&lt;Value&gt;</I></a></td></tr>
+  <tr><td> <a href="Concept_Interval.html"><I>Interval</I></a></td></tr>
+  <tr><td> <a href="Class_Level_interval.html"><I>Level_interval&lt;FaceHandle&gt;</I></a></td></tr>
+    </table>
+    
+  
+
+  <div class="NavNext">Next chapter: <a href="../Spatial_searching/Chapter_main.html">dD Spatial Searching</a></div>
+    
+  <div class="NavBottom">
+  
+  <strong>Navigation:</strong>
+<a href="../Spatial_searching/Chapter_main.html">Up</a>&nbsp;&nbsp;
+  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
+  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
+  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
+  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
+  <a href="../title.html">Title</a>
+  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
+
+<div class="NavAddress">
+<SMALL><a href="http://www.cgal.org" target="_top">CGAL Open Source Project</a>.
+Release 4.1.
+23 October 2012.</SMALL>
+</div>
+</body>  </html>

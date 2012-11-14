@@ -1,0 +1,122 @@
+
+    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en-US"> <head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="generator" content="CGAL latex_to_html converter">
+<!-- by cc_extract_html, $Id: cc_extract_html.cpp 44195 2008-07-16 08:46:48Z spion $ -->
+<!-- LaTeX source file: './Miscellany_ref/intro.tex' -->
+<link rel="canonical" href="http://www.cgal.org/Manual/latest/doc_html/cgal_manual/Miscellany_ref/Chapter_intro.html">
+<link href="../latex_to_html.css" rel="STYLESHEET">
+<title>Profiling tools, Hash Map, Union-find, Modifiers Reference&nbsp;Manual</title>
+</head>
+<body bgcolor="white">
+
+<div class="NavTop">
+  
+  <strong>Navigation:</strong>
+<a href="Chapter_intro.html">Up</a>&nbsp;&nbsp;
+  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
+  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
+  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
+  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
+  <a href="../title.html">Title</a>
+  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
+<P>
+
+<A NAME="chap:union_find"></A><h1>Profiling tools, Hash Map, Union-find, Modifiers<BR>
+<I>Reference&nbsp;Manual</I></h1>
+
+ 
+<A NAME="chap:hash_map"></A>
+<p class="subtitle">Lutz Kettner, Sylvain Pion, and Michael Seel</p>
+<P>
+
+This chapter decribes classes for measuring user process time and real time
+as well as the memory size. It also provides a profile counter tool.
+<P>
+
+A hash map <I><A HREF="Class_Unique_hash_map.html#Cross_link_anchor_2103">CGAL::Unique_hash_map</A></I> is offered that is specialized
+on unique hash values of type <I>std::size_t</I>, i.e., it is
+particularly useful for pointers, handles, iterators, and circulators
+as key values.
+<P>
+
+Furthermore, a union-find data structure and the modifier base class
+is documented.
+<P>
+
+<a name="Section_78.7"></a>
+        
+<h2>78.7&nbsp;&nbsp;&nbsp;Classified Reference Pages</h2>
+<P>
+
+<h3>Concepts</h3>
+<P>
+
+<I><A HREF="Concept_UniqueHashFunction.html#Cross_link_anchor_2104">UniqueHashFunction</A></I>
+<P>
+
+<h3>Classes</h3>
+<P>
+
+<I><A HREF="Class_Timer.html#Cross_link_anchor_2101">CGAL::Timer</A></I><BR>
+
+<I><A HREF="Class_Real_timer.html#Cross_link_anchor_2100">CGAL::Real_timer</A></I><BR>
+
+<I><A HREF="Class_Memory_sizer.html#Cross_link_anchor_2097">CGAL::Memory_sizer</A></I><BR>
+
+<I><A HREF="Class_Profile_counter.html#Cross_link_anchor_2099">CGAL::Profile_counter</A></I><BR>
+
+
+<P>
+
+<I><A HREF="Class_Unique_hash_map.html#Cross_link_anchor_2103">CGAL::Unique_hash_map</A>&lt;<A HREF="../Kinetic_framework_ref/Concept_Key.html#Cross_link_anchor_1884">Key</A>,Data,<A HREF="Concept_UniqueHashFunction.html#Cross_link_anchor_2104">UniqueHashFunction</A>&gt;</I><BR>
+
+<I><A HREF="Class_Handle_hash_function.html#Cross_link_anchor_2096">CGAL::Handle_hash_function</A></I>
+<P>
+
+<I><A HREF="Class_Union_find.html#Cross_link_anchor_2102">CGAL::Union_find&lt;T,A&gt;</A></I>
+<P>
+
+<I><A HREF="Class_Modifier_base.html#Cross_link_anchor_2098">CGAL::Modifier_base&lt;R&gt;</A></I>
+<P>
+
+<a name="Section_78.8"></a>
+        
+<h2>78.8&nbsp;&nbsp;&nbsp;Alphabetical List of Reference Pages</h2>
+<P>
+
+<table cellpadding="0">
+    
+  <tr><td> <a href="Class_Handle_hash_function.html"><I>Handle_hash_function</I></a></td></tr>
+  <tr><td> <a href="Class_Memory_sizer.html"><I>Memory_sizer</I></a></td></tr>
+  <tr><td> <a href="Class_Modifier_base.html"><I>Modifier_base&lt;R&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Profile_counter.html"><I>Profile_counter</I></a></td></tr>
+  <tr><td> <a href="Class_Real_timer.html"><I>Real_timer</I></a></td></tr>
+  <tr><td> <a href="Class_Timer.html"><I>Timer</I></a></td></tr>
+  <tr><td> <a href="Class_Union_find.html"><I>Union_find&lt;T,A&gt;</I></a></td></tr>
+  <tr><td> <a href="Concept_UniqueHashFunction.html"><I>UniqueHashFunction</I></a></td></tr>
+  <tr><td> <a href="Class_Unique_hash_map.html"><I>Unique_hash_map&lt;Key,Data,UniqueHashFunction&gt;</I></a></td></tr>
+    </table>
+    
+  
+
+  <div class="NavNext">Next chapter: <a href="../IOstream/Chapter_main.html">IO Streams</a></div>
+    
+  <div class="NavBottom">
+  
+  <strong>Navigation:</strong>
+<a href="../IOstream/Chapter_main.html">Up</a>&nbsp;&nbsp;
+  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
+  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
+  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
+  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
+  <a href="../title.html">Title</a>
+  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
+
+<div class="NavAddress">
+<SMALL><a href="http://www.cgal.org" target="_top">CGAL Open Source Project</a>.
+Release 4.1.
+23 October 2012.</SMALL>
+</div>
+</body>  </html>

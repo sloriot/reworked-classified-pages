@@ -1,0 +1,243 @@
+
+    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en-US"> <head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="generator" content="CGAL latex_to_html converter">
+<!-- by cc_extract_html, $Id: cc_extract_html.cpp 44195 2008-07-16 08:46:48Z spion $ -->
+<!-- LaTeX source file: './Kinetic_framework_ref/intro.tex' -->
+<link rel="canonical" href="http://www.cgal.org/Manual/latest/doc_html/cgal_manual/Kinetic_framework_ref/Chapter_intro.html">
+<link href="../latex_to_html.css" rel="STYLESHEET">
+<title>Kinetic Framework Reference&nbsp;Manual</title>
+</head>
+<body bgcolor="white">
+
+<div class="NavTop">
+  
+  <strong>Navigation:</strong>
+<a href="Chapter_intro.html">Up</a>&nbsp;&nbsp;
+  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
+  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
+  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
+  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
+  <a href="../title.html">Title</a>
+  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
+<P>
+
+<A NAME="ref-chapter-kinetic"></A><h1>Kinetic Framework<BR>
+<I>Reference&nbsp;Manual</I></h1>
+
+ 
+<p class="subtitle">Daniel Russel</p>
+<P>
+
+<a name="Section_72.4"></a>
+        
+<h2>72.4&nbsp;&nbsp;&nbsp;Classified Reference Pages</h2>
+<P>
+
+<H3>Definition</H3>
+<P>
+
+Kinetic data structures are a way of adding motion to classical
+geometric data structures. <span class="textsc">Cgal</span> provides a number of classes to aid
+implementation of kinetic data structures.
+<P>
+
+There are three levels at which the user can interact with the
+package. The user can use an existing kinetic data structure, write a
+new kinetic data structure, or replace parts of the framework.The
+first level is covered in the Chapter&nbsp;<A HREF="Chapter_intro.html#ref-chapter-kinetic">72</A>.
+<P>
+
+<H3>Main Support Classes and Concepts</H3>
+<P>
+
+Here we list the main classes and concepts provided by the framework to support implementing kinetic data structures
+<P>
+
+<I><A HREF="Concept_Kinetic--ActiveObjectsTable.html#Cross_link_anchor_1872">Kinetic::ActiveObjectsTable</A></I> 
+<I><A HREF="Class_Kinetic--Active_objects_vector.html#Cross_link_anchor_1873">CGAL::Kinetic::Active_objects_vector&lt;MovingObject&gt;</A></I>   
+<I><A HREF="Class_Kinetic--Cartesian.html#Cross_link_anchor_1874">Kinetic::Cartesian</A>&lt;<A HREF="Concept_Kinetic--FunctionKernel.html#Cross_link_anchor_1880">FunctionKernel</A>&gt;</I>  
+<I><A HREF="Concept_Kinetic--FunctionKernel.html#Cross_link_anchor_1880">Kinetic::FunctionKernel</A></I>
+<I><A HREF="Concept_Kinetic--InstantaneousKernel.html#Cross_link_anchor_1883">Kinetic::InstantaneousKernel</A></I>
+<I><A HREF="Class_Kinetic--Default_instantaneous_kernel.html#Cross_link_anchor_1882">CGAL::Kinetic::Default_instantaneous_kernel</A>&lt;<A HREF="Concept_Kinetic--ActiveObjectsTable.html#Cross_link_anchor_1872">ActiveObjectsTable</A>, StaticKernel&gt;</I>  
+<I><A HREF="Concept_Kinetic--Kernel.html#Cross_link_anchor_1885">Kinetic::Kernel</A></I>
+<I><A HREF="Concept_Kinetic--SimulationTraits.html#Cross_link_anchor_1890">Kinetic::SimulationTraits</A></I>
+<I><A HREF="Concept_Kinetic--Simulator.html#Cross_link_anchor_1894">Kinetic::Simulator</A></I>  
+<I><A HREF="Class_Kinetic--Default_simulator.html#Cross_link_anchor_1891">CGAL::Kinetic::Default_simulator</A>&lt;<A HREF="Concept_Kinetic--FunctionKernel.html#Cross_link_anchor_1880">FunctionKernel</A>, <A HREF="Concept_Kinetic--EventQueue.html#Cross_link_anchor_1878">EventQueue</A>&gt;</I>
+<P>
+
+<H3>Other Concepts</H3>
+<P>
+
+<I><A HREF="Concept_Key.html#Cross_link_anchor_1884">Key</A></I>
+<I><A HREF="Concept_Kinetic--Certificate.html#Cross_link_anchor_1875">Kinetic::Certificate</A></I>
+<I><A HREF="Concept_Kinetic--CertificateGenerator.html#Cross_link_anchor_1876">Kinetic::CertificateGenerator</A></I>
+<I><A HREF="Concept_Kinetic--EventQueue.html#Cross_link_anchor_1878">Kinetic::EventQueue</A></I>
+<I><A HREF="Concept_Kinetic--FunctionKernel--ConstructFunction.html#Cross_link_anchor_1877">Kinetic::FunctionKernel::ConstructFunction</A></I>
+<I><A HREF="Concept_Key.html#Cross_link_anchor_1884">Key</A></I>
+<I><A HREF="Concept_Kinetic--FunctionKernel--Function.html#Cross_link_anchor_1881">Kinetic::FunctionKernel::Function</A></I>
+<I><A HREF="Concept_Kinetic--RootStack.html#Cross_link_anchor_1889">Kinetic::RootStack</A></I>
+<I><A HREF="Concept_Kinetic--Simulator--Event.html#Cross_link_anchor_1879">Kinetic::Simulator::Event</A></I>
+<I><A HREF="Concept_Kinetic--Simulator--Time.html#Cross_link_anchor_1895">Kinetic::Simulator::Time</A></I>
+<P>
+
+<H3>Other Classes</H3>
+<P>
+
+<I><A HREF="Class_Listener.html#Cross_link_anchor_1886">CGAL::Listener&lt;Interface&gt;</A></I>  
+<I><A HREF="Class_Multi_listener.html#Cross_link_anchor_1887">CGAL::Multi_listener&lt;Interface&gt;</A></I>  
+<I><A HREF="Class_Ref_counted.html#Cross_link_anchor_1888">CGAL::Ref_counted&lt;T&gt;</A></I>  
+<I>CGAL::Kinetic::Active_objects_listener_helper&lt;<A HREF="Concept_Kinetic--ActiveObjectsTable.html#Cross_link_anchor_1872">ActiveObjectsTable</A>, KDS&gt;</I> 
+<I><A HREF="../Kinetic_data_structures_ref/Class_Kinetic--Erase_event.html#Cross_link_anchor_1854">CGAL::Kinetic::Erase_event</A>&lt;<A HREF="Concept_Kinetic--ActiveObjectsTable.html#Cross_link_anchor_1872">ActiveObjectsTable</A>&gt;</I> 
+<I><A HREF="../Kinetic_data_structures_ref/Class_Kinetic--Insert_event.html#Cross_link_anchor_1856">CGAL::Kinetic::Insert_event</A>&lt;<A HREF="Concept_Kinetic--ActiveObjectsTable.html#Cross_link_anchor_1872">ActiveObjectsTable</A>&gt;</I>  
+<I><A HREF="../Kinetic_data_structures_ref/Class_Kinetic--Qt_moving_points_2.html#Cross_link_anchor_1857">CGAL::Kinetic::Qt_moving_points_2&lt;Traits, QtWidget_2&gt;</A></I>  
+<I><A HREF="../Kinetic_data_structures_ref/Class_Kinetic--Qt_triangulation_2.html#Cross_link_anchor_1858">CGAL::Kinetic::Qt_triangulation_2&lt;KineticTriangulation_2, QtWidget_2, QtMovingPoints_2&gt;</A></I>  
+<I><A HREF="../Kinetic_data_structures_ref/Class_Kinetic--Qt_widget_2.html#Cross_link_anchor_1859">CGAL::Kinetic::Qt_widget_2</A>&lt;<A HREF="Concept_Kinetic--Simulator.html#Cross_link_anchor_1894">Simulator</A>&gt;</I>  
+<I><A HREF="../Kinetic_data_structures_ref/Class_Kinetic--Regular_triangulation_instantaneous_kernel.html#Cross_link_anchor_1863">CGAL::Kinetic::Regular_triangulation_instantaneous_kernel</A>&lt;<A HREF="Concept_Kinetic--ActiveObjectsTable.html#Cross_link_anchor_1872">ActiveObjectsTable</A>, StaticKernel&gt;</I>  
+<I>CGAL::Kinetic::Simulator_kds_listener&lt;<A HREF="Class_Listener.html#Cross_link_anchor_1886">Listener</A>, KDS&gt;</I>  
+<I><A HREF="Class_Kinetic--Simulator_objects_listener.html#Cross_link_anchor_1893">CGAL::Kinetic::Simulator_objects_listener</A>&lt;<A HREF="Class_Kinetic--Simulator_listener.html#Cross_link_anchor_1892">Simulator_listener</A>, KDS&gt;</I>
+<P>
+
+<a name="Section_72.5"></a>
+        
+<h2>72.5&nbsp;&nbsp;&nbsp;Alphabetical List of Reference Pages</h2>
+<P>
+
+<H3>Example</H3>
+<P>
+
+The simulation traits class is simply there for convenience in order to bundle a set of related typedefs and create a few objects. As a resulting, creating your own requires little though, and just copying and changing a few lines. An example is below which sets up to use the CORE Sturm sequences to solve polynomials rather than our own (faster) solvers. It can be found in examples/Kinetic_framework/defining_a_simulation_traits.cpp.
+<P>
+
+<pre class="ExampleCode">
+
+#include &lt;CGAL/<A HREF="../Polynomial_ref/Class_Polynomial.html#Cross_link_anchor_184">Polynomial</A>/Sturm_root_stack_traits.h&gt;
+#include &lt;CGAL/<A HREF="../Polynomial_ref/Class_Polynomial.html#Cross_link_anchor_184">Polynomial</A>/Sturm_root_stack.h&gt;
+#include &lt;CGAL/Kinetic/<A HREF="Class_Kinetic--Active_objects_vector.html#Cross_link_anchor_1873">Active_objects_vector</A>.h&gt;
+#include &lt;CGAL/Kinetic/<A HREF="Class_Kinetic--Default_instantaneous_kernel.html#Cross_link_anchor_1882">Default_instantaneous_kernel</A>.h&gt;
+#include &lt;CGAL/Kinetic/<A HREF="Class_Kinetic--Cartesian.html#Cross_link_anchor_1874">Cartesian</A>.h&gt;
+#include &lt;CGAL/Kinetic/Handle_degeneracy_function_kernel.h&gt;
+#include &lt;CGAL/Kinetic/<A HREF="Class_Kinetic--Default_simulator.html#Cross_link_anchor_1891">Default_simulator</A>.h&gt;
+#include &lt;CGAL/Kinetic/Two_list_pointer_event_queue.h&gt;
+#include &lt;CGAL/<A HREF="../Kernel_23_ref/Class_Exact_predicates_exact_constructions_kernel.html#Cross_link_anchor_333">Exact_predicates_exact_constructions_kernel</A>.h&gt;
+
+using namespace CGAL::Kinetic;
+
+struct My_simulation_traits {
+  typedef My_simulation_traits This;
+
+  typedef <A HREF="../Kernel_23_ref/Class_Exact_predicates_exact_constructions_kernel.html#Cross_link_anchor_333">CGAL::Exact_predicates_exact_constructions_kernel</A> Static_kernel;
+  //typedef <A HREF="../Triangulation_3_ref/Class_Regular_triangulation_euclidean_traits_3.html#Cross_link_anchor_1370">CGAL::Regular_triangulation_euclidean_traits_3</A>&lt;Static_kernel_base&gt; Static_kernel;
+  typedef CGAL::POLYNOMIAL::<A HREF="../Polynomial_ref/Class_Polynomial.html#Cross_link_anchor_184">Polynomial</A>&lt;Static_kernel::FT&gt; <A HREF="Concept_Kinetic--FunctionKernel--Function.html#Cross_link_anchor_1881">Function</A>;
+  typedef CGAL::POLYNOMIAL::Sturm_root_stack_traits&lt;<A HREF="Concept_Kinetic--FunctionKernel--Function.html#Cross_link_anchor_1881">Function</A>&gt; Root_stack_traits;
+  typedef CGAL::POLYNOMIAL::Sturm_root_stack&lt;Root_stack_traits&gt; Root_stack;
+  typedef CGAL::POLYNOMIAL::<A HREF="Concept_Kinetic--Kernel.html#Cross_link_anchor_1885">Kernel</A>&lt;<A HREF="Concept_Kinetic--FunctionKernel--Function.html#Cross_link_anchor_1881">Function</A>, Root_stack&gt; Function_kernel;
+
+  typedef CGAL::Kinetic::Handle_degeneracy_function_kernel&lt;Function_kernel, false&gt;  Simulator_function_kernel_base;
+  struct Simulator_function_kernel: public Simulator_function_kernel_base{};
+
+  typedef <A HREF="Class_Kinetic--Cartesian.html#Cross_link_anchor_1874">Cartesian</A>&lt;Simulator_function_kernel&gt; Kinetic_kernel;
+  typedef Two_list_pointer_event_queue&lt;Function_kernel&gt; Event_queue;
+  typedef <A HREF="Class_Kinetic--Default_simulator.html#Cross_link_anchor_1891">Default_simulator</A>&lt;Simulator_function_kernel, Event_queue &gt; <A HREF="Concept_Kinetic--Simulator.html#Cross_link_anchor_1894">Simulator</A>;
+
+  typedef <A HREF="Class_Kinetic--Active_objects_vector.html#Cross_link_anchor_1873">Active_objects_vector</A>&lt;Kinetic_kernel::Point_1&gt; Active_points_1_table;
+  typedef <A HREF="Class_Kinetic--Active_objects_vector.html#Cross_link_anchor_1873">Active_objects_vector</A>&lt;Kinetic_kernel::<A HREF="../Kernel_23_ref/Class_Point_2.html#Cross_link_anchor_342">Point_2</A>&gt; Active_points_2_table;
+  typedef <A HREF="Class_Kinetic--Active_objects_vector.html#Cross_link_anchor_1873">Active_objects_vector</A>&lt;Kinetic_kernel::<A HREF="../Kernel_23_ref/Class_Point_3.html#Cross_link_anchor_353">Point_3</A>&gt; Active_points_3_table;
+  // typedef <A HREF="Class_Kinetic--Active_objects_vector.html#Cross_link_anchor_1873">Active_objects_vector</A>&lt;Kinetic_kernel::Weighted_point_3&gt; Active_weighted_points_3_table;
+ 
+  typedef <A HREF="Class_Kinetic--Default_instantaneous_kernel.html#Cross_link_anchor_1882">Default_instantaneous_kernel</A>&lt;This&gt; Instantaneous_kernel;
+
+  Active_points_1_table* active_points_1_table_handle() const { return ap1_.get();}
+  Active_points_2_table* active_points_2_table_handle() const {return ap2_.get();}
+  Active_points_3_table* active_points_3_table_handle() const {return ap3_.get();}
+  //Active_weighted_points_3_table* active_weighted_points_3_table_handle() const {return awp3_.get();}
+
+  <A HREF="Concept_Kinetic--Simulator.html#Cross_link_anchor_1894">Simulator</A>* simulator_handle() const { return sim_.get();}
+  const Static_kernel&amp; static_kernel_object() const {return k_;}
+  const Kinetic_kernel&amp; kinetic_kernel_object() const {return kk_;}
+ 
+  Instantaneous_kernel instantaneous_kernel_object() const {
+    return Instantaneous_kernel(*this);
+  }
+
+  My_simulation_traits(const <A HREF="Concept_Kinetic--Simulator--Time.html#Cross_link_anchor_1895">Simulator::Time</A> &amp;lb,
+			  const <A HREF="Concept_Kinetic--Simulator--Time.html#Cross_link_anchor_1895">Simulator::Time</A> &amp;ub): sim_(new <A HREF="Concept_Kinetic--Simulator.html#Cross_link_anchor_1894">Simulator</A>(lb, ub)),
+						      ap1_(new Active_points_1_table()),
+						      ap2_(new Active_points_2_table()),
+						      ap3_(new Active_points_3_table())
+						      //awp3_(new Active_weighted_points_3_table())
+{}
+ 
+  
+  bool is_exact() const {
+    return true;
+  }
+protected:
+  <A HREF="Concept_Kinetic--Simulator.html#Cross_link_anchor_1894">Simulator</A>::<A HREF="../Circulator_ref/Concept_Handle.html#Cross_link_anchor_2063">Handle</A> sim_;
+  Active_points_1_table::<A HREF="../Circulator_ref/Concept_Handle.html#Cross_link_anchor_2063">Handle</A> ap1_;
+  Active_points_2_table::<A HREF="../Circulator_ref/Concept_Handle.html#Cross_link_anchor_2063">Handle</A> ap2_;
+  Active_points_3_table::<A HREF="../Circulator_ref/Concept_Handle.html#Cross_link_anchor_2063">Handle</A> ap3_;
+  //Active_weighted_points_3_table::<A HREF="../Circulator_ref/Concept_Handle.html#Cross_link_anchor_2063">Handle</A> awp3_;
+  Static_kernel k_;
+  Kinetic_kernel kk_;
+  Function_kernel fk_;
+};
+
+#endif
+
+
+
+</pre>
+<P>
+
+<table cellpadding="0">
+    
+  <tr><td> <a href="Concept_Key.html"><I>Key</I></a></td></tr>
+  <tr><td> <a href="Concept_Kinetic--ActiveObjectsTable.html"><I>Kinetic::ActiveObjectsTable</I></a></td></tr>
+  <tr><td> <a href="Class_Kinetic--Active_objects_listener.html"><I>Kinetic::Active_objects_listener&lt;ActiveObjectsTable, KDS&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Kinetic--Active_objects_vector.html"><I>Kinetic::Active_objects_vector&lt;MovingObject&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Kinetic--Cartesian.html"><I>Kinetic::Cartesian&lt;FunctionKernel&gt;</I></a></td></tr>
+  <tr><td> <a href="Concept_Kinetic--CertificateGenerator.html"><I>Kinetic::CertificateGenerator</I></a></td></tr>
+  <tr><td> <a href="Concept_Kinetic--Certificate.html"><I>Kinetic::Certificate</I></a></td></tr>
+  <tr><td> <a href="Class_Kinetic--Default_instantaneous_kernel.html"><I>Kinetic::Default_instantaneous_kernel&lt;SimulationTraits&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Kinetic--Default_simulator.html"><I>Kinetic::Default_simulator&lt;FunctionKernel, EventQueue&gt;</I></a></td></tr>
+  <tr><td> <a href="Concept_Kinetic--EventQueue.html"><I>Kinetic::EventQueue</I></a></td></tr>
+  <tr><td> <a href="Concept_Kinetic--FunctionKernel--ConstructFunction.html"><I>Kinetic::FunctionKernel::ConstructFunction</I></a></td></tr>
+  <tr><td> <a href="Concept_Kinetic--FunctionKernel--Function.html"><I>Kinetic::FunctionKernel::Function</I></a></td></tr>
+  <tr><td> <a href="Concept_Kinetic--FunctionKernel.html"><I>Kinetic::FunctionKernel</I></a></td></tr>
+  <tr><td> <a href="Concept_Kinetic--InstantaneousKernel.html"><I>Kinetic::InstantaneousKernel</I></a></td></tr>
+  <tr><td> <a href="Concept_Kinetic--Kernel.html"><I>Kinetic::Kernel</I></a></td></tr>
+  <tr><td> <a href="Concept_Kinetic--RootStack.html"><I>Kinetic::RootStack</I></a></td></tr>
+  <tr><td> <a href="Concept_Kinetic--SimulationTraits.html"><I>Kinetic::SimulationTraits</I></a></td></tr>
+  <tr><td> <a href="Concept_Kinetic--Simulator--Event.html"><I>Kinetic::Simulator::Event</I></a></td></tr>
+  <tr><td> <a href="Concept_Kinetic--Simulator--Time.html"><I>Kinetic::Simulator::Time</I></a></td></tr>
+  <tr><td> <a href="Class_Kinetic--Simulator_listener.html"><I>Kinetic::Simulator_listener&lt;Listener, KDS&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Kinetic--Simulator_objects_listener.html"><I>Kinetic::Simulator_objects_listener&lt;Simulator_listener, KDS&gt;</I></a></td></tr>
+  <tr><td> <a href="Concept_Kinetic--Simulator.html"><I>Kinetic::Simulator</I></a></td></tr>
+  <tr><td> <a href="Class_Listener.html"><I>Listener&lt;Interface&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Multi_listener.html"><I>Multi_listener&lt;Interface&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Ref_counted.html"><I>Ref_counted&lt;T&gt;</I></a></td></tr>
+    </table>
+    
+  
+
+  
+    
+  <div class="NavBottom">
+  
+  <strong>Navigation:</strong>
+
+  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
+  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
+  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
+  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
+  <a href="../title.html">Title</a>
+  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
+
+<div class="NavAddress">
+<SMALL><a href="http://www.cgal.org" target="_top">CGAL Open Source Project</a>.
+Release 4.1.
+23 October 2012.</SMALL>
+</div>
+</body>  </html>

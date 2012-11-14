@@ -1,0 +1,142 @@
+
+    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en-US"> <head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="generator" content="CGAL latex_to_html converter">
+<!-- by cc_extract_html, $Id: cc_extract_html.cpp 44195 2008-07-16 08:46:48Z spion $ -->
+<!-- LaTeX source file: './Segment_Delaunay_graph_2_ref/intro.tex' -->
+<link rel="canonical" href="http://www.cgal.org/Manual/latest/doc_html/cgal_manual/Segment_Delaunay_graph_2_ref/Chapter_intro.html">
+<link href="../latex_to_html.css" rel="STYLESHEET">
+<title>2D Segment Delaunay Graphs Reference&nbsp;Manual</title>
+</head>
+<body bgcolor="white">
+
+<div class="NavTop">
+  
+  <strong>Navigation:</strong>
+<a href="Chapter_intro.html">Up</a>&nbsp;&nbsp;
+  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
+  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
+  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
+  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
+  <a href="../title.html">Title</a>
+  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
+<P>
+
+<A NAME="ref-chapter-segdel2"></A><h1>2D Segment Delaunay Graphs<BR>
+<I>Reference&nbsp;Manual</I></h1>
+
+ 
+<p class="subtitle">Menelaos Karavelas</p>
+<P>
+
+<span class="textsc">Cgal</span> provides the class
+<I><A HREF="Class_Segment_Delaunay_graph_2.html#Cross_link_anchor_1432">CGAL::Segment_Delaunay_graph_2&lt;Gt,DS&gt;</A></I> for
+computing the 2D Delaunay graph of segments and points. The two
+template parameters must be models of the
+<I><A HREF="Concept_SegmentDelaunayGraphTraits_2.html#Cross_link_anchor_1440">SegmentDelaunayGraphTraits_2</A></I> and
+<I><A HREF="Concept_SegmentDelaunayGraphDataStructure_2.html#Cross_link_anchor_1437">SegmentDelaunayGraphDataStructure_2</A></I> concepts. The first concept
+is related to the geometric objects and predicates associated with
+segment Delaunay graphs, whereas the second concept refers to the data
+structure used to represent the segment Delaunay graph, which is dual
+to the 2D Voronoi diagram of segments and points.
+The classes <I><A HREF="Class_Segment_Delaunay_graph_traits_2.html#Cross_link_anchor_1441">Segment_Delaunay_graph_traits_2&lt;K,MTag&gt;</A></I>,
+<I><A HREF="Class_Segment_Delaunay_graph_traits_without_intersections_2.html#Cross_link_anchor_1442">Segment_Delaunay_graph_traits_without_intersections_2&lt;K,MTag&gt;</A></I>
+<I><A HREF="Class_Segment_Delaunay_graph_filtered_traits_2.html#Cross_link_anchor_1443">Segment_Delaunay_graph_filtered_traits_2</A>&lt;K,MTag&gt;</I>
+<I><A HREF="Class_Segment_Delaunay_graph_filtered_traits_without_intersections_2.html#Cross_link_anchor_1444">Segment_Delaunay_graph_filtered_traits_without_intersections_2</A>&lt;K,MTag&gt;</I>
+are models of the <I><A HREF="Concept_SegmentDelaunayGraphTraits_2.html#Cross_link_anchor_1440">SegmentDelaunayGraphTraits_2</A></I> concept, whereas
+the class
+<I><A HREF="../TDS_2_ref/Class_Triangulation_data_structure_2.html#Cross_link_anchor_1360">Triangulation_data_structure_2&lt;Vb,Fb&gt;</A></I> is a model of the
+<I><A HREF="Concept_SegmentDelaunayGraphDataStructure_2.html#Cross_link_anchor_1437">SegmentDelaunayGraphDataStructure_2</A></I> concept.
+<P>
+
+<a name="Section_44.6"></a>
+        
+<h2>44.6&nbsp;&nbsp;&nbsp;Classified Reference Pages</h2>
+<P>
+
+<H3>Concepts</H3>
+<I><A HREF="Concept_SegmentDelaunayGraphSite_2.html#Cross_link_anchor_1433">SegmentDelaunayGraphSite_2</A></I><BR>
+
+<I><A HREF="Concept_SegmentDelaunayGraphStorageSite_2.html#Cross_link_anchor_1435">SegmentDelaunayGraphStorageSite_2</A></I><BR>
+
+<I><A HREF="Concept_SegmentDelaunayGraphDataStructure_2.html#Cross_link_anchor_1437">SegmentDelaunayGraphDataStructure_2</A></I><BR>
+
+<I><A HREF="Concept_SegmentDelaunayGraphVertexBase_2.html#Cross_link_anchor_1438">SegmentDelaunayGraphVertexBase_2</A></I><BR>
+
+<I><A HREF="Concept_SegmentDelaunayGraphTraits_2.html#Cross_link_anchor_1440">SegmentDelaunayGraphTraits_2</A></I><BR>
+
+<I><A HREF="Concept_SegmentDelaunayGraphHierarchyVertexBase_2.html#Cross_link_anchor_1446">SegmentDelaunayGraphHierarchyVertexBase_2</A></I>
+<P>
+
+<H3>Classes</H3>
+<I><A HREF="Class_Segment_Delaunay_graph_2.html#Cross_link_anchor_1432">CGAL::Segment_Delaunay_graph_2&lt;Gt,DS&gt;</A></I><BR>
+
+<I><A HREF="Class_Segment_Delaunay_graph_site_2.html#Cross_link_anchor_1434">CGAL::Segment_Delaunay_graph_site_2&lt;K&gt;</A></I><BR>
+
+<I><A HREF="Class_Segment_Delaunay_graph_storage_site_2.html#Cross_link_anchor_1436">CGAL::Segment_Delaunay_graph_storage_site_2&lt;Gt&gt;</A></I><BR>
+
+<I><A HREF="Class_Segment_Delaunay_graph_vertex_base_2.html#Cross_link_anchor_1439">CGAL::Segment_Delaunay_graph_vertex_base_2&lt;Gt,SSTag&gt;</A></I><BR>
+
+<I><A HREF="Class_Segment_Delaunay_graph_traits_2.html#Cross_link_anchor_1441">CGAL::Segment_Delaunay_graph_traits_2&lt;K,MTag&gt;</A></I><BR>
+
+<I><A HREF="Class_Segment_Delaunay_graph_traits_without_intersections_2.html#Cross_link_anchor_1442">CGAL::Segment_Delaunay_graph_traits_without_intersections_2&lt;K,MTag&gt;</A></I><BR>
+
+<I><A HREF="Class_Segment_Delaunay_graph_filtered_traits_2.html#Cross_link_anchor_1443">CGAL::Segment_Delaunay_graph_filtered_traits_2&lt;CK,CM,EK,EM,FK,FM&gt;</A></I><BR>
+
+<I><A HREF="Class_Segment_Delaunay_graph_filtered_traits_without_intersections_2.html#Cross_link_anchor_1444">CGAL::Segment_Delaunay_graph_filtered_traits_without_intersections_2&lt;CK,CM,EK,EM,FK,FM&gt;</A></I><BR>
+
+<I><A HREF="Class_Segment_Delaunay_graph_hierarchy_2.html#Cross_link_anchor_1445">CGAL::Segment_Delaunay_graph_hierarchy_2&lt;Gt,STag,DS&gt;</A></I><BR>
+
+<I><A HREF="Class_Segment_Delaunay_graph_hierarchy_vertex_base_2.html#Cross_link_anchor_1447">CGAL::Segment_Delaunay_graph_hierarchy_vertex_base_2&lt;Vbb&gt;</A></I>
+<P>
+
+<a name="Section_44.7"></a>
+        
+<h2>44.7&nbsp;&nbsp;&nbsp;Alphabetical List of Reference Pages</h2>
+<P>
+
+</B>
+<P>
+
+<table cellpadding="0">
+    
+  <tr><td> <a href="Concept_SegmentDelaunayGraphDataStructure_2.html"><I>SegmentDelaunayGraphDataStructure_2</I></a></td></tr>
+  <tr><td> <a href="Concept_SegmentDelaunayGraphHierarchyVertexBase_2.html"><I>SegmentDelaunayGraphHierarchyVertexBase_2</I></a></td></tr>
+  <tr><td> <a href="Concept_SegmentDelaunayGraphSite_2.html"><I>SegmentDelaunayGraphSite_2</I></a></td></tr>
+  <tr><td> <a href="Concept_SegmentDelaunayGraphStorageSite_2.html"><I>SegmentDelaunayGraphStorageSite_2</I></a></td></tr>
+  <tr><td> <a href="Concept_SegmentDelaunayGraphTraits_2.html"><I>SegmentDelaunayGraphTraits_2</I></a></td></tr>
+  <tr><td> <a href="Concept_SegmentDelaunayGraphVertexBase_2.html"><I>SegmentDelaunayGraphVertexBase_2</I></a></td></tr>
+  <tr><td> <a href="Class_Segment_Delaunay_graph_2.html"><I>Segment_Delaunay_graph_2&lt;Gt,DS&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Segment_Delaunay_graph_filtered_traits_2.html"><I>Segment_Delaunay_graph_filtered_traits_2&lt;CK,CM,EK,EM,FK,FM&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Segment_Delaunay_graph_filtered_traits_without_intersections_2.html"><I>Segment_Delaunay_graph_filtered_traits_without_intersections_2&lt;CK,CM,EK,EM,FK,FM&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Segment_Delaunay_graph_hierarchy_2.html"><I>Segment_Delaunay_graph_hierarchy_2&lt;Gt,STag,DS&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Segment_Delaunay_graph_hierarchy_vertex_base_2.html"><I>Segment_Delaunay_graph_hierarchy_vertex_base_2&lt;Vbb&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Segment_Delaunay_graph_site_2.html"><I>Segment_Delaunay_graph_site_2&lt;K&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Segment_Delaunay_graph_storage_site_2.html"><I>Segment_Delaunay_graph_storage_site_2&lt;Gt&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Segment_Delaunay_graph_traits_2.html"><I>Segment_Delaunay_graph_traits_2&lt;K,MTag&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Segment_Delaunay_graph_traits_without_intersections_2.html"><I>Segment_Delaunay_graph_traits_without_intersections_2&lt;K,MTag&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Segment_Delaunay_graph_vertex_base_2.html"><I>Segment_Delaunay_graph_vertex_base_2&lt;Gt,SSTag&gt;</I></a></td></tr>
+    </table>
+    
+  
+
+  <div class="NavNext">Next chapter: <a href="../Apollonius_graph_2/Chapter_main.html">2D Apollonius Graphs (Delaunay Graphs of Disks)</a></div>
+    
+  <div class="NavBottom">
+  
+  <strong>Navigation:</strong>
+<a href="../Apollonius_graph_2/Chapter_main.html">Up</a>&nbsp;&nbsp;
+  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
+  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
+  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
+  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
+  <a href="../title.html">Title</a>
+  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
+
+<div class="NavAddress">
+<SMALL><a href="http://www.cgal.org" target="_top">CGAL Open Source Project</a>.
+Release 4.1.
+23 October 2012.</SMALL>
+</div>
+</body>  </html>

@@ -1,0 +1,427 @@
+
+    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en-US"> <head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="generator" content="CGAL latex_to_html converter">
+<!-- by cc_extract_html, $Id: cc_extract_html.cpp 44195 2008-07-16 08:46:48Z spion $ -->
+<!-- LaTeX source file: './Arrangement_on_surface_2_ref/intro.tex' -->
+<link rel="canonical" href="http://www.cgal.org/Manual/latest/doc_html/cgal_manual/Arrangement_on_surface_2_ref/Chapter_intro.html">
+<link href="../latex_to_html.css" rel="STYLESHEET">
+<title>2D Arrangements Reference&nbsp;Manual</title>
+</head>
+<body bgcolor="white">
+
+<div class="NavTop">
+  
+  <strong>Navigation:</strong>
+<a href="Chapter_intro.html">Up</a>&nbsp;&nbsp;
+  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
+  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
+  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
+  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
+  <a href="../title.html">Title</a>
+  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
+<P>
+
+<A NAME="chapterArrangement_on_surface_2_ref"></A><h1>2D Arrangements<BR>
+<I>Reference&nbsp;Manual</I></h1>
+
+ 
+
+<p class="subtitle">Ron Wein, Efi Fogel, Baruch Zukerman, Dan Halperin, Eric Berberich, and Oren Zalzman</p>
+<P>
+
+Given a set <span class="math"><span class="cal">C</span></span> of planar curves, the <I>arrangement</I>
+<span class="math"><span class="cal">A</span>(<span class="cal">C</span>)</span> is the subdivision of the plane induced
+by the curves in <span class="math"><span class="cal">C</span></span> into maximally connected cells. The cells
+can be <span class="math">0</span>-dimensional (<I>vertices</I>), <span class="math">1</span>-dimensional (<I>edges</I>)
+or <span class="math">2</span>-dimensional (<I>faces</I>).
+<P>
+
+The class <I><A HREF="Class_Arrangement_2.html#Cross_link_anchor_1186">Arrangement_2&lt;Traits,Dcel&gt;</A></I> encapsulates a data structure
+that maintains arrangements of arbitrary bounded planar curves. It comes
+with a variety of algorithms that operate on planar arrangement,
+such as point-location queries and overlay computations, which are
+implemented as peripheral classes or as free (global) functions.
+<P>
+
+<a name="Section_32.14"></a>
+        
+<h2>32.14&nbsp;&nbsp;&nbsp;Classified Reference Pages</h2>
+<P>
+
+<h3>Enumerations</h3>
+<P>
+
+<I><A HREF="Enum_Arr_parameter_space.html#Cross_link_anchor_1285">CGAL::Arr_parameter_space</A></I><BR>
+
+<I><A HREF="Enum_Arr_curve_end.html#Cross_link_anchor_1220">CGAL::Arr_curve_end</A></I><BR>
+
+<I><A HREF="Enum_Arr_halfedge_direction.html#Cross_link_anchor_1223">CGAL::Arr_halfedge_direction</A></I>
+<P>
+
+<h3>Tags</h3>
+<P>
+
+<I><A HREF="Class_Arr_oblivious_side_tag.html#Cross_link_anchor_1295">CGAL::Arr_oblivious_side_tag</A></I><BR>
+
+<I><A HREF="Class_Arr_open_side_tag.html#Cross_link_anchor_1296">CGAL::Arr_open_side_tag</A></I>
+<P>
+
+<h3>Concepts</h3>
+<P>
+
+<I><A HREF="Concept_ArrangementDcel.html#Cross_link_anchor_1206">ArrangementDcel</A></I><BR>
+
+<I><A HREF="Concept_ArrangementDcelWithRebind.html#Cross_link_anchor_1207">ArrangementDcelWithRebind</A></I><BR>
+
+<I><A HREF="Concept_ArrangementDcelVertex.html#Cross_link_anchor_1208">ArrangementDcelVertex</A></I><BR>
+
+<I><A HREF="Concept_ArrangementDcelHalfedge.html#Cross_link_anchor_1209">ArrangementDcelHalfedge</A></I><BR>
+
+<I><A HREF="Concept_ArrangementDcelFace.html#Cross_link_anchor_1210">ArrangementDcelFace</A></I><BR>
+
+<I><A HREF="Concept_ArrangementDcelHole.html#Cross_link_anchor_1211">ArrangementDcelHole</A></I><BR>
+
+<I><A HREF="Concept_ArrangementDcelIsolatedVertex.html#Cross_link_anchor_1212">ArrangementDcelIsolatedVertex</A></I><BR>
+
+&nbsp;<BR>
+
+<I><A HREF="Concept_ArrangementBasicTraits_2.html#Cross_link_anchor_1226">ArrangementBasicTraits_2</A></I><BR>
+
+<I><A HREF="Concept_ArrangementLandmarkTraits_2.html#Cross_link_anchor_1238">ArrangementLandmarkTraits_2</A></I><BR>
+
+<I><A HREF="Concept_ArrangementXMonotoneTraits_2.html#Cross_link_anchor_1241">ArrangementXMonotoneTraits_2</A></I><BR>
+
+<I><A HREF="Concept_ArrangementTraits_2.html#Cross_link_anchor_1246">ArrangementTraits_2</A></I><BR>
+
+<I><A HREF="Concept_ArrangementOpenBoundaryTraits_2.html#Cross_link_anchor_1278">ArrangementOpenBoundaryTraits_2</A></I><BR>
+
+&nbsp;<BR>
+
+<I><A HREF="Concept_ArrangementInputFormatter.html#Cross_link_anchor_1264">ArrangementInputFormatter</A></I><BR>
+
+<I><A HREF="Concept_ArrangementOutputFormatter.html#Cross_link_anchor_1265">ArrangementOutputFormatter</A></I><BR>
+
+<I><A HREF="Concept_ArrangementWithHistoryInputFormatter.html#Cross_link_anchor_1292">ArrangementWithHistoryInputFormatter</A></I><BR>
+
+<I><A HREF="Concept_ArrangementWithHistoryOutputFormatter.html#Cross_link_anchor_1293">ArrangementWithHistoryOutputFormatter</A></I>
+&nbsp;<BR>
+
+<I><A HREF="Concept_ArrangementPointLocation_2.html#Cross_link_anchor_1269">ArrangementPointLocation_2</A></I><BR>
+
+<I><A HREF="Concept_ArrangementVerticalRayShoot_2.html#Cross_link_anchor_1270">ArrangementVerticalRayShoot_2</A></I>
+<P>
+
+<h3>Geometric Object Concepts</h3>
+<P>
+
+<I><A HREF="Concept_ArrTraits--Point_2.html#Cross_link_anchor_1227">ArrTraits::Point_2</A></I><BR>
+
+<I><A HREF="Concept_ArrTraits--XMonotoneCurve_2.html#Cross_link_anchor_1228">ArrTraits::XMonotoneCurve_2</A></I><BR>
+
+<I><A HREF="Concept_ArrTraits--Curve_2.html#Cross_link_anchor_1247">ArrTraits::Curve_2</A></I>
+<P>
+
+<h3>Function Object Concepts</h3>
+<P>
+
+<I><A HREF="Concept_ArrTraits--CompareX_2.html#Cross_link_anchor_1229">ArrTraits::CompareX_2</A></I><BR>
+
+<I><A HREF="Concept_ArrTraits--CompareXy_2.html#Cross_link_anchor_1230">ArrTraits::CompareXy_2</A></I><BR>
+
+<I><A HREF="Concept_ArrTraits--ConstructMinVertex_2.html#Cross_link_anchor_1231">ArrTraits::ConstructMinVertex_2</A></I><BR>
+
+<I><A HREF="Concept_ArrTraits--ConstructMaxVertex_2.html#Cross_link_anchor_1232">ArrTraits::ConstructMaxVertex_2</A></I><BR>
+
+<I><A HREF="Concept_ArrTraits--IsVertical_2.html#Cross_link_anchor_1233">ArrTraits::IsVertical_2</A></I><BR>
+
+<I><A HREF="Concept_ArrTraits--CompareYAtX_2.html#Cross_link_anchor_1234">ArrTraits::CompareYAtX_2</A></I><BR>
+
+<I><A HREF="Concept_ArrTraits--CompareYAtXLeft_2.html#Cross_link_anchor_1235">ArrTraits::CompareYAtXLeft_2</A></I><BR>
+
+<I><A HREF="Concept_ArrTraits--CompareYAtXRight_2.html#Cross_link_anchor_1236">ArrTraits::CompareYAtXRight_2</A></I><BR>
+
+<I><A HREF="Concept_ArrTraits--Equal_2.html#Cross_link_anchor_1237">ArrTraits::Equal_2</A></I><BR>
+
+<I><A HREF="Concept_ArrTraits--ParameterSpaceInX_2.html#Cross_link_anchor_1279">ArrTraits::ParameterSpaceInX_2</A></I><BR>
+
+<I><A HREF="Concept_ArrTraits--ParameterSpaceInY_2.html#Cross_link_anchor_1281">ArrTraits::ParameterSpaceInY_2</A></I><BR>
+
+<I><A HREF="Concept_ArrTraits--CompareXAtLimit_2.html#Cross_link_anchor_1282">ArrTraits::CompareXAtLimit_2</A></I><BR>
+
+<I><A HREF="Concept_ArrTraits--CompareXNearLimit_2.html#Cross_link_anchor_1283">ArrTraits::CompareXNearLimit_2</A></I><BR>
+
+<I><A HREF="Concept_ArrTraits--CompareYNearBoundary_2.html#Cross_link_anchor_1280">ArrTraits::CompareYNearBoundary_2</A></I><BR>
+
+<I><A HREF="Concept_ArrTraits--Intersect_2.html#Cross_link_anchor_1242">ArrTraits::Intersect_2</A></I><BR>
+
+<I><A HREF="Concept_ArrTraits--Split_2.html#Cross_link_anchor_1243">ArrTraits::Split_2</A></I><BR>
+
+<I><A HREF="Concept_ArrTraits--AreMergeable_2.html#Cross_link_anchor_1244">ArrTraits::AreMergeable_2</A></I><BR>
+
+<I><A HREF="Concept_ArrTraits--Merge_2.html#Cross_link_anchor_1245">ArrTraits::Merge_2</A></I><BR>
+
+<I><A HREF="Concept_ArrTraits--MakeXMonotone_2.html#Cross_link_anchor_1248">ArrTraits::MakeXMonotone_2</A></I><BR>
+
+<I><A HREF="Concept_ArrTraits--Approximate_2.html#Cross_link_anchor_1239">ArrTraits::Approximate_2</A></I><BR>
+
+<I><A HREF="Concept_ArrTraits--ConstructXMonotoneCurve_2.html#Cross_link_anchor_1240">ArrTraits::ConstructXMonotoneCurve_2</A></I>
+<P>
+
+<h3>Classes</h3>
+<P>
+
+<I><A HREF="Class_Arrangement_2.html#Cross_link_anchor_1186">CGAL::Arrangement_2&lt;Traits,Dcel&gt;</A></I><BR>
+
+<I><A HREF="Class_Arr_accessor.html#Cross_link_anchor_1187">CGAL::Arr_accessor&lt;Arrangement&gt;</A></I><BR>
+
+<I><A HREF="Class_Arr_observer.html#Cross_link_anchor_1277">CGAL::Arr_observer&lt;Arrangement&gt;</A></I><BR>
+
+<I><A HREF="Class_Arrangement_with_history_2.html#Cross_link_anchor_1284">CGAL::Arrangement_with_history_2&lt;Traits,Dcel&gt;</A></I><BR>
+
+&nbsp;<BR>
+
+<I><A HREF="Class_Arrangement_2-Traits-Dcel---Vertex.html#Cross_link_anchor_1188">CGAL::Arrangement_2&lt;Traits,Dcel&gt;::Vertex</A></I><BR>
+
+<I><A HREF="Class_Arrangement_2-Traits-Dcel---Halfedge.html#Cross_link_anchor_1189">CGAL::Arrangement_2&lt;Traits,Dcel&gt;::Halfedge</A></I><BR>
+
+<I><A HREF="Class_Arrangement_2-Traits-Dcel---Face.html#Cross_link_anchor_1190">CGAL::Arrangement_2&lt;Traits,Dcel&gt;::Face</A></I><BR>
+
+<I><A HREF="Class_Arr_dcel_base.html#Cross_link_anchor_1213">CGAL::Arr_dcel_base&lt;V,H,F&gt;</A></I><BR>
+
+<I><A HREF="Class_Arr_default_dcel.html#Cross_link_anchor_1214">CGAL::Arr_default_dcel&lt;Traits&gt;</A></I><BR>
+
+<I><A HREF="Class_Arr_face_extended_dcel.html#Cross_link_anchor_1215">CGAL::Arr_face_extended_dcel&lt;Traits,FData,V,H,F&gt;</A></I><BR>
+
+<I><A HREF="Class_Arr_extended_dcel.html#Cross_link_anchor_1216">CGAL::Arr_extended_dcel&lt;Traits,VData,HData,FData,V,H,F&gt;</A></I><BR>
+
+&nbsp;<BR>
+
+<I><A HREF="Class_Arr_segment_traits_2.html#Cross_link_anchor_1249">CGAL::Arr_segment_traits_2</A>&lt;<A HREF="../Kernel_23_ref/Concept_Kernel.html#Cross_link_anchor_318">Kernel</A>&gt;</I><BR>
+
+<I><A HREF="Class_Arr_non_caching_segment_traits_2.html#Cross_link_anchor_1251">CGAL::Arr_non_caching_segment_traits_2</A>&lt;<A HREF="../Kernel_23_ref/Concept_Kernel.html#Cross_link_anchor_318">Kernel</A>&gt;</I><BR>
+
+<I><A HREF="Class_Arr_linear_traits_2.html#Cross_link_anchor_1252">CGAL::Arr_linear_traits_2</A>&lt;<A HREF="../Kernel_23_ref/Concept_Kernel.html#Cross_link_anchor_318">Kernel</A>&gt;</I><BR>
+
+<I><A HREF="Class_Arr_polyline_traits_2.html#Cross_link_anchor_1253">CGAL::Arr_polyline_traits_2&lt;SegmentTraits&gt;</A></I><BR>
+
+<I><A HREF="Class_Arr_circle_segment_traits_2.html#Cross_link_anchor_1254">CGAL::Arr_circle_segment_traits_2</A>&lt;<A HREF="../Kernel_23_ref/Concept_Kernel.html#Cross_link_anchor_318">Kernel</A>&gt;</I><BR>
+
+<I><A HREF="Class_Arr_line_arc_traits_2.html#Cross_link_anchor_1256">CGAL::Arr_line_arc_traits_2</A>&lt;<A HREF="../Circular_kernel_2_ref/Concept_CircularKernel.html#Cross_link_anchor_794">CircularKernel</A>&gt;</I><BR>
+
+<I><A HREF="Class_Arr_circular_arc_traits_2.html#Cross_link_anchor_1255">CGAL::Arr_circular_arc_traits_2</A>&lt;<A HREF="../Circular_kernel_2_ref/Concept_CircularKernel.html#Cross_link_anchor_794">CircularKernel</A>&gt;</I><BR>
+
+<I><A HREF="Class_Arr_circular_line_arc_traits_2.html#Cross_link_anchor_1257">CGAL::Arr_circular_line_arc_traits_2</A>&lt;<A HREF="../Circular_kernel_2_ref/Concept_CircularKernel.html#Cross_link_anchor_794">CircularKernel</A>&gt;</I><BR>
+
+<I><A HREF="Class_Arr_conic_traits_2.html#Cross_link_anchor_1258">CGAL::Arr_conic_traits_2&lt;RatKernel,AlgKernel,NtTraits&gt;</A></I><BR>
+
+<I><A HREF="Class_Arr_rational_function_traits_2.html#Cross_link_anchor_1259">CGAL::Arr_rational_function_traits_2</A>&lt;<A HREF="../Algebraic_kernel_d_ref/Concept_AlgebraicKernel_d_1.html#Cross_link_anchor_236">AlgebraicKernel_d_1</A>&gt;</I><BR>
+
+<I><A HREF="Class_Arr_Bezier_curve_traits_2.html#Cross_link_anchor_1260">CGAL::Arr_Bezier_curve_traits_2&lt;RatKernel,AlgKernel,NtTraits&gt;</A></I><BR>
+
+<I><A HREF="Class_Arr_algebraic_segment_traits_2.html#Cross_link_anchor_1261">CGAL::Arr_algebraic_segment_traits_2&lt;Coefficient&gt;</A></I><BR>
+
+<I><A HREF="Class_Arr_curve_data_traits_2.html#Cross_link_anchor_1262">CGAL::Arr_curve_data_traits_2&lt;Tr,XData,Mrg,CData,Cnv&gt;</A></I><BR>
+
+<I><A HREF="Class_Arr_consolidated_curve_data_traits_2.html#Cross_link_anchor_1263">CGAL::Arr_consolidated_curve_data_traits_2&lt;Traits,Data&gt;</A></I><BR>
+
+&nbsp;<BR>
+
+<I><A HREF="Class_Arr_text_formatter.html#Cross_link_anchor_1266">CGAL::Arr_text_formatter&lt;Arrangement&gt;</A></I><BR>
+
+<I><A HREF="Class_Arr_face_extended_text_formatter.html#Cross_link_anchor_1267">CGAL::Arr_face_extended_text_formatter&lt;Arrangement&gt;</A></I><BR>
+
+<I><A HREF="Class_Arr_extended_dcel_text_formatter.html#Cross_link_anchor_1268">CGAL::Arr_extended_dcel_text_formatter&lt;Arrangement&gt;</A></I><BR>
+
+<I><A HREF="Class_Arr_with_history_text_formatter.html#Cross_link_anchor_1294">CGAL::Arr_with_history_text_formatter&lt;ArrFormatter&gt;</A></I><BR>
+
+&nbsp;<BR>
+
+<I><A HREF="Class_Arr_naive_point_location.html#Cross_link_anchor_1271">CGAL::Arr_naive_point_location&lt;Arrangement&gt;</A></I><BR>
+
+<I><A HREF="Class_Arr_walk_along_line_point_location.html#Cross_link_anchor_1272">CGAL::Arr_walk_along_line_point_location&lt;Arrangement&gt;</A></I><BR>
+
+<I><A HREF="Class_Arr_trapezoid_ric_point_location.html#Cross_link_anchor_1273">CGAL::Arr_trapezoid_ric_point_location&lt;Arrangement&gt;</A></I><BR>
+
+<I><A HREF="Class_Arr_landmarks_point_location.html#Cross_link_anchor_1274">CGAL::Arr_landmarks_point_location&lt;Arrangement,Generator&gt;</A></I>
+<P>
+
+<h3>Tags</h3>
+<P>
+
+<I><A HREF="Class_Arr_oblivious_side_tag.html#Cross_link_anchor_1295">CGAL::Arr_oblivious_side_tag</A></I><BR>
+
+<I><A HREF="Class_Arr_open_side_tag.html#Cross_link_anchor_1296">CGAL::Arr_open_side_tag</A></I>
+<P>
+
+<h3>Functions</h3>
+<P>
+
+<I><A HREF="Function_is_valid.html#Cross_link_anchor_1191">CGAL::is_valid</A></I><BR>
+
+<I><A HREF="Function_insert.html#Cross_link_anchor_1192">CGAL::insert</A></I><BR>
+
+<I><A HREF="Function_insert_non_intersecting_curve.html#Cross_link_anchor_1193">CGAL::insert_non_intersecting_curve</A></I><BR>
+
+<I><A HREF="Function_insert_non_intersecting_curves.html#Cross_link_anchor_1194">CGAL::insert_non_intersecting_curves</A></I><BR>
+
+<I><A HREF="Function_insert_point.html#Cross_link_anchor_1195">CGAL::insert_point</A></I><BR>
+
+<I><A HREF="Function_remove_edge.html#Cross_link_anchor_1198">CGAL::remove_edge</A></I><BR>
+
+<I><A HREF="Function_remove_vertex.html#Cross_link_anchor_1199">CGAL::remove_vertex</A></I><BR>
+
+<I><A HREF="Function_locate.html#Cross_link_anchor_1275">CGAL::locate</A></I><BR>
+
+<I><A HREF="Function_decompose.html#Cross_link_anchor_1276">CGAL::decompose</A></I><BR>
+
+<I><A HREF="Function_overlay.html#Cross_link_anchor_1200">CGAL::overlay</A></I><BR>
+
+<I><A HREF="Function_read.html#Cross_link_anchor_1204">CGAL::read</A></I><BR>
+
+<I><A HREF="Function_write.html#Cross_link_anchor_1205">CGAL::write</A></I><BR>
+
+<I><A HREF="Function_remove_curve.html#Cross_link_anchor_1291">CGAL::remove_curve</A></I><BR>
+
+<I>CGAL::operator&lt;&lt;</I>
+  <A HREF="Function_operator.html">(go there)</A><BR>
+
+<I>CGAL::operator&gt;&gt;</I>
+  <A HREF="Function_operator--.html">(go there)</A>
+<P>
+
+<a name="Section_32.15"></a>
+        
+<h2>32.15&nbsp;&nbsp;&nbsp;Alphabetical List of Reference Pages</h2>
+<P>
+
+<table cellpadding="0">
+    
+  <tr><td> <a href="Concept_ArrangementBasicTraits_2.html"><I>ArrangementBasicTraits_2</I></a></td></tr>
+  <tr><td> <a href="Concept_ArrangementDcelFace.html"><I>ArrangementDcelFace</I></a></td></tr>
+  <tr><td> <a href="Concept_ArrangementDcelHalfedge.html"><I>ArrangementDcelHalfedge</I></a></td></tr>
+  <tr><td> <a href="Concept_ArrangementDcelHole.html"><I>ArrangementDcelHole</I></a></td></tr>
+  <tr><td> <a href="Concept_ArrangementDcelIsolatedVertex.html"><I>ArrangementDcelIsolatedVertex</I></a></td></tr>
+  <tr><td> <a href="Concept_ArrangementDcelVertex.html"><I>ArrangementDcelVertex</I></a></td></tr>
+  <tr><td> <a href="Concept_ArrangementDcelWithRebind.html"><I>ArrangementDcelWithRebind</I></a></td></tr>
+  <tr><td> <a href="Concept_ArrangementDcel.html"><I>ArrangementDcel</I></a></td></tr>
+  <tr><td> <a href="Concept_ArrangementInputFormatter.html"><I>ArrangementInputFormatter</I></a></td></tr>
+  <tr><td> <a href="Concept_ArrangementLandmarkTraits_2.html"><I>ArrangementLandmarkTraits_2</I></a></td></tr>
+  <tr><td> <a href="Concept_ArrangementOpenBoundaryTraits_2.html"><I>ArrangementOpenBoundaryTraits_2</I></a></td></tr>
+  <tr><td> <a href="Concept_ArrangementOutputFormatter.html"><I>ArrangementOutputFormatter</I></a></td></tr>
+  <tr><td> <a href="Concept_ArrangementPointLocation_2.html"><I>ArrangementPointLocation_2</I></a></td></tr>
+  <tr><td> <a href="Concept_ArrangementTraits_2.html"><I>ArrangementTraits_2</I></a></td></tr>
+  <tr><td> <a href="Concept_ArrangementVerticalRayShoot_2.html"><I>ArrangementVerticalRayShoot_2</I></a></td></tr>
+  <tr><td> <a href="Concept_ArrangementWithHistoryInputFormatter.html"><I>ArrangementWithHistoryInputFormatter</I></a></td></tr>
+  <tr><td> <a href="Concept_ArrangementWithHistoryOutputFormatter.html"><I>ArrangementWithHistoryOutputFormatter</I></a></td></tr>
+  <tr><td> <a href="Concept_ArrangementXMonotoneTraits_2.html"><I>ArrangementXMonotoneTraits_2</I></a></td></tr>
+  <tr><td> <a href="Class_Arrangement_2-Traits-Dcel---Face.html"><I>Arrangement_2&lt;Traits,Dcel&gt;::Face</I></a></td></tr>
+  <tr><td> <a href="Class_Arrangement_2-Traits-Dcel---Halfedge.html"><I>Arrangement_2&lt;Traits,Dcel&gt;::Halfedge</I></a></td></tr>
+  <tr><td> <a href="Class_Arrangement_2-Traits-Dcel---Vertex.html"><I>Arrangement_2&lt;Traits,Dcel&gt;::Vertex</I></a></td></tr>
+  <tr><td> <a href="Class_Arrangement_2.html"><I>Arrangement_2&lt;Traits,Dcel&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Arrangement_with_history_2.html"><I>Arrangement_with_history_2&lt;Traits,Dcel&gt;</I></a></td></tr>
+  <tr><td> <a href="Concept_ArrTraits--Approximate_2.html"><I>ArrTraits::Approximate_2</I></a></td></tr>
+  <tr><td> <a href="Concept_ArrTraits--AreMergeable_2.html"><I>ArrTraits::AreMergeable_2</I></a></td></tr>
+  <tr><td> <a href="Concept_ArrTraits--CompareXAtLimit_2.html"><I>ArrTraits::CompareXAtLimit_2</I></a></td></tr>
+  <tr><td> <a href="Concept_ArrTraits--CompareXNearLimit_2.html"><I>ArrTraits::CompareXNearLimit_2</I></a></td></tr>
+  <tr><td> <a href="Concept_ArrTraits--CompareXy_2.html"><I>ArrTraits::CompareXy_2</I></a></td></tr>
+  <tr><td> <a href="Concept_ArrTraits--CompareX_2.html"><I>ArrTraits::CompareX_2</I></a></td></tr>
+  <tr><td> <a href="Concept_ArrTraits--CompareYAtXLeft_2.html"><I>ArrTraits::CompareYAtXLeft_2</I></a></td></tr>
+  <tr><td> <a href="Concept_ArrTraits--CompareYAtXRight_2.html"><I>ArrTraits::CompareYAtXRight_2</I></a></td></tr>
+  <tr><td> <a href="Concept_ArrTraits--CompareYAtX_2.html"><I>ArrTraits::CompareYAtX_2</I></a></td></tr>
+  <tr><td> <a href="Concept_ArrTraits--CompareYNearBoundary_2.html"><I>ArrTraits::CompareYNearBoundary_2</I></a></td></tr>
+  <tr><td> <a href="Concept_ArrTraits--ConstructMaxVertex_2.html"><I>ArrTraits::ConstructMaxVertex_2</I></a></td></tr>
+  <tr><td> <a href="Concept_ArrTraits--ConstructMinVertex_2.html"><I>ArrTraits::ConstructMinVertex_2</I></a></td></tr>
+  <tr><td> <a href="Concept_ArrTraits--ConstructXMonotoneCurve_2.html"><I>ArrTraits::ConstructXMonotoneCurve_2</I></a></td></tr>
+  <tr><td> <a href="Concept_ArrTraits--Curve_2.html"><I>ArrTraits::Curve_2</I></a></td></tr>
+  <tr><td> <a href="Concept_ArrTraits--Equal_2.html"><I>ArrTraits::Equal_2</I></a></td></tr>
+  <tr><td> <a href="Concept_ArrTraits--Intersect_2.html"><I>ArrTraits::Intersect_2</I></a></td></tr>
+  <tr><td> <a href="Concept_ArrTraits--IsVertical_2.html"><I>ArrTraits::IsVertical_2</I></a></td></tr>
+  <tr><td> <a href="Concept_ArrTraits--MakeXMonotone_2.html"><I>ArrTraits::MakeXMonotone_2</I></a></td></tr>
+  <tr><td> <a href="Concept_ArrTraits--Merge_2.html"><I>ArrTraits::Merge_2</I></a></td></tr>
+  <tr><td> <a href="Concept_ArrTraits--ParameterSpaceInX_2.html"><I>ArrTraits::ParameterSpaceInX_2</I></a></td></tr>
+  <tr><td> <a href="Concept_ArrTraits--ParameterSpaceInY_2.html"><I>ArrTraits::ParameterSpaceInY_2</I></a></td></tr>
+  <tr><td> <a href="Concept_ArrTraits--Point_2.html"><I>ArrTraits::Point_2</I></a></td></tr>
+  <tr><td> <a href="Concept_ArrTraits--Split_2.html"><I>ArrTraits::Split_2</I></a></td></tr>
+  <tr><td> <a href="Concept_ArrTraits--XMonotoneCurve_2.html"><I>ArrTraits::XMonotoneCurve_2</I></a></td></tr>
+  <tr><td> <a href="Class_Arr_accessor.html"><I>Arr_accessor&lt;Arrangement&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Arr_algebraic_segment_traits_2.html"><I>Arr_algebraic_segment_traits_2&lt;Coefficient&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Arr_Bezier_curve_traits_2.html"><I>Arr_Bezier_curve_traits_2&lt;RatKernel,AlgKernel,NtTraits&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Arr_circle_segment_traits_2.html"><I>Arr_circle_segment_traits_2&lt;Kernel&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Arr_circular_arc_traits_2.html"><I>Arr_circular_arc_traits_2&lt;CircularKernel&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Arr_circular_line_arc_traits_2.html"><I>Arr_circular_line_arc_traits_2&lt;CircularKernel&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Arr_conic_traits_2.html"><I>Arr_conic_traits_2&lt;RatKernel,AlgKernel,NtTraits&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Arr_consolidated_curve_data_traits_2.html"><I>Arr_consolidated_curve_data_traits_2&lt;Traits,Data&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Arr_curve_data_traits_2.html"><I>Arr_curve_data_traits_2&lt;Tr,XData,Mrg,CData,Cnv&gt;</I></a></td></tr>
+  <tr><td> <a href="Enum_Arr_curve_end.html"><I>Arr_curve_end</I></a></td></tr>
+  <tr><td> <a href="Class_Arr_dcel_base.html"><I>Arr_dcel_base&lt;V,H,F&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Arr_default_dcel.html"><I>Arr_default_dcel&lt;Traits&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Arr_default_overlay_traits.html"><I>Arr_default_overlay_traits&lt;Arrangement&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Arr_extended_dcel.html"><I>Arr_extended_dcel&lt;Traits,VData,HData,FData,V,H,F&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Arr_extended_dcel_text_formatter.html"><I>Arr_extended_dcel_text_formatter&lt;Arrangement&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Arr_extended_face.html"><I>Arr_extended_face&lt;FaceBase,FData&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Arr_extended_halfedge.html"><I>Arr_extended_halfedge&lt;HalfedgeBase,HData&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Arr_extended_vertex.html"><I>Arr_extended_vertex&lt;VertexBase,VData&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Arr_face_extended_dcel.html"><I>Arr_face_extended_dcel&lt;Traits,FData,V,H,F&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Arr_face_extended_text_formatter.html"><I>Arr_face_extended_text_formatter&lt;Arrangement&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Arr_face_overlay_traits.html"><I>Arr_face_overlay_traits&lt;Arr_A,Arr_B,Arr_R,OvlFaceData&gt;</I></a></td></tr>
+  <tr><td> <a href="Enum_Arr_halfedge_direction.html"><I>Arr_halfedge_direction</I></a></td></tr>
+  <tr><td> <a href="Class_Arr_landmarks_point_location.html"><I>Arr_landmarks_point_location&lt;Arrangement,Generator&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Arr_linear_traits_2.html"><I>Arr_linear_traits_2&lt;Kernel&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Arr_line_arc_traits_2.html"><I>Arr_line_arc_traits_2&lt;CircularKernel&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Arr_naive_point_location.html"><I>Arr_naive_point_location&lt;Arrangement&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Arr_non_caching_segment_basic_traits_2.html"><I>Arr_non_caching_segment_basic_traits_2&lt;Kernel&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Arr_non_caching_segment_traits_2.html"><I>Arr_non_caching_segment_traits_2&lt;Kernel&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Arr_oblivious_side_tag.html"><I>Arr_oblivious_side_tag</I></a></td></tr>
+  <tr><td> <a href="Class_Arr_observer.html"><I>Arr_observer&lt;Arrangement&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Arr_open_side_tag.html"><I>Arr_open_side_tag</I></a></td></tr>
+  <tr><td> <a href="Enum_Arr_parameter_space.html"><I>Arr_parameter_space</I></a></td></tr>
+  <tr><td> <a href="Class_Arr_polyline_traits_2.html"><I>Arr_polyline_traits_2&lt;SegmentTraits&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Arr_rational_function_traits_2.html"><I>Arr_rational_function_traits_2&lt;AlgebraicKernel_d_1&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Arr_segment_traits_2.html"><I>Arr_segment_traits_2&lt;Kernel&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Arr_text_formatter.html"><I>Arr_text_formatter&lt;Arrangement&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Arr_trapezoid_ric_point_location.html"><I>Arr_trapezoid_ric_point_location&lt;Arrangement&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Arr_walk_along_line_point_location.html"><I>Arr_walk_along_line_point_location&lt;Arrangement&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Arr_with_history_text_formatter.html"><I>Arr_with_history_text_formatter&lt;ArrFormatter&gt;</I></a></td></tr>
+  <tr><td> <a href="Function_decompose.html"><I>decompose</I></a></td></tr>
+  <tr><td> <a href="Function_do_intersect.html"><I>do_intersect</I></a></td></tr>
+  <tr><td> <a href="Function_insert_non_intersecting_curves.html"><I>insert_non_intersecting_curves</I></a></td></tr>
+  <tr><td> <a href="Function_insert_non_intersecting_curve.html"><I>insert_non_intersecting_curve</I></a></td></tr>
+  <tr><td> <a href="Function_insert_point.html"><I>insert_point</I></a></td></tr>
+  <tr><td> <a href="Function_insert.html"><I>insert</I></a></td></tr>
+  <tr><td> <a href="Function_is_valid.html"><I>is_valid</I></a></td></tr>
+  <tr><td> <a href="Function_locate.html"><I>locate</I></a></td></tr>
+  <tr><td> <a href="Function_operator.html"><I>operator&lt;&lt;</I></a></td></tr>
+  <tr><td> <a href="Function_operator--.html"><I>operator&gt;&gt;</I></a></td></tr>
+  <tr><td> <a href="Concept_OverlayTraits.html"><I>OverlayTraits</I></a></td></tr>
+  <tr><td> <a href="Function_overlay.html"><I>overlay</I></a></td></tr>
+  <tr><td> <a href="Function_read.html"><I>read</I></a></td></tr>
+  <tr><td> <a href="Function_remove_curve.html"><I>remove_curve</I></a></td></tr>
+  <tr><td> <a href="Function_remove_edge.html"><I>remove_edge</I></a></td></tr>
+  <tr><td> <a href="Function_remove_vertex.html"><I>remove_vertex</I></a></td></tr>
+  <tr><td> <a href="Function_write.html"><I>write</I></a></td></tr>
+  <tr><td> <a href="Function_zone.html"><I>zone</I></a></td></tr>
+    </table>
+    
+  
+
+  <div class="NavNext">Next chapter: <a href="../Sweep_line_2/Chapter_main.html">2D Intersection of Curves</a></div>
+    
+  <div class="NavBottom">
+  
+  <strong>Navigation:</strong>
+<a href="../Sweep_line_2/Chapter_main.html">Up</a>&nbsp;&nbsp;
+  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
+  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
+  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
+  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
+  <a href="../title.html">Title</a>
+  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
+
+<div class="NavAddress">
+<SMALL><a href="http://www.cgal.org" target="_top">CGAL Open Source Project</a>.
+Release 4.1.
+23 October 2012.</SMALL>
+</div>
+</body>  </html>

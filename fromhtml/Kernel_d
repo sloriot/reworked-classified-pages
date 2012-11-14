@@ -1,0 +1,321 @@
+
+    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en-US"> <head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="generator" content="CGAL latex_to_html converter">
+<!-- by cc_extract_html, $Id: cc_extract_html.cpp 44195 2008-07-16 08:46:48Z spion $ -->
+<!-- LaTeX source file: './Kernel_d_ref/intro.tex' -->
+<link rel="canonical" href="http://www.cgal.org/Manual/latest/doc_html/cgal_manual/Kernel_d_ref/Chapter_intro.html">
+<link href="../latex_to_html.css" rel="STYLESHEET">
+<title>dD Geometry Kernel Reference&nbsp;Manual</title>
+</head>
+<body bgcolor="white">
+
+<div class="NavTop">
+  
+  <strong>Navigation:</strong>
+<a href="Chapter_intro.html">Up</a>&nbsp;&nbsp;
+  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
+  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
+  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
+  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
+  <a href="../title.html">Title</a>
+  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
+<P>
+
+<h1>dD Geometry Kernel<BR>
+<I>Reference&nbsp;Manual</I></h1>
+
+ 
+<p class="subtitle">Michael Seel</p>
+<P>
+
+<a name="Section_12.6"></a>
+        
+<h2>12.6&nbsp;&nbsp;&nbsp;Linear Algebra Concepts and Classes</h2>
+<P>
+
+<table cellpadding="0">
+      <tr><td><a href="Concept_LinearAlgebraTraits_d.html"><I>LinearAlgebraTraits_d</I></a></td></tr>
+<P>
+
+<tr><td><a href="Concept_Vector.html"><I>Vector</I></a></td></tr>
+<P>
+
+<tr><td><a href="Concept_Matrix.html"><I>Matrix</I></a></td></tr>
+<P>
+
+<tr><td><a href="Class_Linear_algebraCd.html"><I>Linear_algebraCd&lt;FT&gt;</I></a></td></tr>
+<P>
+
+<tr><td><a href="Class_Linear_algebraHd.html"><I>Linear_algebraHd&lt;RT&gt;</I></a></td></tr>
+<P>
+
+</table>
+    
+
+
+<a name="Section_12.7"></a>
+        
+<h2>12.7&nbsp;&nbsp;&nbsp;Kernels</h2>
+<P>
+
+<table cellpadding="0">
+      <tr><td><a href="Class_Cartesian_d.html"><I>Cartesian_d&lt;FieldNumberType&gt;</I></a></td></tr>
+<P>
+
+<tr><td><a href="Class_Homogeneous.html"><I>Homogeneous&lt;RingNumberType&gt;</I></a></td></tr>
+<P>
+
+</table>
+    
+
+
+<a name="Section_12.8"></a>
+        
+<h2>12.8&nbsp;&nbsp;&nbsp;Kernel Objects</h2>
+<P>
+
+<table cellpadding="0">
+      <tr><td><a href="Class_Point_d.html"><I>Point_d&lt;Kernel&gt;</I></a></td></tr>
+<P>
+
+<tr><td><a href="Class_Vector_d.html"><I>Vector_d&lt;Kernel&gt;</I></a></td></tr>
+<P>
+
+<tr><td><a href="Class_Direction_d.html"><I>Direction_d&lt;Kernel&gt;</I></a></td></tr>
+<P>
+
+<tr><td><a href="Class_Line_d.html"><I>Line_d&lt;Kernel&gt;</I></a></td></tr>
+<P>
+
+<tr><td><a href="Class_Ray_d.html"><I>Ray_d&lt;Kernel&gt;</I></a></td></tr>
+<P>
+
+<tr><td><a href="Class_Segment_d.html"><I>Segment_d&lt;Kernel&gt;</I></a></td></tr>
+<P>
+
+<tr><td><a href="Class_Hyperplane_d.html"><I>Hyperplane_d&lt;Kernel&gt;</I></a></td></tr>
+<P>
+
+<tr><td><a href="Class_Sphere_d.html"><I>Sphere_d&lt;Kernel&gt;</I></a></td></tr>
+<P>
+
+<tr><td><a href="Class_Iso_box_d.html"><I>Iso_box_d&lt;Kernel&gt;</I></a></td></tr>
+<P>
+
+<tr><td><a href="Class_Aff_transformation_d.html"><I>Aff_transformation_d&lt;Kernel&gt;</I></a></td></tr>
+<P>
+
+</table>
+    
+
+
+<a name="Section_12.9"></a>
+        
+<h2>12.9&nbsp;&nbsp;&nbsp;Global Kernel Functions</h2>
+<P>
+
+<table cellpadding="0">
+      <tr><td><a href="Function_affinely_independent.html"><I>affinely_independent</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_affine_rank.html"><I>affine_rank</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_center_of_sphere.html"><I>center_of_sphere</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_compare_lexicographically.html"><I>compare_lexicographically</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_contained_in_affine_hull.html"><I>contained_in_affine_hull</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_contained_in_linear_hull.html"><I>contained_in_linear_hull</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_contained_in_simplex.html"><I>contained_in_simplex</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_do_intersect.html"><I>do_intersect</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_intersection.html"><I>intersection</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_lexicographically_smaller.html"><I>lexicographically_smaller</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_lexicographically_smaller_or_equal.html"><I>lexicographically_smaller_or_equal</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_lift_to_paraboloid.html"><I>lift_to_paraboloid</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_linearly_independent.html"><I>linearly_independent</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_linear_base.html"><I>linear_base</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_linear_rank.html"><I>linear_rank</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_midpoint.html"><I>midpoint</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_orientation.html"><I>orientation</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_project_along_d_axis.html"><I>project_along_d_axis</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_side_of_bounded_sphere.html"><I>side_of_bounded_sphere</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_side_of_oriented_sphere.html"><I>side_of_oriented_sphere</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_squared_distance.html"><I>squared_distance</I></a></td></tr>
+<P>
+
+</table>
+    
+
+
+<a name="Section_12.10"></a>
+        
+<h2>12.10&nbsp;&nbsp;&nbsp;Kernel Concept</h2>
+<P>
+
+<table cellpadding="0">
+      <tr><td><a href="Concept_Kernel_d.html"><I>Kernel_d</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--Affinely_independent_d.html"><I>Kernel::Affinely_independent_d</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--Affine_rank_d.html"><I>Kernel::Affine_rank_d</I></a></td></tr>
+<P>
+
+<tr><td><a href="Concept_Kernel--CartesianConstIterator_d.html"><I>Kernel::CartesianConstIterator_d</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--Center_of_sphere_d.html"><I>Kernel::Center_of_sphere_d</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--Compare_lexicographically_d.html"><I>Kernel::Compare_lexicographically_d</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--Component_accessor_d.html"><I>Kernel::Component_accessor_d</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--Compute_coordinate_d.html"><I>Kernel::Compute_coordinate_d</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--ConstructCartesianConstIterator_d.html"><I>Kernel::ConstructCartesianConstIterator_d</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--Contained_in_affine_hull_d.html"><I>Kernel::Contained_in_affine_hull_d</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--Contained_in_linear_hull_d.html"><I>Kernel::Contained_in_linear_hull_d</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--Contained_in_simplex_d.html"><I>Kernel::Contained_in_simplex_d</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--Equal_d.html"><I>Kernel::Equal_d</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--Has_on_positive_side_d.html"><I>Kernel::Has_on_positive_side_d</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--Intersect_d.html"><I>Kernel::Intersect_d</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--Less_lexicographically_d.html"><I>Kernel::Less_lexicographically_d</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--Less_or_equal_lexicographically_d.html"><I>Kernel::Less_or_equal_lexicographically_d</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--Less_coordinate_d.html"><I>Kernel::Less_coordinate_d</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--Lift_to_paraboloid_d.html"><I>Kernel::Lift_to_paraboloid_d</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--Linearly_independent_d.html"><I>Kernel::Linearly_independent_d</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--Linear_base_d.html"><I>Kernel::Linear_base_d</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--Linear_rank_d.html"><I>Kernel::Linear_rank_d</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--Midpoint_d.html"><I>Kernel::Midpoint_d</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--Orientation_d.html"><I>Kernel::Orientation_d</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--Oriented_side_d.html"><I>Kernel::Oriented_side_d</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--Orthogonal_vector_d.html"><I>Kernel::Orthogonal_vector_d</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--Point_dimension_d.html"><I>Kernel::Point_dimension_d</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--Point_of_sphere_d.html"><I>Kernel::Point_of_sphere_d</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--Point_to_vector_d.html"><I>Kernel::Point_to_vector_d</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--Project_along_d_axis_d.html"><I>Kernel::Project_along_d_axis_d</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--Side_of_bounded_sphere_d.html"><I>Kernel::Side_of_bounded_sphere_d</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--Side_of_oriented_sphere_d.html"><I>Kernel::Side_of_oriented_sphere_d</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--Squared_distance_d.html"><I>Kernel::Squared_distance_d</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--Value_at_d.html"><I>Kernel::Value_at_d</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectConcept_Kernel--Vector_to_point_d.html"><I>Kernel::Vector_to_point_d</I></a></td></tr>
+<P>
+
+</table>
+    
+
+
+
+  <div class="NavNext">Next chapter: <a href="../Circular_kernel_2/Chapter_main.html">2D Circular Geometry Kernel</a></div>
+    
+  <div class="NavBottom">
+  
+  <strong>Navigation:</strong>
+<a href="../Circular_kernel_2/Chapter_main.html">Up</a>&nbsp;&nbsp;
+  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
+  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
+  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
+  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
+  <a href="../title.html">Title</a>
+  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
+
+<div class="NavAddress">
+<SMALL><a href="http://www.cgal.org" target="_top">CGAL Open Source Project</a>.
+Release 4.1.
+23 October 2012.</SMALL>
+</div>
+</body>  </html>

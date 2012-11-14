@@ -1,0 +1,184 @@
+
+    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en-US"> <head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="generator" content="CGAL latex_to_html converter">
+<!-- by cc_extract_html, $Id: cc_extract_html.cpp 44195 2008-07-16 08:46:48Z spion $ -->
+<!-- LaTeX source file: './Interpolation_ref/intro.tex' -->
+<link rel="canonical" href="http://www.cgal.org/Manual/latest/doc_html/cgal_manual/Interpolation_ref/Chapter_intro.html">
+<link href="../latex_to_html.css" rel="STYLESHEET">
+<title>2D and Surface Function Interpolation Reference&nbsp;Manual</title>
+</head>
+<body bgcolor="white">
+
+<div class="NavTop">
+  
+  <strong>Navigation:</strong>
+<a href="Chapter_intro.html">Up</a>&nbsp;&nbsp;
+  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
+  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
+  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
+  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
+  <a href="../title.html">Title</a>
+  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
+<P>
+
+<A NAME="chap:Interpolation"></A><h1>2D and Surface Function Interpolation<BR>
+<I>Reference&nbsp;Manual</I></h1>
+
+ 
+<p class="subtitle">Julia Fl&ouml;totto</p>
+<P>
+
+Scattered data interpolation solves the following problem: given
+measures of a function on a set of discrete data points, the task is
+to interpolate this function on an arbitrary query point.
+<P>
+
+If the function is a linear function and given barycentric coordinates
+that allow to express the query point as the convex combination of
+some data points, the function can be exactly interpolated. If the
+function gradients are known, we can exactly interpolate quadratic
+functions given barycentric coordinates. Any further properties of
+these interpolation functions depend on the properties of the
+barycentric coordinates. They are provided in this package under the
+name <I><A HREF="Function_linear_interpolation.html#Cross_link_anchor_1826">linear_interpolation</A></I> and
+<I><A HREF="Function_quadratic_interpolation.html#Cross_link_anchor_1829">quadratic_interpolation</A></I>.<BR>
+
+<BR>
+
+
+<P>
+
+<h4>Natural neighbor interpolation</h4>
+<P>
+
+Natural neighbor
+coordinates are defined by Sibson in 1980 and are based on the Voronoi
+diagram of the data points. Interpolation methods based on natural
+neighbor coordinates are particularly interesting because they adapt
+easily to non-uniform and highly anisotropic data.  This package
+contains Sibson's <span class="math">C<SUP>1</SUP></span> continuous interpolation method which
+interpolates exactly spherical quadrics (of the form <span class="math">&Phi;(<B>x</B>)
+=a + <B>b</B><SUP>t</SUP> <B>x</B> +&gamma; <B>x</B><SUP>t</SUP><B>x</B></span>) and
+Farin's <span class="math">C<SUP>1</SUP></span> continuous interpolation method based on
+Bernstein-B&eacute;zier techniques and interpolating exactly quadratic
+functions - assuming that the function gradient is known. In
+addition, Sibson defines a method to approximate the function
+gradients for data points that are in the interior of the convex hull.
+This
+method is exact for spherical quadrics.
+<P>
+
+This <span class="textsc">Cgal</span> package implements Sibson's and Farin's interpolation
+functions as well as Sibson's function gradient fitting method.
+Furthermore, it provides functions to compute the natural neighbor
+coordinates with respect to a two-dimensional Voronoi diagram (i. e., 
+from the Delaunay triangulation of the data points) and to a
+two-dimensional power diagram for weighted points (i. e., from their
+regular triangulation).  Natural neighbor coordinates on closed and
+well-sampled surfaces can also be computed if the normal to the
+surface at the query point is known. The latter coordinates are only
+approximately barycentric, see [<A HREF="../biblio.html#Biblio_bf-lcss-02">BF02</A>].
+<P>
+
+For a more thorough introduction see the user manual.
+<P>
+
+<a name="Section_70.4"></a>
+        
+<h2>70.4&nbsp;&nbsp;&nbsp;Classified Reference Pages</h2>
+<P>
+
+<H3>Concepts</H3>
+<I><A HREF="Concept_InterpolationTraits.html#Cross_link_anchor_1831">InterpolationTraits</A></I><BR>
+
+<I><A HREF="Concept_GradientFittingTraits.html#Cross_link_anchor_1836">GradientFittingTraits</A></I><BR>
+
+
+<P>
+
+<H3>Interpolation Functions</H3>
+<P>
+
+<I><A HREF="Function_linear_interpolation.html#Cross_link_anchor_1826">CGAL::linear_interpolation</A></I><BR>
+
+<I><A HREF="Function_sibson_c1_interpolation.html#Cross_link_anchor_1827">CGAL::sibson_c1_interpolation</A></I><BR>
+
+<I><A HREF="Function_farin_c1_interpolation.html#Cross_link_anchor_1828">CGAL::farin_c1_interpolation</A></I><BR>
+
+<I><A HREF="Function_quadratic_interpolation.html#Cross_link_anchor_1829">CGAL::quadratic_interpolation</A></I><BR>
+
+<I><A HREF="Function_sibson_gradient_fitting.html#Cross_link_anchor_1835">CGAL::sibson_gradient_fitting</A></I><BR>
+
+
+<P>
+
+<I><A HREF="Class_Interpolation_traits_2.html#Cross_link_anchor_1832">CGAL::Interpolation_traits_2&lt;K&gt;</A></I><BR>
+
+<I><A HREF="Class_Interpolation_gradient_fitting_traits_2.html#Cross_link_anchor_1837">CGAL::Interpolation_gradient_fitting_traits_2&lt;K&gt;</A></I><BR>
+
+
+<P>
+
+<H3>Natural neighbor coordinate computation</H3>
+<I><A HREF="Function_natural_neighbor_coordinates_2.html#Cross_link_anchor_1833">CGAL::natural_neighbor_coordinates_2</A></I><BR>
+
+<I><A HREF="Function_regular_neighbor_coordinates_2.html#Cross_link_anchor_1834">CGAL::regular_neighbor_coordinates_2</A></I><BR>
+
+
+<P>
+
+<H3>Surface neighbor and surface neighbor coordinate computation</H3>
+<I><A HREF="Class_Voronoi_intersection_2_traits_3.html#Cross_link_anchor_1838">CGAL::Voronoi_intersection_2_traits_3&lt;K&gt;</A></I><BR>
+
+<I><A HREF="Function_surface_neighbor_coordinates_3.html#Cross_link_anchor_1839">CGAL::surface_neighbor_coordinates_3</A></I><BR>
+
+<I><A HREF="Function_surface_neighbors_3.html#Cross_link_anchor_1840">CGAL::surface_neighbors_3</A></I>
+<P>
+
+<a name="Section_70.5"></a>
+        
+<h2>70.5&nbsp;&nbsp;&nbsp;Alphabetical List of Reference Pages</h2>
+<P>
+
+<table cellpadding="0">
+    
+  <tr><td> <a href="Class_Data_access.html"><I>Data_access&lt;Map&gt;</I></a></td></tr>
+  <tr><td> <a href="Function_farin_c1_interpolation.html"><I>farin_c1_interpolation</I></a></td></tr>
+  <tr><td> <a href="Concept_GradientFittingTraits.html"><I>GradientFittingTraits</I></a></td></tr>
+  <tr><td> <a href="Concept_InterpolationTraits.html"><I>InterpolationTraits</I></a></td></tr>
+  <tr><td> <a href="Class_Interpolation_gradient_fitting_traits_2.html"><I>Interpolation_gradient_fitting_traits_2&lt;K&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Interpolation_traits_2.html"><I>Interpolation_traits_2&lt;K&gt;</I></a></td></tr>
+  <tr><td> <a href="Function_linear_interpolation.html"><I>linear_interpolation</I></a></td></tr>
+  <tr><td> <a href="Function_natural_neighbor_coordinates_2.html"><I>natural_neighbor_coordinates_2</I></a></td></tr>
+  <tr><td> <a href="Function_quadratic_interpolation.html"><I>quadratic_interpolation</I></a></td></tr>
+  <tr><td> <a href="Function_regular_neighbor_coordinates_2.html"><I>regular_neighbor_coordinates_2</I></a></td></tr>
+  <tr><td> <a href="Function_sibson_c1_interpolation.html"><I>sibson_c1_interpolation</I></a></td></tr>
+  <tr><td> <a href="Function_sibson_gradient_fitting.html"><I>sibson_gradient_fitting</I></a></td></tr>
+  <tr><td> <a href="Function_surface_neighbors_3.html"><I>surface_neighbors_3</I></a></td></tr>
+  <tr><td> <a href="Function_surface_neighbor_coordinates_3.html"><I>surface_neighbor_coordinates_3</I></a></td></tr>
+  <tr><td> <a href="Class_Voronoi_intersection_2_traits_3.html"><I>Voronoi_intersection_2_traits_3&lt;K&gt;</I></a></td></tr>
+    </table>
+    
+  
+
+  
+    
+  <div class="NavBottom">
+  
+  <strong>Navigation:</strong>
+
+  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
+  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
+  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
+  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
+  <a href="../title.html">Title</a>
+  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
+
+<div class="NavAddress">
+<SMALL><a href="http://www.cgal.org" target="_top">CGAL Open Source Project</a>.
+Release 4.1.
+23 October 2012.</SMALL>
+</div>
+</body>  </html>

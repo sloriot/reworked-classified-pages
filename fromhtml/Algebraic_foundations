@@ -1,0 +1,395 @@
+
+    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en-US"> <head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="generator" content="CGAL latex_to_html converter">
+<!-- by cc_extract_html, $Id: cc_extract_html.cpp 44195 2008-07-16 08:46:48Z spion $ -->
+<!-- LaTeX source file: './Algebraic_foundations_ref/intro.tex' -->
+<link rel="canonical" href="http://www.cgal.org/Manual/latest/doc_html/cgal_manual/Algebraic_foundations_ref/Chapter_intro.html">
+<link href="../latex_to_html.css" rel="STYLESHEET">
+<title>Algebraic Foundations Reference&nbsp;Manual</title>
+</head>
+<body bgcolor="white">
+
+<div class="NavTop">
+  
+  <strong>Navigation:</strong>
+<a href="Chapter_intro.html">Up</a>&nbsp;&nbsp;
+  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
+  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
+  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
+  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
+  <a href="../title.html">Title</a>
+  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
+<P>
+
+<h1>Algebraic Foundations<BR>
+<I>Reference&nbsp;Manual</I></h1>
+<P>
+
+<p class="subtitle">Michael Hemmer</p>
+<P>
+
+<a name="Section_4.8"></a>
+        
+<A NAME="caf_ref::classified_refernce_pages"></A><h2>4.8&nbsp;&nbsp;&nbsp;Classified Reference Pages</h2>
+<P>
+
+<h3>Algebraic Structures</h3>
+
+<A NAME="caf_ref::algebraic_structures"></A>
+<P>
+
+<h4>Concepts</h4>
+<P>
+
+<I><A HREF="Concept_IntegralDomainWithoutDivision.html#Cross_link_anchor_5">IntegralDomainWithoutDivision</A></I><BR>
+
+<I><A HREF="Concept_IntegralDomain.html#Cross_link_anchor_6">IntegralDomain</A></I><BR>
+
+<I><A HREF="Concept_UniqueFactorizationDomain.html#Cross_link_anchor_7">UniqueFactorizationDomain</A></I><BR>
+
+<I><A HREF="Concept_EuclideanRing.html#Cross_link_anchor_8">EuclideanRing</A></I><BR>
+
+<I><A HREF="Concept_Field.html#Cross_link_anchor_9">Field</A></I><BR>
+
+<I><A HREF="Concept_FieldWithSqrt.html#Cross_link_anchor_10">FieldWithSqrt</A></I><BR>
+
+<I><A HREF="Concept_FieldWithKthRoot.html#Cross_link_anchor_11">FieldWithKthRoot</A></I><BR>
+
+<I><A HREF="Concept_FieldWithRootOf.html#Cross_link_anchor_12">FieldWithRootOf</A></I><BR>
+
+<BR>
+
+<I><A HREF="Concept_AlgebraicStructureTraits.html#Cross_link_anchor_13">AlgebraicStructureTraits</A></I><BR>
+
+<I><A HREF="FunctionObjectConcept_AlgebraicStructureTraits--IsZero.html#Cross_link_anchor_14">AlgebraicStructureTraits::IsZero</A></I><BR>
+
+<I><A HREF="FunctionObjectConcept_AlgebraicStructureTraits--IsOne.html#Cross_link_anchor_15">AlgebraicStructureTraits::IsOne</A></I><BR>
+
+<I><A HREF="FunctionObjectConcept_AlgebraicStructureTraits--Square.html#Cross_link_anchor_16">AlgebraicStructureTraits::Square</A></I><BR>
+
+<I><A HREF="FunctionObjectConcept_AlgebraicStructureTraits--Simplify.html#Cross_link_anchor_17">AlgebraicStructureTraits::Simplify</A></I><BR>
+
+<I><A HREF="FunctionObjectConcept_AlgebraicStructureTraits--UnitPart.html#Cross_link_anchor_18">AlgebraicStructureTraits::UnitPart</A></I><BR>
+
+<I><A HREF="FunctionObjectConcept_AlgebraicStructureTraits--IntegralDivision.html#Cross_link_anchor_19">AlgebraicStructureTraits::IntegralDivision</A></I><BR>
+
+<I><A HREF="FunctionObjectConcept_AlgebraicStructureTraits--Divides.html#Cross_link_anchor_20">AlgebraicStructureTraits::Divides</A></I><BR>
+
+<I><A HREF="FunctionObjectConcept_AlgebraicStructureTraits--Gcd.html#Cross_link_anchor_22">AlgebraicStructureTraits::Gcd</A></I><BR>
+
+<I><A HREF="FunctionObjectConcept_AlgebraicStructureTraits--DivMod.html#Cross_link_anchor_23">AlgebraicStructureTraits::DivMod</A></I><BR>
+
+<I><A HREF="FunctionObjectConcept_AlgebraicStructureTraits--Div.html#Cross_link_anchor_24">AlgebraicStructureTraits::Div</A></I><BR>
+
+<I><A HREF="FunctionObjectConcept_AlgebraicStructureTraits--Mod.html#Cross_link_anchor_25">AlgebraicStructureTraits::Mod</A></I><BR>
+
+<I><A HREF="FunctionObjectConcept_AlgebraicStructureTraits--Inverse.html#Cross_link_anchor_26">AlgebraicStructureTraits::Inverse</A></I><BR>
+
+<I><A HREF="FunctionObjectConcept_AlgebraicStructureTraits--Sqrt.html#Cross_link_anchor_27">AlgebraicStructureTraits::Sqrt</A></I><BR>
+
+<I><A HREF="FunctionObjectConcept_AlgebraicStructureTraits--IsSquare.html#Cross_link_anchor_21">AlgebraicStructureTraits::IsSquare</A></I><BR>
+
+<I><A HREF="FunctionObjectConcept_AlgebraicStructureTraits--KthRoot.html#Cross_link_anchor_28">AlgebraicStructureTraits::KthRoot</A></I><BR>
+
+<I><A HREF="FunctionObjectConcept_AlgebraicStructureTraits--RootOf.html#Cross_link_anchor_29">AlgebraicStructureTraits::RootOf</A></I><BR>
+
+
+<P>
+
+<h4>Classes</h4>
+
+<I><A HREF="Class_Algebraic_structure_traits.html#Cross_link_anchor_30">CGAL::Algebraic_structure_traits&lt;T&gt;</A></I><BR>
+
+<I><A HREF="Class_Integral_domain_without_division_tag.html#Cross_link_anchor_31">CGAL::Integral_domain_without_division_tag</A></I><BR>
+
+<I><A HREF="Class_Integral_domain_tag.html#Cross_link_anchor_32">CGAL::Integral_domain_tag</A></I><BR>
+
+<I><A HREF="Class_Field_tag.html#Cross_link_anchor_35">CGAL::Field_tag</A></I><BR>
+
+<I><A HREF="Class_Field_with_sqrt_tag.html#Cross_link_anchor_36">CGAL::Field_with_sqrt_tag</A></I><BR>
+
+<I><A HREF="Class_Unique_factorization_domain_tag.html#Cross_link_anchor_33">CGAL::Unique_factorization_domain_tag</A></I><BR>
+
+<I><A HREF="Class_Euclidean_ring_tag.html#Cross_link_anchor_34">CGAL::Euclidean_ring_tag</A></I>
+<P>
+
+<h4>Global Functions</h4>
+<P>
+
+<I><A HREF="Function_is_zero.html#Cross_link_anchor_39">CGAL::is_zero</A></I><BR>
+
+<I><A HREF="Function_is_one.html#Cross_link_anchor_40">CGAL::is_one</A></I><BR>
+
+<I><A HREF="Function_square.html#Cross_link_anchor_41">CGAL::square</A></I><BR>
+
+<I><A HREF="Function_simplify.html#Cross_link_anchor_43">CGAL::simplify</A></I><BR>
+
+<I><A HREF="Function_unit_part.html#Cross_link_anchor_44">CGAL::unit_part</A></I><BR>
+
+<I><A HREF="Function_integral_division.html#Cross_link_anchor_45">CGAL::integral_division</A></I><BR>
+
+<I><A HREF="Function_is_square.html#Cross_link_anchor_42">CGAL::is_square</A></I><BR>
+
+<I><A HREF="Function_gcd.html#Cross_link_anchor_46">CGAL::gcd</A></I><BR>
+
+<I><A HREF="Function_div_mod.html#Cross_link_anchor_47">CGAL::div_mod</A></I><BR>
+
+<I><A HREF="Function_div.html#Cross_link_anchor_48">CGAL::div</A></I><BR>
+
+<I><A HREF="Function_mod.html#Cross_link_anchor_49">CGAL::mod</A></I><BR>
+
+<I><A HREF="Function_inverse.html#Cross_link_anchor_50">CGAL::inverse</A></I><BR>
+
+<I><A HREF="Function_sqrt.html#Cross_link_anchor_51">CGAL::sqrt</A></I><BR>
+
+<I><A HREF="Function_kth_root.html#Cross_link_anchor_52">CGAL::kth_root</A></I><BR>
+
+<I><A HREF="Function_root_of.html#Cross_link_anchor_53">CGAL::root_of</A></I><BR>
+
+
+<P>
+
+<h3>Real Embeddable</h3>
+
+<A NAME="caf_ref::real_embeddable_concept"></A>
+<P>
+
+<h4>Concepts</h4>
+
+<I><A HREF="Concept_RealEmbeddable.html#Cross_link_anchor_54">RealEmbeddable</A></I><BR>
+
+<BR>
+
+<I><A HREF="Concept_RealEmbeddableTraits.html#Cross_link_anchor_55">RealEmbeddableTraits</A></I><BR>
+
+<I><A HREF="FunctionObjectConcept_RealEmbeddableTraits--IsZero.html#Cross_link_anchor_56">RealEmbeddableTraits::IsZero</A></I><BR>
+
+<I><A HREF="FunctionObjectConcept_RealEmbeddableTraits--Abs.html#Cross_link_anchor_57">RealEmbeddableTraits::Abs</A></I><BR>
+
+<I><A HREF="FunctionObjectConcept_RealEmbeddableTraits--Sgn.html#Cross_link_anchor_58">RealEmbeddableTraits::Sgn</A></I><BR>
+
+<I><A HREF="FunctionObjectConcept_RealEmbeddableTraits--IsPositive.html#Cross_link_anchor_59">RealEmbeddableTraits::IsPositive</A></I><BR>
+
+<I><A HREF="FunctionObjectConcept_RealEmbeddableTraits--IsNegative.html#Cross_link_anchor_60">RealEmbeddableTraits::IsNegative</A></I><BR>
+
+<I><A HREF="FunctionObjectConcept_RealEmbeddableTraits--Compare.html#Cross_link_anchor_61">RealEmbeddableTraits::Compare</A></I><BR>
+
+<I><A HREF="FunctionObjectConcept_RealEmbeddableTraits--ToDouble.html#Cross_link_anchor_62">RealEmbeddableTraits::ToDouble</A></I><BR>
+
+<I><A HREF="FunctionObjectConcept_RealEmbeddableTraits--ToInterval.html#Cross_link_anchor_63">RealEmbeddableTraits::ToInterval</A></I><BR>
+
+
+<P>
+
+<h4>Classes</h4>
+
+<I><A HREF="Class_Real_embeddable_traits.html#Cross_link_anchor_64">CGAL::Real_embeddable_traits&lt;T&gt;</A></I>
+<P>
+
+<h4>Global Functions</h4>
+<P>
+
+<I><A HREF="Function_is_zero.html#Cross_link_anchor_39">CGAL::is_zero</A></I><BR>
+
+<I><A HREF="Function_abs.html#Cross_link_anchor_65">CGAL::abs</A></I><BR>
+
+<I><A HREF="Function_sign.html#Cross_link_anchor_66">CGAL::sign</A></I><BR>
+
+<I><A HREF="Function_is_positive.html#Cross_link_anchor_67">CGAL::is_positive</A></I><BR>
+
+<I><A HREF="Function_is_negative.html#Cross_link_anchor_68">CGAL::is_negative</A></I><BR>
+
+<I><A HREF="Function_compare.html#Cross_link_anchor_69">CGAL::compare</A></I><BR>
+
+<I><A HREF="Function_to_double.html#Cross_link_anchor_70">CGAL::to_double</A></I><BR>
+
+<I><A HREF="Function_to_interval.html#Cross_link_anchor_71">CGAL::to_interval</A></I><BR>
+
+
+<P>
+
+<h3>Real Number Types</h3>
+
+
+  
+
+<h4>Concepts</h4>
+
+<I><A HREF="Concept_RingNumberType.html#Cross_link_anchor_78">RingNumberType</A></I><BR>
+
+<I><A HREF="Concept_FieldNumberType.html#Cross_link_anchor_79">FieldNumberType</A></I><BR>
+
+
+<P>
+
+<h3>Interoperability</h3>
+
+
+  
+
+<h4>Concepts</h4>
+
+<I><A HREF="Concept_ExplicitInteroperable.html#Cross_link_anchor_2">ExplicitInteroperable</A></I><BR>
+
+<I><A HREF="Concept_ImplicitInteroperable.html#Cross_link_anchor_3">ImplicitInteroperable</A></I><BR>
+
+<h4>Classes</h4>
+
+<I><A HREF="Class_Coercion_traits.html#Cross_link_anchor_4">CGAL::Coercion_traits&lt;A,B&gt;</A></I><BR>
+
+
+<P>
+
+<h3>Fractions</h3>
+
+
+  
+
+<h4>Concepts</h4>
+
+<I><A HREF="Concept_Fraction.html#Cross_link_anchor_72">Fraction</A></I><BR>
+
+<I><A HREF="Concept_FractionTraits.html#Cross_link_anchor_73">FractionTraits</A></I><BR>
+
+<I><A HREF="FunctionObjectConcept_FractionTraits--Decompose.html#Cross_link_anchor_74">FractionTraits::Decompose</A></I><BR>
+
+<I><A HREF="FunctionObjectConcept_FractionTraits--Compose.html#Cross_link_anchor_75">FractionTraits::Compose</A></I><BR>
+
+<I><A HREF="FunctionObjectConcept_FractionTraits--CommonFactor.html#Cross_link_anchor_76">FractionTraits::CommonFactor</A></I><BR>
+
+
+<P>
+
+<h4>Classes</h4>
+
+<I><A HREF="Class_Fraction_traits.html#Cross_link_anchor_77">CGAL::Fraction_traits&lt;T&gt;</A></I><BR>
+
+
+<P>
+
+<h3>Miscellaneous</h3>
+
+
+  
+
+<h4>Concepts</h4>
+
+<I><A HREF="Concept_FromIntConstructible.html#Cross_link_anchor_0">FromIntConstructible</A></I><BR>
+
+<I><A HREF="Concept_FromDoubleConstructible.html#Cross_link_anchor_1">FromDoubleConstructible</A></I><BR>
+
+
+<P>
+
+<a name="Section_4.9"></a>
+        
+<h2>4.9&nbsp;&nbsp;&nbsp;Alphabetical List of Reference Pages</h2>
+<P>
+
+<table cellpadding="0">
+    
+  <tr><td> <a href="Function_abs.html"><I>abs</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_AlgebraicStructureTraits--Divides.html"><I>AlgebraicStructureTraits::Divides</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_AlgebraicStructureTraits--DivMod.html"><I>AlgebraicStructureTraits::DivMod</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_AlgebraicStructureTraits--Div.html"><I>AlgebraicStructureTraits::Div</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_AlgebraicStructureTraits--Gcd.html"><I>AlgebraicStructureTraits::Gcd</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_AlgebraicStructureTraits--IntegralDivision.html"><I>AlgebraicStructureTraits::IntegralDivision</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_AlgebraicStructureTraits--Inverse.html"><I>AlgebraicStructureTraits::Inverse</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_AlgebraicStructureTraits--IsOne.html"><I>AlgebraicStructureTraits::IsOne</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_AlgebraicStructureTraits--IsSquare.html"><I>AlgebraicStructureTraits::IsSquare</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_AlgebraicStructureTraits--IsZero.html"><I>AlgebraicStructureTraits::IsZero</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_AlgebraicStructureTraits--KthRoot.html"><I>AlgebraicStructureTraits::KthRoot</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_AlgebraicStructureTraits--Mod.html"><I>AlgebraicStructureTraits::Mod</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_AlgebraicStructureTraits--RootOf.html"><I>AlgebraicStructureTraits::RootOf</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_AlgebraicStructureTraits--Simplify.html"><I>AlgebraicStructureTraits::Simplify</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_AlgebraicStructureTraits--Sqrt.html"><I>AlgebraicStructureTraits::Sqrt</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_AlgebraicStructureTraits--Square.html"><I>AlgebraicStructureTraits::Square</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_AlgebraicStructureTraits--UnitPart.html"><I>AlgebraicStructureTraits::UnitPart</I></a></td></tr>
+  <tr><td> <a href="Concept_AlgebraicStructureTraits.html"><I>AlgebraicStructureTraits</I></a></td></tr>
+  <tr><td> <a href="Class_Algebraic_structure_traits.html"><I>Algebraic_structure_traits&lt;T&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Coercion_traits.html"><I>Coercion_traits&lt;A,B&gt;</I></a></td></tr>
+  <tr><td> <a href="Function_compare.html"><I>compare</I></a></td></tr>
+  <tr><td> <a href="Function_div_mod.html"><I>div_mod</I></a></td></tr>
+  <tr><td> <a href="Function_div.html"><I>div</I></a></td></tr>
+  <tr><td> <a href="Concept_EuclideanRing.html"><I>EuclideanRing</I></a></td></tr>
+  <tr><td> <a href="Class_Euclidean_ring_tag.html"><I>Euclidean_ring_tag</I></a></td></tr>
+  <tr><td> <a href="Concept_ExplicitInteroperable.html"><I>ExplicitInteroperable</I></a></td></tr>
+  <tr><td> <a href="Concept_FieldNumberType.html"><I>FieldNumberType</I></a></td></tr>
+  <tr><td> <a href="Concept_FieldWithKthRoot.html"><I>FieldWithKthRoot</I></a></td></tr>
+  <tr><td> <a href="Concept_FieldWithRootOf.html"><I>FieldWithRootOf</I></a></td></tr>
+  <tr><td> <a href="Concept_FieldWithSqrt.html"><I>FieldWithSqrt</I></a></td></tr>
+  <tr><td> <a href="Class_Field_tag.html"><I>Field_tag</I></a></td></tr>
+  <tr><td> <a href="Class_Field_with_kth_root_tag.html"><I>Field_with_kth_root_tag</I></a></td></tr>
+  <tr><td> <a href="Class_Field_with_root_of_tag.html"><I>Field_with_root_of_tag</I></a></td></tr>
+  <tr><td> <a href="Class_Field_with_sqrt_tag.html"><I>Field_with_sqrt_tag</I></a></td></tr>
+  <tr><td> <a href="Concept_Field.html"><I>Field</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_FractionTraits--CommonFactor.html"><I>FractionTraits::CommonFactor</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_FractionTraits--Compose.html"><I>FractionTraits::Compose</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_FractionTraits--Decompose.html"><I>FractionTraits::Decompose</I></a></td></tr>
+  <tr><td> <a href="Concept_FractionTraits.html"><I>FractionTraits</I></a></td></tr>
+  <tr><td> <a href="Class_Fraction_traits.html"><I>Fraction_traits&lt;T&gt;</I></a></td></tr>
+  <tr><td> <a href="Concept_Fraction.html"><I>Fraction</I></a></td></tr>
+  <tr><td> <a href="Concept_FromDoubleConstructible.html"><I>FromDoubleConstructible</I></a></td></tr>
+  <tr><td> <a href="Concept_FromIntConstructible.html"><I>FromIntConstructible</I></a></td></tr>
+  <tr><td> <a href="Function_gcd.html"><I>gcd</I></a></td></tr>
+  <tr><td> <a href="Concept_ImplicitInteroperable.html"><I>ImplicitInteroperable</I></a></td></tr>
+  <tr><td> <a href="Concept_IntegralDomainWithoutDivision.html"><I>IntegralDomainWithoutDivision</I></a></td></tr>
+  <tr><td> <a href="Concept_IntegralDomain.html"><I>IntegralDomain</I></a></td></tr>
+  <tr><td> <a href="Function_integral_division.html"><I>integral_division</I></a></td></tr>
+  <tr><td> <a href="Class_Integral_domain_tag.html"><I>Integral_domain_tag</I></a></td></tr>
+  <tr><td> <a href="Class_Integral_domain_without_division_tag.html"><I>Integral_domain_without_division_tag</I></a></td></tr>
+  <tr><td> <a href="Function_inverse.html"><I>inverse</I></a></td></tr>
+  <tr><td> <a href="Function_is_negative.html"><I>is_negative</I></a></td></tr>
+  <tr><td> <a href="Function_is_one.html"><I>is_one</I></a></td></tr>
+  <tr><td> <a href="Function_is_positive.html"><I>is_positive</I></a></td></tr>
+  <tr><td> <a href="Function_is_square.html"><I>is_square</I></a></td></tr>
+  <tr><td> <a href="Function_is_zero.html"><I>is_zero</I></a></td></tr>
+  <tr><td> <a href="Function_kth_root.html"><I>kth_root</I></a></td></tr>
+  <tr><td> <a href="Function_mod.html"><I>mod</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_RealEmbeddableTraits--Abs.html"><I>RealEmbeddableTraits::Abs</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_RealEmbeddableTraits--Compare.html"><I>RealEmbeddableTraits::Compare</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_RealEmbeddableTraits--IsNegative.html"><I>RealEmbeddableTraits::IsNegative</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_RealEmbeddableTraits--IsPositive.html"><I>RealEmbeddableTraits::IsPositive</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_RealEmbeddableTraits--IsZero.html"><I>RealEmbeddableTraits::IsZero</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_RealEmbeddableTraits--Sgn.html"><I>RealEmbeddableTraits::Sgn</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_RealEmbeddableTraits--ToDouble.html"><I>RealEmbeddableTraits::ToDouble</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_RealEmbeddableTraits--ToInterval.html"><I>RealEmbeddableTraits::ToInterval</I></a></td></tr>
+  <tr><td> <a href="Concept_RealEmbeddableTraits.html"><I>RealEmbeddableTraits</I></a></td></tr>
+  <tr><td> <a href="Concept_RealEmbeddable.html"><I>RealEmbeddable</I></a></td></tr>
+  <tr><td> <a href="Class_Real_embeddable_traits.html"><I>Real_embeddable_traits&lt;T&gt;</I></a></td></tr>
+  <tr><td> <a href="Concept_RingNumberType.html"><I>RingNumberType</I></a></td></tr>
+  <tr><td> <a href="Function_root_of.html"><I>root_of</I></a></td></tr>
+  <tr><td> <a href="Function_sign.html"><I>sign</I></a></td></tr>
+  <tr><td> <a href="Function_simplify.html"><I>simplify</I></a></td></tr>
+  <tr><td> <a href="Function_sqrt.html"><I>sqrt</I></a></td></tr>
+  <tr><td> <a href="Function_square.html"><I>square</I></a></td></tr>
+  <tr><td> <a href="Function_to_double.html"><I>to_double</I></a></td></tr>
+  <tr><td> <a href="Function_to_interval.html"><I>to_interval</I></a></td></tr>
+  <tr><td> <a href="Concept_UniqueFactorizationDomain.html"><I>UniqueFactorizationDomain</I></a></td></tr>
+  <tr><td> <a href="Class_Unique_factorization_domain_tag.html"><I>Unique_factorization_domain_tag</I></a></td></tr>
+  <tr><td> <a href="Function_unit_part.html"><I>unit_part</I></a></td></tr>
+    </table>
+    
+  
+
+  <div class="NavNext">Next chapter: <a href="../NumberTypeSupport/Chapter_main.html">Number Types</a></div>
+    
+  <div class="NavBottom">
+  
+  <strong>Navigation:</strong>
+<a href="../NumberTypeSupport/Chapter_main.html">Up</a>&nbsp;&nbsp;
+  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
+  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
+  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
+  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
+  <a href="../title.html">Title</a>
+  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
+
+<div class="NavAddress">
+<SMALL><a href="http://www.cgal.org" target="_top">CGAL Open Source Project</a>.
+Release 4.1.
+23 October 2012.</SMALL>
+</div>
+</body>  </html>

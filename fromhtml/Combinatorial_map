@@ -1,0 +1,149 @@
+
+    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en-US"> <head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="generator" content="CGAL latex_to_html converter">
+<!-- by cc_extract_html, $Id: cc_extract_html.cpp 44195 2008-07-16 08:46:48Z spion $ -->
+<!-- LaTeX source file: './Combinatorial_map_ref/intro.tex' -->
+<link rel="canonical" href="http://www.cgal.org/Manual/latest/doc_html/cgal_manual/Combinatorial_map_ref/Chapter_intro.html">
+<link href="../latex_to_html.css" rel="STYLESHEET">
+<title>Combinatorial map Reference&nbsp;Manual</title>
+</head>
+<body bgcolor="white">
+
+<div class="NavTop">
+  
+  <strong>Navigation:</strong>
+<a href="Chapter_intro.html">Up</a>&nbsp;&nbsp;
+  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
+  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
+  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
+  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
+  <a href="../title.html">Title</a>
+  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
+<P>
+
+<h1>Combinatorial map<BR>
+<I>Reference&nbsp;Manual</I></h1>
+<P>
+
+<a name="Section_27.9"></a>
+        
+<h2>27.9&nbsp;&nbsp;&nbsp;Classified Reference Pages</h2>
+<P>
+
+<a name="Subsection_27.9.1"></a>
+<h3>27.9.1&nbsp;&nbsp;&nbsp;Concepts</h3>
+<P>
+
+<I><A HREF="Concept_CombinatorialMap.html#Cross_link_anchor_1141">CombinatorialMap</A></I><BR>
+
+<I><A HREF="Concept_Dart.html#Cross_link_anchor_1142">Dart</A></I><BR>
+
+<I><A HREF="Concept_CellAttribute.html#Cross_link_anchor_1143">CellAttribute</A></I><BR>
+
+<I><A HREF="Concept_CombinatorialMapItems.html#Cross_link_anchor_1144">CombinatorialMapItems</A></I>
+<P>
+
+<a name="Subsection_27.9.2"></a>
+<h3>27.9.2&nbsp;&nbsp;&nbsp;Classes</h3>
+
+<I><A HREF="Class_Combinatorial_map.html#Cross_link_anchor_1145">CGAL::Combinatorial_map&lt;d,Items,Alloc&gt;</A></I><BR>
+
+<I><A HREF="Class_Dart.html#Cross_link_anchor_1146">CGAL::Dart&lt;d,CMap&gt;</A></I><BR>
+
+<I><A HREF="Class_Cell_attribute.html#Cross_link_anchor_1147">CGAL::Cell_attribute&lt;CMap,Info_,Tag,OnMerge,OnSplit&gt;</A></I><BR>
+
+<I><A HREF="Class_Combinatorial_map_min_items.html#Cross_link_anchor_1148">CGAL::Combinatorial_map_min_items&lt;d&gt;</A></I>
+<P>
+
+<a name="Subsection_27.9.3"></a>
+<h3>27.9.3&nbsp;&nbsp;&nbsp;Global Functions</h3>
+
+
+  
+
+
+<h4>Constructions for Combinatorial Maps</h4>
+
+<I><A HREF="Function_make_edge.html#Cross_link_anchor_1149">CGAL::make_edge&lt;CMap&gt;</A></I><BR>
+
+<I><A HREF="Function_make_combinatorial_polygon.html#Cross_link_anchor_1150">CGAL::make_combinatorial_polygon&lt;CMap&gt;</A></I><BR>
+
+<I><A HREF="Function_make_combinatorial_tetrahedron.html#Cross_link_anchor_1151">CGAL::make_combinatorial_tetrahedron&lt;CMap&gt;</A></I><BR>
+
+<I><A HREF="Function_make_combinatorial_hexahedron.html#Cross_link_anchor_1152">CGAL::make_combinatorial_hexahedron&lt;CMap&gt;</A></I>
+<P>
+
+<h4>Operations for Combinatorial Maps</h4>
+
+<I><A HREF="Function_is_removable.html#Cross_link_anchor_1153">CGAL::is_removable&lt;CMap,i&gt;</A></I><BR>
+
+<I><A HREF="Function_remove_cell.html#Cross_link_anchor_1154">CGAL::remove_cell&lt;CMap,i&gt;</A></I><BR>
+
+<I><A HREF="Function_is_insertable_cell_1_in_cell_2.html#Cross_link_anchor_1155">CGAL::is_insertable_cell_1_in_cell_2&lt;CMap&gt;</A></I><BR>
+
+<I><A HREF="Function_is_insertable_cell_2_in_cell_3.html#Cross_link_anchor_1156">CGAL::is_insertable_cell_2_in_cell_3&lt;CMap,InputIterator&gt;</A></I><BR>
+
+<I><A HREF="Function_insert_cell_0_in_cell_1.html#Cross_link_anchor_1157">CGAL::insert_cell_0_in_cell_1&lt;CMap&gt;</A></I><BR>
+
+<I><A HREF="Function_insert_cell_0_in_cell_2.html#Cross_link_anchor_1158">CGAL::insert_cell_0_in_cell_2&lt;CMap&gt;</A></I><BR>
+
+<I><A HREF="Function_insert_cell_1_in_cell_2.html#Cross_link_anchor_1159">CGAL::insert_cell_1_in_cell_2&lt;CMap&gt;</A></I><BR>
+
+<I><A HREF="Function_insert_dangling_cell_1_in_cell_2.html#Cross_link_anchor_1160">CGAL::insert_dangling_cell_1_in_cell_2&lt;CMap&gt;</A></I><BR>
+
+<I><A HREF="Function_insert_cell_2_in_cell_3.html#Cross_link_anchor_1161">CGAL::insert_cell_2_in_cell_3&lt;CMap,InputIterator&gt;</A></I>
+<P>
+
+<a name="Section_27.10"></a>
+        
+<h2>27.10&nbsp;&nbsp;&nbsp;Alphabetical List of Reference Pages</h2>
+<P>
+
+<table cellpadding="0">
+    
+  <tr><td> <a href="Concept_CellAttribute.html"><I>CellAttribute</I></a></td></tr>
+  <tr><td> <a href="Class_Cell_attribute.html"><I>Cell_attribute&lt;CMap,Info_,Tag,OnMerge,OnSplit&gt;</I></a></td></tr>
+  <tr><td> <a href="Concept_CombinatorialMapItems.html"><I>CombinatorialMapItems</I></a></td></tr>
+  <tr><td> <a href="Concept_CombinatorialMap.html"><I>CombinatorialMap</I></a></td></tr>
+  <tr><td> <a href="Class_Combinatorial_map.html"><I>Combinatorial_map&lt;d,Items,Alloc&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Combinatorial_map_min_items.html"><I>Combinatorial_map_min_items&lt;d&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Dart.html"><I>Dart&lt;d,CMap&gt;</I></a></td></tr>
+  <tr><td> <a href="Concept_Dart.html"><I>Dart</I></a></td></tr>
+  <tr><td> <a href="Function_insert_cell_0_in_cell_1.html"><I>insert_cell_0_in_cell_1&lt;CMap&gt;</I></a></td></tr>
+  <tr><td> <a href="Function_insert_cell_0_in_cell_2.html"><I>insert_cell_0_in_cell_2&lt;CMap&gt;</I></a></td></tr>
+  <tr><td> <a href="Function_insert_cell_1_in_cell_2.html"><I>insert_cell_1_in_cell_2&lt;CMap&gt;</I></a></td></tr>
+  <tr><td> <a href="Function_insert_cell_2_in_cell_3.html"><I>insert_cell_2_in_cell_3&lt;CMap,InputIterator&gt;</I></a></td></tr>
+  <tr><td> <a href="Function_insert_dangling_cell_1_in_cell_2.html"><I>insert_dangling_cell_1_in_cell_2&lt;CMap&gt;</I></a></td></tr>
+  <tr><td> <a href="Function_is_insertable_cell_1_in_cell_2.html"><I>is_insertable_cell_1_in_cell_2&lt;CMap&gt;</I></a></td></tr>
+  <tr><td> <a href="Function_is_insertable_cell_2_in_cell_3.html"><I>is_insertable_cell_2_in_cell_3&lt;CMap,InputIterator&gt;</I></a></td></tr>
+  <tr><td> <a href="Function_is_removable.html"><I>is_removable&lt;CMap,i&gt;</I></a></td></tr>
+  <tr><td> <a href="Function_make_combinatorial_hexahedron.html"><I>make_combinatorial_hexahedron&lt;CMap&gt;</I></a></td></tr>
+  <tr><td> <a href="Function_make_combinatorial_polygon.html"><I>make_combinatorial_polygon&lt;CMap&gt;</I></a></td></tr>
+  <tr><td> <a href="Function_make_combinatorial_tetrahedron.html"><I>make_combinatorial_tetrahedron&lt;CMap&gt;</I></a></td></tr>
+  <tr><td> <a href="Function_make_edge.html"><I>make_edge&lt;CMap&gt;</I></a></td></tr>
+  <tr><td> <a href="Function_remove_cell.html"><I>remove_cell&lt;CMap,i&gt;</I></a></td></tr>
+    </table>
+    
+  
+
+  <div class="NavNext">Next chapter: <a href="../Linear_cell_complex/Chapter_main.html">Linear Cell Complex</a></div>
+    
+  <div class="NavBottom">
+  
+  <strong>Navigation:</strong>
+<a href="../Linear_cell_complex/Chapter_main.html">Up</a>&nbsp;&nbsp;
+  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
+  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
+  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
+  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
+  <a href="../title.html">Title</a>
+  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
+
+<div class="NavAddress">
+<SMALL><a href="http://www.cgal.org" target="_top">CGAL Open Source Project</a>.
+Release 4.1.
+23 October 2012.</SMALL>
+</div>
+</body>  </html>

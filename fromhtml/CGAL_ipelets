@@ -1,0 +1,70 @@
+
+    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en-US"> <head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="generator" content="CGAL latex_to_html converter">
+<!-- by cc_extract_html, $Id: cc_extract_html.cpp 44195 2008-07-16 08:46:48Z spion $ -->
+<!-- LaTeX source file: './CGAL_ipelets_ref/intro.tex' -->
+<link rel="canonical" href="http://www.cgal.org/Manual/latest/doc_html/cgal_manual/CGAL_ipelets_ref/Chapter_intro.html">
+<link href="../latex_to_html.css" rel="STYLESHEET">
+<title>CGAL Ipelets  Reference&nbsp;Manual</title>
+</head>
+<body bgcolor="white">
+
+<div class="NavTop">
+  
+  <strong>Navigation:</strong>
+<a href="Chapter_intro.html">Up</a>&nbsp;&nbsp;
+  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
+  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
+  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
+  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
+  <a href="../title.html">Title</a>
+  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
+<P>
+
+<A NAME="chap:cgalipeletsref"></A><h1>CGAL Ipelets <BR>
+<I>Reference&nbsp;Manual</I></h1>
+<P>
+
+<p class="subtitle">S&eacute;bastien Loriot and Sylvain Pion</p>
+<P>
+
+<H3>Classes</H3>
+<P>
+
+<I><A HREF="Class_Ipelet_base.html#Cross_link_anchor_2139">CGAL::Ipelet_base</A>&lt;<A HREF="../Kernel_23_ref/Concept_Kernel.html#Cross_link_anchor_318">Kernel</A>,<A HREF="../NumberTypeSupport_ref/Class_int.html#Cross_link_anchor_80">int</A> nbf&gt;</I>
+<P>
+
+<a name="Section_82.6"></a>
+        
+<h2>82.6&nbsp;&nbsp;&nbsp;Alphabetical List of Reference Pages</h2>
+<P>
+
+<table cellpadding="0">
+    
+  <tr><td> <a href="Macro_CGAL_IPELET.html"><I>CGAL_IPELET</I></a></td></tr>
+  <tr><td> <a href="Class_Ipelet_base.html"><I>Ipelet_base&lt;Kernel,int nbf&gt;</I></a></td></tr>
+    </table>
+    
+  
+
+  
+    
+  <div class="NavBottom">
+  
+  <strong>Navigation:</strong>
+
+  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
+  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
+  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
+  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
+  <a href="../title.html">Title</a>
+  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
+
+<div class="NavAddress">
+</TT><SMALL><TT><a href="http://www.cgal.org" target="_top">CGAL Open Source Project</a>.
+Release 4.1.
+23 October 2012.</TT></SMALL><TT>
+</div>
+</body>  </html>

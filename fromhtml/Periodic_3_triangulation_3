@@ -1,0 +1,171 @@
+
+    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en-US"> <head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="generator" content="CGAL latex_to_html converter">
+<!-- by cc_extract_html, $Id: cc_extract_html.cpp 44195 2008-07-16 08:46:48Z spion $ -->
+<!-- LaTeX source file: './Periodic_3_triangulation_3_ref/intro.tex' -->
+<link rel="canonical" href="http://www.cgal.org/Manual/latest/doc_html/cgal_manual/Periodic_3_triangulation_3_ref/Chapter_intro.html">
+<link href="../latex_to_html.css" rel="STYLESHEET">
+<title>3D Periodic Triangulations Reference&nbsp;Manual</title>
+</head>
+<body bgcolor="white">
+
+<div class="NavTop">
+  
+  <strong>Navigation:</strong>
+<a href="Chapter_intro.html">Up</a>&nbsp;&nbsp;
+  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
+  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
+  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
+  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
+  <a href="../title.html">Title</a>
+  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
+<P>
+
+<h1>3D Periodic Triangulations<BR>
+<I>Reference&nbsp;Manual</I></h1>
+
+ 
+<p class="subtitle">Manuel Caroli  and Monique Teillaud</p>
+<P>
+
+The main classes of the 3D Periodic Triangulation package are
+<I><A HREF="Class_Periodic_3_triangulation_3.html#Cross_link_anchor_1396">Periodic_3_triangulation_3</A></I> and
+<I><A HREF="Class_Periodic_3_Delaunay_triangulation_3.html#Cross_link_anchor_1397">Periodic_3_Delaunay_triangulation_3</A></I>. They contain functionality
+to access triangulations and to run queries on
+them. <I><A HREF="Class_Periodic_3_Delaunay_triangulation_3.html#Cross_link_anchor_1397">Periodic_3_Delaunay_triangulation_3</A></I> can construct and
+modify Delaunay triangulations. It takes the geometric traits as well
+as the triangulation data structure as template parameters.
+<P>
+
+The geometric traits class must be a model of the concept
+<I><A HREF="Concept_Periodic_3DelaunayTriangulationTraits_3.html#Cross_link_anchor_1399">Periodic_3DelaunayTriangulationTraits_3</A></I>. It contains all
+predicates and constructions that are needed by the functions in the
+triangulation classes.
+<P>
+
+The package uses <I><A HREF="../TriangulationDS_3_ref/Class_Triangulation_data_structure_3.html#Cross_link_anchor_1392">Triangulation_data_structure_3</A></I> to represent the
+triangulation. The cells and vertices need to be models of the
+concepts <I><A HREF="Concept_Periodic_3TriangulationDSCellBase_3.html#Cross_link_anchor_1401">Periodic_3TriangulationDSCellBase_3</A></I> and
+<I><A HREF="Concept_Periodic_3TriangulationDSVertexBase_3.html#Cross_link_anchor_1402">Periodic_3TriangulationDSVertexBase_3</A></I>, respectively.
+A triangulation is stored as a collection of vertices and cells that
+are linked together through incidence and adjacency relations. Each
+cell gives access to its four incident vertices and to its four
+adjacent cells. Each vertex gives access to one of its incident
+cells.
+<P>
+
+The four vertices of a cell are indexed with 0, 1, 2 and 3 in positive
+orientation, the positive orientation being defined by the orientation
+of the underlying space <span class="math"><IMG ALT="T" BORDER=0 WIDTH=11 HEIGHT=12 ALIGN=BOTTOM SRC="cc_mathbb_T.gif"> <SUB>c</SUB><SUP>3</SUP></span>. The neighbors of a cell are
+also indexed with 0, 1, 2, 3 in such a way that the neighbor indexed
+by <span class="math">i</span> is opposite to the vertex with the same index. See
+Figure&nbsp;<A HREF="../Periodic_3_triangulation_3/Chapter_main.html#P3Triangulation3-fig-orient">41.2</A>.
+<P>
+
+In order to be able to specify the tetrahedra that contain vertices
+both inside and outside the original domain we store an additional
+offset information in each vertex of a cell. These offsets are models
+of the concept <I><A HREF="Concept_Periodic_3Offset_3.html#Cross_link_anchor_1405">Periodic_3Offset_3</A></I>.
+<P>
+
+<a name="Section_41.8"></a>
+        
+<h2>41.8&nbsp;&nbsp;&nbsp;Classified Reference Pages</h2>
+<P>
+
+<h3>Concepts</h3>
+<P>
+
+<I><A HREF="Concept_Periodic_3DelaunayTriangulationTraits_3.html#Cross_link_anchor_1399">Periodic_3DelaunayTriangulationTraits_3</A></I>
+<P>
+
+<I><A HREF="../TriangulationDS_3_ref/Concept_TriangulationDataStructure_3.html#Cross_link_anchor_1387">TriangulationDataStructure_3</A></I><BR>
+
+<I><A HREF="Concept_Periodic_3TriangulationDSCellBase_3.html#Cross_link_anchor_1401">Periodic_3TriangulationDSCellBase_3</A></I><BR>
+
+<I><A HREF="Concept_Periodic_3TriangulationDSVertexBase_3.html#Cross_link_anchor_1402">Periodic_3TriangulationDSVertexBase_3</A></I>
+<P>
+
+<I><A HREF="Concept_Periodic_3Offset_3.html#Cross_link_anchor_1405">Periodic_3Offset_3</A></I>
+<P>
+
+<h3>Classes</h3>
+<P>
+
+<h4>Main Classes</h4>
+<P>
+
+<I><A HREF="Class_Periodic_3_triangulation_3.html#Cross_link_anchor_1396">CGAL::Periodic_3_triangulation_3&lt;PT,TDS&gt;</A></I><BR>
+
+<I><A HREF="Class_Periodic_3_Delaunay_triangulation_3.html#Cross_link_anchor_1397">CGAL::Periodic_3_Delaunay_triangulation_3&lt;PT,TDS&gt;</A></I><BR>
+
+<I><A HREF="Class_Periodic_3_triangulation_hierarchy_3.html#Cross_link_anchor_1398">CGAL::Periodic_3_triangulation_hierarchy_3&lt;PTr&gt;</A></I>
+<P>
+
+<I><A HREF="Class_Periodic_3_triangulation_ds_cell_base_3.html#Cross_link_anchor_1403">CGAL::Periodic_3_triangulation_ds_cell_base_3</A>&lt;&gt;</I><BR>
+
+<I><A HREF="Class_Periodic_3_triangulation_ds_vertex_base_3.html#Cross_link_anchor_1404">CGAL::Periodic_3_triangulation_ds_vertex_base_3</A>&lt;&gt;</I>
+<P>
+
+<I><A HREF="Class_Periodic_3_offset_3.html#Cross_link_anchor_1406">CGAL::Periodic_3_offset_3</A></I>
+<P>
+
+<h4>Traits Classes</h4>
+<P>
+
+<I><A HREF="Class_Periodic_3_triangulation_traits_3.html#Cross_link_anchor_1400">CGAL::Periodic_3_triangulation_traits_3</A>&lt;Traits,<A HREF="Concept_Periodic_3Offset_3.html#Cross_link_anchor_1405">Periodic_3Offset_3</A>&gt;</I>
+<P>
+
+<h3>Enums</h3>
+<P>
+
+<I><A HREF="Enum_Periodic_3_triangulation_3--Iterator_type.html#Cross_link_anchor_1407">CGAL::Periodic_3_triangulation_3::Iterator_type</A></I><BR>
+
+<I><A HREF="Enum_Periodic_3_triangulation_3--Locate_type.html#Cross_link_anchor_1408">CGAL::Periodic_3_triangulation_3::Locate_type</A></I>
+<P>
+
+<a name="Section_41.9"></a>
+        
+<h2>41.9&nbsp;&nbsp;&nbsp;Alphabetical List of Reference Pages</h2>
+<P>
+
+<table cellpadding="0">
+    
+  <tr><td> <a href="Concept_Periodic_3DelaunayTriangulationTraits_3.html"><I>Periodic_3DelaunayTriangulationTraits_3</I></a></td></tr>
+  <tr><td> <a href="Concept_Periodic_3Offset_3.html"><I>Periodic_3Offset_3</I></a></td></tr>
+  <tr><td> <a href="Concept_Periodic_3TriangulationDSCellBase_3.html"><I>Periodic_3TriangulationDSCellBase_3</I></a></td></tr>
+  <tr><td> <a href="Concept_Periodic_3TriangulationDSVertexBase_3.html"><I>Periodic_3TriangulationDSVertexBase_3</I></a></td></tr>
+  <tr><td> <a href="Class_Periodic_3_Delaunay_triangulation_3.html"><I>Periodic_3_Delaunay_triangulation_3&lt;PT,TDS&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Periodic_3_offset_3.html"><I>Periodic_3_offset_3</I></a></td></tr>
+  <tr><td> <a href="Enum_Periodic_3_triangulation_3--Iterator_type.html"><I>Periodic_3_triangulation_3::Iterator_type</I></a></td></tr>
+  <tr><td> <a href="Enum_Periodic_3_triangulation_3--Locate_type.html"><I>Periodic_3_triangulation_3::Locate_type</I></a></td></tr>
+  <tr><td> <a href="Class_Periodic_3_triangulation_3.html"><I>Periodic_3_triangulation_3&lt;PT,TDS&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Periodic_3_triangulation_ds_cell_base_3.html"><I>Periodic_3_triangulation_ds_cell_base_3&lt;&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Periodic_3_triangulation_ds_vertex_base_3.html"><I>Periodic_3_triangulation_ds_vertex_base_3&lt;&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Periodic_3_triangulation_hierarchy_3.html"><I>Periodic_3_triangulation_hierarchy_3&lt;PTr&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Periodic_3_triangulation_traits_3.html"><I>Periodic_3_triangulation_traits_3&lt;Traits,Periodic_3Offset_3&gt;</I></a></td></tr>
+    </table>
+    
+  
+
+  <div class="NavNext">Next chapter: <a href="../Alpha_shapes_2/Chapter_main.html">2D Alpha Shapes</a></div>
+    
+  <div class="NavBottom">
+  
+  <strong>Navigation:</strong>
+<a href="../Alpha_shapes_2/Chapter_main.html">Up</a>&nbsp;&nbsp;
+  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
+  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
+  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
+  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
+  <a href="../title.html">Title</a>
+  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
+
+<div class="NavAddress">
+<SMALL><a href="http://www.cgal.org" target="_top">CGAL Open Source Project</a>.
+Release 4.1.
+23 October 2012.</SMALL>
+</div>
+</body>  </html>

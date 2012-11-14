@@ -1,0 +1,357 @@
+
+    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en-US"> <head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="generator" content="CGAL latex_to_html converter">
+<!-- by cc_extract_html, $Id: cc_extract_html.cpp 44195 2008-07-16 08:46:48Z spion $ -->
+<!-- LaTeX source file: './Circular_kernel_2_ref/intro.tex' -->
+<link rel="canonical" href="http://www.cgal.org/Manual/latest/doc_html/cgal_manual/Circular_kernel_2_ref/Chapter_intro.html">
+<link href="../latex_to_html.css" rel="STYLESHEET">
+<title>2D Circular Geometry Kernel Reference&nbsp;Manual</title>
+</head>
+<body bgcolor="white">
+
+<div class="NavTop">
+  
+  <strong>Navigation:</strong>
+<a href="Chapter_intro.html">Up</a>&nbsp;&nbsp;
+  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
+  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
+  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
+  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
+  <a href="../title.html">Title</a>
+  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
+<P>
+
+<h1>2D Circular Geometry Kernel<BR>
+<I>Reference&nbsp;Manual</I></h1>
+<P>
+
+<p class="subtitle">Pedro Machado Manh&atilde;es de Castro, Sylvain Pion, and Monique Teillaud</p>
+<P>
+
+<a name="Section_13.5"></a>
+        
+<h2>13.5&nbsp;&nbsp;&nbsp;Geometric Concepts</h2>
+<P>
+
+<I><A HREF="Concept_CircularKernel.html#Cross_link_anchor_794">CircularKernel</A></I>
+<P>
+
+<h4>Functors</h4>
+<P>
+
+<I><A HREF="FunctionObjectConcept_CircularKernel--ConstructLine_2.html#Cross_link_anchor_803">CircularKernel::ConstructLine_2</A></I><BR>
+
+<I><A HREF="FunctionObjectConcept_CircularKernel--ConstructCircle_2.html#Cross_link_anchor_804">CircularKernel::ConstructCircle_2</A></I><BR>
+
+<I><A HREF="FunctionObjectConcept_CircularKernel--ConstructCircularArcPoint_2.html#Cross_link_anchor_805">CircularKernel::ConstructCircularArcPoint_2</A></I><BR>
+
+<I><A HREF="FunctionObjectConcept_CircularKernel--ConstructLineArc_2.html#Cross_link_anchor_806">CircularKernel::ConstructLineArc_2</A></I><BR>
+
+<I><A HREF="FunctionObjectConcept_CircularKernel--ConstructCircularArc_2.html#Cross_link_anchor_807">CircularKernel::ConstructCircularArc_2</A></I>
+<P>
+
+<I><A HREF="FunctionObjectConcept_CircularKernel--ComputeCircularX_2.html#Cross_link_anchor_834">CircularKernel::ComputeCircularX_2</A></I><BR>
+
+<I><A HREF="FunctionObjectConcept_CircularKernel--ComputeCircularY_2.html#Cross_link_anchor_835">CircularKernel::ComputeCircularY_2</A></I>
+<P>
+
+<I><A HREF="FunctionObjectConcept_CircularKernel--ConstructCircularMinVertex_2.html#Cross_link_anchor_808">CircularKernel::ConstructCircularMinVertex_2</A></I><BR>
+
+<I><A HREF="FunctionObjectConcept_CircularKernel--ConstructCircularMaxVertex_2.html#Cross_link_anchor_809">CircularKernel::ConstructCircularMaxVertex_2</A></I><BR>
+
+<I><A HREF="FunctionObjectConcept_CircularKernel--ConstructCircularSourceVertex_2.html#Cross_link_anchor_810">CircularKernel::ConstructCircularSourceVertex_2</A></I><BR>
+
+<I><A HREF="FunctionObjectConcept_CircularKernel--ConstructCircularTargetVertex_2.html#Cross_link_anchor_811">CircularKernel::ConstructCircularTargetVertex_2</A></I>
+<P>
+
+<I><A HREF="FunctionObjectConcept_CircularKernel--ConstructBbox_2.html#Cross_link_anchor_812">CircularKernel::ConstructBbox_2</A></I>
+<P>
+
+<I><A HREF="FunctionObjectConcept_CircularKernel--CompareX_2.html#Cross_link_anchor_813">CircularKernel::CompareX_2</A></I><BR>
+
+<I><A HREF="FunctionObjectConcept_CircularKernel--CompareY_2.html#Cross_link_anchor_814">CircularKernel::CompareY_2</A></I><BR>
+
+<I><A HREF="FunctionObjectConcept_CircularKernel--CompareXY_2.html#Cross_link_anchor_815">CircularKernel::CompareXY_2</A></I>
+<P>
+
+<I><A HREF="FunctionObjectConcept_CircularKernel--Equal_2.html#Cross_link_anchor_822">CircularKernel::Equal_2</A></I>
+<P>
+
+<I><A HREF="FunctionObjectConcept_CircularKernel--CompareYatX_2.html#Cross_link_anchor_816">CircularKernel::CompareYatX_2</A></I><BR>
+
+<I><A HREF="FunctionObjectConcept_CircularKernel--CompareYtoRight_2.html#Cross_link_anchor_817">CircularKernel::CompareYtoRight_2</A></I>
+<P>
+
+<I><A HREF="FunctionObjectConcept_CircularKernel--HasOn_2.html#Cross_link_anchor_823">CircularKernel::HasOn_2</A></I>
+<P>
+
+<I><A HREF="FunctionObjectConcept_CircularKernel--DoOverlap_2.html#Cross_link_anchor_824">CircularKernel::DoOverlap_2</A></I>
+<P>
+
+<I><A HREF="FunctionObjectConcept_CircularKernel--DoIntersect_2.html#Cross_link_anchor_825">CircularKernel::DoIntersect_2</A></I>
+<P>
+
+<I><A HREF="FunctionObjectConcept_CircularKernel--BoundedSide_2.html#Cross_link_anchor_826">CircularKernel::BoundedSide_2</A></I><BR>
+
+<I><A HREF="FunctionObjectConcept_CircularKernel--HasOnBoundedSide_2.html#Cross_link_anchor_827">CircularKernel::HasOnBoundedSide_2</A></I><BR>
+
+<I><A HREF="FunctionObjectConcept_CircularKernel--HasOnUnboundedSide_2.html#Cross_link_anchor_828">CircularKernel::HasOnUnboundedSide_2</A></I>
+<P>
+
+<I><A HREF="FunctionObjectConcept_CircularKernel--InXRange_2.html#Cross_link_anchor_829">CircularKernel::InXRange_2</A></I>
+<P>
+
+<I><A HREF="FunctionObjectConcept_CircularKernel--IsVertical_2.html#Cross_link_anchor_830">CircularKernel::IsVertical_2</A></I>
+<P>
+
+<I><A HREF="FunctionObjectConcept_CircularKernel--IsXMonotone_2.html#Cross_link_anchor_831">CircularKernel::IsXMonotone_2</A></I><BR>
+
+<I><A HREF="FunctionObjectConcept_CircularKernel--IsYMonotone_2.html#Cross_link_anchor_832">CircularKernel::IsYMonotone_2</A></I>
+<P>
+
+<I><A HREF="FunctionObjectConcept_CircularKernel--MakeXMonotone_2.html#Cross_link_anchor_818">CircularKernel::MakeXMonotone_2</A></I><BR>
+
+<I><A HREF="FunctionObjectConcept_CircularKernel--MakeXYMonotone_2.html#Cross_link_anchor_819">CircularKernel::MakeXYMonotone_2</A></I>
+<P>
+
+<I><A HREF="FunctionObjectConcept_CircularKernel--Intersect_2.html#Cross_link_anchor_820">CircularKernel::Intersect_2</A></I>
+<P>
+
+<I><A HREF="FunctionObjectConcept_CircularKernel--Split_2.html#Cross_link_anchor_821">CircularKernel::Split_2</A></I>
+<P>
+
+<I><A HREF="FunctionObjectConcept_CircularKernel--GetEquation.html#Cross_link_anchor_833">CircularKernel::GetEquation</A></I>
+<P>
+
+<a name="Section_13.6"></a>
+        
+<h2>13.6&nbsp;&nbsp;&nbsp;Geometric Kernels and Classes</h2>
+<P>
+
+<h4>Kernels</h4>
+<P>
+
+<I><A HREF="Class_Circular_kernel_2.html#Cross_link_anchor_795">CGAL::Circular_kernel_2</A>&lt;<A HREF="../Kernel_23_ref/Concept_Kernel.html#Cross_link_anchor_318">Kernel</A>,<A HREF="Concept_AlgebraicKernelForCircles.html#Cross_link_anchor_845">AlgebraicKernelForCircles</A>&gt;</I><BR>
+
+<I><A HREF="Class_Exact_circular_kernel_2.html#Cross_link_anchor_796">CGAL::Exact_circular_kernel_2</A></I>
+<P>
+
+<h4>Points</h4>
+
+<I><A HREF="Class_Circular_arc_point_2.html#Cross_link_anchor_802">CGAL::Circular_arc_point_2</A>&lt;<A HREF="Concept_CircularKernel.html#Cross_link_anchor_794">CircularKernel</A>&gt;</I>
+<P>
+
+<h4>Arcs</h4>
+
+<I><A HREF="Class_Circular_arc_2.html#Cross_link_anchor_800">CGAL::Circular_arc_2</A>&lt;<A HREF="Concept_CircularKernel.html#Cross_link_anchor_794">CircularKernel</A>&gt;</I><BR>
+
+<I><A HREF="Class_Line_arc_2.html#Cross_link_anchor_801">CGAL::Line_arc_2</A>&lt;<A HREF="Concept_CircularKernel.html#Cross_link_anchor_794">CircularKernel</A>&gt;</I>
+<P>
+
+<a name="Section_13.7"></a>
+        
+<h2>13.7&nbsp;&nbsp;&nbsp;Geometric Global Functions</h2>
+<P>
+
+<I><A HREF="../Kernel_23_ref/Function_compare_x.html#Cross_link_anchor_417">CGAL::compare_x</A></I><BR>
+
+<I><A HREF="../Kernel_23_ref/Function_compare_y.html#Cross_link_anchor_421">CGAL::compare_y</A></I><BR>
+
+<I><A HREF="../Kernel_23_ref/Function_compare_xy.html#Cross_link_anchor_418">CGAL::compare_xy</A></I>
+<P>
+
+<I><A HREF="../Kernel_23_ref/Function_compare_y_at_x.html#Cross_link_anchor_422">CGAL::compare_y_at_x</A></I><BR>
+
+<I><A HREF="Function_compare_y_to_right.html#Cross_link_anchor_841">CGAL::compare_y_to_right</A></I><BR>
+
+
+<P>
+
+<I><A HREF="Function_has_in_x_range.html#Cross_link_anchor_842">CGAL::has_in_x_range</A></I><BR>
+
+<I><A HREF="Function_has_on.html#Cross_link_anchor_840">CGAL::has_on</A></I>
+<P>
+
+<i><A HREF="../Kernel_23_ref/Function_do_intersect.html#ccRef_Kernel::do_intersect">CGAL::do_intersect</A></i><BR>
+
+<i><A HREF="../Kernel_23_ref/Function_intersection.html#ccRef_Kernel::intersection">CGAL::intersection</A></i>
+<P>
+
+<I><A HREF="Function_x_extremal_point.html#Cross_link_anchor_836">CGAL::x_extremal_point</A></I><BR>
+
+<I><A HREF="Function_y_extremal_point.html#Cross_link_anchor_837">CGAL::y_extremal_point</A></I><BR>
+
+<I><A HREF="Function_x_extremal_points.html#Cross_link_anchor_838">CGAL::x_extremal_points</A></I><BR>
+
+<I><A HREF="Function_y_extremal_points.html#Cross_link_anchor_839">CGAL::y_extremal_points</A></I>
+<P>
+
+<I><A HREF="Function_make_x_monotone.html#Cross_link_anchor_843">CGAL::make_x_monotone</A></I><BR>
+
+<I><A HREF="Function_make_xy_monotone.html#Cross_link_anchor_844">CGAL::make_xy_monotone</A></I>
+<P>
+
+<a name="Section_13.8"></a>
+        
+<h2>13.8&nbsp;&nbsp;&nbsp;Algebraic Concepts</h2>
+<P>
+
+<I><A HREF="Concept_AlgebraicKernelForCircles.html#Cross_link_anchor_845">AlgebraicKernelForCircles</A></I>
+<P>
+
+<h4>Functors</h4>
+<P>
+
+<I><A HREF="Concept_AlgebraicKernelForCircles--ConstructPolynomial_1_2.html#Cross_link_anchor_857">AlgebraicKernelForCircles::ConstructPolynomial_1_2</A></I><BR>
+
+<I><A HREF="Concept_AlgebraicKernelForCircles--ConstructPolynomialForCircles_2_2.html#Cross_link_anchor_858">AlgebraicKernelForCircles::ConstructPolynomialForCircles_2_2</A></I>
+<P>
+
+<I><A HREF="Concept_AlgebraicKernelForCircles--CompareX.html#Cross_link_anchor_853">AlgebraicKernelForCircles::CompareX</A></I><BR>
+
+<I><A HREF="Concept_AlgebraicKernelForCircles--CompareY.html#Cross_link_anchor_854">AlgebraicKernelForCircles::CompareY</A></I><BR>
+
+<I><A HREF="Concept_AlgebraicKernelForCircles--CompareXY.html#Cross_link_anchor_855">AlgebraicKernelForCircles::CompareXY</A></I>
+<P>
+
+<I><A HREF="Concept_AlgebraicKernelForCircles--SignAt.html#Cross_link_anchor_856">AlgebraicKernelForCircles::SignAt</A></I>
+<P>
+
+<I><A HREF="Concept_AlgebraicKernelForCircles--XCriticalPoints.html#Cross_link_anchor_860">AlgebraicKernelForCircles::XCriticalPoints</A></I><BR>
+
+<I><A HREF="Concept_AlgebraicKernelForCircles--YCriticalPoints.html#Cross_link_anchor_861">AlgebraicKernelForCircles::YCriticalPoints</A></I>
+<P>
+
+<I><A HREF="Concept_AlgebraicKernelForCircles--Solve.html#Cross_link_anchor_859">AlgebraicKernelForCircles::Solve</A></I>
+<P>
+
+<a name="Section_13.9"></a>
+        
+<h2>13.9&nbsp;&nbsp;&nbsp;Algebraic Kernel and Classes</h2>
+<P>
+
+<h4>Kernel</h4>
+<P>
+
+<I><A HREF="Class_Algebraic_kernel_for_circles_2_2.html#Cross_link_anchor_846">CGAL::Algebraic_kernel_for_circles_2_2&lt;RT&gt;</A></I>
+<P>
+
+<h4>Polynomials</h4>
+<P>
+
+<I><A HREF="Class_Polynomial_1_2.html#Cross_link_anchor_850">CGAL::Polynomial_1_2&lt;RT&gt;</A></I><BR>
+
+<I><A HREF="Class_Polynomial_for_circles_2_2.html#Cross_link_anchor_852">CGAL::Polynomial_for_circles_2_2&lt;FT&gt;</A></I>
+<P>
+
+<h4>Roots of Polynomials</h4>
+<P>
+
+<I><A HREF="../NumberTypeSupport_ref/Class_Sqrt_extension.html#Cross_link_anchor_121">CGAL::Sqrt_extension&lt;NT,ROOT&gt;</A></I><BR>
+
+<I><A HREF="Class_Root_for_circles_2_2.html#Cross_link_anchor_848">CGAL::Root_for_circles_2_2&lt;FT&gt;</A></I>
+<P>
+
+<I>CGAL::Root_of_traits_2&lt;RT&gt;</I>
+<P>
+
+<a name="Section_13.10"></a>
+        
+<h2>13.10&nbsp;&nbsp;&nbsp;Alphabetical List of Reference Pages</h2>
+<P>
+
+<table cellpadding="0">
+    
+  <tr><td> <a href="Concept_AlgebraicKernelForCircles--CompareXY.html"><I>AlgebraicKernelForCircles::CompareXY</I></a></td></tr>
+  <tr><td> <a href="Concept_AlgebraicKernelForCircles--CompareX.html"><I>AlgebraicKernelForCircles::CompareX</I></a></td></tr>
+  <tr><td> <a href="Concept_AlgebraicKernelForCircles--CompareY.html"><I>AlgebraicKernelForCircles::CompareY</I></a></td></tr>
+  <tr><td> <a href="Concept_AlgebraicKernelForCircles--ConstructPolynomialForCircles_2_2.html"><I>AlgebraicKernelForCircles::ConstructPolynomialForCircles_2_2</I></a></td></tr>
+  <tr><td> <a href="Concept_AlgebraicKernelForCircles--ConstructPolynomial_1_2.html"><I>AlgebraicKernelForCircles::ConstructPolynomial_1_2</I></a></td></tr>
+  <tr><td> <a href="Concept_AlgebraicKernelForCircles--PolynomialForCircles_2_2.html"><I>AlgebraicKernelForCircles::PolynomialForCircles_2_2</I></a></td></tr>
+  <tr><td> <a href="Concept_AlgebraicKernelForCircles--Polynomial_1_2.html"><I>AlgebraicKernelForCircles::Polynomial_1_2</I></a></td></tr>
+  <tr><td> <a href="Concept_AlgebraicKernelForCircles--RootForCircles_2_2.html"><I>AlgebraicKernelForCircles::RootForCircles_2_2</I></a></td></tr>
+  <tr><td> <a href="Concept_AlgebraicKernelForCircles--SignAt.html"><I>AlgebraicKernelForCircles::SignAt</I></a></td></tr>
+  <tr><td> <a href="Concept_AlgebraicKernelForCircles--Solve.html"><I>AlgebraicKernelForCircles::Solve</I></a></td></tr>
+  <tr><td> <a href="Concept_AlgebraicKernelForCircles--XCriticalPoints.html"><I>AlgebraicKernelForCircles::XCriticalPoints</I></a></td></tr>
+  <tr><td> <a href="Concept_AlgebraicKernelForCircles--YCriticalPoints.html"><I>AlgebraicKernelForCircles::YCriticalPoints</I></a></td></tr>
+  <tr><td> <a href="Concept_AlgebraicKernelForCircles.html"><I>AlgebraicKernelForCircles</I></a></td></tr>
+  <tr><td> <a href="Class_Algebraic_kernel_for_circles_2_2.html"><I>Algebraic_kernel_for_circles_2_2&lt;RT&gt;</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_CircularKernel--BoundedSide_2.html"><I>CircularKernel::BoundedSide_2</I></a></td></tr>
+  <tr><td> <a href="Concept_CircularKernel--CircularArcPoint_2.html"><I>CircularKernel::CircularArcPoint_2</I></a></td></tr>
+  <tr><td> <a href="Concept_CircularKernel--CircularArc_2.html"><I>CircularKernel::CircularArc_2</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_CircularKernel--CompareXY_2.html"><I>CircularKernel::CompareXY_2</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_CircularKernel--CompareX_2.html"><I>CircularKernel::CompareX_2</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_CircularKernel--CompareYatX_2.html"><I>CircularKernel::CompareYatX_2</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_CircularKernel--CompareYtoRight_2.html"><I>CircularKernel::CompareYtoRight_2</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_CircularKernel--CompareY_2.html"><I>CircularKernel::CompareY_2</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_CircularKernel--ComputeCircularX_2.html"><I>CircularKernel::ComputeCircularX_2</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_CircularKernel--ComputeCircularY_2.html"><I>CircularKernel::ComputeCircularY_2</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_CircularKernel--ConstructBbox_2.html"><I>CircularKernel::ConstructBbox_2</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_CircularKernel--ConstructCircle_2.html"><I>CircularKernel::ConstructCircle_2</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_CircularKernel--ConstructCircularArcPoint_2.html"><I>CircularKernel::ConstructCircularArcPoint_2</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_CircularKernel--ConstructCircularArc_2.html"><I>CircularKernel::ConstructCircularArc_2</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_CircularKernel--ConstructCircularMaxVertex_2.html"><I>CircularKernel::ConstructCircularMaxVertex_2</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_CircularKernel--ConstructCircularMinVertex_2.html"><I>CircularKernel::ConstructCircularMinVertex_2</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_CircularKernel--ConstructCircularSourceVertex_2.html"><I>CircularKernel::ConstructCircularSourceVertex_2</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_CircularKernel--ConstructCircularTargetVertex_2.html"><I>CircularKernel::ConstructCircularTargetVertex_2</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_CircularKernel--ConstructLineArc_2.html"><I>CircularKernel::ConstructLineArc_2</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_CircularKernel--ConstructLine_2.html"><I>CircularKernel::ConstructLine_2</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_CircularKernel--DoIntersect_2.html"><I>CircularKernel::DoIntersect_2</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_CircularKernel--DoOverlap_2.html"><I>CircularKernel::DoOverlap_2</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_CircularKernel--Equal_2.html"><I>CircularKernel::Equal_2</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_CircularKernel--GetEquation.html"><I>CircularKernel::GetEquation</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_CircularKernel--HasOnBoundedSide_2.html"><I>CircularKernel::HasOnBoundedSide_2</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_CircularKernel--HasOnUnboundedSide_2.html"><I>CircularKernel::HasOnUnboundedSide_2</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_CircularKernel--HasOn_2.html"><I>CircularKernel::HasOn_2</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_CircularKernel--Intersect_2.html"><I>CircularKernel::Intersect_2</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_CircularKernel--InXRange_2.html"><I>CircularKernel::InXRange_2</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_CircularKernel--IsVertical_2.html"><I>CircularKernel::IsVertical_2</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_CircularKernel--IsXMonotone_2.html"><I>CircularKernel::IsXMonotone_2</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_CircularKernel--IsYMonotone_2.html"><I>CircularKernel::IsYMonotone_2</I></a></td></tr>
+  <tr><td> <a href="Concept_CircularKernel--LineArc_2.html"><I>CircularKernel::LineArc_2</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_CircularKernel--MakeXMonotone_2.html"><I>CircularKernel::MakeXMonotone_2</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_CircularKernel--MakeXYMonotone_2.html"><I>CircularKernel::MakeXYMonotone_2</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_CircularKernel--Split_2.html"><I>CircularKernel::Split_2</I></a></td></tr>
+  <tr><td> <a href="Concept_CircularKernel.html"><I>CircularKernel</I></a></td></tr>
+  <tr><td> <a href="Class_Circular_arc_2.html"><I>Circular_arc_2&lt;CircularKernel&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Circular_arc_point_2.html"><I>Circular_arc_point_2&lt;CircularKernel&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Circular_kernel_2.html"><I>Circular_kernel_2&lt;Kernel,AlgebraicKernelForCircles&gt;</I></a></td></tr>
+  <tr><td> <a href="Function_compare_y_to_right.html"><I>compare_y_to_right</I></a></td></tr>
+  <tr><td> <a href="Class_Exact_circular_kernel_2.html"><I>Exact_circular_kernel_2</I></a></td></tr>
+  <tr><td> <a href="Function_has_in_x_range.html"><I>has_in_x_range</I></a></td></tr>
+  <tr><td> <a href="Function_has_on.html"><I>has_on</I></a></td></tr>
+  <tr><td> <a href="Class_Line_arc_2.html"><I>Line_arc_2&lt;CircularKernel&gt;</I></a></td></tr>
+  <tr><td> <a href="Function_make_xy_monotone.html"><I>make_xy_monotone</I></a></td></tr>
+  <tr><td> <a href="Function_make_x_monotone.html"><I>make_x_monotone</I></a></td></tr>
+  <tr><td> <a href="Class_Polynomial_1_2.html"><I>Polynomial_1_2&lt;RT&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Polynomial_for_circles_2_2.html"><I>Polynomial_for_circles_2_2&lt;FT&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Root_for_circles_2_2.html"><I>Root_for_circles_2_2&lt;FT&gt;</I></a></td></tr>
+  <tr><td> <a href="Function_x_extremal_points.html"><I>x_extremal_points</I></a></td></tr>
+  <tr><td> <a href="Function_x_extremal_point.html"><I>x_extremal_point</I></a></td></tr>
+  <tr><td> <a href="Function_y_extremal_points.html"><I>y_extremal_points</I></a></td></tr>
+  <tr><td> <a href="Function_y_extremal_point.html"><I>y_extremal_point</I></a></td></tr>
+    </table>
+    
+  
+
+  <div class="NavNext">Next chapter: <a href="../Circular_kernel_3/Chapter_main.html">3D Spherical Geometry Kernel</a></div>
+    
+  <div class="NavBottom">
+  
+  <strong>Navigation:</strong>
+<a href="../Circular_kernel_3/Chapter_main.html">Up</a>&nbsp;&nbsp;
+  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
+  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
+  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
+  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
+  <a href="../title.html">Title</a>
+  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
+
+<div class="NavAddress">
+<SMALL><a href="http://www.cgal.org" target="_top">CGAL Open Source Project</a>.
+Release 4.1.
+23 October 2012.</SMALL>
+</div>
+</body>  </html>

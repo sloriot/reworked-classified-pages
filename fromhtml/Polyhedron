@@ -1,0 +1,192 @@
+
+    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en-US"> <head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="generator" content="CGAL latex_to_html converter">
+<!-- by cc_extract_html, $Id: cc_extract_html.cpp 44195 2008-07-16 08:46:48Z spion $ -->
+<!-- LaTeX source file: './Polyhedron_ref/intro.tex' -->
+<link rel="canonical" href="http://www.cgal.org/Manual/latest/doc_html/cgal_manual/Polyhedron_ref/Chapter_intro.html">
+<link href="../latex_to_html.css" rel="STYLESHEET">
+<title>3D Polyhedral Surfaces Reference&nbsp;Manual</title>
+</head>
+<body bgcolor="white">
+
+<div class="NavTop">
+  
+  <strong>Navigation:</strong>
+<a href="Chapter_intro.html">Up</a>&nbsp;&nbsp;
+  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
+  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
+  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
+  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
+  <a href="../title.html">Title</a>
+  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
+<P>
+
+<A NAME="chapterPolyhedronRef"></A><h1>3D Polyhedral Surfaces<BR>
+<I>Reference&nbsp;Manual</I></h1>
+
+ 
+
+<p class="subtitle">Lutz Kettner</p>
+<P>
+
+Polyhedral surfaces in three dimensions are composed of vertices,
+edges, facets and an incidence relationship on them. The organization
+beneath is a halfedge data structure, which restricts the class of
+representable surfaces to orientable 2-manifolds - with and without
+boundary. If the surface is closed we call it a <I>polyhedron</I>.
+<P>
+
+The polyhedral surface is realized as a container class managing
+vertices, halfedges, facets with their incidences, and maintaining the
+combinatorial integrity of them. Its local types for the vertices,
+halfedges and facets are documented separately.  A default traits
+class, a default items class and an incremental builder conclude the
+references. The polyhedral surface is based on the highly flexible
+design of the halfedge data structure, see the reference for
+<I><A HREF="../HalfedgeDS_ref/Concept_HalfedgeDS.html#Cross_link_anchor_1121">HalfedgeDS</A></I> in Chapter&nbsp;<A HREF="../HalfedgeDS_ref/Chapter_intro.html#chapterHalfedgeDSRef">26</A>
+or&nbsp;[<A HREF="../biblio.html#Biblio_k-ugpdd-99">Ket99</A>], but the default instantiation of the polyhedral
+surface can be used without knowing the halfedge data structure.
+<P>
+
+<a name="Section_25.7"></a>
+        
+<h2>25.7&nbsp;&nbsp;&nbsp;Classified Reference Pages</h2>
+<P>
+
+<h3>Concepts</h3>
+<P>
+
+<I><A HREF="Concept_PolyhedronTraits_3.html#Cross_link_anchor_1118">PolyhedronTraits_3</A></I><BR>
+
+<I><A HREF="Concept_PolyhedronItems_3.html#Cross_link_anchor_1115">PolyhedronItems_3</A></I>
+<P>
+
+<h3>Classes</h3>
+<P>
+
+<I><A HREF="Class_Polyhedron_3.html#Cross_link_anchor_1110">CGAL::Polyhedron_3&lt;Traits&gt;</A></I><BR>
+
+<I><A HREF="Class_Polyhedron_3-Traits---Vertex.html#Cross_link_anchor_1113">CGAL::Polyhedron_3&lt;Traits&gt;::Vertex</A></I><BR>
+
+<I><A HREF="Class_Polyhedron_3-Traits---Halfedge.html#Cross_link_anchor_1112">CGAL::Polyhedron_3&lt;Traits&gt;::Halfedge</A></I><BR>
+
+<I><A HREF="Class_Polyhedron_3-Traits---Facet.html#Cross_link_anchor_1111">CGAL::Polyhedron_3&lt;Traits&gt;::Facet</A></I><BR>
+
+<I><A HREF="Class_Polyhedron_traits_3.html#Cross_link_anchor_1119">CGAL::Polyhedron_traits_3</A>&lt;<A HREF="../Kernel_23_ref/Concept_Kernel.html#Cross_link_anchor_318">Kernel</A>&gt;</I><BR>
+
+<I><A HREF="Class_Polyhedron_traits_with_normals_3.html#Cross_link_anchor_1120">CGAL::Polyhedron_traits_with_normals_3</A>&lt;<A HREF="../Kernel_23_ref/Concept_Kernel.html#Cross_link_anchor_318">Kernel</A>&gt;</I><BR>
+
+<I><A HREF="Class_Polyhedron_items_3.html#Cross_link_anchor_1116">CGAL::Polyhedron_items_3</A></I><BR>
+
+<I><A HREF="Class_Polyhedron_min_items_3.html#Cross_link_anchor_1117">CGAL::Polyhedron_min_items_3</A></I><BR>
+
+<I><A HREF="Class_Polyhedron_incremental_builder_3.html#Cross_link_anchor_1114">CGAL::Polyhedron_incremental_builder_3&lt;HDS&gt;</A></I>
+<P>
+
+<h3>Functions</h3>
+<P>
+
+<TABLE BORDER=0 CELLSPACING=2 CELLPADDING=0 WIDTH="950">
+        <TR><TD ALIGN=LEFT VALIGN=TOP WIDTH="100%" COLSPAN=3>
+        <I class="nowrap">
+    
+template &lt;class Traits&gt;
+
+        </I>
+        </TD></TR>
+        
+        <TR><TD ALIGN=LEFT VALIGN=TOP WIDTH="25%" NOWRAP>
+        <I class="nowrap">
+    
+ostream&amp;
+
+        </I>
+        </TD><TD ALIGN=LEFT VALIGN=TOP WIDTH="75%" NOWRAP COLSPAN=2>
+        <I class="nowrap">
+     
+ostream&amp; out
+ &lt;&lt; 
+ <A HREF="Class_Polyhedron_3.html#Cross_link_anchor_1110">CGAL::Polyhedron_3&lt;Traits&gt;</A> P
+<A NAME="Function_ostream__operator666_ostream__out+_const_CGAL::Polyhedron_36Traits9__P9;"></A>
+ 
+        </I>
+        </TR><TR><TD WIDTH="25%" NOWRAP></TD><TD WIDTH="25%" NOWRAP></TD><TD ALIGN=LEFT VALIGN=TOP WIDTH="50%">
+    <A HREF="Function_operator.html">(go there)</A>
+     
+        </TD></TR>
+        <TR><TD><BR></TD></TR>
+        <TR><TD ALIGN=LEFT VALIGN=TOP WIDTH="100%" COLSPAN=3>
+        <I class="nowrap">
+    
+template &lt;class Traits&gt;
+
+        </I>
+        </TD></TR>
+        
+        <TR><TD ALIGN=LEFT VALIGN=TOP WIDTH="25%" NOWRAP>
+        <I class="nowrap">
+    
+istream&amp;
+
+        </I>
+        </TD><TD ALIGN=LEFT VALIGN=TOP WIDTH="75%" NOWRAP COLSPAN=2>
+        <I class="nowrap">
+     
+istream&amp; in
+ &gt;&gt; 
+ <A HREF="Class_Polyhedron_3.html#Cross_link_anchor_1110">CGAL::Polyhedron_3&lt;Traits&gt;</A>&amp; P
+<A NAME="Function_istream__operator996_istream__in+_CGAL::Polyhedron_36Traits9__P9;"></A>
+ 
+        </I>
+        </TR><TR><TD WIDTH="25%" NOWRAP></TD><TD WIDTH="25%" NOWRAP></TD><TD ALIGN=LEFT VALIGN=TOP WIDTH="50%">
+    <A HREF="Function_operator--.html">(go there)</A>
+     
+        </TD></TR>
+        </TABLE>
+<P>
+
+<a name="Section_25.8"></a>
+        
+<h2>25.8&nbsp;&nbsp;&nbsp;Alphabetical List of Reference Pages</h2>
+<P>
+
+<table cellpadding="0">
+    
+  <tr><td> <a href="Function_operator.html"><I>operator&lt;&lt;</I></a></td></tr>
+  <tr><td> <a href="Function_operator--.html"><I>operator&gt;&gt;</I></a></td></tr>
+  <tr><td> <a href="Concept_PolyhedronItems_3.html"><I>PolyhedronItems_3</I></a></td></tr>
+  <tr><td> <a href="Concept_PolyhedronTraits_3.html"><I>PolyhedronTraits_3</I></a></td></tr>
+  <tr><td> <a href="Class_Polyhedron_3-Traits---Facet.html"><I>Polyhedron_3&lt;Traits&gt;::Facet</I></a></td></tr>
+  <tr><td> <a href="Class_Polyhedron_3-Traits---Halfedge.html"><I>Polyhedron_3&lt;Traits&gt;::Halfedge</I></a></td></tr>
+  <tr><td> <a href="Class_Polyhedron_3-Traits---Vertex.html"><I>Polyhedron_3&lt;Traits&gt;::Vertex</I></a></td></tr>
+  <tr><td> <a href="Class_Polyhedron_3.html"><I>Polyhedron_3&lt;Traits&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Polyhedron_incremental_builder_3.html"><I>Polyhedron_incremental_builder_3&lt;HDS&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Polyhedron_items_3.html"><I>Polyhedron_items_3</I></a></td></tr>
+  <tr><td> <a href="Class_Polyhedron_min_items_3.html"><I>Polyhedron_min_items_3</I></a></td></tr>
+  <tr><td> <a href="Class_Polyhedron_traits_3.html"><I>Polyhedron_traits_3&lt;Kernel&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Polyhedron_traits_with_normals_3.html"><I>Polyhedron_traits_with_normals_3&lt;Kernel&gt;</I></a></td></tr>
+    </table>
+    
+  
+
+  <div class="NavNext">Next chapter: <a href="../HalfedgeDS/Chapter_main.html">Halfedge Data Structures </a></div>
+    
+  <div class="NavBottom">
+  
+  <strong>Navigation:</strong>
+<a href="../HalfedgeDS/Chapter_main.html">Up</a>&nbsp;&nbsp;
+  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
+  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
+  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
+  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
+  <a href="../title.html">Title</a>
+  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
+
+<div class="NavAddress">
+<SMALL><a href="http://www.cgal.org" target="_top">CGAL Open Source Project</a>.
+Release 4.1.
+23 October 2012.</SMALL>
+</div>
+</body>  </html>

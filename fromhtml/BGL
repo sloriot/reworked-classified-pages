@@ -1,0 +1,119 @@
+
+    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en-US"> <head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="generator" content="CGAL latex_to_html converter">
+<!-- by cc_extract_html, $Id: cc_extract_html.cpp 44195 2008-07-16 08:46:48Z spion $ -->
+<!-- LaTeX source file: './BGL_ref/intro.tex' -->
+<link rel="canonical" href="http://www.cgal.org/Manual/latest/doc_html/cgal_manual/BGL_ref/Chapter_intro.html">
+<link href="../latex_to_html.css" rel="STYLESHEET">
+<title>CGAL and the Boost Graph Library Reference&nbsp;Manual</title>
+</head>
+<body bgcolor="white">
+
+<div class="NavTop">
+  
+  <strong>Navigation:</strong>
+<a href="Chapter_intro.html">Up</a>&nbsp;&nbsp;
+  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
+  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
+  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
+  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
+  <a href="../title.html">Title</a>
+  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
+<P>
+
+<A NAME="ref-chapter-BGL"></A><h1>CGAL and the Boost Graph Library<BR>
+<I>Reference&nbsp;Manual</I></h1>
+<P>
+
+<p class="subtitle">Andreas Fabri, Fernando Cacciola, and Ron Wein</p>
+<P>
+
+This chapter introduces the concepts and classes that allow to interface <span class="textsc">Cgal</span> data structures 
+with the algorithms of the <span class="textsc">Bgl</span>, as well as a new graph concept.
+<P>
+
+<a name="Section_74.7"></a>
+        
+<h2>74.7&nbsp;&nbsp;&nbsp;Classified Reference Pages</h2>
+<P>
+
+<H3>Concepts</H3>
+<I><A HREF="Concept_HalfedgeGraph.html#Cross_link_anchor_1973">HalfedgeGraph</A></I>
+<P>
+
+<H3>Enums</H3>
+<I><A HREF="Enum_edge_index_t.html#Cross_link_anchor_1983">boost::edge_index_t</A></I><BR>
+
+<I><A HREF="Enum_edge_is_border_t.html#Cross_link_anchor_1985">CGAL::edge_is_border_t</A></I><BR>
+
+<I><A HREF="Enum_vertex_is_border_t.html#Cross_link_anchor_1987">CGAL::vertex_is_border_t</A></I><BR>
+
+<I><A HREF="Enum_vertex_point_t.html#Cross_link_anchor_1989">CGAL::vertex_point_t</A></I>
+<P>
+
+<H3>Classes</H3>
+<I><A HREF="Class_graph_traits.html#Cross_link_anchor_1974">boost::graph_traits&lt; CGAL::Arrangement_2&lt;Traits,Dcel&gt; &gt;</A></I><BR>
+
+<I><A HREF="Class_graph_traits.html#Cross_link_anchor_1975">boost::graph_traits&lt; CGAL::Polyhedron_3&lt;Traits&gt; &gt;</A></I><BR>
+
+<I><A HREF="Class_halfedge_graph_traits.html#Cross_link_anchor_1977">CGAL::halfedge_graph_traits&lt; CGAL::Polyhedron_3&lt;Traits&gt; &gt;</A></I><BR>
+
+<I><A HREF="Class_graph_traits.html#Cross_link_anchor_1976">boost::graph_traits&lt; CGAL::Triangulation_2&lt;GT, TDS&gt; &gt;</A></I><BR>
+
+<I><A HREF="Class_Triangulation_vertex_base_with_id_2.html#Cross_link_anchor_1978">CGAL::Triangulation_vertex_base_with_id_2</A>&lt;<A HREF="../Triangulation_2_ref/Concept_TriangulationTraits_2.html#Cross_link_anchor_1341">TriangulationTraits_2</A>, <A HREF="../Triangulation_2_ref/Concept_TriangulationVertexBase_2.html#Cross_link_anchor_1342">TriangulationVertexBase_2</A>&gt;</I><BR>
+
+<I><A HREF="Class_HalfedgeDS_vertex_max_base_with_id.html#Cross_link_anchor_1981">CGAL::HalfedgeDS_vertex_max_base_with_id&lt;Refs&gt;</A></I><BR>
+
+<I><A HREF="Class_HalfedgeDS_halfedge_max_base_with_id.html#Cross_link_anchor_1979">CGAL::HalfedgeDS_halfedge_max_base_with_id&lt;Refs&gt;</A></I><BR>
+
+<I><A HREF="Class_HalfedgeDS_face_max_base_with_id.html#Cross_link_anchor_1980">CGAL::HalfedgeDS_face_max_base_with_id&lt;Refs&gt;</A></I><BR>
+
+<I><A HREF="Class_Polyhedron_items_with_id_3.html#Cross_link_anchor_1982">CGAL::Polyhedron_items_with_id_3</A></I>
+<P>
+
+<a name="Section_74.8"></a>
+        
+<h2>74.8&nbsp;&nbsp;&nbsp;Alphabetical List of Reference Pages</h2>
+<P>
+
+<table cellpadding="0">
+    
+  <tr><td> <a href="Enum_edge_index_t.html"><I>edge_index_t</I></a></td></tr>
+  <tr><td> <a href="Enum_edge_is_border_t.html"><I>edge_is_border_t</I></a></td></tr>
+  <tr><td> <a href="Class_graph_traits.html"><I>graph_traits&lt; CGAL::Arrangement_2&lt;Traits,Dcel&gt; &gt;</I></a></td></tr>
+  <tr><td> <a href="Class_graph_traits.html"><I>graph_traits&lt; CGAL::Polyhedron_3&lt;Traits&gt; &gt;</I></a></td></tr>
+  <tr><td> <a href="Class_graph_traits.html"><I>graph_traits&lt; CGAL::Triangulation_2&lt;GT, TDS&gt; &gt;</I></a></td></tr>
+  <tr><td> <a href="Class_HalfedgeDS_face_max_base_with_id.html"><I>HalfedgeDS_face_max_base_with_id&lt;Refs&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_HalfedgeDS_halfedge_max_base_with_id.html"><I>HalfedgeDS_halfedge_max_base_with_id&lt;Refs&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_HalfedgeDS_vertex_max_base_with_id.html"><I>HalfedgeDS_vertex_max_base_with_id&lt;Refs&gt;</I></a></td></tr>
+  <tr><td> <a href="Concept_HalfedgeGraph.html"><I>HalfedgeGraph</I></a></td></tr>
+  <tr><td> <a href="Class_halfedge_graph_traits.html"><I>halfedge_graph_traits&lt; CGAL::Polyhedron_3&lt;Traits&gt; &gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Polyhedron_items_with_id_3.html"><I>Polyhedron_items_with_id_3</I></a></td></tr>
+  <tr><td> <a href="Class_Triangulation_vertex_base_with_id_2.html"><I>Triangulation_vertex_base_with_id_2&lt;TriangulationTraits_2, TriangulationVertexBase_2&gt;</I></a></td></tr>
+  <tr><td> <a href="Enum_vertex_is_border_t.html"><I>vertex_is_border_t</I></a></td></tr>
+  <tr><td> <a href="Enum_vertex_point_t.html"><I>vertex_point_t</I></a></td></tr>
+    </table>
+    
+  
+
+  <div class="NavNext">Next chapter: <a href="../Property_map/Chapter_main.html">CGAL and Boost Property Maps </a></div>
+    
+  <div class="NavBottom">
+  
+  <strong>Navigation:</strong>
+<a href="../Property_map/Chapter_main.html">Up</a>&nbsp;&nbsp;
+  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
+  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
+  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
+  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
+  <a href="../title.html">Title</a>
+  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
+
+<div class="NavAddress">
+<SMALL><a href="http://www.cgal.org" target="_top">CGAL Open Source Project</a>.
+Release 4.1.
+23 October 2012.</SMALL>
+</div>
+</body>  </html>

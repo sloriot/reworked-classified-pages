@@ -1,0 +1,207 @@
+
+    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en-US"> <head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="generator" content="CGAL latex_to_html converter">
+<!-- by cc_extract_html, $Id: cc_extract_html.cpp 44195 2008-07-16 08:46:48Z spion $ -->
+<!-- LaTeX source file: './Triangulation_3_ref/intro.tex' -->
+<link rel="canonical" href="http://www.cgal.org/Manual/latest/doc_html/cgal_manual/Triangulation_3_ref/Chapter_intro.html">
+<link href="../latex_to_html.css" rel="STYLESHEET">
+<title>3D Triangulations Reference&nbsp;Manual</title>
+</head>
+<body bgcolor="white">
+
+<div class="NavTop">
+  
+  <strong>Navigation:</strong>
+<a href="Chapter_intro.html">Up</a>&nbsp;&nbsp;
+  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
+  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
+  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
+  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
+  <a href="../title.html">Title</a>
+  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
+<P>
+
+<h1>3D Triangulations<BR>
+<I>Reference&nbsp;Manual</I></h1>
+
+ 
+<p class="subtitle">Sylvain Pion  and Monique Teillaud</p>
+<P>
+
+A three-dimensional triangulation is a three-dimensional simplicial
+complex, pure connected and without singularities [<A HREF="../biblio.html#Biblio_by-ag-98">BY98</A>]. Its
+cells (<span class="math">3</span>-faces) are such that two cells either do not intersect or
+share a common facet (<span class="math">2</span>-face), edge (<span class="math">1</span>-face) or vertex (<span class="math">0</span>-face).
+<P>
+
+The basic 3D-triangulation class of <span class="textsc">Cgal</span> is primarily designed to
+represent the triangulations of a set of points <span class="math">A</span> in <span class="math"><span class="sym">&#x211D;</span><SUP>3</SUP></span>.  It can
+be viewed as a partition of the convex hull of <span class="math">A</span> into tetrahedra
+whose vertices are the points of <span class="math">A</span>.  Together with the unbounded
+cell having the convex hull boundary as its frontier, the triangulation
+forms a partition of <span class="math"><span class="sym">&#x211D;</span><SUP>3</SUP></span>.
+<P>
+
+In order to deal
+only with tetrahedra, which is convenient for many applications, the
+unbounded cell can be subdivided into tetrahedra by considering that
+each convex hull facet is incident to an <I>infinite cell</I> having as
+fourth vertex an auxiliary vertex called the <I>infinite vertex</I>.  In
+that way, each facet is incident to exactly two cells and special cases
+at the boundary of the convex hull are simple to deal with.
+<P>
+
+A triangulation is a collection of vertices and cells that are linked
+together through incidence and adjacency relations. Each cell gives
+access to its four incident vertices and to its four adjacent
+cells. Each vertex gives access to one of its incident cells.
+<P>
+
+The four vertices of a cell are indexed with 0, 1, 2 and 3 in positive
+orientation, the positive orientation being defined by the orientation
+of the underlying Euclidean space <span class="math"><span class="sym">&#x211D;</span><SUP>3</SUP></span>. The neighbors of a cell are also
+indexed with 0, 1, 2, 3 in such a way that the neighbor indexed by <span class="math">i</span>
+is opposite to the vertex with the same index. See
+Figure&nbsp;<A HREF="../Triangulation_3/Chapter_main.html#Triangulation3-fig-orient">39.1</A>.
+<P>
+
+<a name="Section_39.8"></a>
+        
+<h2>39.8&nbsp;&nbsp;&nbsp;Classified Reference Pages</h2>
+<P>
+
+<h3>Concepts</h3>
+<P>
+
+<I><A HREF="Concept_TriangulationTraits_3.html#Cross_link_anchor_1367">TriangulationTraits_3</A></I><BR>
+
+<I><A HREF="Concept_DelaunayTriangulationTraits_3.html#Cross_link_anchor_1368">DelaunayTriangulationTraits_3</A></I><BR>
+
+<I><A HREF="Concept_RegularTriangulationTraits_3.html#Cross_link_anchor_1369">RegularTriangulationTraits_3</A></I><BR>
+
+
+<P>
+
+<I><A HREF="Concept_TriangulationCellBase_3.html#Cross_link_anchor_1371">TriangulationCellBase_3</A></I><BR>
+
+<I><A HREF="Concept_TriangulationVertexBase_3.html#Cross_link_anchor_1372">TriangulationVertexBase_3</A></I><BR>
+
+<I><A HREF="Concept_TriangulationVertexBaseWithInfo_3.html#Cross_link_anchor_1373">TriangulationVertexBaseWithInfo_3</A></I><BR>
+
+<I><A HREF="Concept_TriangulationHierarchyVertexBase_3.html#Cross_link_anchor_1375">TriangulationHierarchyVertexBase_3</A></I><BR>
+
+
+<P>
+
+<I><A HREF="Concept_RegularTriangulationCellBase_3.html#Cross_link_anchor_1376">RegularTriangulationCellBase_3</A></I><BR>
+
+
+<P>
+
+<I><A HREF="../TriangulationDS_3_ref/Concept_TriangulationDataStructure_3.html#Cross_link_anchor_1387">TriangulationDataStructure_3</A></I><BR>
+
+<I><A HREF="Concept_WeightedPoint.html#Cross_link_anchor_1385">WeightedPoint</A></I><BR>
+
+
+<P>
+
+<h3>Classes</h3>
+<P>
+
+<h4>Main Classes</h4>
+<P>
+
+<I><A HREF="Class_Triangulation_3.html#Cross_link_anchor_1363">CGAL::Triangulation_3</A>&lt;<A HREF="Concept_TriangulationTraits_3.html#Cross_link_anchor_1367">TriangulationTraits_3</A>,<A HREF="../TriangulationDS_3_ref/Concept_TriangulationDataStructure_3.html#Cross_link_anchor_1387">TriangulationDataStructure_3</A>&gt;</I><BR>
+
+<I><A HREF="Class_Delaunay_triangulation_3.html#Cross_link_anchor_1364">CGAL::Delaunay_triangulation_3</A>&lt;<A HREF="Concept_DelaunayTriangulationTraits_3.html#Cross_link_anchor_1368">DelaunayTriangulationTraits_3</A>,<A HREF="../TriangulationDS_3_ref/Concept_TriangulationDataStructure_3.html#Cross_link_anchor_1387">TriangulationDataStructure_3</A>,LocationPolicy&gt;</I><BR>
+
+<I><A HREF="Class_Triangulation_hierarchy_3.html#Cross_link_anchor_1365">CGAL::Triangulation_hierarchy_3&lt;Tr&gt;</A></I><BR>
+
+<I><A HREF="Class_Regular_triangulation_3.html#Cross_link_anchor_1366">CGAL::Regular_triangulation_3</A>&lt;<A HREF="Concept_RegularTriangulationTraits_3.html#Cross_link_anchor_1369">RegularTriangulationTraits_3</A>,<A HREF="../TriangulationDS_3_ref/Concept_TriangulationDataStructure_3.html#Cross_link_anchor_1387">TriangulationDataStructure_3</A>&gt;</I>
+<P>
+
+<I><A HREF="Class_Triangulation_cell_base_3.html#Cross_link_anchor_1377">CGAL::Triangulation_cell_base_3</A>&lt;<A HREF="Concept_TriangulationTraits_3.html#Cross_link_anchor_1367">TriangulationTraits_3</A>, <A HREF="../TriangulationDS_3_ref/Concept_TriangulationDSCellBase_3.html#Cross_link_anchor_1390">TriangulationDSCellBase_3</A>&gt;</I><BR>
+
+<I><A HREF="Class_Triangulation_cell_base_with_info_3.html#Cross_link_anchor_1378">CGAL::Triangulation_cell_base_with_info_3</A>&lt;Info, <A HREF="Concept_TriangulationTraits_3.html#Cross_link_anchor_1367">TriangulationTraits_3</A>, <A HREF="Concept_TriangulationCellBase_3.html#Cross_link_anchor_1371">TriangulationCellBase_3</A>&gt;</I><BR>
+
+<I><A HREF="Class_Triangulation_cell_base_with_circumcenter_3.html#Cross_link_anchor_1379">CGAL::Triangulation_cell_base_with_circumcenter_3</A>&lt;<A HREF="Concept_DelaunayTriangulationTraits_3.html#Cross_link_anchor_1368">DelaunayTriangulationTraits_3</A>, <A HREF="Concept_TriangulationCellBase_3.html#Cross_link_anchor_1371">TriangulationCellBase_3</A>&gt;</I><BR>
+
+<I><A HREF="Class_Triangulation_vertex_base_3.html#Cross_link_anchor_1380">CGAL::Triangulation_vertex_base_3</A>&lt;<A HREF="Concept_TriangulationTraits_3.html#Cross_link_anchor_1367">TriangulationTraits_3</A>, <A HREF="../TriangulationDS_3_ref/Concept_TriangulationDSVertexBase_3.html#Cross_link_anchor_1391">TriangulationDSVertexBase_3</A>&gt;</I><BR>
+
+<I><A HREF="Class_Triangulation_vertex_base_with_info_3.html#Cross_link_anchor_1381">CGAL::Triangulation_vertex_base_with_info_3</A>&lt;Info, <A HREF="Concept_TriangulationTraits_3.html#Cross_link_anchor_1367">TriangulationTraits_3</A>, <A HREF="Concept_TriangulationVertexBase_3.html#Cross_link_anchor_1372">TriangulationVertexBase_3</A>&gt;</I><BR>
+
+<I><A HREF="Class_Triangulation_hierarchy_vertex_base_3.html#Cross_link_anchor_1382">CGAL::Triangulation_hierarchy_vertex_base_3</A>&lt;<A HREF="Concept_TriangulationVertexBase_3.html#Cross_link_anchor_1372">TriangulationVertexBase_3</A>&gt;</I><BR>
+
+<I><A HREF="Class_Regular_triangulation_cell_base_3.html#Cross_link_anchor_1383">CGAL::Regular_triangulation_cell_base_3&lt;Traits,Cb&gt;</A></I><BR>
+
+<I><A HREF="Class_Triangulation_simplex_3.html#Cross_link_anchor_1374">CGAL::Triangulation_simplex_3</A>&lt;<A HREF="Class_Triangulation_3.html#Cross_link_anchor_1363">Triangulation_3</A>&gt;</I>
+<P>
+
+<h4>Traits Classes</h4>
+<P>
+
+<I><A HREF="Class_Regular_triangulation_euclidean_traits_3.html#Cross_link_anchor_1370">CGAL::Regular_triangulation_euclidean_traits_3&lt;K,Weight&gt;</A></I>
+<P>
+
+<h3>Enums</h3>
+<P>
+
+<I><A HREF="Enum_Triangulation_3--Locate_type.html#Cross_link_anchor_1384">CGAL::Triangulation_3::Locate_type</A></I>
+<P>
+
+<a name="Section_39.9"></a>
+        
+<h2>39.9&nbsp;&nbsp;&nbsp;Alphabetical List of Reference Pages</h2>
+<P>
+
+<table cellpadding="0">
+    
+  <tr><td> <a href="Concept_DelaunayTriangulationTraits_3.html"><I>DelaunayTriangulationTraits_3</I></a></td></tr>
+  <tr><td> <a href="Class_Delaunay_triangulation_3.html"><I>Delaunay_triangulation_3&lt;DelaunayTriangulationTraits_3,TriangulationDataStructure_3,LocationPolicy&gt;</I></a></td></tr>
+  <tr><td> <a href="Concept_RegularTriangulationCellBase_3.html"><I>RegularTriangulationCellBase_3</I></a></td></tr>
+  <tr><td> <a href="Concept_RegularTriangulationTraits_3.html"><I>RegularTriangulationTraits_3</I></a></td></tr>
+  <tr><td> <a href="Class_Regular_triangulation_3.html"><I>Regular_triangulation_3&lt;RegularTriangulationTraits_3,TriangulationDataStructure_3&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Regular_triangulation_cell_base_3.html"><I>Regular_triangulation_cell_base_3&lt;Traits,Cb&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Regular_triangulation_euclidean_traits_3.html"><I>Regular_triangulation_euclidean_traits_3&lt;K,Weight&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Regular_triangulation_filtered_traits_3.html"><I>Regular_triangulation_filtered_traits_3&lt;FK&gt;</I></a></td></tr>
+  <tr><td> <a href="Concept_TriangulationCellBase_3.html"><I>TriangulationCellBase_3</I></a></td></tr>
+  <tr><td> <a href="Concept_TriangulationHierarchyVertexBase_3.html"><I>TriangulationHierarchyVertexBase_3</I></a></td></tr>
+  <tr><td> <a href="Concept_TriangulationTraits_3.html"><I>TriangulationTraits_3</I></a></td></tr>
+  <tr><td> <a href="Concept_TriangulationVertexBaseWithInfo_3.html"><I>TriangulationVertexBaseWithInfo_3</I></a></td></tr>
+  <tr><td> <a href="Concept_TriangulationVertexBase_3.html"><I>TriangulationVertexBase_3</I></a></td></tr>
+  <tr><td> <a href="Enum_Triangulation_3--Locate_type.html"><I>Triangulation_3::Locate_type</I></a></td></tr>
+  <tr><td> <a href="Class_Triangulation_3.html"><I>Triangulation_3&lt;TriangulationTraits_3,TriangulationDataStructure_3&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Triangulation_cell_base_3.html"><I>Triangulation_cell_base_3&lt;TriangulationTraits_3, TriangulationDSCellBase_3&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Triangulation_cell_base_with_circumcenter_3.html"><I>Triangulation_cell_base_with_circumcenter_3&lt;DelaunayTriangulationTraits_3, TriangulationCellBase_3&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Triangulation_cell_base_with_info_3.html"><I>Triangulation_cell_base_with_info_3&lt;Info, TriangulationTraits_3, TriangulationCellBase_3&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Triangulation_hierarchy_3.html"><I>Triangulation_hierarchy_3&lt;Tr&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Triangulation_hierarchy_vertex_base_3.html"><I>Triangulation_hierarchy_vertex_base_3&lt;TriangulationVertexBase_3&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Triangulation_simplex_3.html"><I>Triangulation_simplex_3&lt;Triangulation_3&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Triangulation_vertex_base_3.html"><I>Triangulation_vertex_base_3&lt;TriangulationTraits_3, TriangulationDSVertexBase_3&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Triangulation_vertex_base_with_info_3.html"><I>Triangulation_vertex_base_with_info_3&lt;Info, TriangulationTraits_3, TriangulationVertexBase_3&gt;</I></a></td></tr>
+  <tr><td> <a href="Concept_WeightedPoint.html"><I>WeightedPoint</I></a></td></tr>
+    </table>
+    
+  
+
+  <div class="NavNext">Next chapter: <a href="../TriangulationDS_3/Chapter_main.html">3D Triangulation Data Structure</a></div>
+    
+  <div class="NavBottom">
+  
+  <strong>Navigation:</strong>
+<a href="../TriangulationDS_3/Chapter_main.html">Up</a>&nbsp;&nbsp;
+  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
+  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
+  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
+  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
+  <a href="../title.html">Title</a>
+  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
+
+<div class="NavAddress">
+<SMALL><a href="http://www.cgal.org" target="_top">CGAL Open Source Project</a>.
+Release 4.1.
+23 October 2012.</SMALL>
+</div>
+</body>  </html>

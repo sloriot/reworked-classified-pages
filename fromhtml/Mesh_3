@@ -1,0 +1,262 @@
+
+    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en-US"> <head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="generator" content="CGAL latex_to_html converter">
+<!-- by cc_extract_html, $Id: cc_extract_html.cpp 44195 2008-07-16 08:46:48Z spion $ -->
+<!-- LaTeX source file: './Mesh_3_ref/intro.tex' -->
+<link rel="canonical" href="http://www.cgal.org/Manual/latest/doc_html/cgal_manual/Mesh_3_ref/Chapter_intro.html">
+<link href="../latex_to_html.css" rel="STYLESHEET">
+<title>3D Mesh Generation Reference&nbsp;Manual</title>
+</head>
+<body bgcolor="white">
+
+<div class="NavTop">
+  
+  <strong>Navigation:</strong>
+<a href="Chapter_intro.html">Up</a>&nbsp;&nbsp;
+  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
+  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
+  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
+  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
+  <a href="../title.html">Title</a>
+  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
+<P>
+
+<h1>3D Mesh Generation<BR>
+<I>Reference&nbsp;Manual</I></h1>
+
+ 
+<p class="subtitle">Pierre Alliez, Laurent Rineau, St&eacute;phane Tayeb, Jane Tournois, Mariette Yvinec</p>
+<P>
+
+<a name="Section_51.6"></a>
+        
+<h2>51.6&nbsp;&nbsp;&nbsp;Classified Reference Pages</h2>
+<P>
+
+<h3>Concepts</h3>
+
+Here are the main concepts of this package:
+<P>
+
+<I><A HREF="Concept_MeshComplex_3InTriangulation_3.html#Cross_link_anchor_1527">MeshComplex_3InTriangulation_3</A></I><BR>
+
+<I><A HREF="Concept_MeshComplexWithFeatures_3InTriangulation_3.html#Cross_link_anchor_1528">MeshComplexWithFeatures_3InTriangulation_3</A></I><BR>
+
+<I><A HREF="Concept_MeshDomain_3.html#Cross_link_anchor_1529">MeshDomain_3</A></I><BR>
+
+<I><A HREF="Concept_MeshDomainWithFeatures_3.html#Cross_link_anchor_1530">MeshDomainWithFeatures_3</A></I><BR>
+
+<I><A HREF="Concept_MeshCriteria_3.html#Cross_link_anchor_1531">MeshCriteria_3</A></I><BR>
+
+<I><A HREF="Concept_MeshCriteriaWithFeatures_3.html#Cross_link_anchor_1532">MeshCriteriaWithFeatures_3</A></I><BR>
+
+<I><A HREF="FunctionObjectConcept_MeshCellCriteria_3.html#Cross_link_anchor_1533">MeshCellCriteria_3</A></I><BR>
+
+<I><A HREF="FunctionObjectConcept_MeshFacetCriteria_3.html#Cross_link_anchor_1534">MeshFacetCriteria_3</A></I><BR>
+
+<I><A HREF="FunctionObjectConcept_MeshEdgeCriteria_3.html#Cross_link_anchor_1535">MeshEdgeCriteria_3</A></I><BR>
+
+
+<P>
+
+The following concepts are secondary concepts, 
+related to the template parameters of some models of the main concepts:
+<P>
+
+<I><A HREF="Concept_BisectionGeometricTraits_3.html#Cross_link_anchor_1536">BisectionGeometricTraits_3</A></I><BR>
+
+<I><A HREF="Concept_IntersectionGeometricTraits_3.html#Cross_link_anchor_1537">IntersectionGeometricTraits_3</A></I><BR>
+
+<I><A HREF="Concept_LabeledImage_3.html#Cross_link_anchor_1538">LabeledImage_3</A></I><BR>
+
+<I><A HREF="Concept_MeshCellBase_3.html#Cross_link_anchor_1539">MeshCellBase_3</A></I><BR>
+
+<I><A HREF="Concept_MeshVertexBase_3.html#Cross_link_anchor_1540">MeshVertexBase_3</A></I><BR>
+
+<I><A HREF="FunctionObjectConcept_MeshDomainField_3.html#Cross_link_anchor_1541">MeshDomainField_3</A></I><BR>
+
+<I><A HREF="Concept_MeshPolyline_3.html#Cross_link_anchor_1542">MeshPolyline_3</A></I><BR>
+
+<I><A HREF="Concept_TriangleAccessor_3.html#Cross_link_anchor_1543">TriangleAccessor_3</A></I><BR>
+
+
+<P>
+
+<h3>Classes</h3>
+
+<I><A HREF="Class_Mesh_complex_3_in_triangulation_3.html#Cross_link_anchor_1544">CGAL::Mesh_complex_3_in_triangulation_3&lt;Tr,CornerIndex,CurveSegmentIndex&gt;</A></I><BR>
+
+<I><A HREF="Class_Mesh_triangulation_3.html#Cross_link_anchor_1545">CGAL::Mesh_triangulation_3&lt;MD,Gt&gt;</A></I><BR>
+
+<I><A HREF="Class_Mesh_vertex_base_3.html#Cross_link_anchor_1546">CGAL::Mesh_vertex_base_3&lt;MD,Gt,Vb&gt;</A></I><BR>
+
+<I><A HREF="Class_Mesh_cell_base_3.html#Cross_link_anchor_1547">CGAL::Mesh_cell_base_3&lt;MD,Gt,Cb&gt;</A></I><BR>
+
+<I><A HREF="Class_Mesh_criteria_3.html#Cross_link_anchor_1548">CGAL::Mesh_criteria_3&lt;Tr&gt;</A></I><BR>
+
+<I><A HREF="FunctionObjectClass_Mesh_cell_criteria_3.html#Cross_link_anchor_1549">CGAL::Mesh_cell_criteria_3&lt;Tr&gt;</A></I><BR>
+
+<I><A HREF="FunctionObjectClass_Mesh_facet_criteria_3.html#Cross_link_anchor_1550">CGAL::Mesh_facet_criteria_3&lt;Tr&gt;</A></I><BR>
+
+<I><A HREF="FunctionObjectClass_Mesh_edge_criteria_3.html#Cross_link_anchor_1551">CGAL::Mesh_edge_criteria_3&lt;Tr&gt;</A></I><BR>
+
+<I><A HREF="FunctionObjectClass_Mesh_constant_domain_field_3.html#Cross_link_anchor_1552">CGAL::Mesh_constant_domain_field_3&lt;Gt,Index&gt;</A></I><BR>
+
+
+<P>
+
+The following classes are models of domain concepts
+and their associated classes:
+<P>
+
+<I><A HREF="Class_Implicit_mesh_domain_3.html#Cross_link_anchor_1553">CGAL::Implicit_mesh_domain_3&lt;Function,BGT&gt;</A></I><BR>
+
+<I><A HREF="Class_Polyhedral_mesh_domain_3.html#Cross_link_anchor_1554">CGAL::Polyhedral_mesh_domain_3&lt;Polyhedron,IGT,TriangleAccessor&gt;</A></I><BR>
+
+<I><A HREF="Class_Polyhedral_mesh_domain_with_features_3.html#Cross_link_anchor_1555">CGAL::Polyhedral_mesh_domain_with_features_3&lt;IGT&gt;</A></I><BR>
+
+<I><A HREF="Class_Labeled_image_mesh_domain_3.html#Cross_link_anchor_1556">CGAL::Labeled_image_mesh_domain_3&lt;Image,BGT&gt;</A></I><BR>
+
+<I><A HREF="Class_Mesh_domain_with_polyline_features_3.html#Cross_link_anchor_1557">CGAL::Mesh_domain_with_polyline_features_3</A>&lt;<A HREF="Concept_MeshDomain_3.html#Cross_link_anchor_1529">MeshDomain_3</A>&gt;</I><BR>
+
+<I><A HREF="Class_Mesh_polyhedron_3.html#Cross_link_anchor_1558">CGAL::Mesh_polyhedron_3&lt;IGT&gt;</A></I><BR>
+
+<I><A HREF="Class_Triangle_accessor_3.html#Cross_link_anchor_1559">CGAL::Triangle_accessor_3&lt;CGAL::Polyhedron_3</A>&lt;K&gt;,K&gt;</I><BR>
+
+
+<P>
+
+<h3>Function Templates</h3>
+
+<I><A HREF="Function_make_mesh_3.html#Cross_link_anchor_1560">CGAL::make_mesh_3</A></I><BR>
+
+<I><A HREF="Function_refine_mesh_3.html#Cross_link_anchor_1561">CGAL::refine_mesh_3</A></I><BR>
+
+<I><A HREF="Function_exude_mesh_3.html#Cross_link_anchor_1562">CGAL::exude_mesh_3</A></I><BR>
+
+<I><A HREF="Function_perturb_mesh_3.html#Cross_link_anchor_1563">CGAL::perturb_mesh_3</A></I><BR>
+
+<I><A HREF="Function_lloyd_optimize_mesh_3.html#Cross_link_anchor_1564">CGAL::lloyd_optimize_mesh_3</A></I><BR>
+
+<I><A HREF="Function_odt_optimize_mesh_3.html#Cross_link_anchor_1565">CGAL::odt_optimize_mesh_3</A></I><BR>
+
+
+<P>
+
+<h3>CGAL::parameters Functions</h3>
+
+<I><A HREF="Function_parameters--features.html#Cross_link_anchor_1566">CGAL::parameters::features</A></I><BR>
+
+<I><A HREF="Function_parameters--no_features.html#Cross_link_anchor_1567">CGAL::parameters::no_features</A></I><BR>
+
+<I><A HREF="Function_parameters--exude.html#Cross_link_anchor_1568">CGAL::parameters::exude</A></I><BR>
+
+<I><A HREF="Function_parameters--no_exude.html#Cross_link_anchor_1569">CGAL::parameters::no_exude</A></I><BR>
+
+<I><A HREF="Function_parameters--perturb.html#Cross_link_anchor_1570">CGAL::parameters::perturb</A></I><BR>
+
+<I><A HREF="Function_parameters--no_perturb.html#Cross_link_anchor_1571">CGAL::parameters::no_perturb</A></I><BR>
+
+<I><A HREF="Function_parameters--lloyd.html#Cross_link_anchor_1572">CGAL::parameters::lloyd</A></I><BR>
+
+<I><A HREF="Function_parameters--no_lloyd.html#Cross_link_anchor_1573">CGAL::parameters::no_lloyd</A></I><BR>
+
+<I><A HREF="Function_parameters--odt.html#Cross_link_anchor_1574">CGAL::parameters::odt</A></I><BR>
+
+<I><A HREF="Function_parameters--no_odt.html#Cross_link_anchor_1575">CGAL::parameters::no_odt</A></I><BR>
+
+
+<P>
+
+<h3>Enumerations</h3>
+
+<I><A HREF="Enum_Mesh_optimization_return_code.html#Cross_link_anchor_1576">CGAL::Mesh_optimization_return_code</A></I><BR>
+
+<I><A HREF="Enum_Mesh_facet_topology.html#Cross_link_anchor_1577">CGAL::Mesh_facet_topology</A></I><BR>
+
+
+<P>
+
+<a name="Section_51.7"></a>
+        
+<h2>51.7&nbsp;&nbsp;&nbsp;Alphabetical List of Reference Pages</h2>
+<P>
+
+<table cellpadding="0">
+    
+  <tr><td> <a href="Concept_BisectionGeometricTraits_3.html"><I>BisectionGeometricTraits_3</I></a></td></tr>
+  <tr><td> <a href="Function_exude_mesh_3.html"><I>exude_mesh_3</I></a></td></tr>
+  <tr><td> <a href="Class_Implicit_mesh_domain_3.html"><I>Implicit_mesh_domain_3&lt;Function,BGT&gt;</I></a></td></tr>
+  <tr><td> <a href="Concept_IntersectionGeometricTraits_3.html"><I>IntersectionGeometricTraits_3</I></a></td></tr>
+  <tr><td> <a href="Concept_LabeledImage_3.html"><I>LabeledImage_3</I></a></td></tr>
+  <tr><td> <a href="Class_Labeled_image_mesh_domain_3.html"><I>Labeled_image_mesh_domain_3&lt;Image,BGT&gt;</I></a></td></tr>
+  <tr><td> <a href="Function_lloyd_optimize_mesh_3.html"><I>lloyd_optimize_mesh_3</I></a></td></tr>
+  <tr><td> <a href="Function_make_mesh_3.html"><I>make_mesh_3</I></a></td></tr>
+  <tr><td> <a href="Concept_MeshCellBase_3.html"><I>MeshCellBase_3</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_MeshCellCriteria_3.html"><I>MeshCellCriteria_3</I></a></td></tr>
+  <tr><td> <a href="Concept_MeshComplexWithFeatures_3InTriangulation_3.html"><I>MeshComplexWithFeatures_3InTriangulation_3</I></a></td></tr>
+  <tr><td> <a href="Concept_MeshComplex_3InTriangulation_3.html"><I>MeshComplex_3InTriangulation_3</I></a></td></tr>
+  <tr><td> <a href="Concept_MeshCriteriaWithFeatures_3.html"><I>MeshCriteriaWithFeatures_3</I></a></td></tr>
+  <tr><td> <a href="Concept_MeshCriteria_3.html"><I>MeshCriteria_3</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_MeshDomainField_3.html"><I>MeshDomainField_3</I></a></td></tr>
+  <tr><td> <a href="Concept_MeshDomainWithFeatures_3.html"><I>MeshDomainWithFeatures_3</I></a></td></tr>
+  <tr><td> <a href="Concept_MeshDomain_3.html"><I>MeshDomain_3</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_MeshEdgeCriteria_3.html"><I>MeshEdgeCriteria_3</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_MeshFacetCriteria_3.html"><I>MeshFacetCriteria_3</I></a></td></tr>
+  <tr><td> <a href="Concept_MeshPolyline_3.html"><I>MeshPolyline_3</I></a></td></tr>
+  <tr><td> <a href="Concept_MeshVertexBase_3.html"><I>MeshVertexBase_3</I></a></td></tr>
+  <tr><td> <a href="Class_Mesh_cell_base_3.html"><I>Mesh_cell_base_3&lt;MD,Gt,Cb&gt;</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectClass_Mesh_cell_criteria_3.html"><I>Mesh_cell_criteria_3&lt;Tr&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Mesh_complex_3_in_triangulation_3.html"><I>Mesh_complex_3_in_triangulation_3&lt;Tr,CornerIndex,CurveSegmentIndex&gt;</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectClass_Mesh_constant_domain_field_3.html"><I>Mesh_constant_domain_field_3&lt;Gt,Index&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Mesh_criteria_3.html"><I>Mesh_criteria_3&lt;Tr&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Mesh_domain_with_polyline_features_3.html"><I>Mesh_domain_with_polyline_features_3&lt;MeshDomain_3&gt;</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectClass_Mesh_edge_criteria_3.html"><I>Mesh_edge_criteria_3&lt;Tr&gt;</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectClass_Mesh_facet_criteria_3.html"><I>Mesh_facet_criteria_3&lt;Tr&gt;</I></a></td></tr>
+  <tr><td> <a href="Enum_Mesh_facet_topology.html"><I>Mesh_facet_topology</I></a></td></tr>
+  <tr><td> <a href="Enum_Mesh_optimization_return_code.html"><I>Mesh_optimization_return_code</I></a></td></tr>
+  <tr><td> <a href="Class_Mesh_polyhedron_3.html"><I>Mesh_polyhedron_3&lt;IGT&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Mesh_triangulation_3.html"><I>Mesh_triangulation_3&lt;MD,Gt&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Mesh_vertex_base_3.html"><I>Mesh_vertex_base_3&lt;MD,Gt,Vb&gt;</I></a></td></tr>
+  <tr><td> <a href="Function_odt_optimize_mesh_3.html"><I>odt_optimize_mesh_3</I></a></td></tr>
+  <tr><td> <a href="Function_parameters--exude.html"><I>parameters::exude</I></a></td></tr>
+  <tr><td> <a href="Function_parameters--features.html"><I>parameters::features</I></a></td></tr>
+  <tr><td> <a href="Function_parameters--lloyd.html"><I>parameters::lloyd</I></a></td></tr>
+  <tr><td> <a href="Function_parameters--no_exude.html"><I>parameters::no_exude</I></a></td></tr>
+  <tr><td> <a href="Function_parameters--no_features.html"><I>parameters::no_features</I></a></td></tr>
+  <tr><td> <a href="Function_parameters--no_lloyd.html"><I>parameters::no_lloyd</I></a></td></tr>
+  <tr><td> <a href="Function_parameters--no_odt.html"><I>parameters::no_odt</I></a></td></tr>
+  <tr><td> <a href="Function_parameters--no_perturb.html"><I>parameters::no_perturb</I></a></td></tr>
+  <tr><td> <a href="Function_parameters--odt.html"><I>parameters::odt</I></a></td></tr>
+  <tr><td> <a href="Function_parameters--perturb.html"><I>parameters::perturb</I></a></td></tr>
+  <tr><td> <a href="Function_perturb_mesh_3.html"><I>perturb_mesh_3</I></a></td></tr>
+  <tr><td> <a href="Class_Polyhedral_mesh_domain_3.html"><I>Polyhedral_mesh_domain_3&lt;Polyhedron,IGT,TriangleAccessor&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Polyhedral_mesh_domain_with_features_3.html"><I>Polyhedral_mesh_domain_with_features_3&lt;IGT&gt;</I></a></td></tr>
+  <tr><td> <a href="Function_refine_mesh_3.html"><I>refine_mesh_3</I></a></td></tr>
+  <tr><td> <a href="Concept_TriangleAccessor_3.html"><I>TriangleAccessor_3</I></a></td></tr>
+  <tr><td> <a href="Class_Triangle_accessor_3.html"><I>Triangle_accessor_3&lt;CGAL::Polyhedron_3&lt;K&gt;,K&gt;</I></a></td></tr>
+    </table>
+    
+  
+
+  
+    
+  <div class="NavBottom">
+  
+  <strong>Navigation:</strong>
+
+  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
+  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
+  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
+  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
+  <a href="../title.html">Title</a>
+  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
+
+<div class="NavAddress">
+<SMALL><a href="http://www.cgal.org" target="_top">CGAL Open Source Project</a>.
+Release 4.1.
+23 October 2012.</SMALL>
+</div>
+</body>  </html>

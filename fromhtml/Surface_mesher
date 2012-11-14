@@ -1,0 +1,187 @@
+
+    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en-US"> <head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="generator" content="CGAL latex_to_html converter">
+<!-- by cc_extract_html, $Id: cc_extract_html.cpp 44195 2008-07-16 08:46:48Z spion $ -->
+<!-- LaTeX source file: './Surface_mesher_ref/intro.tex' -->
+<link rel="canonical" href="http://www.cgal.org/Manual/latest/doc_html/cgal_manual/Surface_mesher_ref/Chapter_intro.html">
+<link href="../latex_to_html.css" rel="STYLESHEET">
+<title>3D Surface Mesh Generation Reference&nbsp;Manual</title>
+</head>
+<body bgcolor="white">
+
+<div class="NavTop">
+  
+  <strong>Navigation:</strong>
+<a href="Chapter_intro.html">Up</a>&nbsp;&nbsp;
+  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
+  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
+  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
+  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
+  <a href="../title.html">Title</a>
+  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
+<P>
+
+<h1>3D Surface Mesh Generation<BR>
+<I>Reference&nbsp;Manual</I></h1>
+
+ 
+<p class="subtitle">Laurent Rineau
+and Mariette Yvinec</p>
+<P>
+
+The surface mesh generation package offers a function template
+which builds a triangular mesh approximating a surface.
+<P>
+
+The meshing algorithms requires to know the surface to be meshed
+through an oracle that mainly can tell whether a
+given segment, ray or line  intersects the surface or not
+and can compute the compute the
+intersections point if any. The oracle is represented by a traits class
+which can be passed to the meshing function
+or automatically generated for certain types of surfaces.
+The current implementation provides 
+traits classes 
+to mesh implicit surfaces as well as  surfaces described 
+as a gray level in a three
+dimensional image.
+<P>
+
+The output mesh conforms to some size and shape criteria 
+which are customizable. The criteria are passed to the mesher
+through a parameter 
+whose type is a model of the
+concept <I><A HREF="Concept_SurfaceMeshFacetsCriteria_3.html#Cross_link_anchor_1509">SurfaceMeshFacetsCriteria_3</A></I>.
+<P>
+
+The meshing algorithm is a Delaunay refinement process
+which is mainly guided by the criteria. 
+The output mesh may offer some guarantees, as being manifold,
+homeomorphic to the surface or within a given
+Hausdorff distance.  However, these guarantees depend 
+on the quality of the input surface (smoothness, with or without
+boundary, manifold or  not),
+the type and values of the given criteria. 
+The behavior of the refinement process can also be influenced through
+a tag, which allows for instance to enforce the manifold property
+of  the output mesh  while avoiding an over-refinement of the mesh.
+<P>
+
+<a name="Section_48.8"></a>
+        
+<h2>48.8&nbsp;&nbsp;&nbsp;Classified Reference Pages</h2>
+<P>
+
+<h3>Concepts</h3>
+<P>
+
+<I><A HREF="Concept_SurfaceMeshComplex_2InTriangulation_3.html#Cross_link_anchor_1508">SurfaceMeshComplex_2InTriangulation_3</A></I><BR>
+
+<I><A HREF="Concept_SurfaceMeshTraits_3.html#Cross_link_anchor_1512">SurfaceMeshTraits_3</A></I><BR>
+
+<I><A HREF="Concept_SurfaceMeshFacetsCriteria_3.html#Cross_link_anchor_1509">SurfaceMeshFacetsCriteria_3</A></I><BR>
+
+<I><A HREF="Concept_SurfaceMeshCellBase_3.html#Cross_link_anchor_1506">SurfaceMeshCellBase_3</A></I><BR>
+
+<I><A HREF="Concept_SurfaceMeshVertexBase_3.html#Cross_link_anchor_1516">SurfaceMeshVertexBase_3</A></I><BR>
+
+<I><A HREF="Concept_SurfaceMeshTriangulation_3.html#Cross_link_anchor_1514">SurfaceMeshTriangulation_3</A></I><BR>
+
+<I><A HREF="Concept_ImplicitFunction.html#Cross_link_anchor_1497">ImplicitFunction</A></I><BR>
+
+<I><A HREF="Concept_ImplicitSurfaceTraits_3.html#Cross_link_anchor_1499">ImplicitSurfaceTraits_3</A></I>
+<P>
+
+<h3>Classes</h3>
+
+<I><A HREF="Class_Surface_mesh_complex_2_in_triangulation_3.html#Cross_link_anchor_1507">CGAL::Surface_mesh_complex_2_in_triangulation_3</A>&lt;Tr, Edge_info = void&gt;</I><BR>
+
+<I><A HREF="Class_Surface_mesh_vertex_base_3.html#Cross_link_anchor_1515">CGAL::Surface_mesh_vertex_base_3&lt;Gt,Vb&gt;</A></I><BR>
+
+<I><A HREF="Class_Surface_mesh_cell_base_3.html#Cross_link_anchor_1505">CGAL::Surface_mesh_cell_base_3&lt;Gt,Cb&gt;</A></I><BR>
+
+<I><A HREF="Class_Surface_mesh_default_criteria_3.html#Cross_link_anchor_1510">CGAL::Surface_mesh_default_criteria_3&lt;Tr&gt;</A></I><BR>
+
+<I><A HREF="Class_Surface_mesh_default_triangulation_3.html#Cross_link_anchor_1511">CGAL::Surface_mesh_default_triangulation_3</A></I><BR>
+
+<I><A HREF="Class_Surface_mesh_traits_generator_3.html#Cross_link_anchor_1513">CGAL::Surface_mesh_traits_generator_3&lt;Surface&gt;</A></I><BR>
+
+<I><A HREF="Class_Implicit_surface_3.html#Cross_link_anchor_1498">CGAL::Implicit_surface_3&lt;Traits, Function&gt;</A></I><BR>
+
+<I><A HREF="Class_Gray_level_image_3.html#Cross_link_anchor_1496">CGAL::Gray_level_image_3&lt;FT, Point&gt;</A></I>
+<P>
+
+<h3>Tag Classes</h3>
+
+<I><A HREF="Class_Manifold_tag.html#Cross_link_anchor_1501">CGAL::Manifold_tag</A></I><BR>
+
+<I><A HREF="Class_Manifold_with_boundary_tag.html#Cross_link_anchor_1502">CGAL::Manifold_with_boundary_tag</A></I><BR>
+
+<I><A HREF="Class_Non_manifold_tag.html#Cross_link_anchor_1503">CGAL::Non_manifold_tag</A></I><BR>
+
+
+<P>
+
+<h3>Function Templates</h3>
+
+<I><A HREF="Function_make_surface_mesh.html#Cross_link_anchor_1500">CGAL::make_surface_mesh</A></I><BR>
+
+<I><A HREF="Function_output_surface_facets_to_polyhedron.html#Cross_link_anchor_1517">CGAL::output_surface_facets_to_polyhedron</A></I><BR>
+
+
+<P>
+
+<a name="Section_48.9"></a>
+        
+<h2>48.9&nbsp;&nbsp;&nbsp;Alphabetical List of Reference Pages</h2>
+<P>
+
+<table cellpadding="0">
+    
+  <tr><td> <a href="Class_Gray_level_image_3.html"><I>Gray_level_image_3&lt;FT, Point&gt;</I></a></td></tr>
+  <tr><td> <a href="Concept_ImplicitFunction.html"><I>ImplicitFunction</I></a></td></tr>
+  <tr><td> <a href="Concept_ImplicitSurfaceTraits_3.html"><I>ImplicitSurfaceTraits_3</I></a></td></tr>
+  <tr><td> <a href="Class_Implicit_surface_3.html"><I>Implicit_surface_3&lt;Traits, Function&gt;</I></a></td></tr>
+  <tr><td> <a href="Function_make_surface_mesh.html"><I>make_surface_mesh</I></a></td></tr>
+  <tr><td> <a href="Class_Manifold_tag.html"><I>Manifold_tag</I></a></td></tr>
+  <tr><td> <a href="Class_Manifold_with_boundary_tag.html"><I>Manifold_with_boundary_tag</I></a></td></tr>
+  <tr><td> <a href="Class_Non_manifold_tag.html"><I>Non_manifold_tag</I></a></td></tr>
+  <tr><td> <a href="Function_output_surface_facets_to_polyhedron.html"><I>output_surface_facets_to_polyhedron</I></a></td></tr>
+  <tr><td> <a href="Concept_SurfaceMeshCellBase_3.html"><I>SurfaceMeshCellBase_3</I></a></td></tr>
+  <tr><td> <a href="Concept_SurfaceMeshComplex_2InTriangulation_3.html"><I>SurfaceMeshComplex_2InTriangulation_3</I></a></td></tr>
+  <tr><td> <a href="Concept_SurfaceMeshFacetsCriteria_3.html"><I>SurfaceMeshFacetsCriteria_3</I></a></td></tr>
+  <tr><td> <a href="Concept_SurfaceMeshTraits_3.html"><I>SurfaceMeshTraits_3</I></a></td></tr>
+  <tr><td> <a href="Concept_SurfaceMeshTriangulation_3.html"><I>SurfaceMeshTriangulation_3</I></a></td></tr>
+  <tr><td> <a href="Concept_SurfaceMeshVertexBase_3.html"><I>SurfaceMeshVertexBase_3</I></a></td></tr>
+  <tr><td> <a href="Concept_Surface_3.html"><I>Surface_3</I></a></td></tr>
+  <tr><td> <a href="Class_Surface_mesh_cell_base_3.html"><I>Surface_mesh_cell_base_3&lt;Gt,Cb&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Surface_mesh_complex_2_in_triangulation_3.html"><I>Surface_mesh_complex_2_in_triangulation_3&lt;Tr, Edge_info = void&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Surface_mesh_default_criteria_3.html"><I>Surface_mesh_default_criteria_3&lt;Tr&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Surface_mesh_default_triangulation_3.html"><I>Surface_mesh_default_triangulation_3</I></a></td></tr>
+  <tr><td> <a href="Class_Surface_mesh_traits_generator_3.html"><I>Surface_mesh_traits_generator_3&lt;Surface&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Surface_mesh_vertex_base_3.html"><I>Surface_mesh_vertex_base_3&lt;Gt,Vb&gt;</I></a></td></tr>
+    </table>
+    
+  
+
+  <div class="NavNext">Next chapter: <a href="../Surface_reconstruction_points_3/Chapter_main.html">Surface Reconstruction from Point Sets </a></div>
+    
+  <div class="NavBottom">
+  
+  <strong>Navigation:</strong>
+<a href="../Surface_reconstruction_points_3/Chapter_main.html">Up</a>&nbsp;&nbsp;
+  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
+  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
+  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
+  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
+  <a href="../title.html">Title</a>
+  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
+
+<div class="NavAddress">
+<SMALL><a href="http://www.cgal.org" target="_top">CGAL Open Source Project</a>.
+Release 4.1.
+23 October 2012.</SMALL>
+</div>
+</body>  </html>

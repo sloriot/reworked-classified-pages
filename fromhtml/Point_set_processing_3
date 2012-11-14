@@ -1,0 +1,117 @@
+
+    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en-US"> <head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="generator" content="CGAL latex_to_html converter">
+<!-- by cc_extract_html, $Id: cc_extract_html.cpp 44195 2008-07-16 08:46:48Z spion $ -->
+<!-- LaTeX source file: './Point_set_processing_3_ref/intro.tex' -->
+<link rel="canonical" href="http://www.cgal.org/Manual/latest/doc_html/cgal_manual/Point_set_processing_3_ref/Chapter_intro.html">
+<link href="../latex_to_html.css" rel="STYLESHEET">
+<title>Point Set Processing
+ Reference&nbsp;Manual</title>
+</head>
+<body bgcolor="white">
+
+<div class="NavTop">
+  
+  <strong>Navigation:</strong>
+<a href="Chapter_intro.html">Up</a>&nbsp;&nbsp;
+  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
+  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
+  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
+  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
+  <a href="../title.html">Title</a>
+  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
+<P>
+
+<A NAME="chap:point_set_processing_3_ref"></A><h1>Point Set Processing
+<BR>
+<I>Reference&nbsp;Manual</I></h1>
+<P>
+
+<p class="subtitle">Pierre Alliez,
+                 Laurent Saboret,
+                 Nader Salman</p>
+<P>
+
+This <span class="textsc">Cgal</span> component implements methods to analyze and process unorganized point sets. The input is an unorganized point set, possibly with attributes. This point set can be analyzed to measure average spacing, a global estimation of the point set density. Furthermore we can process it with functions devoted to simplification, outlier removal, smoothing, normal estimation and normal orientation.
+<P>
+
+<a name="Section_58.9"></a>
+        
+<h2>58.9&nbsp;&nbsp;&nbsp;Classified Reference Pages</h2>
+<P>
+
+<a name="Subsection_58.9.1"></a>
+<h3>58.9.1&nbsp;&nbsp;&nbsp;Functions</h3>
+<P>
+
+<I><A HREF="Function_read_off_points.html#Cross_link_anchor_1668">CGAL::read_off_points</A></I><BR>
+
+<I><A HREF="Function_read_xyz_points.html#Cross_link_anchor_1669">CGAL::read_xyz_points</A></I><BR>
+
+<I><A HREF="Function_compute_average_spacing.html#Cross_link_anchor_1661">CGAL::compute_average_spacing</A></I><BR>
+
+<I><A HREF="Function_remove_outliers.html#Cross_link_anchor_1670">CGAL::remove_outliers</A></I><BR>
+
+<I><A HREF="Function_grid_simplify_point_set.html#Cross_link_anchor_1662">CGAL::grid_simplify_point_set</A></I><BR>
+
+<I><A HREF="Function_random_simplify_point_set.html#Cross_link_anchor_1667">CGAL::random_simplify_point_set</A></I><BR>
+
+<I><A HREF="Function_jet_smooth_point_set.html#Cross_link_anchor_1664">CGAL::jet_smooth_point_set</A></I><BR>
+
+<I><A HREF="Function_jet_estimate_normals.html#Cross_link_anchor_1663">CGAL::jet_estimate_normals</A></I><BR>
+
+<I><A HREF="Function_pca_estimate_normals.html#Cross_link_anchor_1666">CGAL::pca_estimate_normals</A></I><BR>
+
+<I><A HREF="Function_mst_orient_normals.html#Cross_link_anchor_1665">CGAL::mst_orient_normals</A></I><BR>
+
+<I><A HREF="Function_write_off_points.html#Cross_link_anchor_1671">CGAL::write_off_points</A></I><BR>
+
+<I><A HREF="Function_write_xyz_points.html#Cross_link_anchor_1672">CGAL::write_xyz_points</A></I><BR>
+
+
+<P>
+
+<a name="Section_58.10"></a>
+        
+<h2>58.10&nbsp;&nbsp;&nbsp;Alphabetical List of Reference Pages</h2>
+<P>
+
+<table cellpadding="0">
+    
+  <tr><td> <a href="Function_compute_average_spacing.html"><I>compute_average_spacing</I></a></td></tr>
+  <tr><td> <a href="Function_grid_simplify_point_set.html"><I>grid_simplify_point_set</I></a></td></tr>
+  <tr><td> <a href="Function_jet_estimate_normals.html"><I>jet_estimate_normals</I></a></td></tr>
+  <tr><td> <a href="Function_jet_smooth_point_set.html"><I>jet_smooth_point_set</I></a></td></tr>
+  <tr><td> <a href="Function_mst_orient_normals.html"><I>mst_orient_normals</I></a></td></tr>
+  <tr><td> <a href="Function_pca_estimate_normals.html"><I>pca_estimate_normals</I></a></td></tr>
+  <tr><td> <a href="Function_random_simplify_point_set.html"><I>random_simplify_point_set</I></a></td></tr>
+  <tr><td> <a href="Function_read_off_points.html"><I>read_off_points</I></a></td></tr>
+  <tr><td> <a href="Function_read_xyz_points.html"><I>read_xyz_points</I></a></td></tr>
+  <tr><td> <a href="Function_remove_outliers.html"><I>remove_outliers</I></a></td></tr>
+  <tr><td> <a href="Function_write_off_points.html"><I>write_off_points</I></a></td></tr>
+  <tr><td> <a href="Function_write_xyz_points.html"><I>write_xyz_points</I></a></td></tr>
+    </table>
+    
+  
+
+  
+    
+  <div class="NavBottom">
+  
+  <strong>Navigation:</strong>
+
+  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
+  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
+  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
+  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
+  <a href="../title.html">Title</a>
+  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
+
+<div class="NavAddress">
+<SMALL><a href="http://www.cgal.org" target="_top">CGAL Open Source Project</a>.
+Release 4.1.
+23 October 2012.</SMALL>
+</div>
+</body>  </html>

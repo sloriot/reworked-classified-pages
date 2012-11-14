@@ -1,0 +1,214 @@
+
+    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en-US"> <head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="generator" content="CGAL latex_to_html converter">
+<!-- by cc_extract_html, $Id: cc_extract_html.cpp 44195 2008-07-16 08:46:48Z spion $ -->
+<!-- LaTeX source file: './Bounding_volumes_ref/intro.tex' -->
+<link rel="canonical" href="http://www.cgal.org/Manual/latest/doc_html/cgal_manual/Bounding_volumes_ref/Chapter_intro.html">
+<link href="../latex_to_html.css" rel="STYLESHEET">
+<title>Bounded Volumes Reference&nbsp;Manual</title>
+</head>
+<body bgcolor="white">
+
+<div class="NavTop">
+  
+  <strong>Navigation:</strong>
+<a href="Chapter_intro.html">Up</a>&nbsp;&nbsp;
+  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
+  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
+  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
+  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
+  <a href="../title.html">Title</a>
+  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
+<P>
+
+<h1>Bounded Volumes<BR>
+<I>Reference&nbsp;Manual</I></h1>
+
+ 
+<p class="subtitle">Kaspar Fischer, Bernd G&auml;rtner, Thomas Herrmann, Michael Hoffmann, and Sven Sch&ouml;nherr</p>
+<P>
+
+This chapter describes concepts, classes, and functions for bounding areas and volumes.
+<P>
+
+These are Smallest enclosing circle and ellipse (2D), smallest enclosing rectangle,
+parallelogram, and strip (2D), rectangular <span class="math">p</span>-center (2D), smallest
+enclosing sphere and annulus (dD), approximate
+minimum-volume enclosing ellipsoid with user-specified
+approximation ratio (dD).
+<P>
+
+<h2>Assertions</h2>
+
+
+The optimization code uses infix <I>OPTIMISATION</I> in the assertions,
+e.g. defining the compiler flag
+<I>CGAL_OPTIMISATION_NO_PRECONDITIONS</I> switches precondition
+checking off, cf.&nbsp;Section&nbsp;<A HREF="../Preliminaries/Chapter_main.html#sec:checks">2.8</A>.
+<P>
+
+<a name="Section_66.1"></a>
+        
+<h2>66.1&nbsp;&nbsp;&nbsp;Classified References Pages</h2>
+<P>
+
+<h3>Bounding Areas and Volumes</h3>
+<P>
+
+<I><A HREF="Class_Min_circle_2.html#Cross_link_anchor_1766">CGAL::Min_circle_2&lt;Traits&gt;</A></I><BR>
+
+<I><A HREF="Class_Min_circle_2_traits_2.html#Cross_link_anchor_1767">CGAL::Min_circle_2_traits_2&lt;K&gt;</A></I><BR>
+
+<I><A HREF="Concept_MinCircle2Traits.html#Cross_link_anchor_1768">MinCircle2Traits</A></I>
+<P>
+
+<BR>
+
+
+<P>
+
+<I><A HREF="Class_Min_ellipse_2.html#Cross_link_anchor_1769">CGAL::Min_ellipse_2&lt;Traits&gt;</A></I><BR>
+
+<I><A HREF="Class_Min_ellipse_2_traits_2.html#Cross_link_anchor_1770">CGAL::Min_ellipse_2_traits_2&lt;K&gt;</A></I><BR>
+
+<I><A HREF="Concept_MinEllipse2Traits.html#Cross_link_anchor_1771">MinEllipse2Traits</A></I>
+<P>
+
+<BR>
+
+
+<P>
+
+<I><A HREF="Class_Approximate_min_ellipsoid_d.html#Cross_link_anchor_1794">CGAL::Approximate_min_ellipsoid_d&lt;Traits&gt;</A></I><BR>
+
+<I><A HREF="Concept_ApproximateMinEllipsoid_d_Traits_d.html#Cross_link_anchor_1795">ApproximateMinEllipsoid_d_Traits_d</A></I>
+<P>
+
+<BR>
+
+
+<P>
+
+<I><A HREF="Function_min_rectangle_2.html#Cross_link_anchor_1772">CGAL::min_rectangle_2</A></I><BR>
+
+<I><A HREF="Function_min_parallelogram_2.html#Cross_link_anchor_1773">CGAL::min_parallelogram_2</A></I><BR>
+
+<I><A HREF="Function_min_strip_2.html#Cross_link_anchor_1774">CGAL::min_strip_2</A></I><BR>
+
+<I><A HREF="Class_Min_quadrilateral_default_traits_2.html#Cross_link_anchor_1775">CGAL::Min_quadrilateral_default_traits_2&lt;K&gt;</A></I><BR>
+
+<I><A HREF="Concept_MinQuadrilateralTraits_2.html#Cross_link_anchor_1776">MinQuadrilateralTraits_2</A></I>
+<P>
+
+<BR>
+
+
+<P>
+
+<I><A HREF="Function_rectangular_p_center_2.html#Cross_link_anchor_1777">CGAL::rectangular_p_center_2</A></I><BR>
+
+<I><A HREF="Class_Rectangular_p_center_default_traits_2.html#Cross_link_anchor_1778">CGAL::Rectangular_p_center_default_traits_2&lt;K&gt;</A></I><BR>
+
+<I><A HREF="Concept_RectangularPCenterTraits_2.html#Cross_link_anchor_1779">RectangularPCenterTraits_2</A></I>
+<P>
+
+<BR>
+
+
+<P>
+
+<I><A HREF="Class_Min_sphere_d.html#Cross_link_anchor_1780">CGAL::Min_sphere_d&lt;Traits&gt;</A></I><BR>
+
+<I><A HREF="Class_Min_annulus_d.html#Cross_link_anchor_1785">CGAL::Min_annulus_d&lt;Traits&gt;</A></I><BR>
+
+<I><A HREF="Class_Min_sphere_annulus_d_traits_2.html#Cross_link_anchor_1782">CGAL::Min_sphere_annulus_d_traits_2&lt;K,ET,NT&gt;</A></I><BR>
+
+<I><A HREF="Class_Min_sphere_annulus_d_traits_3.html#Cross_link_anchor_1783">CGAL::Min_sphere_annulus_d_traits_3&lt;K,ET,NT&gt;</A></I><BR>
+
+<I><A HREF="Class_Min_sphere_annulus_d_traits_d.html#Cross_link_anchor_1784">CGAL::Min_sphere_annulus_d_traits_d&lt;K,ET,NT&gt;</A></I><BR>
+
+<I><A HREF="Concept_MinSphereAnnulusDTraits.html#Cross_link_anchor_1781">MinSphereAnnulusDTraits</A></I>
+<P>
+
+<BR>
+
+
+<P>
+
+<I><A HREF="Class_Min_sphere_of_spheres_d.html#Cross_link_anchor_1786">CGAL::Min_sphere_of_spheres_d&lt;Traits&gt;</A></I><BR>
+
+<I><A HREF="Concept_MinSphereOfSpheresTraits.html#Cross_link_anchor_1787">MinSphereOfSpheresTraits</A></I>
+<P>
+
+<a name="Section_66.2"></a>
+        
+<h2>66.2&nbsp;&nbsp;&nbsp;Alphabetical List of Reference Pages</h2>
+<P>
+
+<A NAME="Index_anchor_2128"></A>
+<P>
+
+<A NAME="Index_anchor_2160"></A>
+<P>
+
+<table cellpadding="0">
+    
+  <tr><td> <a href="Concept_ApproximateMinEllipsoid_d_Traits_d.html"><I>ApproximateMinEllipsoid_d_Traits_d</I></a></td></tr>
+  <tr><td> <a href="Class_Approximate_min_ellipsoid_d.html"><I>Approximate_min_ellipsoid_d&lt;Traits&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Approximate_min_ellipsoid_d_traits_2.html"><I>Approximate_min_ellipsoid_d_traits_2&lt;K,ET&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Approximate_min_ellipsoid_d_traits_3.html"><I>Approximate_min_ellipsoid_d_traits_3&lt;K,ET&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Approximate_min_ellipsoid_d_traits_d.html"><I>Approximate_min_ellipsoid_d_traits_d&lt;K,ET&gt;</I></a></td></tr>
+  <tr><td> <a href="Circle.html"><I>Circle</I></a></td></tr>
+  <tr><td> <a href="Ellipse.html"><I>Ellipse</I></a></td></tr>
+  <tr><td> <a href="Concept_MinCircle2Traits.html"><I>MinCircle2Traits</I></a></td></tr>
+  <tr><td> <a href="Concept_MinEllipse2Traits.html"><I>MinEllipse2Traits</I></a></td></tr>
+  <tr><td> <a href="Concept_MinQuadrilateralTraits_2.html"><I>MinQuadrilateralTraits_2</I></a></td></tr>
+  <tr><td> <a href="Concept_MinSphereAnnulusDTraits.html"><I>MinSphereAnnulusDTraits</I></a></td></tr>
+  <tr><td> <a href="Concept_MinSphereOfSpheresTraits.html"><I>MinSphereOfSpheresTraits</I></a></td></tr>
+  <tr><td> <a href="Class_Min_annulus_d.html"><I>Min_annulus_d&lt;Traits&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Min_circle_2.html"><I>Min_circle_2&lt;Traits&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Min_circle_2_traits_2.html"><I>Min_circle_2_traits_2&lt;K&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Min_ellipse_2.html"><I>Min_ellipse_2&lt;Traits&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Min_ellipse_2_traits_2.html"><I>Min_ellipse_2_traits_2&lt;K&gt;</I></a></td></tr>
+  <tr><td> <a href="Function_min_parallelogram_2.html"><I>min_parallelogram_2</I></a></td></tr>
+  <tr><td> <a href="Class_Min_quadrilateral_default_traits_2.html"><I>Min_quadrilateral_default_traits_2&lt;K&gt;</I></a></td></tr>
+  <tr><td> <a href="Function_min_rectangle_2.html"><I>min_rectangle_2</I></a></td></tr>
+  <tr><td> <a href="Class_Min_sphere_annulus_d_traits_2.html"><I>Min_sphere_annulus_d_traits_2&lt;K,ET,NT&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Min_sphere_annulus_d_traits_3.html"><I>Min_sphere_annulus_d_traits_3&lt;K,ET,NT&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Min_sphere_annulus_d_traits_d.html"><I>Min_sphere_annulus_d_traits_d&lt;K,ET,NT&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Min_sphere_d.html"><I>Min_sphere_d&lt;Traits&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Min_sphere_of_points_d_traits_2.html"><I>Min_sphere_of_points_d_traits_2&lt;K,FT,UseSqrt,Algorithm&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Min_sphere_of_points_d_traits_d.html"><I>Min_sphere_of_points_d_traits_d&lt;K,FT,Dim,UseSqrt,Algorithm&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Min_sphere_of_spheres_d.html"><I>Min_sphere_of_spheres_d&lt;Traits&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Min_sphere_of_spheres_d_traits_2.html"><I>Min_sphere_of_spheres_d_traits_2&lt;K,FT,UseSqrt,Algorithm&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Min_sphere_of_spheres_d_traits_3.html"><I>Min_sphere_of_spheres_d_traits_3&lt;K,FT,UseSqrt,Algorithm&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Min_sphere_of_spheres_d_traits_d.html"><I>Min_sphere_of_spheres_d_traits_d&lt;K,FT,Dim,UseSqrt,Algorithm&gt;</I></a></td></tr>
+  <tr><td> <a href="Function_min_strip_2.html"><I>min_strip_2</I></a></td></tr>
+  <tr><td> <a href="Concept_RectangularPCenterTraits_2.html"><I>RectangularPCenterTraits_2</I></a></td></tr>
+  <tr><td> <a href="Function_rectangular_p_center_2.html"><I>rectangular_p_center_2</I></a></td></tr>
+  <tr><td> <a href="Class_Rectangular_p_center_default_traits_2.html"><I>Rectangular_p_center_default_traits_2&lt;K&gt;</I></a></td></tr>
+    </table>
+    
+  
+
+  <div class="NavNext">Next chapter: <a href="../Inscribed_areas/Chapter_main.html">Inscribed Areas </a></div>
+    
+  <div class="NavBottom">
+  
+  <strong>Navigation:</strong>
+<a href="../Inscribed_areas/Chapter_main.html">Up</a>&nbsp;&nbsp;
+  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
+  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
+  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
+  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
+  <a href="../title.html">Title</a>
+  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
+
+<div class="NavAddress">
+<SMALL><a href="http://www.cgal.org" target="_top">CGAL Open Source Project</a>.
+Release 4.1.
+23 October 2012.</SMALL>
+</div>
+</body>  </html>

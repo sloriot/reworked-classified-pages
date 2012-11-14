@@ -1,0 +1,421 @@
+
+    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en-US"> <head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="generator" content="CGAL latex_to_html converter">
+<!-- by cc_extract_html, $Id: cc_extract_html.cpp 44195 2008-07-16 08:46:48Z spion $ -->
+<!-- LaTeX source file: './Circular_kernel_3_ref/intro.tex' -->
+<link rel="canonical" href="http://www.cgal.org/Manual/latest/doc_html/cgal_manual/Circular_kernel_3_ref/Chapter_intro.html">
+<link href="../latex_to_html.css" rel="STYLESHEET">
+<title>3D Spherical Geometry Kernel Reference&nbsp;Manual</title>
+</head>
+<body bgcolor="white">
+
+<div class="NavTop">
+  
+  <strong>Navigation:</strong>
+<a href="Chapter_intro.html">Up</a>&nbsp;&nbsp;
+  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
+  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
+  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
+  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
+  <a href="../title.html">Title</a>
+  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
+<P>
+
+<h1>3D Spherical Geometry Kernel<BR>
+<I>Reference&nbsp;Manual</I></h1>
+<P>
+
+<a name="Section_14.6"></a>
+        
+<h2>14.6&nbsp;&nbsp;&nbsp;Geometric Concepts</h2>
+<P>
+
+<I><A HREF="Concept_SphericalKernel.html#Cross_link_anchor_862">SphericalKernel</A></I>
+<P>
+
+<h4>Object types</h4>
+
+<I><A HREF="Concept_SphericalKernel--CircularArc_3.html#Cross_link_anchor_869">SphericalKernel::CircularArc_3</A></I><BR>
+
+<I><A HREF="Concept_SphericalKernel--CircularArcPoint_3.html#Cross_link_anchor_865">SphericalKernel::CircularArcPoint_3</A></I><BR>
+
+<I><A HREF="Concept_SphericalKernel--LineArc_3.html#Cross_link_anchor_867">SphericalKernel::LineArc_3</A></I><BR>
+
+
+<P>
+
+<h4>Functors</h4>
+<P>
+
+<I><A HREF="FunctionObjectConcept_SphericalKernel--ConstructPlane_3.html#Cross_link_anchor_872">SphericalKernel::ConstructPlane_3</A></I><BR>
+
+<I><A HREF="FunctionObjectConcept_SphericalKernel--ConstructSphere_3.html#Cross_link_anchor_873">SphericalKernel::ConstructSphere_3</A></I><BR>
+
+<I><A HREF="FunctionObjectConcept_SphericalKernel--ConstructLine_3.html#Cross_link_anchor_874">SphericalKernel::ConstructLine_3</A></I><BR>
+
+<I><A HREF="FunctionObjectConcept_SphericalKernel--ConstructCircle_3.html#Cross_link_anchor_875">SphericalKernel::ConstructCircle_3</A></I><BR>
+
+<I><A HREF="FunctionObjectConcept_SphericalKernel--ConstructCircularArcPoint_3.html#Cross_link_anchor_876">SphericalKernel::ConstructCircularArcPoint_3</A></I><BR>
+
+<I><A HREF="FunctionObjectConcept_SphericalKernel--ConstructLineArc_3.html#Cross_link_anchor_877">SphericalKernel::ConstructLineArc_3</A></I><BR>
+
+<I><A HREF="FunctionObjectConcept_SphericalKernel--ConstructCircularArc_3.html#Cross_link_anchor_878">SphericalKernel::ConstructCircularArc_3</A></I><BR>
+
+
+<P>
+
+<I><A HREF="FunctionObjectConcept_SphericalKernel--ConstructCircularMinVertex_3.html#Cross_link_anchor_879">SphericalKernel::ConstructCircularMinVertex_3</A></I><BR>
+
+<I><A HREF="FunctionObjectConcept_SphericalKernel--ConstructCircularMaxVertex_3.html#Cross_link_anchor_880">SphericalKernel::ConstructCircularMaxVertex_3</A></I><BR>
+
+<I><A HREF="FunctionObjectConcept_SphericalKernel--ConstructCircularSourceVertex_3.html#Cross_link_anchor_881">SphericalKernel::ConstructCircularSourceVertex_3</A></I><BR>
+
+<I><A HREF="FunctionObjectConcept_SphericalKernel--ConstructCircularTargetVertex_3.html#Cross_link_anchor_882">SphericalKernel::ConstructCircularTargetVertex_3</A></I>
+<P>
+
+<I><A HREF="FunctionObjectConcept_SphericalKernel--ConstructBbox_3.html#Cross_link_anchor_883">SphericalKernel::ConstructBbox_3</A></I>
+<P>
+
+<I><A HREF="FunctionObjectConcept_SphericalKernel--CompareX_3.html#Cross_link_anchor_886">SphericalKernel::CompareX_3</A></I><BR>
+
+<I><A HREF="FunctionObjectConcept_SphericalKernel--CompareY_3.html#Cross_link_anchor_887">SphericalKernel::CompareY_3</A></I><BR>
+
+<I><A HREF="FunctionObjectConcept_SphericalKernel--CompareZ_3.html#Cross_link_anchor_888">SphericalKernel::CompareZ_3</A></I><BR>
+
+<I><A HREF="FunctionObjectConcept_SphericalKernel--CompareXY_3.html#Cross_link_anchor_889">SphericalKernel::CompareXY_3</A></I><BR>
+
+<I><A HREF="FunctionObjectConcept_SphericalKernel--CompareXYZ_3.html#Cross_link_anchor_890">SphericalKernel::CompareXYZ_3</A></I><BR>
+
+<I><A HREF="FunctionObjectConcept_SphericalKernel--CompareTheta_3.html#Cross_link_anchor_891">SphericalKernel::CompareTheta_3</A></I><BR>
+
+<I><A HREF="FunctionObjectConcept_SphericalKernel--CompareThetaZ_3.html#Cross_link_anchor_892">SphericalKernel::CompareThetaZ_3</A></I><BR>
+
+<I><A HREF="FunctionObjectConcept_SphericalKernel--CompareZAtTheta_3.html#Cross_link_anchor_893">SphericalKernel::CompareZAtTheta_3</A></I><BR>
+
+<I><A HREF="FunctionObjectConcept_SphericalKernel--CompareZToRight_3.html#Cross_link_anchor_894">SphericalKernel::CompareZToRight_3</A></I>
+<P>
+
+<I><A HREF="FunctionObjectConcept_SphericalKernel--Equal_3.html#Cross_link_anchor_895">SphericalKernel::Equal_3</A></I>
+<P>
+
+<I><A HREF="FunctionObjectConcept_SphericalKernel--HasOn_3.html#Cross_link_anchor_896">SphericalKernel::HasOn_3</A></I>
+<P>
+
+<I><A HREF="FunctionObjectConcept_SphericalKernel--DoOverlap_3.html#Cross_link_anchor_897">SphericalKernel::DoOverlap_3</A></I>
+<P>
+
+<I><A HREF="FunctionObjectConcept_SphericalKernel--DoIntersect_3.html#Cross_link_anchor_898">SphericalKernel::DoIntersect_3</A></I>
+<P>
+
+<I><A HREF="FunctionObjectConcept_SphericalKernel--IsThetaMonotone_3.html#Cross_link_anchor_902">SphericalKernel::IsThetaMonotone_3</A></I>
+<P>
+
+<I><A HREF="FunctionObjectConcept_SphericalKernel--BoundedSide_3.html#Cross_link_anchor_899">SphericalKernel::BoundedSide_3</A></I><BR>
+
+<I><A HREF="FunctionObjectConcept_SphericalKernel--HasOnBoundedSide_3.html#Cross_link_anchor_900">SphericalKernel::HasOnBoundedSide_3</A></I><BR>
+
+<I><A HREF="FunctionObjectConcept_SphericalKernel--HasOnUnboundedSide_3.html#Cross_link_anchor_901">SphericalKernel::HasOnUnboundedSide_3</A></I>
+<P>
+
+<I><A HREF="FunctionObjectConcept_SphericalKernel--Intersect_3.html#Cross_link_anchor_903">SphericalKernel::Intersect_3</A></I>
+<P>
+
+<I><A HREF="FunctionObjectConcept_SphericalKernel--Split_3.html#Cross_link_anchor_884">SphericalKernel::Split_3</A></I>
+<P>
+
+<I><A HREF="FunctionObjectConcept_SphericalKernel--MakeThetaMonotone_3.html#Cross_link_anchor_885">SphericalKernel::MakeThetaMonotone_3</A></I>
+<P>
+
+<I><A HREF="FunctionObjectConcept_SphericalKernel--ComputeCircularX_3.html#Cross_link_anchor_904">SphericalKernel::ComputeCircularX_3</A></I><BR>
+
+<I><A HREF="FunctionObjectConcept_SphericalKernel--ComputeCircularY_3.html#Cross_link_anchor_905">SphericalKernel::ComputeCircularY_3</A></I><BR>
+
+<I><A HREF="FunctionObjectConcept_SphericalKernel--ComputeCircularZ_3.html#Cross_link_anchor_906">SphericalKernel::ComputeCircularZ_3</A></I><BR>
+
+
+<P>
+
+<I><A HREF="FunctionObjectConcept_SphericalKernel--ComputeApproximateSquaredLength_3.html#Cross_link_anchor_907">SphericalKernel::ComputeApproximateSquaredLength_3</A></I><BR>
+
+<I><A HREF="FunctionObjectConcept_SphericalKernel--ComputeApproximateAngle_3.html#Cross_link_anchor_908">SphericalKernel::ComputeApproximateAngle_3</A></I>
+<P>
+
+<I><A HREF="FunctionObjectConcept_SphericalKernel--GetEquation.html#Cross_link_anchor_909">SphericalKernel::GetEquation</A></I>
+<P>
+
+<a name="Section_14.7"></a>
+        
+<h2>14.7&nbsp;&nbsp;&nbsp;Geometric Kernels and Classes</h2>
+<P>
+
+<h4>Kernels</h4>
+<P>
+
+<I><A HREF="Class_Spherical_kernel_3.html#Cross_link_anchor_863">CGAL::Spherical_kernel_3</A>&lt;<A HREF="../Kernel_23_ref/Concept_Kernel.html#Cross_link_anchor_318">Kernel</A>,<A HREF="Concept_AlgebraicKernelForSpheres.html#Cross_link_anchor_922">AlgebraicKernelForSpheres</A>&gt;</I><BR>
+
+<I><A HREF="Class_Exact_spherical_kernel_3.html#Cross_link_anchor_864">CGAL::Exact_spherical_kernel_3</A></I>
+<P>
+
+<h4>Points</h4>
+<P>
+
+<I><A HREF="Class_Circular_arc_point_3.html#Cross_link_anchor_866">CGAL::Circular_arc_point_3</A>&lt;<A HREF="Concept_SphericalKernel.html#Cross_link_anchor_862">SphericalKernel</A>&gt;</I><BR>
+
+
+<P>
+
+<h4>Arcs</h4>
+<P>
+
+<I><A HREF="Class_Line_arc_3.html#Cross_link_anchor_868">CGAL::Line_arc_3</A>&lt;<A HREF="Concept_SphericalKernel.html#Cross_link_anchor_862">SphericalKernel</A>&gt;</I><BR>
+
+<I><A HREF="Class_Circular_arc_3.html#Cross_link_anchor_870">CGAL::Circular_arc_3</A>&lt;<A HREF="Concept_SphericalKernel.html#Cross_link_anchor_862">SphericalKernel</A>&gt;</I><BR>
+
+
+<P>
+
+<h4>Constants and Enumerations</h4>
+
+<I><A HREF="Enum_Circle_type.html#Cross_link_anchor_871">CGAL::Circle_type</A></I>
+<P>
+
+<a name="Section_14.8"></a>
+        
+<h2>14.8&nbsp;&nbsp;&nbsp;Geometric Global Functions</h2>
+<P>
+
+<I><A HREF="../Kernel_23_ref/Function_compare_x.html#Cross_link_anchor_417">CGAL::compare_x</A></I><BR>
+
+<I><A HREF="../Kernel_23_ref/Function_compare_y.html#Cross_link_anchor_421">CGAL::compare_y</A></I><BR>
+
+<I><A HREF="../Kernel_23_ref/Function_compare_z.html#Cross_link_anchor_424">CGAL::compare_z</A></I><BR>
+
+<I><A HREF="../Kernel_23_ref/Function_compare_xy.html#Cross_link_anchor_418">CGAL::compare_xy</A></I><BR>
+
+<I><A HREF="../Kernel_23_ref/Function_compare_xyz.html#Cross_link_anchor_419">CGAL::compare_xyz</A></I><BR>
+
+<I><A HREF="Function_compare_theta.html#Cross_link_anchor_911">CGAL::compare_theta</A></I><BR>
+
+<I><A HREF="Function_compare_theta_z.html#Cross_link_anchor_912">CGAL::compare_theta_z</A></I>
+<P>
+
+<I><A HREF="Function_is_theta_monotone.html#Cross_link_anchor_910">CGAL::is_theta_monotone</A></I>
+<P>
+
+<I><A HREF="Function_classify.html#Cross_link_anchor_921">CGAL::classify</A></I>
+<P>
+
+<I><A HREF="Function_x_extremal_point.html#Cross_link_anchor_913">CGAL::x_extremal_point</A></I><BR>
+
+<I><A HREF="Function_y_extremal_point.html#Cross_link_anchor_914">CGAL::y_extremal_point</A></I><BR>
+
+<I><A HREF="Function_z_extremal_point.html#Cross_link_anchor_915">CGAL::z_extremal_point</A></I><BR>
+
+<I><A HREF="Function_theta_extremal_point.html#Cross_link_anchor_916">CGAL::theta_extremal_point</A></I><BR>
+
+<I><A HREF="Function_x_extremal_points.html#Cross_link_anchor_917">CGAL::x_extremal_points</A></I><BR>
+
+<I><A HREF="Function_y_extremal_points.html#Cross_link_anchor_918">CGAL::y_extremal_points</A></I><BR>
+
+<I><A HREF="Function_z_extremal_points.html#Cross_link_anchor_919">CGAL::z_extremal_points</A></I><BR>
+
+<I><A HREF="Function_theta_extremal_points.html#Cross_link_anchor_920">CGAL::theta_extremal_points</A></I>
+<P>
+
+<i><A HREF="../Kernel_23_ref/Function_do_intersect.html#ccRef_Kernel::do_intersect">CGAL::do_intersect</A></i><BR>
+
+<i><A HREF="../Kernel_23_ref/Function_intersection.html#ccRef_Kernel::intersection">CGAL::intersection</A></i>
+<P>
+
+<a name="Section_14.9"></a>
+        
+<h2>14.9&nbsp;&nbsp;&nbsp;Algebraic Concepts</h2>
+<P>
+
+<I><A HREF="Concept_AlgebraicKernelForSpheres.html#Cross_link_anchor_922">AlgebraicKernelForSpheres</A></I>
+<P>
+
+<h4>Functors</h4>
+<P>
+
+<I><A HREF="Concept_AlgebraicKernelForSpheres--ConstructPolynomial_1_3.html#Cross_link_anchor_939">AlgebraicKernelForSpheres::ConstructPolynomial_1_3</A></I><BR>
+
+<I><A HREF="Concept_AlgebraicKernelForSpheres--ConstructPolynomialForSpheres_2_3.html#Cross_link_anchor_940">AlgebraicKernelForSpheres::ConstructPolynomialForSpheres_2_3</A></I>
+<P>
+
+<I><A HREF="Concept_AlgebraicKernelForSpheres--ConstructPolynomialsForLines_3.html#Cross_link_anchor_941">AlgebraicKernelForSpheres::ConstructPolynomialsForLines_3</A></I>
+<P>
+
+<I><A HREF="Concept_AlgebraicKernelForSpheres--CompareX.html#Cross_link_anchor_933">AlgebraicKernelForSpheres::CompareX</A></I><BR>
+
+<I><A HREF="Concept_AlgebraicKernelForSpheres--CompareY.html#Cross_link_anchor_934">AlgebraicKernelForSpheres::CompareY</A></I><BR>
+
+<I><A HREF="Concept_AlgebraicKernelForSpheres--CompareZ.html#Cross_link_anchor_935">AlgebraicKernelForSpheres::CompareZ</A></I><BR>
+
+<I><A HREF="Concept_AlgebraicKernelForSpheres--CompareXY.html#Cross_link_anchor_936">AlgebraicKernelForSpheres::CompareXY</A></I><BR>
+
+<I><A HREF="Concept_AlgebraicKernelForSpheres--CompareXYZ.html#Cross_link_anchor_937">AlgebraicKernelForSpheres::CompareXYZ</A></I>
+<P>
+
+<I><A HREF="Concept_AlgebraicKernelForSpheres--SignAt.html#Cross_link_anchor_938">AlgebraicKernelForSpheres::SignAt</A></I>
+<P>
+
+<I><A HREF="Concept_AlgebraicKernelForSpheres--XCriticalPoints.html#Cross_link_anchor_943">AlgebraicKernelForSpheres::XCriticalPoints</A></I><BR>
+
+<I><A HREF="Concept_AlgebraicKernelForSpheres--YCriticalPoints.html#Cross_link_anchor_944">AlgebraicKernelForSpheres::YCriticalPoints</A></I><BR>
+
+<I><A HREF="Concept_AlgebraicKernelForSpheres--ZCriticalPoints.html#Cross_link_anchor_945">AlgebraicKernelForSpheres::ZCriticalPoints</A></I>
+<P>
+
+<I><A HREF="Concept_AlgebraicKernelForSpheres--Solve.html#Cross_link_anchor_942">AlgebraicKernelForSpheres::Solve</A></I>
+<P>
+
+<a name="Section_14.10"></a>
+        
+<h2>14.10&nbsp;&nbsp;&nbsp;Algebraic Kernel and Classes</h2>
+<P>
+
+<h4>Kernel</h4>
+<P>
+
+<I><A HREF="Class_Algebraic_kernel_for_spheres_2_3.html#Cross_link_anchor_923">CGAL::Algebraic_kernel_for_spheres_2_3&lt;RT&gt;</A></I>
+<P>
+
+<h4>Polynomials</h4>
+<P>
+
+<I><A HREF="Class_Polynomial_1_3.html#Cross_link_anchor_925">CGAL::Polynomial_1_3&lt;RT&gt;</A></I><BR>
+
+<I><A HREF="Class_Polynomial_for_spheres_2_3.html#Cross_link_anchor_927">CGAL::Polynomial_for_spheres_2_3&lt;FT&gt;</A></I>
+<P>
+
+<I><A HREF="Class_Polynomials_for_lines_3.html#Cross_link_anchor_929">CGAL::Polynomials_for_lines_3&lt;FT&gt;</A></I>
+<P>
+
+<h4>Roots of Polynomials</h4>
+<P>
+
+<I><A HREF="../NumberTypeSupport_ref/Class_Sqrt_extension.html#Cross_link_anchor_121">CGAL::Sqrt_extension&lt;NT,ROOT&gt;</A></I><BR>
+
+<I><A HREF="Class_Root_for_spheres_2_3.html#Cross_link_anchor_932">CGAL::Root_for_spheres_2_3&lt;RT&gt;</A></I>
+<P>
+
+<I>CGAL::Root_of_traits_2&lt;RT&gt;</I>
+<P>
+
+<a name="Section_14.11"></a>
+        
+<h2>14.11&nbsp;&nbsp;&nbsp;Alphabetical List of Reference Pages</h2>
+<P>
+
+<table cellpadding="0">
+    
+  <tr><td> <a href="Concept_AlgebraicKernelForSpheres--CompareXYZ.html"><I>AlgebraicKernelForSpheres::CompareXYZ</I></a></td></tr>
+  <tr><td> <a href="Concept_AlgebraicKernelForSpheres--CompareXY.html"><I>AlgebraicKernelForSpheres::CompareXY</I></a></td></tr>
+  <tr><td> <a href="Concept_AlgebraicKernelForSpheres--CompareX.html"><I>AlgebraicKernelForSpheres::CompareX</I></a></td></tr>
+  <tr><td> <a href="Concept_AlgebraicKernelForSpheres--CompareY.html"><I>AlgebraicKernelForSpheres::CompareY</I></a></td></tr>
+  <tr><td> <a href="Concept_AlgebraicKernelForSpheres--CompareZ.html"><I>AlgebraicKernelForSpheres::CompareZ</I></a></td></tr>
+  <tr><td> <a href="Concept_AlgebraicKernelForSpheres--ConstructPolynomialForSpheres_2_3.html"><I>AlgebraicKernelForSpheres::ConstructPolynomialForSpheres_2_3</I></a></td></tr>
+  <tr><td> <a href="Concept_AlgebraicKernelForSpheres--ConstructPolynomialsForLines_3.html"><I>AlgebraicKernelForSpheres::ConstructPolynomialsForLines_3</I></a></td></tr>
+  <tr><td> <a href="Concept_AlgebraicKernelForSpheres--ConstructPolynomial_1_3.html"><I>AlgebraicKernelForSpheres::ConstructPolynomial_1_3</I></a></td></tr>
+  <tr><td> <a href="Concept_AlgebraicKernelForSpheres--PolynomialForSpheres_2_3.html"><I>AlgebraicKernelForSpheres::PolynomialForSpheres_2_3</I></a></td></tr>
+  <tr><td> <a href="Concept_AlgebraicKernelForSpheres--PolynomialsForCircles_3.html"><I>AlgebraicKernelForSpheres::PolynomialsForCircles_3</I></a></td></tr>
+  <tr><td> <a href="Concept_AlgebraicKernelForSpheres--PolynomialsForLines_3.html"><I>AlgebraicKernelForSpheres::PolynomialsForLines_3</I></a></td></tr>
+  <tr><td> <a href="Concept_AlgebraicKernelForSpheres--Polynomial_1_3.html"><I>AlgebraicKernelForSpheres::Polynomial_1_3</I></a></td></tr>
+  <tr><td> <a href="Concept_AlgebraicKernelForSpheres--RootForSpheres_2_3.html"><I>AlgebraicKernelForSpheres::RootForSpheres_2_3</I></a></td></tr>
+  <tr><td> <a href="Concept_AlgebraicKernelForSpheres--SignAt.html"><I>AlgebraicKernelForSpheres::SignAt</I></a></td></tr>
+  <tr><td> <a href="Concept_AlgebraicKernelForSpheres--Solve.html"><I>AlgebraicKernelForSpheres::Solve</I></a></td></tr>
+  <tr><td> <a href="Concept_AlgebraicKernelForSpheres--XCriticalPoints.html"><I>AlgebraicKernelForSpheres::XCriticalPoints</I></a></td></tr>
+  <tr><td> <a href="Concept_AlgebraicKernelForSpheres--YCriticalPoints.html"><I>AlgebraicKernelForSpheres::YCriticalPoints</I></a></td></tr>
+  <tr><td> <a href="Concept_AlgebraicKernelForSpheres--ZCriticalPoints.html"><I>AlgebraicKernelForSpheres::ZCriticalPoints</I></a></td></tr>
+  <tr><td> <a href="Concept_AlgebraicKernelForSpheres.html"><I>AlgebraicKernelForSpheres</I></a></td></tr>
+  <tr><td> <a href="Class_Algebraic_kernel_for_spheres_2_3.html"><I>Algebraic_kernel_for_spheres_2_3&lt;RT&gt;</I></a></td></tr>
+  <tr><td> <a href="Enum_Circle_type.html"><I>Circle_type</I></a></td></tr>
+  <tr><td> <a href="Class_Circular_arc_3.html"><I>Circular_arc_3&lt;SphericalKernel&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Circular_arc_point_3.html"><I>Circular_arc_point_3&lt;SphericalKernel&gt;</I></a></td></tr>
+  <tr><td> <a href="Function_classify.html"><I>classify</I></a></td></tr>
+  <tr><td> <a href="Function_compare_theta_z.html"><I>compare_theta_z</I></a></td></tr>
+  <tr><td> <a href="Function_compare_theta.html"><I>compare_theta</I></a></td></tr>
+  <tr><td> <a href="Class_Exact_spherical_kernel_3.html"><I>Exact_spherical_kernel_3</I></a></td></tr>
+  <tr><td> <a href="Function_is_theta_monotone.html"><I>is_theta_monotone</I></a></td></tr>
+  <tr><td> <a href="Class_Line_arc_3.html"><I>Line_arc_3&lt;SphericalKernel&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Polynomials_for_lines_3.html"><I>Polynomials_for_lines_3&lt;FT&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Polynomial_1_3.html"><I>Polynomial_1_3&lt;RT&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Polynomial_for_spheres_2_3.html"><I>Polynomial_for_spheres_2_3&lt;FT&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Root_for_spheres_2_3.html"><I>Root_for_spheres_2_3&lt;RT&gt;</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_SphericalKernel--BoundedSide_3.html"><I>SphericalKernel::BoundedSide_3</I></a></td></tr>
+  <tr><td> <a href="Concept_SphericalKernel--CircularArcPoint_3.html"><I>SphericalKernel::CircularArcPoint_3</I></a></td></tr>
+  <tr><td> <a href="Concept_SphericalKernel--CircularArc_3.html"><I>SphericalKernel::CircularArc_3</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_SphericalKernel--CompareThetaZ_3.html"><I>SphericalKernel::CompareThetaZ_3</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_SphericalKernel--CompareTheta_3.html"><I>SphericalKernel::CompareTheta_3</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_SphericalKernel--CompareXYZ_3.html"><I>SphericalKernel::CompareXYZ_3</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_SphericalKernel--CompareXY_3.html"><I>SphericalKernel::CompareXY_3</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_SphericalKernel--CompareX_3.html"><I>SphericalKernel::CompareX_3</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_SphericalKernel--CompareY_3.html"><I>SphericalKernel::CompareY_3</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_SphericalKernel--CompareZAtTheta_3.html"><I>SphericalKernel::CompareZAtTheta_3</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_SphericalKernel--CompareZToRight_3.html"><I>SphericalKernel::CompareZToRight_3</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_SphericalKernel--CompareZ_3.html"><I>SphericalKernel::CompareZ_3</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_SphericalKernel--ComputeApproximateAngle_3.html"><I>SphericalKernel::ComputeApproximateAngle_3</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_SphericalKernel--ComputeApproximateSquaredLength_3.html"><I>SphericalKernel::ComputeApproximateSquaredLength_3</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_SphericalKernel--ComputeCircularX_3.html"><I>SphericalKernel::ComputeCircularX_3</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_SphericalKernel--ComputeCircularY_3.html"><I>SphericalKernel::ComputeCircularY_3</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_SphericalKernel--ComputeCircularZ_3.html"><I>SphericalKernel::ComputeCircularZ_3</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_SphericalKernel--ConstructBbox_3.html"><I>SphericalKernel::ConstructBbox_3</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_SphericalKernel--ConstructCircle_3.html"><I>SphericalKernel::ConstructCircle_3</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_SphericalKernel--ConstructCircularArcPoint_3.html"><I>SphericalKernel::ConstructCircularArcPoint_3</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_SphericalKernel--ConstructCircularArc_3.html"><I>SphericalKernel::ConstructCircularArc_3</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_SphericalKernel--ConstructCircularMaxVertex_3.html"><I>SphericalKernel::ConstructCircularMaxVertex_3</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_SphericalKernel--ConstructCircularMinVertex_3.html"><I>SphericalKernel::ConstructCircularMinVertex_3</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_SphericalKernel--ConstructCircularSourceVertex_3.html"><I>SphericalKernel::ConstructCircularSourceVertex_3</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_SphericalKernel--ConstructCircularTargetVertex_3.html"><I>SphericalKernel::ConstructCircularTargetVertex_3</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_SphericalKernel--ConstructLineArc_3.html"><I>SphericalKernel::ConstructLineArc_3</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_SphericalKernel--ConstructLine_3.html"><I>SphericalKernel::ConstructLine_3</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_SphericalKernel--ConstructPlane_3.html"><I>SphericalKernel::ConstructPlane_3</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_SphericalKernel--ConstructSphere_3.html"><I>SphericalKernel::ConstructSphere_3</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_SphericalKernel--DoIntersect_3.html"><I>SphericalKernel::DoIntersect_3</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_SphericalKernel--DoOverlap_3.html"><I>SphericalKernel::DoOverlap_3</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_SphericalKernel--Equal_3.html"><I>SphericalKernel::Equal_3</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_SphericalKernel--GetEquation.html"><I>SphericalKernel::GetEquation</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_SphericalKernel--HasOnBoundedSide_3.html"><I>SphericalKernel::HasOnBoundedSide_3</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_SphericalKernel--HasOnUnboundedSide_3.html"><I>SphericalKernel::HasOnUnboundedSide_3</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_SphericalKernel--HasOn_3.html"><I>SphericalKernel::HasOn_3</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_SphericalKernel--Intersect_3.html"><I>SphericalKernel::Intersect_3</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_SphericalKernel--IsThetaMonotone_3.html"><I>SphericalKernel::IsThetaMonotone_3</I></a></td></tr>
+  <tr><td> <a href="Concept_SphericalKernel--LineArc_3.html"><I>SphericalKernel::LineArc_3</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_SphericalKernel--MakeThetaMonotone_3.html"><I>SphericalKernel::MakeThetaMonotone_3</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_SphericalKernel--Split_3.html"><I>SphericalKernel::Split_3</I></a></td></tr>
+  <tr><td> <a href="Concept_SphericalKernel.html"><I>SphericalKernel</I></a></td></tr>
+  <tr><td> <a href="Class_Spherical_kernel_3.html"><I>Spherical_kernel_3&lt;Kernel,AlgebraicKernelForSpheres&gt;</I></a></td></tr>
+  <tr><td> <a href="Function_theta_extremal_points.html"><I>theta_extremal_points</I></a></td></tr>
+  <tr><td> <a href="Function_theta_extremal_point.html"><I>theta_extremal_point</I></a></td></tr>
+  <tr><td> <a href="Function_x_extremal_points.html"><I>x_extremal_points</I></a></td></tr>
+  <tr><td> <a href="Function_x_extremal_point.html"><I>x_extremal_point</I></a></td></tr>
+  <tr><td> <a href="Function_y_extremal_points.html"><I>y_extremal_points</I></a></td></tr>
+  <tr><td> <a href="Function_y_extremal_point.html"><I>y_extremal_point</I></a></td></tr>
+  <tr><td> <a href="Function_z_extremal_points.html"><I>z_extremal_points</I></a></td></tr>
+  <tr><td> <a href="Function_z_extremal_point.html"><I>z_extremal_point</I></a></td></tr>
+    </table>
+    
+  
+
+  
+    
+  <div class="NavBottom">
+  
+  <strong>Navigation:</strong>
+
+  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
+  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
+  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
+  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
+  <a href="../title.html">Title</a>
+  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
+
+<div class="NavAddress">
+<SMALL><a href="http://www.cgal.org" target="_top">CGAL Open Source Project</a>.
+Release 4.1.
+23 October 2012.</SMALL>
+</div>
+</body>  </html>

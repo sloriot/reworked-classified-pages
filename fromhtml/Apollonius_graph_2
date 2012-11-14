@@ -1,0 +1,133 @@
+
+    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en-US"> <head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="generator" content="CGAL latex_to_html converter">
+<!-- by cc_extract_html, $Id: cc_extract_html.cpp 44195 2008-07-16 08:46:48Z spion $ -->
+<!-- LaTeX source file: './Apollonius_graph_2_ref/intro.tex' -->
+<link rel="canonical" href="http://www.cgal.org/Manual/latest/doc_html/cgal_manual/Apollonius_graph_2_ref/Chapter_intro.html">
+<link href="../latex_to_html.css" rel="STYLESHEET">
+<title>2D Apollonius Graphs (Delaunay Graphs of Disks) Reference&nbsp;Manual</title>
+</head>
+<body bgcolor="white">
+
+<div class="NavTop">
+  
+  <strong>Navigation:</strong>
+<a href="Chapter_intro.html">Up</a>&nbsp;&nbsp;
+  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
+  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
+  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
+  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
+  <a href="../title.html">Title</a>
+  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
+<P>
+
+<A NAME="ref-chapter-apollonius2"></A><h1>2D Apollonius Graphs (Delaunay Graphs of Disks)<BR>
+<I>Reference&nbsp;Manual</I></h1>
+
+ 
+<p class="subtitle">Menelaos Karavelas  and Mariette Yvinec</p>
+<P>
+
+An Apollonius graph is the dual of the Apollonius diagram, also known
+as the <I>additively weighted Voronoi diagram</I>. It is essentially the
+Voronoi diagram of a set of disks, where the distance of a
+point of the plane from a disk is defined as the Euclidean
+distance of the point and the center of the circle, minus the radius
+of the disk.
+<P>
+
+<span class="textsc">Cgal</span> provides the class <I><A HREF="Class_Apollonius_graph_2.html#Cross_link_anchor_1448">CGAL::Apollonius_graph_2&lt;Gt,Agds&gt;</A></I> for
+computing the 2D Apollonius graph. The two template parameters must be
+models of the <I><A HREF="Concept_ApolloniusGraphTraits_2.html#Cross_link_anchor_1454">ApolloniusGraphTraits_2</A></I> and
+<I><A HREF="Concept_ApolloniusGraphDataStructure_2.html#Cross_link_anchor_1451">ApolloniusGraphDataStructure_2</A></I> concepts. The first concept is
+related to the geometric objects and predicates associated with
+Apollonius graphs, whereas the second concept refers to the data
+structure used to represent the Apollonius graph. The classes
+<I><A HREF="Class_Apollonius_graph_traits_2.html#Cross_link_anchor_1455">Apollonius_graph_traits_2&lt;K,Method_tag&gt;</A></I> and
+<I><A HREF="../TDS_2_ref/Class_Triangulation_data_structure_2.html#Cross_link_anchor_1360">Triangulation_data_structure_2&lt;Vb,Fb&gt;</A></I> are models of the
+aforementioned concepts.
+<P>
+
+<a name="Section_45.6"></a>
+        
+<h2>45.6&nbsp;&nbsp;&nbsp;Classified Reference Pages</h2>
+<P>
+
+<H3>Concepts</H3>
+<I><A HREF="Concept_ApolloniusSite_2.html#Cross_link_anchor_1449">ApolloniusSite_2</A></I><BR>
+
+<I><A HREF="Concept_ApolloniusGraphDataStructure_2.html#Cross_link_anchor_1451">ApolloniusGraphDataStructure_2</A></I><BR>
+
+<I><A HREF="Concept_ApolloniusGraphVertexBase_2.html#Cross_link_anchor_1452">ApolloniusGraphVertexBase_2</A></I><BR>
+
+<I><A HREF="Concept_ApolloniusGraphTraits_2.html#Cross_link_anchor_1454">ApolloniusGraphTraits_2</A></I><BR>
+
+
+<P>
+
+<I><A HREF="Concept_ApolloniusGraphHierarchyVertexBase_2.html#Cross_link_anchor_1458">ApolloniusGraphHierarchyVertexBase_2</A></I>
+<P>
+
+<H3>Classes</H3>
+<I><A HREF="Class_Apollonius_graph_2.html#Cross_link_anchor_1448">CGAL::Apollonius_graph_2&lt;Gt,Agds&gt;</A></I><BR>
+
+<I><A HREF="Class_Apollonius_site_2.html#Cross_link_anchor_1450">CGAL::Apollonius_site_2&lt;K&gt;</A></I><BR>
+
+<I><A HREF="Class_Apollonius_graph_vertex_base_2.html#Cross_link_anchor_1453">CGAL::Apollonius_graph_vertex_base_2&lt;Gt,StoreHidden&gt;</A></I><BR>
+
+<I><A HREF="Class_Apollonius_graph_traits_2.html#Cross_link_anchor_1455">CGAL::Apollonius_graph_traits_2&lt;K,Method_tag&gt;</A></I><BR>
+
+<I><A HREF="Class_Apollonius_graph_filtered_traits_2.html#Cross_link_anchor_1456">CGAL::Apollonius_graph_filtered_traits_2&lt;CK,CM,EK,EM,FK,FM&gt;</A></I><BR>
+
+
+<P>
+
+<I><A HREF="Class_Apollonius_graph_hierarchy_2.html#Cross_link_anchor_1457">CGAL::Apollonius_graph_hierarchy_2&lt;Gt,Agds&gt;</A></I><BR>
+
+<I><A HREF="Class_Apollonius_graph_hierarchy_vertex_base_2.html#Cross_link_anchor_1459">CGAL::Apollonius_graph_hierarchy_vertex_base_2&lt;Agvb&gt;</A></I>
+<P>
+
+<a name="Section_45.7"></a>
+        
+<h2>45.7&nbsp;&nbsp;&nbsp;Alphabetical List of Reference Pages</h2>
+<P>
+
+<table cellpadding="0">
+    
+  <tr><td> <a href="Concept_ApolloniusGraphDataStructure_2.html"><I>ApolloniusGraphDataStructure_2</I></a></td></tr>
+  <tr><td> <a href="Concept_ApolloniusGraphHierarchyVertexBase_2.html"><I>ApolloniusGraphHierarchyVertexBase_2</I></a></td></tr>
+  <tr><td> <a href="Concept_ApolloniusGraphTraits_2.html"><I>ApolloniusGraphTraits_2</I></a></td></tr>
+  <tr><td> <a href="Concept_ApolloniusGraphVertexBase_2.html"><I>ApolloniusGraphVertexBase_2</I></a></td></tr>
+  <tr><td> <a href="Concept_ApolloniusSite_2.html"><I>ApolloniusSite_2</I></a></td></tr>
+  <tr><td> <a href="Class_Apollonius_graph_2.html"><I>Apollonius_graph_2&lt;Gt,Agds&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Apollonius_graph_filtered_traits_2.html"><I>Apollonius_graph_filtered_traits_2&lt;CK,CM,EK,EM,FK,FM&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Apollonius_graph_hierarchy_2.html"><I>Apollonius_graph_hierarchy_2&lt;Gt,Agds&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Apollonius_graph_hierarchy_vertex_base_2.html"><I>Apollonius_graph_hierarchy_vertex_base_2&lt;Agvb&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Apollonius_graph_traits_2.html"><I>Apollonius_graph_traits_2&lt;K,Method_tag&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Apollonius_graph_vertex_base_2.html"><I>Apollonius_graph_vertex_base_2&lt;Gt,StoreHidden&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Apollonius_site_2.html"><I>Apollonius_site_2&lt;K&gt;</I></a></td></tr>
+    </table>
+    
+  
+
+  <div class="NavNext">Next chapter: <a href="../Voronoi_diagram_2/Chapter_main.html">2D Voronoi Diagram Adaptor</a></div>
+    
+  <div class="NavBottom">
+  
+  <strong>Navigation:</strong>
+<a href="../Voronoi_diagram_2/Chapter_main.html">Up</a>&nbsp;&nbsp;
+  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
+  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
+  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
+  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
+  <a href="../title.html">Title</a>
+  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
+
+<div class="NavAddress">
+<SMALL><a href="http://www.cgal.org" target="_top">CGAL Open Source Project</a>.
+Release 4.1.
+23 October 2012.</SMALL>
+</div>
+</body>  </html>

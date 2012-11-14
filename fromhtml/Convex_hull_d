@@ -1,0 +1,122 @@
+
+    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en-US"> <head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="generator" content="CGAL latex_to_html converter">
+<!-- by cc_extract_html, $Id: cc_extract_html.cpp 44195 2008-07-16 08:46:48Z spion $ -->
+<!-- LaTeX source file: './Convex_hull_d_ref/intro.tex' -->
+<link rel="canonical" href="http://www.cgal.org/Manual/latest/doc_html/cgal_manual/Convex_hull_d_ref/Chapter_intro.html">
+<link href="../latex_to_html.css" rel="STYLESHEET">
+<title>dD Convex Hulls and Delaunay Triangulations Reference&nbsp;Manual</title>
+</head>
+<body bgcolor="white">
+
+<div class="NavTop">
+  
+  <strong>Navigation:</strong>
+<a href="Chapter_intro.html">Up</a>&nbsp;&nbsp;
+  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
+  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
+  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
+  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
+  <a href="../title.html">Title</a>
+  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
+<P>
+
+<A NAME="chap:convex_hull_d_ref"></A><h1>dD Convex Hulls and Delaunay Triangulations<BR>
+<I>Reference&nbsp;Manual</I></h1>
+
+ 
+<p class="subtitle">Susan Hert  and Michael Seel</p>
+<P>
+
+A subset <span class="math">S  <span class="sym">&sube;</span> <span class="sym">&#x211D;</span><SUP>3</SUP></span> is convex if for any two points <span class="math">p</span> and <span class="math">q</span>
+in the set the line segment with endpoints <span class="math">p</span> and <span class="math">q</span> is contained
+in <span class="math">S</span>. The convex hull 
+     
+<A NAME="Index_anchor_1116"></A> 
+ 
+   
+ of a set <span class="math">S</span> is 
+the smallest convex set containing
+<span class="math">S</span>. The convex hull of a set of points <span class="math">P</span> is a convex 
+polytope with vertices in <span class="math">P</span>.  A point in <span class="math">P</span> is an extreme point 
+(with respect to <span class="math">P</span>) 
+     
+<A NAME="Index_anchor_1117"></A> 
+ 
+   
+ if it is a vertex 
+of the convex hull of <span class="math">P</span>.
+<P>
+
+<span class="textsc">Cgal</span> provides functions for computing convex hulls in two, three 
+and arbitrary dimensions as well as functions for testing if a given set of 
+points in is strongly convex or not.  This chapter describes the class
+available for arbitrary dimensions and its companion class for 
+computing the nearest and furthest side Delaunay triangulation.
+<P>
+
+<a name="Section_17.4"></a>
+        
+<h2>17.4&nbsp;&nbsp;&nbsp;Classified Reference Pages</h2>
+<P>
+
+<H3>Concepts</H3>
+<P>
+
+<I><A HREF="Concept_ConvexHullTraits_d.html#Cross_link_anchor_983">ConvexHullTraits_d</A></I><BR>
+
+<I><A HREF="Concept_DelaunayLiftedTraits_d.html#Cross_link_anchor_986">DelaunayLiftedTraits_d</A></I><BR>
+
+<I><A HREF="Concept_DelaunayTraits_d.html#Cross_link_anchor_987">DelaunayTraits_d</A></I><BR>
+
+
+<P>
+
+<H3>Classes</H3>
+<P>
+
+<I><A HREF="Class_Convex_hull_d_traits_3.html#Cross_link_anchor_985">CGAL::Convex_hull_d_traits_3&lt;R&gt;</A></I><BR>
+
+<I><A HREF="Class_Convex_hull_d.html#Cross_link_anchor_984">CGAL::Convex_hull_d&lt;R&gt;</A></I><BR>
+
+<I><A HREF="Class_Delaunay_d.html#Cross_link_anchor_988">CGAL::Delaunay_d&lt; R, Lifted_R &gt;</A></I>
+<P>
+
+<a name="Section_17.5"></a>
+        
+<h2>17.5&nbsp;&nbsp;&nbsp;Alphabetical List of Reference Pages</h2>
+<P>
+
+<table cellpadding="0">
+    
+  <tr><td> <a href="Concept_ConvexHullTraits_d.html"><I>ConvexHullTraits_d</I></a></td></tr>
+  <tr><td> <a href="Class_Convex_hull_d.html"><I>Convex_hull_d&lt;R&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Convex_hull_d_traits_3.html"><I>Convex_hull_d_traits_3&lt;R&gt;</I></a></td></tr>
+  <tr><td> <a href="Concept_DelaunayLiftedTraits_d.html"><I>DelaunayLiftedTraits_d</I></a></td></tr>
+  <tr><td> <a href="Concept_DelaunayTraits_d.html"><I>DelaunayTraits_d</I></a></td></tr>
+  <tr><td> <a href="Class_Delaunay_d.html"><I>Delaunay_d&lt; R, Lifted_R &gt;</I></a></td></tr>
+    </table>
+    
+  
+
+  
+    
+  <div class="NavBottom">
+  
+  <strong>Navigation:</strong>
+
+  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
+  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
+  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
+  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
+  <a href="../title.html">Title</a>
+  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
+
+<div class="NavAddress">
+<SMALL><a href="http://www.cgal.org" target="_top">CGAL Open Source Project</a>.
+Release 4.1.
+23 October 2012.</SMALL>
+</div>
+</body>  </html>

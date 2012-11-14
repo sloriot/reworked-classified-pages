@@ -1,0 +1,126 @@
+
+    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en-US"> <head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="generator" content="CGAL latex_to_html converter">
+<!-- by cc_extract_html, $Id: cc_extract_html.cpp 44195 2008-07-16 08:46:48Z spion $ -->
+<!-- LaTeX source file: './Minkowski_sum_2_ref/intro.tex' -->
+<link rel="canonical" href="http://www.cgal.org/Manual/latest/doc_html/cgal_manual/Minkowski_sum_2_ref/Chapter_intro.html">
+<link href="../latex_to_html.css" rel="STYLESHEET">
+<title>Planar Minkowski Sums Reference&nbsp;Manual</title>
+</head>
+<body bgcolor="white">
+
+<div class="NavTop">
+  
+  <strong>Navigation:</strong>
+<a href="Chapter_intro.html">Up</a>&nbsp;&nbsp;
+  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
+  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
+  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
+  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
+  <a href="../title.html">Title</a>
+  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
+<P>
+
+<A NAME="chapterMinkowskiSumRef"></A><h1>Planar Minkowski Sums<BR>
+<I>Reference&nbsp;Manual</I></h1>
+
+ 
+
+<p class="subtitle">Ron Wein</p>
+<P>
+
+<h2>Introduction</h2>
+
+
+<A NAME="mink_ref_sec:intro"></A>
+<P>
+
+This package consist of functions for computing the Minkowksi sum
+of two polygons in the plane. Namely, given two polygons <span class="math">P,Q  <span class="sym">&isin;</span> <span class="sym">&#x211D;</span><SUP>2</SUP></span> it computes <span class="math">P  <span class="sym">&oplus;</span> Q = { p + q &nbsp;|&nbsp; p  <span class="sym">&isin;</span> P,
+q  <span class="sym">&isin;</span> Q }</span>.
+<P>
+
+In addition, the package also includes functions for offsetting a
+polygon, namely computing its Minkowski sum with a disc of a given
+radius, and for insetting a polygon (namely computing its inner
+offset). It is possible to compute the exact representation of the
+offset (or the inset), or to approximate it with guaranteed error
+bounds, in order to speed up the computation time.
+<P>
+
+<h3>Functions</h3>
+<P>
+
+<I><A HREF="Function_minkowski_sum_2.html#Cross_link_anchor_1100">CGAL::minkowski_sum_2</A></I><BR>
+
+<I><A HREF="Function_approximated_offset_2.html#Cross_link_anchor_1101">CGAL::approximated_offset_2</A></I><BR>
+
+<I><A HREF="Function_approximated_inset_2.html#Cross_link_anchor_1102">CGAL::approximated_inset_2</A></I><BR>
+
+<I><A HREF="Function_offset_polygon_2.html#Cross_link_anchor_1103">CGAL::offset_polygon_2</A></I><BR>
+
+<I><A HREF="Function_inset_polygon_2.html#Cross_link_anchor_1104">CGAL::inset_polygon_2</A></I>
+<P>
+
+<h3>Concepts</h3>
+<P>
+
+<I><A HREF="Concept_PolygonConvexDecomposition_2.html#Cross_link_anchor_1105">PolygonConvexDecomposition_2</A></I>
+<P>
+
+<h3>Classes</h3>
+<P>
+
+<I><A HREF="Class_Small_side_angle_bisector_decomposition_2.html#Cross_link_anchor_1106">CGAL::Small_side_angle_bisector_decomposition_2</A>&lt;<A HREF="../Kernel_23_ref/Concept_Kernel.html#Cross_link_anchor_318">Kernel</A>,Container&gt;</I><BR>
+
+<I><A HREF="Class_Optimal_convex_decomposition_2.html#Cross_link_anchor_1107">CGAL::Optimal_convex_decomposition_2</A>&lt;<A HREF="../Kernel_23_ref/Concept_Kernel.html#Cross_link_anchor_318">Kernel</A>,Container&gt;</I><BR>
+
+<I><A HREF="Class_Hertel_Mehlhorn_convex_decomposition_2.html#Cross_link_anchor_1108">CGAL::Hertel_Mehlhorn_convex_decomposition_2</A>&lt;<A HREF="../Kernel_23_ref/Concept_Kernel.html#Cross_link_anchor_318">Kernel</A>,Container&gt;</I><BR>
+
+<I><A HREF="Class_Greene_convex_decomposition_2.html#Cross_link_anchor_1109">CGAL::Greene_convex_decomposition_2</A>&lt;<A HREF="../Kernel_23_ref/Concept_Kernel.html#Cross_link_anchor_318">Kernel</A>,Container&gt;</I><BR>
+
+
+<P>
+
+<a name="Section_24.4"></a>
+        
+<h2>24.4&nbsp;&nbsp;&nbsp;Alphabetical List of Reference Pages</h2>
+<P>
+
+<table cellpadding="0">
+    
+  <tr><td> <a href="Function_approximated_inset_2.html"><I>approximated_inset_2</I></a></td></tr>
+  <tr><td> <a href="Function_approximated_offset_2.html"><I>approximated_offset_2</I></a></td></tr>
+  <tr><td> <a href="Class_Greene_convex_decomposition_2.html"><I>Greene_convex_decomposition_2&lt;Kernel,Container&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Hertel_Mehlhorn_convex_decomposition_2.html"><I>Hertel_Mehlhorn_convex_decomposition_2&lt;Kernel,Container&gt;</I></a></td></tr>
+  <tr><td> <a href="Function_inset_polygon_2.html"><I>inset_polygon_2</I></a></td></tr>
+  <tr><td> <a href="Function_minkowski_sum_2.html"><I>minkowski_sum_2</I></a></td></tr>
+  <tr><td> <a href="Function_offset_polygon_2.html"><I>offset_polygon_2</I></a></td></tr>
+  <tr><td> <a href="Class_Optimal_convex_decomposition_2.html"><I>Optimal_convex_decomposition_2&lt;Kernel,Container&gt;</I></a></td></tr>
+  <tr><td> <a href="Concept_PolygonConvexDecomposition_2.html"><I>PolygonConvexDecomposition_2</I></a></td></tr>
+  <tr><td> <a href="Class_Small_side_angle_bisector_decomposition_2.html"><I>Small_side_angle_bisector_decomposition_2&lt;Kernel,Container&gt;</I></a></td></tr>
+    </table>
+    
+  
+
+  
+    
+  <div class="NavBottom">
+  
+  <strong>Navigation:</strong>
+
+  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
+  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
+  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
+  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
+  <a href="../title.html">Title</a>
+  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
+
+<div class="NavAddress">
+<SMALL><a href="http://www.cgal.org" target="_top">CGAL Open Source Project</a>.
+Release 4.1.
+23 October 2012.</SMALL>
+</div>
+</body>  </html>

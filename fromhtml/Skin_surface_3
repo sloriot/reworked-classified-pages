@@ -1,0 +1,110 @@
+
+    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en-US"> <head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="generator" content="CGAL latex_to_html converter">
+<!-- by cc_extract_html, $Id: cc_extract_html.cpp 44195 2008-07-16 08:46:48Z spion $ -->
+<!-- LaTeX source file: './Skin_surface_3_ref/intro.tex' -->
+<link rel="canonical" href="http://www.cgal.org/Manual/latest/doc_html/cgal_manual/Skin_surface_3_ref/Chapter_intro.html">
+<link href="../latex_to_html.css" rel="STYLESHEET">
+<title>3D Skin Surface Meshing Reference&nbsp;Manual</title>
+</head>
+<body bgcolor="white">
+
+<div class="NavTop">
+  
+  <strong>Navigation:</strong>
+<a href="Chapter_intro.html">Up</a>&nbsp;&nbsp;
+  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
+  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
+  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
+  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
+  <a href="../title.html">Title</a>
+  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
+<P>
+
+<A NAME="chapterSkinSurfaceRef"></A><h1>3D Skin Surface Meshing<BR>
+<I>Reference&nbsp;Manual</I></h1>
+
+ 
+
+<p class="subtitle">Nico Kruithof</p>
+<P>
+
+Skin surfaces form a class of tangent continuous surfaces defined by a
+set of balls and a scalar called the shrink factor. The skin surface
+package constructs an triangular mesh isotopic to the skin surface,
+using the algorithm described in [<A HREF="../biblio.html#Biblio_cgal:kv-mssct-05">KV05</A>]. The mesh is
+stored in a <I><A HREF="../Polyhedron_ref/Class_Polyhedron_3.html#Cross_link_anchor_1110">CGAL::Polyhedron_3</A></I>.
+<P>
+
+<h3>Concepts</h3>
+
+<I><A HREF="Concept_SkinSurface_3.html#Cross_link_anchor_1519">SkinSurface_3</A></I><BR>
+
+<I><A HREF="Concept_SkinSurfaceTraits_3.html#Cross_link_anchor_1520">SkinSurfaceTraits_3</A></I><BR>
+
+
+<P>
+
+<h3>Classes</h3>
+
+<I><A HREF="Class_Skin_surface_3.html#Cross_link_anchor_1521">CGAL::Skin_surface_3</A>&lt;<A HREF="Concept_SkinSurfaceTraits_3.html#Cross_link_anchor_1520">SkinSurfaceTraits_3</A>&gt;</I><BR>
+
+<I><A HREF="Class_Union_of_balls_3.html#Cross_link_anchor_1522">CGAL::Union_of_balls_3</A>&lt;<A HREF="Concept_SkinSurfaceTraits_3.html#Cross_link_anchor_1520">SkinSurfaceTraits_3</A>&gt;</I><BR>
+
+
+<P>
+
+<I><A HREF="Class_Skin_surface_traits_3.html#Cross_link_anchor_1523">CGAL::Skin_surface_traits_3&lt;K&gt;</A></I><BR>
+
+
+<P>
+
+<h3>Functions</h3>
+
+<I><A HREF="Function_make_skin_surface_mesh_3.html#Cross_link_anchor_1524">CGAL::make_skin_surface_mesh_3</A>&lt;<A HREF="../Polyhedron_ref/Class_Polyhedron_3.html#Cross_link_anchor_1110">Polyhedron_3</A>&gt;</I><BR>
+
+<I><A HREF="Function_mesh_skin_surface_3.html#Cross_link_anchor_1525">CGAL::mesh_skin_surface_3</A>&lt;<A HREF="Concept_SkinSurface_3.html#Cross_link_anchor_1519">SkinSurface_3</A>, <A HREF="../Polyhedron_ref/Class_Polyhedron_3.html#Cross_link_anchor_1110">Polyhedron_3</A>&gt;</I><BR>
+
+<I><A HREF="Function_subdivide_skin_surface_mesh_3.html#Cross_link_anchor_1526">CGAL::subdivide_skin_surface_mesh_3</A>&lt;<A HREF="Concept_SkinSurface_3.html#Cross_link_anchor_1519">SkinSurface_3</A>, <A HREF="../Polyhedron_ref/Class_Polyhedron_3.html#Cross_link_anchor_1110">Polyhedron_3</A>&gt;</I>
+<P>
+
+<a name="Section_50.6"></a>
+        
+<h2>50.6&nbsp;&nbsp;&nbsp;Alphabetical List of Reference Pages</h2>
+<P>
+
+<table cellpadding="0">
+    
+  <tr><td> <a href="Function_make_skin_surface_mesh_3.html"><I>make_skin_surface_mesh_3&lt;Polyhedron_3&gt;</I></a></td></tr>
+  <tr><td> <a href="Function_mesh_skin_surface_3.html"><I>mesh_skin_surface_3&lt;SkinSurface_3, Polyhedron_3&gt;</I></a></td></tr>
+  <tr><td> <a href="Concept_SkinSurfaceTraits_3.html"><I>SkinSurfaceTraits_3</I></a></td></tr>
+  <tr><td> <a href="Concept_SkinSurface_3.html"><I>SkinSurface_3</I></a></td></tr>
+  <tr><td> <a href="Class_Skin_surface_3.html"><I>Skin_surface_3&lt;SkinSurfaceTraits_3&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Skin_surface_traits_3.html"><I>Skin_surface_traits_3&lt;K&gt;</I></a></td></tr>
+  <tr><td> <a href="Function_subdivide_skin_surface_mesh_3.html"><I>subdivide_skin_surface_mesh_3&lt;SkinSurface_3, Polyhedron_3&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Union_of_balls_3.html"><I>Union_of_balls_3&lt;SkinSurfaceTraits_3&gt;</I></a></td></tr>
+    </table>
+    
+  
+
+  <div class="NavNext">Next chapter: <a href="../Mesh_3/Chapter_main.html">3D Mesh Generation</a></div>
+    
+  <div class="NavBottom">
+  
+  <strong>Navigation:</strong>
+<a href="../Mesh_3/Chapter_main.html">Up</a>&nbsp;&nbsp;
+  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
+  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
+  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
+  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
+  <a href="../title.html">Title</a>
+  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
+
+<div class="NavAddress">
+<SMALL><a href="http://www.cgal.org" target="_top">CGAL Open Source Project</a>.
+Release 4.1.
+23 October 2012.</SMALL>
+</div>
+</body>  </html>

@@ -1,0 +1,143 @@
+
+    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en-US"> <head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="generator" content="CGAL latex_to_html converter">
+<!-- by cc_extract_html, $Id: cc_extract_html.cpp 44195 2008-07-16 08:46:48Z spion $ -->
+<!-- LaTeX source file: './IOstream_ref/intro.tex' -->
+<link rel="canonical" href="http://www.cgal.org/Manual/latest/doc_html/cgal_manual/IOstream_ref/Chapter_intro.html">
+<link href="../latex_to_html.css" rel="STYLESHEET">
+<title>IO Streams Reference&nbsp;Manual</title>
+</head>
+<body bgcolor="white">
+
+<div class="NavTop">
+  
+  <strong>Navigation:</strong>
+<a href="Chapter_intro.html">Up</a>&nbsp;&nbsp;
+  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
+  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
+  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
+  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
+  <a href="../title.html">Title</a>
+  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
+<P>
+
+<h1>IO Streams<BR>
+<I>Reference&nbsp;Manual</I></h1>
+
+ 
+<p class="subtitle">Andreas Fabri, Geert-Jan Giezeman, and Lutz Kettner</p>
+<P>
+
+All classes in the <span class="textsc">Cgal</span> kernel provide input and output operators for
+IO streams.
+<span class="textsc">Cgal</span> provides three different printing mode, defined in the enum
+<I><A HREF="Enum_Mode.html#Cross_link_anchor_2111">Mode</A></I>, as well as different functions to set and get
+the printing mode.
+<P>
+
+<a name="Section_79.6"></a>
+        
+<h2>79.6&nbsp;&nbsp;&nbsp;Classified Reference Pages</h2>
+<P>
+
+<h3>Enum</h3>
+
+<I><A HREF="Enum_Mode.html#Cross_link_anchor_2111">CGAL::Mode</A></I><BR>
+
+
+<P>
+
+<h3>Functions</h3>
+
+<I><A HREF="Function_get_mode.html#Cross_link_anchor_2106">CGAL::get_mode</A></I><BR>
+
+<I><A HREF="Function_is_ascii.html#Cross_link_anchor_2107">CGAL::is_ascii</A></I><BR>
+
+<I><A HREF="Function_is_binary.html#Cross_link_anchor_2108">CGAL::is_binary</A></I><BR>
+
+<I><A HREF="Function_is_pretty.html#Cross_link_anchor_2109">CGAL::is_pretty</A></I><BR>
+
+<I><A HREF="Function_set_mode.html#Cross_link_anchor_2122">CGAL::set_mode</A></I><BR>
+
+<I><A HREF="Function_set_ascii_mode.html#Cross_link_anchor_2120">CGAL::set_ascii_mode</A></I><BR>
+
+<I><A HREF="Function_set_binary_mode.html#Cross_link_anchor_2121">CGAL::set_binary_mode</A></I><BR>
+
+<I><A HREF="Function_set_pretty_mode.html#Cross_link_anchor_2123">CGAL::set_pretty_mode</A></I><BR>
+
+<I>CGAL::operator&gt;&gt;</I><BR>
+
+<I>CGAL::operator&lt;&lt;</I><BR>
+
+<I><A HREF="Function_iformat.html#Cross_link_anchor_2118">CGAL::iformat</A></I><BR>
+
+<I><A HREF="Function_oformat.html#Cross_link_anchor_2119">CGAL::oformat</A></I>
+<P>
+
+<h3>Classes</h3>
+<P>
+
+<I><A HREF="Class_Color.html#Cross_link_anchor_2105">CGAL::Color</A></I><BR>
+
+<I><A HREF="Class_Istream_iterator.html#Cross_link_anchor_2110">CGAL::Istream_iterator&lt;T,Stream&gt;</A></I><BR>
+
+<I><A HREF="Class_Ostream_iterator.html#Cross_link_anchor_2115">CGAL::Ostream_iterator&lt;T,Stream&gt;</A></I><BR>
+
+<I><A HREF="Class_Verbose_ostream.html#Cross_link_anchor_2124">CGAL::Verbose_ostream</A></I><BR>
+
+<I><A HREF="Class_Input_rep.html#Cross_link_anchor_2116">CGAL::Input_rep&lt;T,F&gt;</A></I><BR>
+
+<I><A HREF="Class_Output_rep.html#Cross_link_anchor_2117">CGAL::Output_rep&lt;T,F&gt;</A></I>
+<P>
+
+<a name="Section_79.7"></a>
+        
+<h2>79.7&nbsp;&nbsp;&nbsp;Alphabetical List of Reference Pages</h2>
+<P>
+
+<table cellpadding="0">
+    
+  <tr><td> <a href="Class_Color.html"><I>Color</I></a></td></tr>
+  <tr><td> <a href="Function_get_mode.html"><I>get_mode</I></a></td></tr>
+  <tr><td> <a href="Function_iformat.html"><I>iformat</I></a></td></tr>
+  <tr><td> <a href="Class_Input_rep.html"><I>Input_rep&lt;T,F&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Istream_iterator.html"><I>Istream_iterator&lt;T,Stream&gt;</I></a></td></tr>
+  <tr><td> <a href="Function_is_ascii.html"><I>is_ascii</I></a></td></tr>
+  <tr><td> <a href="Function_is_binary.html"><I>is_binary</I></a></td></tr>
+  <tr><td> <a href="Function_is_pretty.html"><I>is_pretty</I></a></td></tr>
+  <tr><td> <a href="Enum_Mode.html"><I>Mode</I></a></td></tr>
+  <tr><td> <a href="Function_oformat.html"><I>oformat</I></a></td></tr>
+  <tr><td> <a href="Function_operator.html"><I>operator&lt;&lt;</I></a></td></tr>
+  <tr><td> <a href="Function_operator--.html"><I>operator&gt;&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Ostream_iterator.html"><I>Ostream_iterator&lt;T,Stream&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Output_rep.html"><I>Output_rep&lt;T,F&gt;</I></a></td></tr>
+  <tr><td> <a href="Function_set_ascii_mode.html"><I>set_ascii_mode</I></a></td></tr>
+  <tr><td> <a href="Function_set_binary_mode.html"><I>set_binary_mode</I></a></td></tr>
+  <tr><td> <a href="Function_set_mode.html"><I>set_mode</I></a></td></tr>
+  <tr><td> <a href="Function_set_pretty_mode.html"><I>set_pretty_mode</I></a></td></tr>
+  <tr><td> <a href="Class_Verbose_ostream.html"><I>Verbose_ostream</I></a></td></tr>
+    </table>
+    
+  
+
+  
+    
+  <div class="NavBottom">
+  
+  <strong>Navigation:</strong>
+
+  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
+  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
+  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
+  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
+  <a href="../title.html">Title</a>
+  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
+
+<div class="NavAddress">
+<SMALL><a href="http://www.cgal.org" target="_top">CGAL Open Source Project</a>.
+Release 4.1.
+23 October 2012.</SMALL>
+</div>
+</body>  </html>

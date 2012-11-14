@@ -1,0 +1,473 @@
+
+    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en-US"> <head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="generator" content="CGAL latex_to_html converter">
+<!-- by cc_extract_html, $Id: cc_extract_html.cpp 44195 2008-07-16 08:46:48Z spion $ -->
+<!-- LaTeX source file: './Polynomial_ref/intro.tex' -->
+<link rel="canonical" href="http://www.cgal.org/Manual/latest/doc_html/cgal_manual/Polynomial_ref/Chapter_intro.html">
+<link href="../latex_to_html.css" rel="STYLESHEET">
+<title>Polynomial Reference&nbsp;Manual</title>
+</head>
+<body bgcolor="white">
+
+<div class="NavTop">
+  
+  <strong>Navigation:</strong>
+<a href="Chapter_intro.html">Up</a>&nbsp;&nbsp;
+  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
+  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
+  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
+  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
+  <a href="../title.html">Title</a>
+  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
+<P>
+
+<h1>Polynomial<BR>
+<I>Reference&nbsp;Manual</I></h1>
+<P>
+
+<p class="subtitle">Michael Hemmer</p>
+<P>
+
+<a name="Section_7.11"></a>
+        
+<h2>7.11&nbsp;&nbsp;&nbsp;Classified Reference Pages</h2>
+<P>
+
+<h3>Polynomial_d</h3>
+<P>
+
+<h4>Concepts</h4>
+<P>
+
+<I><A HREF="Concept_Polynomial_d.html#Cross_link_anchor_131">Polynomial_d</A></I><BR>
+
+<I><A HREF="Concept_PolynomialTraits_d.html#Cross_link_anchor_132">PolynomialTraits_d</A></I><BR>
+
+
+<P>
+
+<I><A HREF="Concept_PolynomialTraits_d--ConstructPolynomial.html#Cross_link_anchor_133">PolynomialTraits_d::ConstructPolynomial</A></I><BR>
+
+<I><A HREF="Concept_PolynomialTraits_d--GetCoefficient.html#Cross_link_anchor_134">PolynomialTraits_d::GetCoefficient</A></I><BR>
+
+<I><A HREF="Concept_PolynomialTraits_d--GetInnermostCoefficient.html#Cross_link_anchor_135">PolynomialTraits_d::GetInnermostCoefficient</A></I><BR>
+
+<I><A HREF="Concept_PolynomialTraits_d--MonomialRepresentation.html#Cross_link_anchor_136">PolynomialTraits_d::MonomialRepresentation</A></I><BR>
+
+
+<P>
+
+<I><A HREF="Concept_PolynomialTraits_d--ConstructCoefficientConstIteratorRange.html#Cross_link_anchor_137">PolynomialTraits_d::ConstructCoefficientConstIteratorRange</A></I><BR>
+
+<I><A HREF="Concept_PolynomialTraits_d--ConstructInnermostCoefficientConstIteratorRange.html#Cross_link_anchor_138">PolynomialTraits_d::ConstructInnermostCoefficientConstIteratorRange</A></I><BR>
+
+
+<P>
+
+<I><A HREF="Concept_PolynomialTraits_d--Permute.html#Cross_link_anchor_139">PolynomialTraits_d::Permute</A></I><BR>
+
+<I><A HREF="Concept_PolynomialTraits_d--Swap.html#Cross_link_anchor_140">PolynomialTraits_d::Swap</A></I><BR>
+
+<I><A HREF="Concept_PolynomialTraits_d--Move.html#Cross_link_anchor_141">PolynomialTraits_d::Move</A></I><BR>
+
+
+<P>
+
+<I><A HREF="Concept_PolynomialTraits_d--Degree.html#Cross_link_anchor_142">PolynomialTraits_d::Degree</A></I><BR>
+
+<I><A HREF="Concept_PolynomialTraits_d--TotalDegree.html#Cross_link_anchor_143">PolynomialTraits_d::TotalDegree</A></I><BR>
+
+<I><A HREF="Concept_PolynomialTraits_d--DegreeVector.html#Cross_link_anchor_144">PolynomialTraits_d::DegreeVector</A></I><BR>
+
+<I><A HREF="Concept_PolynomialTraits_d--LeadingCoefficient.html#Cross_link_anchor_145">PolynomialTraits_d::LeadingCoefficient</A></I><BR>
+
+<I><A HREF="Concept_PolynomialTraits_d--InnermostLeadingCoefficient.html#Cross_link_anchor_146">PolynomialTraits_d::InnermostLeadingCoefficient</A></I><BR>
+
+
+<P>
+
+<I><A HREF="Concept_PolynomialTraits_d--Canonicalize.html#Cross_link_anchor_147">PolynomialTraits_d::Canonicalize</A></I><BR>
+
+<I><A HREF="Concept_PolynomialTraits_d--Differentiate.html#Cross_link_anchor_148">PolynomialTraits_d::Differentiate</A></I><BR>
+
+
+<P>
+
+<I><A HREF="Concept_PolynomialTraits_d--Evaluate.html#Cross_link_anchor_149">PolynomialTraits_d::Evaluate</A></I><BR>
+
+<I><A HREF="Concept_PolynomialTraits_d--EvaluateHomogeneous.html#Cross_link_anchor_150">PolynomialTraits_d::EvaluateHomogeneous</A></I><BR>
+
+<I><A HREF="Concept_PolynomialTraits_d--Substitute.html#Cross_link_anchor_151">PolynomialTraits_d::Substitute</A></I><BR>
+
+<I><A HREF="Concept_PolynomialTraits_d--SubstituteHomogeneous.html#Cross_link_anchor_152">PolynomialTraits_d::SubstituteHomogeneous</A></I><BR>
+
+<I><A HREF="Concept_PolynomialTraits_d--IsZeroAt.html#Cross_link_anchor_153">PolynomialTraits_d::IsZeroAt</A></I><BR>
+
+<I><A HREF="Concept_PolynomialTraits_d--IsZeroAtHomogeneous.html#Cross_link_anchor_154">PolynomialTraits_d::IsZeroAtHomogeneous</A></I><BR>
+
+<I><A HREF="Concept_PolynomialTraits_d--SignAt.html#Cross_link_anchor_155">PolynomialTraits_d::SignAt</A></I><BR>
+
+<I><A HREF="Concept_PolynomialTraits_d--SignAtHomogeneous.html#Cross_link_anchor_156">PolynomialTraits_d::SignAtHomogeneous</A></I><BR>
+
+
+<P>
+
+<I><A HREF="Concept_PolynomialTraits_d--Compare.html#Cross_link_anchor_157">PolynomialTraits_d::Compare</A></I><BR>
+
+
+<P>
+
+<I><A HREF="Concept_PolynomialTraits_d--UnivariateContent.html#Cross_link_anchor_158">PolynomialTraits_d::UnivariateContent</A></I><BR>
+
+<I><A HREF="Concept_PolynomialTraits_d--MultivariateContent.html#Cross_link_anchor_159">PolynomialTraits_d::MultivariateContent</A></I><BR>
+
+
+<P>
+
+<I><A HREF="Concept_PolynomialTraits_d--SquareFreeFactorize.html#Cross_link_anchor_160">PolynomialTraits_d::SquareFreeFactorize</A></I><BR>
+
+<I><A HREF="Concept_PolynomialTraits_d--MakeSquareFree.html#Cross_link_anchor_161">PolynomialTraits_d::MakeSquareFree</A></I><BR>
+
+<I><A HREF="Concept_PolynomialTraits_d--IsSquareFree.html#Cross_link_anchor_162">PolynomialTraits_d::IsSquareFree</A></I><BR>
+
+
+<P>
+
+<I><A HREF="Concept_PolynomialTraits_d--PseudoDivision.html#Cross_link_anchor_163">PolynomialTraits_d::PseudoDivision</A></I><BR>
+
+<I><A HREF="Concept_PolynomialTraits_d--PseudoDivisionQuotient.html#Cross_link_anchor_164">PolynomialTraits_d::PseudoDivisionQuotient</A></I><BR>
+
+<I><A HREF="Concept_PolynomialTraits_d--PseudoDivisionRemainder.html#Cross_link_anchor_165">PolynomialTraits_d::PseudoDivisionRemainder</A></I><BR>
+
+
+<P>
+
+<I><A HREF="Concept_PolynomialTraits_d--GcdUpToConstantFactor.html#Cross_link_anchor_166">PolynomialTraits_d::GcdUpToConstantFactor</A></I><BR>
+
+<I><A HREF="Concept_PolynomialTraits_d--IntegralDivisionUpToConstantFactor.html#Cross_link_anchor_167">PolynomialTraits_d::IntegralDivisionUpToConstantFactor</A></I><BR>
+
+<I><A HREF="Concept_PolynomialTraits_d--UnivariateContentUpToConstantFactor.html#Cross_link_anchor_168">PolynomialTraits_d::UnivariateContentUpToConstantFactor</A></I><BR>
+
+<I><A HREF="Concept_PolynomialTraits_d--SquareFreeFactorizeUpToConstantFactor.html#Cross_link_anchor_169">PolynomialTraits_d::SquareFreeFactorizeUpToConstantFactor</A></I><BR>
+
+
+<P>
+
+<I><A HREF="Concept_PolynomialTraits_d--Shift.html#Cross_link_anchor_170">PolynomialTraits_d::Shift</A></I><BR>
+
+<I><A HREF="Concept_PolynomialTraits_d--Negate.html#Cross_link_anchor_171">PolynomialTraits_d::Negate</A></I><BR>
+
+<I><A HREF="Concept_PolynomialTraits_d--Invert.html#Cross_link_anchor_172">PolynomialTraits_d::Invert</A></I><BR>
+
+<I><A HREF="Concept_PolynomialTraits_d--Translate.html#Cross_link_anchor_173">PolynomialTraits_d::Translate</A></I><BR>
+
+<I><A HREF="Concept_PolynomialTraits_d--TranslateHomogeneous.html#Cross_link_anchor_174">PolynomialTraits_d::TranslateHomogeneous</A></I><BR>
+
+<I><A HREF="Concept_PolynomialTraits_d--Scale.html#Cross_link_anchor_175">PolynomialTraits_d::Scale</A></I><BR>
+
+<I><A HREF="Concept_PolynomialTraits_d--ScaleHomogeneous.html#Cross_link_anchor_176">PolynomialTraits_d::ScaleHomogeneous</A></I><BR>
+
+
+<P>
+
+<I><A HREF="Concept_PolynomialTraits_d--Resultant.html#Cross_link_anchor_177">PolynomialTraits_d::Resultant</A></I><BR>
+
+<I><A HREF="Concept_PolynomialTraits_d--PolynomialSubresultants.html#Cross_link_anchor_178">PolynomialTraits_d::PolynomialSubresultants</A></I><BR>
+
+<I><A HREF="Concept_PolynomialTraits_d--PolynomialSubresultantsWithCofactors.html#Cross_link_anchor_179">PolynomialTraits_d::PolynomialSubresultantsWithCofactors</A></I><BR>
+
+<I><A HREF="Concept_PolynomialTraits_d--PrincipalSubresultants.html#Cross_link_anchor_180">PolynomialTraits_d::PrincipalSubresultants</A></I><BR>
+
+<I><A HREF="Concept_PolynomialTraits_d--SturmHabichtSequence.html#Cross_link_anchor_181">PolynomialTraits_d::SturmHabichtSequence</A></I><BR>
+
+<I><A HREF="Concept_PolynomialTraits_d--SturmHabichtSequenceWithCofactors.html#Cross_link_anchor_182">PolynomialTraits_d::SturmHabichtSequenceWithCofactors</A></I><BR>
+
+<I><A HREF="Concept_PolynomialTraits_d--PrincipalSturmHabichtSequence.html#Cross_link_anchor_183">PolynomialTraits_d::PrincipalSturmHabichtSequence</A></I><BR>
+
+
+<P>
+
+<h4>Classes</h4>
+<P>
+
+<I><A HREF="Class_Polynomial.html#Cross_link_anchor_184">CGAL::Polynomial&lt;Coeff&gt;</A></I><BR>
+
+<I><A HREF="Class_Polynomial_traits_d.html#Cross_link_anchor_185">CGAL::Polynomial_traits_d</A>&lt;<A HREF="Concept_Polynomial_d.html#Cross_link_anchor_131">Polynomial_d</A>&gt;</I><BR>
+
+<I><A HREF="Class_Exponent_vector.html#Cross_link_anchor_186">CGAL::Exponent_vector</A></I><BR>
+
+<I><A HREF="Class_Polynomial_type_generator.html#Cross_link_anchor_187">CGAL::Polynomial_type_generator&lt;T,d&gt;</A></I><BR>
+
+
+<P>
+
+<h4>Functions</h4>
+<P>
+
+<I><A HREF="Function_get_coefficient.html#Cross_link_anchor_188">CGAL::get_coefficient</A></I><BR>
+
+<I><A HREF="Function_get_innermost_coefficient.html#Cross_link_anchor_189">CGAL::get_innermost_coefficient</A></I><BR>
+
+
+<P>
+
+<I><A HREF="Function_permute.html#Cross_link_anchor_190">CGAL::permute</A></I><BR>
+
+<I><A HREF="Function_swap.html#Cross_link_anchor_191">CGAL::swap</A></I><BR>
+
+<I><A HREF="Function_move.html#Cross_link_anchor_192">CGAL::move</A></I><BR>
+
+
+<P>
+
+<I><A HREF="Function_degree.html#Cross_link_anchor_193">CGAL::degree</A></I><BR>
+
+<I><A HREF="Function_total_degree.html#Cross_link_anchor_194">CGAL::total_degree</A></I><BR>
+
+<I><A HREF="Function_degree_vector.html#Cross_link_anchor_195">CGAL::degree_vector</A></I><BR>
+
+<I><A HREF="Function_leading_coefficient.html#Cross_link_anchor_196">CGAL::leading_coefficient</A></I><BR>
+
+<I><A HREF="Function_innermost_leading_coefficient.html#Cross_link_anchor_197">CGAL::innermost_leading_coefficient</A></I><BR>
+
+
+<P>
+
+<I><A HREF="Function_canonicalize.html#Cross_link_anchor_198">CGAL::canonicalize</A></I><BR>
+
+<I><A HREF="Function_differentiate.html#Cross_link_anchor_199">CGAL::differentiate</A></I><BR>
+
+
+<P>
+
+<I><A HREF="Function_evaluate.html#Cross_link_anchor_200">CGAL::evaluate</A></I><BR>
+
+<I><A HREF="Function_evaluate_homogeneous.html#Cross_link_anchor_201">CGAL::evaluate_homogeneous</A></I><BR>
+
+<I><A HREF="Function_substitute.html#Cross_link_anchor_202">CGAL::substitute</A></I><BR>
+
+<I><A HREF="Function_substitute_homogeneous.html#Cross_link_anchor_205">CGAL::substitute_homogeneous</A></I><BR>
+
+<I><A HREF="Function_is_zero_at.html#Cross_link_anchor_203">CGAL::is_zero_at</A></I><BR>
+
+<I><A HREF="Function_is_zero_at_homogeneous.html#Cross_link_anchor_206">CGAL::is_zero_at_homogeneous</A></I><BR>
+
+<I><A HREF="Function_sign_at.html#Cross_link_anchor_204">CGAL::sign_at</A></I><BR>
+
+<I><A HREF="Function_sign_at_homogeneous.html#Cross_link_anchor_207">CGAL::sign_at_homogeneous</A></I><BR>
+
+
+<P>
+
+<I><A HREF="Function_compare.html#Cross_link_anchor_208">CGAL::compare</A></I><BR>
+
+
+<P>
+
+<I><A HREF="Function_univariate_content.html#Cross_link_anchor_209">CGAL::univariate_content</A></I><BR>
+
+<I><A HREF="Function_multivariate_content.html#Cross_link_anchor_210">CGAL::multivariate_content</A></I><BR>
+
+
+<P>
+
+<I><A HREF="Function_square_free_factorize.html#Cross_link_anchor_211">CGAL::square_free_factorize</A></I><BR>
+
+<I><A HREF="Function_make_square_free.html#Cross_link_anchor_212">CGAL::make_square_free</A></I><BR>
+
+
+<P>
+
+<I><A HREF="Function_pseudo_division.html#Cross_link_anchor_214">CGAL::pseudo_division</A></I><BR>
+
+<I><A HREF="Function_pseudo_division_quotient.html#Cross_link_anchor_215">CGAL::pseudo_division_quotient</A></I><BR>
+
+<I><A HREF="Function_pseudo_division_remainder.html#Cross_link_anchor_216">CGAL::pseudo_division_remainder</A></I><BR>
+
+
+<P>
+
+<I><A HREF="Function_gcd_up_to_constant_factor.html#Cross_link_anchor_217">CGAL::gcd_up_to_constant_factor</A></I><BR>
+
+<I><A HREF="Function_integral_division_up_to_constant_factor.html#Cross_link_anchor_218">CGAL::integral_division_up_to_constant_factor</A></I><BR>
+
+<I><A HREF="Function_univariate_content_up_to_constant_factor.html#Cross_link_anchor_219">CGAL::univariate_content_up_to_constant_factor</A></I><BR>
+
+<I><A HREF="Function_square_free_factorize_up_to_constant_factor.html#Cross_link_anchor_220">CGAL::square_free_factorize_up_to_constant_factor</A></I><BR>
+
+
+<P>
+
+<I><A HREF="Function_shift.html#Cross_link_anchor_221">CGAL::shift</A></I><BR>
+
+<I><A HREF="Function_negate.html#Cross_link_anchor_222">CGAL::negate</A></I><BR>
+
+<I><A HREF="Function_invert.html#Cross_link_anchor_223">CGAL::invert</A></I><BR>
+
+<I><A HREF="Function_translate.html#Cross_link_anchor_224">CGAL::translate</A></I><BR>
+
+<I><A HREF="Function_translate_homogeneous.html#Cross_link_anchor_225">CGAL::translate_homogeneous</A></I><BR>
+
+<I><A HREF="Function_scale.html#Cross_link_anchor_226">CGAL::scale</A></I><BR>
+
+<I><A HREF="Function_scale_homogeneous.html#Cross_link_anchor_227">CGAL::scale_homogeneous</A></I><BR>
+
+
+<P>
+
+<I><A HREF="Function_resultant.html#Cross_link_anchor_228">CGAL::resultant</A></I><BR>
+
+<I><A HREF="Function_polynomial_subresultants.html#Cross_link_anchor_229">CGAL::polynomial_subresultants</A></I><BR>
+
+<I><A HREF="Function_polynomial_subresultants_with_cofactors.html#Cross_link_anchor_230">CGAL::polynomial_subresultants_with_cofactors</A></I><BR>
+
+<I><A HREF="Function_principal_subresultants.html#Cross_link_anchor_231">CGAL::principal_subresultants</A></I><BR>
+
+<I><A HREF="Function_sturm_habicht_sequence.html#Cross_link_anchor_232">CGAL::sturm_habicht_sequence</A></I><BR>
+
+<I><A HREF="Function_sturm_habicht_sequence_with_cofactors.html#Cross_link_anchor_233">CGAL::sturm_habicht_sequence_with_cofactors</A></I><BR>
+
+<I><A HREF="Function_principal_sturm_habicht_sequence.html#Cross_link_anchor_234">CGAL::principal_sturm_habicht_sequence</A></I><BR>
+
+<I><A HREF="Function_number_of_real_roots.html#Cross_link_anchor_235">CGAL::number_of_real_roots</A></I><BR>
+
+
+<P>
+
+<a name="Section_7.12"></a>
+        
+<h2>7.12&nbsp;&nbsp;&nbsp;Alphabetical List of Reference Pages</h2>
+<P>
+
+<table cellpadding="0">
+    
+  <tr><td> <a href="Function_canonicalize.html"><I>canonicalize</I></a></td></tr>
+  <tr><td> <a href="Function_compare.html"><I>compare</I></a></td></tr>
+  <tr><td> <a href="Function_degree_vector.html"><I>degree_vector</I></a></td></tr>
+  <tr><td> <a href="Function_degree.html"><I>degree</I></a></td></tr>
+  <tr><td> <a href="Function_differentiate.html"><I>differentiate</I></a></td></tr>
+  <tr><td> <a href="Function_evaluate_homogeneous.html"><I>evaluate_homogeneous</I></a></td></tr>
+  <tr><td> <a href="Function_evaluate.html"><I>evaluate</I></a></td></tr>
+  <tr><td> <a href="Class_Exponent_vector.html"><I>Exponent_vector</I></a></td></tr>
+  <tr><td> <a href="Function_gcd_up_to_constant_factor.html"><I>gcd_up_to_constant_factor</I></a></td></tr>
+  <tr><td> <a href="Function_get_coefficient.html"><I>get_coefficient</I></a></td></tr>
+  <tr><td> <a href="Function_get_innermost_coefficient.html"><I>get_innermost_coefficient</I></a></td></tr>
+  <tr><td> <a href="Function_innermost_leading_coefficient.html"><I>innermost_leading_coefficient</I></a></td></tr>
+  <tr><td> <a href="Function_integral_division_up_to_constant_factor.html"><I>integral_division_up_to_constant_factor</I></a></td></tr>
+  <tr><td> <a href="Function_invert.html"><I>invert</I></a></td></tr>
+  <tr><td> <a href="Function_is_square_free.html"><I>is_square_free</I></a></td></tr>
+  <tr><td> <a href="Function_is_zero_at_homogeneous.html"><I>is_zero_at_homogeneous</I></a></td></tr>
+  <tr><td> <a href="Function_is_zero_at.html"><I>is_zero_at</I></a></td></tr>
+  <tr><td> <a href="Function_leading_coefficient.html"><I>leading_coefficient</I></a></td></tr>
+  <tr><td> <a href="Function_make_square_free.html"><I>make_square_free</I></a></td></tr>
+  <tr><td> <a href="Function_move.html"><I>move</I></a></td></tr>
+  <tr><td> <a href="Function_multivariate_content.html"><I>multivariate_content</I></a></td></tr>
+  <tr><td> <a href="Function_negate.html"><I>negate</I></a></td></tr>
+  <tr><td> <a href="Function_number_of_real_roots.html"><I>number_of_real_roots</I></a></td></tr>
+  <tr><td> <a href="Function_permute.html"><I>permute</I></a></td></tr>
+  <tr><td> <a href="Class_Polynomial.html"><I>Polynomial&lt;Coeff&gt;</I></a></td></tr>
+  <tr><td> <a href="Concept_PolynomialTraits_d--Canonicalize.html"><I>PolynomialTraits_d::Canonicalize</I></a></td></tr>
+  <tr><td> <a href="Concept_PolynomialTraits_d--Compare.html"><I>PolynomialTraits_d::Compare</I></a></td></tr>
+  <tr><td> <a href="Concept_PolynomialTraits_d--ConstructCoefficientConstIteratorRange.html"><I>PolynomialTraits_d::ConstructCoefficientConstIteratorRange</I></a></td></tr>
+  <tr><td> <a href="Concept_PolynomialTraits_d--ConstructInnermostCoefficientConstIteratorRange.html"><I>PolynomialTraits_d::ConstructInnermostCoefficientConstIteratorRange</I></a></td></tr>
+  <tr><td> <a href="Concept_PolynomialTraits_d--ConstructPolynomial.html"><I>PolynomialTraits_d::ConstructPolynomial</I></a></td></tr>
+  <tr><td> <a href="Concept_PolynomialTraits_d--DegreeVector.html"><I>PolynomialTraits_d::DegreeVector</I></a></td></tr>
+  <tr><td> <a href="Concept_PolynomialTraits_d--Degree.html"><I>PolynomialTraits_d::Degree</I></a></td></tr>
+  <tr><td> <a href="Concept_PolynomialTraits_d--Differentiate.html"><I>PolynomialTraits_d::Differentiate</I></a></td></tr>
+  <tr><td> <a href="Concept_PolynomialTraits_d--EvaluateHomogeneous.html"><I>PolynomialTraits_d::EvaluateHomogeneous</I></a></td></tr>
+  <tr><td> <a href="Concept_PolynomialTraits_d--Evaluate.html"><I>PolynomialTraits_d::Evaluate</I></a></td></tr>
+  <tr><td> <a href="Concept_PolynomialTraits_d--GcdUpToConstantFactor.html"><I>PolynomialTraits_d::GcdUpToConstantFactor</I></a></td></tr>
+  <tr><td> <a href="Concept_PolynomialTraits_d--GetCoefficient.html"><I>PolynomialTraits_d::GetCoefficient</I></a></td></tr>
+  <tr><td> <a href="Concept_PolynomialTraits_d--GetInnermostCoefficient.html"><I>PolynomialTraits_d::GetInnermostCoefficient</I></a></td></tr>
+  <tr><td> <a href="Concept_PolynomialTraits_d--InnermostLeadingCoefficient.html"><I>PolynomialTraits_d::InnermostLeadingCoefficient</I></a></td></tr>
+  <tr><td> <a href="Concept_PolynomialTraits_d--IntegralDivisionUpToConstantFactor.html"><I>PolynomialTraits_d::IntegralDivisionUpToConstantFactor</I></a></td></tr>
+  <tr><td> <a href="Concept_PolynomialTraits_d--Invert.html"><I>PolynomialTraits_d::Invert</I></a></td></tr>
+  <tr><td> <a href="Concept_PolynomialTraits_d--IsSquareFree.html"><I>PolynomialTraits_d::IsSquareFree</I></a></td></tr>
+  <tr><td> <a href="Concept_PolynomialTraits_d--IsZeroAtHomogeneous.html"><I>PolynomialTraits_d::IsZeroAtHomogeneous</I></a></td></tr>
+  <tr><td> <a href="Concept_PolynomialTraits_d--IsZeroAt.html"><I>PolynomialTraits_d::IsZeroAt</I></a></td></tr>
+  <tr><td> <a href="Concept_PolynomialTraits_d--LeadingCoefficient.html"><I>PolynomialTraits_d::LeadingCoefficient</I></a></td></tr>
+  <tr><td> <a href="Concept_PolynomialTraits_d--MakeSquareFree.html"><I>PolynomialTraits_d::MakeSquareFree</I></a></td></tr>
+  <tr><td> <a href="Concept_PolynomialTraits_d--MonomialRepresentation.html"><I>PolynomialTraits_d::MonomialRepresentation</I></a></td></tr>
+  <tr><td> <a href="Concept_PolynomialTraits_d--Move.html"><I>PolynomialTraits_d::Move</I></a></td></tr>
+  <tr><td> <a href="Concept_PolynomialTraits_d--MultivariateContent.html"><I>PolynomialTraits_d::MultivariateContent</I></a></td></tr>
+  <tr><td> <a href="Concept_PolynomialTraits_d--Negate.html"><I>PolynomialTraits_d::Negate</I></a></td></tr>
+  <tr><td> <a href="Concept_PolynomialTraits_d--Permute.html"><I>PolynomialTraits_d::Permute</I></a></td></tr>
+  <tr><td> <a href="Concept_PolynomialTraits_d--PolynomialSubresultantsWithCofactors.html"><I>PolynomialTraits_d::PolynomialSubresultantsWithCofactors</I></a></td></tr>
+  <tr><td> <a href="Concept_PolynomialTraits_d--PolynomialSubresultants.html"><I>PolynomialTraits_d::PolynomialSubresultants</I></a></td></tr>
+  <tr><td> <a href="Concept_PolynomialTraits_d--PrincipalSturmHabichtSequence.html"><I>PolynomialTraits_d::PrincipalSturmHabichtSequence</I></a></td></tr>
+  <tr><td> <a href="Concept_PolynomialTraits_d--PrincipalSubresultants.html"><I>PolynomialTraits_d::PrincipalSubresultants</I></a></td></tr>
+  <tr><td> <a href="Concept_PolynomialTraits_d--PseudoDivisionQuotient.html"><I>PolynomialTraits_d::PseudoDivisionQuotient</I></a></td></tr>
+  <tr><td> <a href="Concept_PolynomialTraits_d--PseudoDivisionRemainder.html"><I>PolynomialTraits_d::PseudoDivisionRemainder</I></a></td></tr>
+  <tr><td> <a href="Concept_PolynomialTraits_d--PseudoDivision.html"><I>PolynomialTraits_d::PseudoDivision</I></a></td></tr>
+  <tr><td> <a href="Concept_PolynomialTraits_d--Resultant.html"><I>PolynomialTraits_d::Resultant</I></a></td></tr>
+  <tr><td> <a href="Concept_PolynomialTraits_d--ScaleHomogeneous.html"><I>PolynomialTraits_d::ScaleHomogeneous</I></a></td></tr>
+  <tr><td> <a href="Concept_PolynomialTraits_d--Scale.html"><I>PolynomialTraits_d::Scale</I></a></td></tr>
+  <tr><td> <a href="Concept_PolynomialTraits_d--Shift.html"><I>PolynomialTraits_d::Shift</I></a></td></tr>
+  <tr><td> <a href="Concept_PolynomialTraits_d--SignAtHomogeneous.html"><I>PolynomialTraits_d::SignAtHomogeneous</I></a></td></tr>
+  <tr><td> <a href="Concept_PolynomialTraits_d--SignAt.html"><I>PolynomialTraits_d::SignAt</I></a></td></tr>
+  <tr><td> <a href="Concept_PolynomialTraits_d--SquareFreeFactorizeUpToConstantFactor.html"><I>PolynomialTraits_d::SquareFreeFactorizeUpToConstantFactor</I></a></td></tr>
+  <tr><td> <a href="Concept_PolynomialTraits_d--SquareFreeFactorize.html"><I>PolynomialTraits_d::SquareFreeFactorize</I></a></td></tr>
+  <tr><td> <a href="Concept_PolynomialTraits_d--SturmHabichtSequenceWithCofactors.html"><I>PolynomialTraits_d::SturmHabichtSequenceWithCofactors</I></a></td></tr>
+  <tr><td> <a href="Concept_PolynomialTraits_d--SturmHabichtSequence.html"><I>PolynomialTraits_d::SturmHabichtSequence</I></a></td></tr>
+  <tr><td> <a href="Concept_PolynomialTraits_d--SubstituteHomogeneous.html"><I>PolynomialTraits_d::SubstituteHomogeneous</I></a></td></tr>
+  <tr><td> <a href="Concept_PolynomialTraits_d--Substitute.html"><I>PolynomialTraits_d::Substitute</I></a></td></tr>
+  <tr><td> <a href="Concept_PolynomialTraits_d--Swap.html"><I>PolynomialTraits_d::Swap</I></a></td></tr>
+  <tr><td> <a href="Concept_PolynomialTraits_d--TotalDegree.html"><I>PolynomialTraits_d::TotalDegree</I></a></td></tr>
+  <tr><td> <a href="Concept_PolynomialTraits_d--TranslateHomogeneous.html"><I>PolynomialTraits_d::TranslateHomogeneous</I></a></td></tr>
+  <tr><td> <a href="Concept_PolynomialTraits_d--Translate.html"><I>PolynomialTraits_d::Translate</I></a></td></tr>
+  <tr><td> <a href="Concept_PolynomialTraits_d--UnivariateContentUpToConstantFactor.html"><I>PolynomialTraits_d::UnivariateContentUpToConstantFactor</I></a></td></tr>
+  <tr><td> <a href="Concept_PolynomialTraits_d--UnivariateContent.html"><I>PolynomialTraits_d::UnivariateContent</I></a></td></tr>
+  <tr><td> <a href="Concept_PolynomialTraits_d.html"><I>PolynomialTraits_d</I></a></td></tr>
+  <tr><td> <a href="Concept_Polynomial_d.html"><I>Polynomial_d</I></a></td></tr>
+  <tr><td> <a href="Function_polynomial_subresultants_with_cofactors.html"><I>polynomial_subresultants_with_cofactors</I></a></td></tr>
+  <tr><td> <a href="Function_polynomial_subresultants.html"><I>polynomial_subresultants</I></a></td></tr>
+  <tr><td> <a href="Class_Polynomial_traits_d.html"><I>Polynomial_traits_d&lt;Polynomial_d&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Polynomial_type_generator.html"><I>Polynomial_type_generator&lt;T,d&gt;</I></a></td></tr>
+  <tr><td> <a href="Function_principal_sturm_habicht_sequence.html"><I>principal_sturm_habicht_sequence</I></a></td></tr>
+  <tr><td> <a href="Function_principal_subresultants.html"><I>principal_subresultants</I></a></td></tr>
+  <tr><td> <a href="Function_pseudo_division_quotient.html"><I>pseudo_division_quotient</I></a></td></tr>
+  <tr><td> <a href="Function_pseudo_division_remainder.html"><I>pseudo_division_remainder</I></a></td></tr>
+  <tr><td> <a href="Function_pseudo_division.html"><I>pseudo_division</I></a></td></tr>
+  <tr><td> <a href="Function_resultant.html"><I>resultant</I></a></td></tr>
+  <tr><td> <a href="Function_scale_homogeneous.html"><I>scale_homogeneous</I></a></td></tr>
+  <tr><td> <a href="Function_scale.html"><I>scale</I></a></td></tr>
+  <tr><td> <a href="Function_shift.html"><I>shift</I></a></td></tr>
+  <tr><td> <a href="Function_sign_at_homogeneous.html"><I>sign_at_homogeneous</I></a></td></tr>
+  <tr><td> <a href="Function_sign_at.html"><I>sign_at</I></a></td></tr>
+  <tr><td> <a href="Function_square_free_factorize_up_to_constant_factor.html"><I>square_free_factorize_up_to_constant_factor</I></a></td></tr>
+  <tr><td> <a href="Function_square_free_factorize.html"><I>square_free_factorize</I></a></td></tr>
+  <tr><td> <a href="Function_sturm_habicht_sequence_with_cofactors.html"><I>sturm_habicht_sequence_with_cofactors</I></a></td></tr>
+  <tr><td> <a href="Function_sturm_habicht_sequence.html"><I>sturm_habicht_sequence</I></a></td></tr>
+  <tr><td> <a href="Function_substitute_homogeneous.html"><I>substitute_homogeneous</I></a></td></tr>
+  <tr><td> <a href="Function_substitute.html"><I>substitute</I></a></td></tr>
+  <tr><td> <a href="Function_swap.html"><I>swap</I></a></td></tr>
+  <tr><td> <a href="Function_total_degree.html"><I>total_degree</I></a></td></tr>
+  <tr><td> <a href="Function_translate_homogeneous.html"><I>translate_homogeneous</I></a></td></tr>
+  <tr><td> <a href="Function_translate.html"><I>translate</I></a></td></tr>
+  <tr><td> <a href="Function_univariate_content_up_to_constant_factor.html"><I>univariate_content_up_to_constant_factor</I></a></td></tr>
+  <tr><td> <a href="Function_univariate_content.html"><I>univariate_content</I></a></td></tr>
+    </table>
+    
+  
+
+  <div class="NavNext">Next chapter: <a href="../Algebraic_kernel_d/Chapter_main.html">Algebraic Kernel</a></div>
+    
+  <div class="NavBottom">
+  
+  <strong>Navigation:</strong>
+<a href="../Algebraic_kernel_d/Chapter_main.html">Up</a>&nbsp;&nbsp;
+  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
+  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
+  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
+  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
+  <a href="../title.html">Title</a>
+  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
+
+<div class="NavAddress">
+<SMALL><a href="http://www.cgal.org" target="_top">CGAL Open Source Project</a>.
+Release 4.1.
+23 October 2012.</SMALL>
+</div>
+</body>  </html>

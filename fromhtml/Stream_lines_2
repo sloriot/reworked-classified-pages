@@ -1,0 +1,148 @@
+
+    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en-US"> <head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="generator" content="CGAL latex_to_html converter">
+<!-- by cc_extract_html, $Id: cc_extract_html.cpp 44195 2008-07-16 08:46:48Z spion $ -->
+<!-- LaTeX source file: './Stream_lines_2_ref/intro.tex' -->
+<link rel="canonical" href="http://www.cgal.org/Manual/latest/doc_html/cgal_manual/Stream_lines_2_ref/Chapter_intro.html">
+<link href="../latex_to_html.css" rel="STYLESHEET">
+<title>2D Placement of Streamlines Reference&nbsp;Manual</title>
+</head>
+<body bgcolor="white">
+
+<div class="NavTop">
+  
+  <strong>Navigation:</strong>
+<a href="Chapter_intro.html">Up</a>&nbsp;&nbsp;
+  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
+  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
+  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
+  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
+  <a href="../title.html">Title</a>
+  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
+<P>
+
+<A NAME="ref_chapter_2D_Streamlines"></A><h1>2D Placement of Streamlines<BR>
+<I>Reference&nbsp;Manual</I></h1>
+<P>
+
+<p class="subtitle">Abdelkrim Mebarki</p>
+<P>
+
+Vector and direction fields are commonly used for modeling physical
+phenomena, where a direction and magnitude, namely a vector is assigned to
+each point inside a domain.<BR>
+
+
+<P>
+
+A streamline is a curve everywhere tangent to the field. It can be
+considered as the path traced by an imaginary massless particle
+dropped into a steady fluid flow described by the field.<BR>
+
+
+<P>
+
+A streamline is represented as a polyline iteratively elongated by
+bidirectional numerical integration started from a seed point, until
+it comes close to another streamline, hits the domain boundary, or
+reaches a critical point.<BR>
+
+
+<P>
+
+The <I><A HREF="Class_Stream_lines_2.html#Cross_link_anchor_1637">Stream_lines_2</A></I> class consists of saturating the domain with
+a set of tangential streamlines in accordance with a specified
+density.<BR>
+
+
+<P>
+
+Streamlines are represented as containers of points, manipulated by an
+iterator range of points, and the whole placement is accessible via an
+iterator range of streamlines.<BR>
+
+
+<P>
+
+The main class in this package, the <I><A HREF="Class_Stream_lines_2.html#Cross_link_anchor_1637">Stream_lines_2</A></I> class of <span class="textsc">Cgal</span> depends on two template
+parameters.  The first template parameter stands for a class which
+represents both the vector field and the visualization domain with
+operations on them, and should be instantiated by a model of the concept
+<I><A HREF="Concept_VectorField_2.html#Cross_link_anchor_1639">VectorField_2</A></I>.  The second template parameter stands for a
+function object that ensures the numerical integration used to
+construct the streamlines, and should be instantiated by a model of the concept
+<I><A HREF="FunctionObjectConcept_Integrator_2.html#Cross_link_anchor_1633">Integrator_2</A></I>.
+<P>
+
+<a name="Section_55.6"></a>
+        
+<h2>55.6&nbsp;&nbsp;&nbsp;Classified Reference Pages</h2>
+<P>
+
+<h3>Concepts</h3>
+
+<I><A HREF="Concept_StreamLinesTraits_2.html#Cross_link_anchor_1636">StreamLinesTraits_2</A></I><BR>
+
+<I><A HREF="FunctionObjectConcept_Integrator_2.html#Cross_link_anchor_1633">Integrator_2</A></I><BR>
+
+<I><A HREF="Concept_VectorField_2.html#Cross_link_anchor_1639">VectorField_2</A></I><BR>
+
+
+<P>
+
+<h3>Classes</h3>
+<P>
+
+<I><A HREF="Class_Stream_lines_2.html#Cross_link_anchor_1637">CGAL::Stream_lines_2</A>&lt;<A HREF="Concept_VectorField_2.html#Cross_link_anchor_1639">VectorField_2</A>,<A HREF="FunctionObjectConcept_Integrator_2.html#Cross_link_anchor_1633">Integrator_2</A>&gt;</I><BR>
+
+<I><A HREF="FunctionObjectClass_Euler_integrator_2.html#Cross_link_anchor_1632">CGAL::Euler_integrator_2</A>&lt;<A HREF="Concept_VectorField_2.html#Cross_link_anchor_1639">VectorField_2</A>&gt;</I><BR>
+
+<I><A HREF="FunctionObjectClass_Runge_kutta_integrator_2.html#Cross_link_anchor_1635">CGAL::Runge_kutta_integrator_2</A>&lt;<A HREF="Concept_VectorField_2.html#Cross_link_anchor_1639">VectorField_2</A>&gt;</I><BR>
+
+<I><A HREF="Class_Regular_grid_2.html#Cross_link_anchor_1634">CGAL::Regular_grid_2</A>&lt;<A HREF="Concept_StreamLinesTraits_2.html#Cross_link_anchor_1636">StreamLinesTraits_2</A>&gt;</I><BR>
+
+<I><A HREF="Class_Triangular_field_2.html#Cross_link_anchor_1638">CGAL::Triangular_field_2</A>&lt;<A HREF="Concept_StreamLinesTraits_2.html#Cross_link_anchor_1636">StreamLinesTraits_2</A>&gt;</I><BR>
+
+
+<P>
+
+<a name="Section_55.7"></a>
+        
+<h2>55.7&nbsp;&nbsp;&nbsp;Alphabetical List of Reference Pages</h2>
+<P>
+
+<table cellpadding="0">
+    
+  <tr><td> <a href="FunctionObjectClass_Euler_integrator_2.html"><I>Euler_integrator_2&lt;VectorField_2&gt;</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_Integrator_2.html"><I>Integrator_2</I></a></td></tr>
+  <tr><td> <a href="Class_Regular_grid_2.html"><I>Regular_grid_2&lt;StreamLinesTraits_2&gt;</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectClass_Runge_kutta_integrator_2.html"><I>Runge_kutta_integrator_2&lt;VectorField_2&gt;</I></a></td></tr>
+  <tr><td> <a href="Concept_StreamLinesTraits_2.html"><I>StreamLinesTraits_2</I></a></td></tr>
+  <tr><td> <a href="Class_Stream_lines_2.html"><I>Stream_lines_2&lt;VectorField_2,Integrator_2&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Triangular_field_2.html"><I>Triangular_field_2&lt;StreamLinesTraits_2&gt;</I></a></td></tr>
+  <tr><td> <a href="Concept_VectorField_2.html"><I>VectorField_2</I></a></td></tr>
+    </table>
+    
+  
+
+  <div class="NavNext">Next chapter: <a href="../Ridges_3/Chapter_main.html">Approximation of Ridges and Umbilics on Triangulated Surface Meshes</a></div>
+    
+  <div class="NavBottom">
+  
+  <strong>Navigation:</strong>
+<a href="../Ridges_3/Chapter_main.html">Up</a>&nbsp;&nbsp;
+  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
+  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
+  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
+  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
+  <a href="../title.html">Title</a>
+  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
+
+<div class="NavAddress">
+<SMALL><a href="http://www.cgal.org" target="_top">CGAL Open Source Project</a>.
+Release 4.1.
+23 October 2012.</SMALL>
+</div>
+</body>  </html>

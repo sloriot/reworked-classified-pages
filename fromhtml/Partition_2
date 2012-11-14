@@ -1,0 +1,268 @@
+
+    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en-US"> <head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="generator" content="CGAL latex_to_html converter">
+<!-- by cc_extract_html, $Id: cc_extract_html.cpp 44195 2008-07-16 08:46:48Z spion $ -->
+<!-- LaTeX source file: './Partition_2_ref/intro.tex' -->
+<link rel="canonical" href="http://www.cgal.org/Manual/latest/doc_html/cgal_manual/Partition_2_ref/Chapter_intro.html">
+<link href="../latex_to_html.css" rel="STYLESHEET">
+<title>2D Polygon Partitioning Reference&nbsp;Manual</title>
+</head>
+<body bgcolor="white">
+
+<div class="NavTop">
+  
+  <strong>Navigation:</strong>
+<a href="Chapter_intro.html">Up</a>&nbsp;&nbsp;
+  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
+  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
+  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
+  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
+  <a href="../title.html">Title</a>
+  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
+<P>
+
+<A NAME="chap:partition_2_ref"></A><h1>2D Polygon Partitioning<BR>
+<I>Reference&nbsp;Manual</I></h1>
+
+ 
+<p class="subtitle">Susan Hert</p>
+<P>
+
+A <I>partition</I> 
+     
+<A NAME="Index_anchor_1242"></A> 
+ 
+   
+ of a polygon is a set 
+of polygons such that the interiors of the polygons do not intersect and 
+the union of the polygons is equal to the interior of the original polygon.
+Functions are available for partitioning planar polygons into two 
+types of subpolygons  -  <span class="math">y</span>-monotone polygons and convex polygons.
+<P>
+
+The function that produces a <span class="math">y</span>-monotone partitioning is based on the 
+algorithm presented in [<A HREF="../biblio.html#Biblio_bkos-cgaa-97">dBvKOS97</A>] which requires <span class="math">O(n <span class="mbox">log</span> n)</span> time 
+and <span class="math">O(n)</span> space for a polygon with <span class="math">n</span> vertices and guarantees nothing 
+about the number of polygons produced with respect to the optimal number.
+Three functions are provided for producing
+convex partitions. Two of these functions produce approximately optimal 
+partitions and one results in an optimal partition, where ``optimal'' is
+defined in terms of the number of partition polygons.   The two functions
+that implement approximation algorithms are guaranteed to produce no more 
+than four times the optimal number of convex pieces.  The optimal partitioning
+function provides an implementation of Greene's dynamic programming algorithm
+[<A HREF="../biblio.html#Biblio_g-dpcp-83">Gre83</A>], which requires <span class="math">O(n<SUP>4</SUP>)</span> time and <span class="math">O(n<SUP>3</SUP>)</span> space to produce a 
+convex partitioning. One of the approximation algorithms is also due to 
+Greene [<A HREF="../biblio.html#Biblio_g-dpcp-83">Gre83</A>] and requires <span class="math">O(n <span class="mbox">log</span> n)</span> time and <span class="math">O(n)</span> space
+to produce a convex partitioning given a <span class="math">y</span>-monotone partitioning.  The
+other approximation algorithm is a result of Hertel and
+Mehlhorn [<A HREF="../biblio.html#Biblio_hm-ftsp-83">HM83</A>], which requires <span class="math">O(n)</span> time and space to produce
+a convex partitioning from a triangulation of a polygon.
+Each of the partitioning functions uses a traits class to supply the
+primitive types and predicates used by the algorithms.
+<P>
+
+<H3>Assertions</H3>
+<P>
+
+<A NAME="Index_anchor_1243"></A> 
+
+
+   
+     
+     
+<A NAME="Index_anchor_1244"></A> 
+
+   
+   
+     
+     
+<A NAME="Index_anchor_1245"></A> 
+
+   
+
+        
+    
+
+The assertion flags for this package use <I>PARTITION</I> in their names
+(<I>e.g.</I>, <I>CGAL_PARTITION_NO_POSTCONDITIONS</I>).
+The precondition checks for the planar polygon partitioning functions
+are:  counterclockwise ordering of the input vertices and simplicity of the 
+polygon these vertices represent.
+
+   
+     
+     
+<A NAME="Index_anchor_1246"></A> 
+
+   
+
+
+   
+     
+     
+<A NAME="Index_anchor_1247"></A> 
+
+   
+
+
+   
+     
+     
+<A NAME="Index_anchor_1248"></A> 
+
+   
+
+
+   
+     
+     
+<A NAME="Index_anchor_1249"></A> 
+
+   
+
+The postcondition checks are:  simplicity, counterclockwise orientation,
+and convexity (or <span class="math">y</span>-monotonicity) of the partition polygons
+and validity of the partition (<I>i.e.</I>, the partition polygons are 
+nonoverlapping and the union of these polygons is the same as the
+original polygon)
+   
+     
+     
+<A NAME="Index_anchor_1250"></A> 
+
+   
+
+.
+<P>
+
+<a name="Section_22.4"></a>
+        
+<h2>22.4&nbsp;&nbsp;&nbsp;Classified Reference Pages</h2>
+<P>
+
+<h3>Concepts</h3>
+<P>
+
+<table cellpadding="0">
+      <tr><td><a href="Concept_ConvexPartitionIsValidTraits_2.html"><I>ConvexPartitionIsValidTraits_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="Concept_IsYMonotoneTraits_2.html"><I>IsYMonotoneTraits_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="Concept_OptimalConvexPartitionTraits_2.html"><I>OptimalConvexPartitionTraits_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="Concept_PartitionTraits_2.html"><I>PartitionTraits_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="Concept_PartitionIsValidTraits_2.html"><I>PartitionIsValidTraits_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="Concept_YMonotonePartitionIsValidTraits_2.html"><I>YMonotonePartitionIsValidTraits_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="Concept_YMonotonePartitionTraits_2.html"><I>YMonotonePartitionTraits_2</I></a></td></tr>
+<P>
+
+</table>
+    
+
+<h3>Function Object Concepts</h3>
+<P>
+
+<table cellpadding="0">
+      <tr><td><a href="FunctionObjectConcept_PolygonIsValid.html"><I>PolygonIsValid</I></a></td></tr>
+<P>
+
+</table>
+    
+
+<h3>Classes</h3>
+<P>
+
+<table cellpadding="0">
+      <tr><td><a href="Class_Partition_is_valid_traits_2.html"><I>Partition_is_valid_traits_2&lt;Traits, PolygonIsValid&gt;</I></a></td></tr>
+<P>
+
+<tr><td><a href="Class_Partition_traits_2.html"><I>Partition_traits_2&lt;R&gt;</I></a></td></tr>
+<P>
+
+</table>
+    
+
+<h3>Function Object Classes</h3>
+<P>
+
+<table cellpadding="0">
+      <tr><td><a href="FunctionObjectClass_Is_convex_2.html"><I>Is_convex_2&lt;Traits&gt;</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectClass_Is_vacuously_valid.html"><I>Is_vacuously_valid&lt;Traits&gt;</I></a></td></tr>
+<P>
+
+<tr><td><a href="FunctionObjectClass_Is_y_monotone_2.html"><I>Is_y_monotone_2&lt;Traits&gt;</I></a></td></tr>
+<P>
+
+</table>
+    
+
+<h3>Functions</h3>
+<P>
+
+<table cellpadding="0">
+      <tr><td><a href="Function_approx_convex_partition_2.html"><I>approx_convex_partition_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_convex_partition_is_valid_2.html"><I>convex_partition_is_valid_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_greene_approx_convex_partition_2.html"><I>greene_approx_convex_partition_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_is_y_monotone_2.html"><I>is_y_monotone_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_optimal_convex_partition_2.html"><I>optimal_convex_partition_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_partition_is_valid_2.html"><I>partition_is_valid_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_y_monotone_partition_2.html"><I>y_monotone_partition_2</I></a></td></tr>
+<P>
+
+<tr><td><a href="Function_y_monotone_partition_is_valid_2.html"><I>y_monotone_partition_is_valid_2</I></a></td></tr>
+<P>
+
+</table>
+    
+
+
+<a name="Section_22.5"></a>
+        
+<h2>22.5&nbsp;&nbsp;&nbsp;Alphabetical List of Reference Pages</h2>
+<P>
+
+<div class="NavNext">Next chapter: <a href="../Straight_skeleton_2/Chapter_main.html">2D Straight Skeleton and Polygon Offsetting </a></div>
+    
+  <div class="NavBottom">
+  
+  <strong>Navigation:</strong>
+<a href="../Straight_skeleton_2/Chapter_main.html">Up</a>&nbsp;&nbsp;
+  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
+  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
+  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
+  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
+  <a href="../title.html">Title</a>
+  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
+
+<div class="NavAddress">
+<SMALL><a href="http://www.cgal.org" target="_top">CGAL Open Source Project</a>.
+Release 4.1.
+23 October 2012.</SMALL>
+</div>
+</body>  </html>

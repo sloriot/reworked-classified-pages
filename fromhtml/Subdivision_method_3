@@ -1,0 +1,119 @@
+
+    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en-US"> <head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="generator" content="CGAL latex_to_html converter">
+<!-- by cc_extract_html, $Id: cc_extract_html.cpp 44195 2008-07-16 08:46:48Z spion $ -->
+<!-- LaTeX source file: './Subdivision_method_3_ref/intro.tex' -->
+<link rel="canonical" href="http://www.cgal.org/Manual/latest/doc_html/cgal_manual/Subdivision_method_3_ref/Chapter_intro.html">
+<link href="../latex_to_html.css" rel="STYLESHEET">
+<title>3D Surface Subdivision Methods Reference&nbsp;Manual</title>
+</head>
+<body bgcolor="white">
+
+<div class="NavTop">
+  
+  <strong>Navigation:</strong>
+<a href="Chapter_intro.html">Up</a>&nbsp;&nbsp;
+  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
+  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
+  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
+  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
+  <a href="../title.html">Title</a>
+  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
+<P>
+
+<A NAME="chapterSubdivisionRef"></A><h1>3D Surface Subdivision Methods<BR>
+<I>Reference&nbsp;Manual</I></h1>
+
+ 
+
+<p class="subtitle">Le-Jeng Andy Shiue</p>
+<P>
+
+Subdivision methods recursively refine the control mesh 
+(i.e.&nbsp;the input mesh) and generate points approximating 
+the limit surface. 
+Designed to work on the class <I><A HREF="../Polyhedron_ref/Class_Polyhedron_3.html#Cross_link_anchor_1110">Polyhedron_3</A></I>,
+<I><A HREF="Class_Subdivision_method_3.html#Cross_link_anchor_1578">Subdivision_method_3</A></I> aims to be easy to use and to extend.
+<I><A HREF="Class_Subdivision_method_3.html#Cross_link_anchor_1578">Subdivision_method_3</A></I> is not a class, but a namespace 
+which consists of four popular subdivision methods and their refinement
+hosts. Supported subdivision methods include Catmull-Clark, Loop, 
+Doo-Sabin and <span class="math">&radic;<span style="text-decoration:overline">3</span></span> subdivisions. Their respective refinement 
+hosts are PQQ, PTQ, DQQ and <span class="math">&radic;<span style="text-decoration:overline">3</span></span> refinements.
+Variations of those methods can be easily 
+extended by substituting the geometry computation of the refinement
+host.
+<P>
+
+<a name="Section_52.9"></a>
+        
+<h2>52.9&nbsp;&nbsp;&nbsp;Classified Reference Pages</h2>
+<P>
+
+<h3>Concepts</h3>
+
+<I><A HREF="Concept_PQQMask_3.html#Cross_link_anchor_1579">PQQMask_3</A></I><BR>
+
+<I><A HREF="Concept_PTQMask_3.html#Cross_link_anchor_1580">PTQMask_3</A></I><BR>
+
+<I><A HREF="Concept_DQQMask_3.html#Cross_link_anchor_1581">DQQMask_3</A></I><BR>
+
+<I><A HREF="Concept_Sqrt3Mask_3.html#Cross_link_anchor_1582">Sqrt3Mask_3</A></I>
+<P>
+
+<h3>Classes</h3>
+<P>
+
+<I><A HREF="Class_Subdivision_method_3.html#Cross_link_anchor_1578">CGAL::Subdivision_method_3</A></I><BR>
+
+<I><A HREF="Class_CatmullClark_mask_3.html#Cross_link_anchor_1583">CGAL::CatmullClark_mask_3</A>&lt;<A HREF="../Polyhedron_ref/Class_Polyhedron_3.html#Cross_link_anchor_1110">Polyhedron_3</A>&gt;</I><BR>
+
+<I><A HREF="Class_Loop_mask_3.html#Cross_link_anchor_1584">CGAL::Loop_mask_3</A>&lt;<A HREF="../Polyhedron_ref/Class_Polyhedron_3.html#Cross_link_anchor_1110">Polyhedron_3</A>&gt;</I><BR>
+
+<I><A HREF="Class_DooSabin_mask_3.html#Cross_link_anchor_1585">CGAL::DooSabin_mask_3</A>&lt;<A HREF="../Polyhedron_ref/Class_Polyhedron_3.html#Cross_link_anchor_1110">Polyhedron_3</A>&gt;</I><BR>
+
+<I><A HREF="Class_Sqrt3_mask_3.html#Cross_link_anchor_1586">CGAL::Sqrt3_mask_3</A>&lt;<A HREF="../Polyhedron_ref/Class_Polyhedron_3.html#Cross_link_anchor_1110">Polyhedron_3</A>&gt;</I><BR>
+
+
+<P>
+
+<a name="Section_52.10"></a>
+        
+<h2>52.10&nbsp;&nbsp;&nbsp;Alphabetical List of Reference Pages</h2>
+<P>
+
+<table cellpadding="0">
+    
+  <tr><td> <a href="Class_CatmullClark_mask_3.html"><I>CatmullClark_mask_3&lt;Polyhedron_3&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_DooSabin_mask_3.html"><I>DooSabin_mask_3&lt;Polyhedron_3&gt;</I></a></td></tr>
+  <tr><td> <a href="Concept_DQQMask_3.html"><I>DQQMask_3</I></a></td></tr>
+  <tr><td> <a href="Class_Loop_mask_3.html"><I>Loop_mask_3&lt;Polyhedron_3&gt;</I></a></td></tr>
+  <tr><td> <a href="Concept_PQQMask_3.html"><I>PQQMask_3</I></a></td></tr>
+  <tr><td> <a href="Concept_PTQMask_3.html"><I>PTQMask_3</I></a></td></tr>
+  <tr><td> <a href="Concept_Sqrt3Mask_3.html"><I>Sqrt3Mask_3</I></a></td></tr>
+  <tr><td> <a href="Class_Sqrt3_mask_3.html"><I>Sqrt3_mask_3&lt;Polyhedron_3&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Subdivision_method_3.html"><I>Subdivision_method_3</I></a></td></tr>
+    </table>
+    
+  
+
+  <div class="NavNext">Next chapter: <a href="../Surface_mesh_simplification/Chapter_main.html">Triangulated Surface Mesh Simplification</a></div>
+    
+  <div class="NavBottom">
+  
+  <strong>Navigation:</strong>
+<a href="../Surface_mesh_simplification/Chapter_main.html">Up</a>&nbsp;&nbsp;
+  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
+  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
+  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
+  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
+  <a href="../title.html">Title</a>
+  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
+
+<div class="NavAddress">
+<SMALL><a href="http://www.cgal.org" target="_top">CGAL Open Source Project</a>.
+Release 4.1.
+23 October 2012.</SMALL>
+</div>
+</body>  </html>

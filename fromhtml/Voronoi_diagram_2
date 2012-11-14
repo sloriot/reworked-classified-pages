@@ -1,0 +1,158 @@
+
+    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en-US"> <head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="generator" content="CGAL latex_to_html converter">
+<!-- by cc_extract_html, $Id: cc_extract_html.cpp 44195 2008-07-16 08:46:48Z spion $ -->
+<!-- LaTeX source file: './Voronoi_diagram_2_ref/intro.tex' -->
+<link rel="canonical" href="http://www.cgal.org/Manual/latest/doc_html/cgal_manual/Voronoi_diagram_2_ref/Chapter_intro.html">
+<link href="../latex_to_html.css" rel="STYLESHEET">
+<title>2D Voronoi Diagram Adaptor Reference&nbsp;Manual</title>
+</head>
+<body bgcolor="white">
+
+<div class="NavTop">
+  
+  <strong>Navigation:</strong>
+<a href="Chapter_intro.html">Up</a>&nbsp;&nbsp;
+  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
+  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
+  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
+  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
+  <a href="../title.html">Title</a>
+  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
+<P>
+
+<A NAME="ref-chapter-vda2"></A><h1>2D Voronoi Diagram Adaptor<BR>
+<I>Reference&nbsp;Manual</I></h1>
+
+ 
+<p class="subtitle">Menelaos Karavelas</p>
+<P>
+
+<span class="textsc">Cgal</span> provides the class <I><A HREF="Class_Voronoi_diagram_2.html#Cross_link_anchor_1460">CGAL::Voronoi_diagram_2&lt;DG,AT,AP&gt;</A></I> for
+adapting the various (triangulated) Delaunay graphs to Voronoi
+diagrams according to some adaptation policy.
+In particular, the class <I><A HREF="Class_Voronoi_diagram_2.html#Cross_link_anchor_1460">CGAL::Voronoi_diagram_2&lt;DG,AT,AP&gt;</A></I>
+provides an API for the duals of (triangulated) Delaunay graphs, that
+makes them look like planar subdivisions. The adaptation policy is
+responsible for deciding which edges and faces of these duals should
+be eliminated. This is especially important when, for instance, we
+want to eliminate degenerate features in the Voronoi diagram that are
+the result of the fact that Delaunay graphs are always triangulated
+and are due to degenerate configurations in the generating data.
+<P>
+
+The three template parameters must be models of the
+<I><A HREF="Concept_DelaunayGraph_2.html#Cross_link_anchor_1464">DelaunayGraph_2</A></I>, <I><A HREF="Concept_AdaptationTraits_2.html#Cross_link_anchor_1465">AdaptationTraits_2</A></I> and
+<I><A HREF="Concept_AdaptationPolicy_2.html#Cross_link_anchor_1466">AdaptationPolicy_2</A></I> concepts, respectively.
+The first concept is related to the Delaunay graphs that are to be
+adapted, whereas the second one is responsible for
+manipulating/accessing in a unified way the geometry of a specific
+Voronoi diagram as well as for performing nearest site queries. 
+The third template parameter corresponds to the chosen adaptation
+policy and provides the necessary types and functors needed for
+performing this adaptation.
+<P>
+
+<a name="Section_46.6"></a>
+        
+<h2>46.6&nbsp;&nbsp;&nbsp;Classified Reference Pages</h2>
+<P>
+
+<H3>Concepts</H3>
+<I><A HREF="Concept_DelaunayGraph_2.html#Cross_link_anchor_1464">DelaunayGraph_2</A></I><BR>
+
+<I><A HREF="Concept_AdaptationTraits_2.html#Cross_link_anchor_1465">AdaptationTraits_2</A></I><BR>
+
+<I><A HREF="Concept_AdaptationPolicy_2.html#Cross_link_anchor_1466">AdaptationPolicy_2</A></I>
+<P>
+
+<H3>Classes</H3>
+<I><A HREF="Class_Voronoi_diagram_2.html#Cross_link_anchor_1460">CGAL::Voronoi_diagram_2&lt;DG,AT,AP&gt;</A></I><BR>
+
+<I><A HREF="Class_Voronoi_diagram_2-DG-AT-AP---Halfedge.html#Cross_link_anchor_1461">CGAL::Voronoi_diagram_2&lt;DG,AT,AP&gt;::Halfedge</A></I><BR>
+
+<I><A HREF="Class_Voronoi_diagram_2-DG-AT-AP---Vertex.html#Cross_link_anchor_1462">CGAL::Voronoi_diagram_2&lt;DG,AT,AP&gt;::Vertex</A></I><BR>
+
+<I><A HREF="Class_Voronoi_diagram_2-DG-AT-AP---Face.html#Cross_link_anchor_1463">CGAL::Voronoi_diagram_2&lt;DG,AT,AP&gt;::Face</A></I><BR>
+
+<I><A HREF="Class_Apollonius_graph_adaptation_traits_2.html#Cross_link_anchor_1467">CGAL::Apollonius_graph_adaptation_traits_2&lt;AG2&gt;</A></I><BR>
+
+<I><A HREF="Class_Delaunay_triangulation_adaptation_traits_2.html#Cross_link_anchor_1468">CGAL::Delaunay_triangulation_adaptation_traits_2&lt;DT2&gt;</A></I><BR>
+
+<I><A HREF="Class_Regular_triangulation_adaptation_traits_2.html#Cross_link_anchor_1469">CGAL::Regular_triangulation_adaptation_traits_2&lt;RT2&gt;</A></I><BR>
+
+<I><A HREF="Class_Segment_Delaunay_graph_adaptation_traits_2.html#Cross_link_anchor_1470">CGAL::Segment_Delaunay_graph_adaptation_traits_2&lt;SDG2&gt;</A></I><BR>
+
+<I><A HREF="Class_Identity_policy_2.html#Cross_link_anchor_1471">CGAL::Identity_policy_2&lt;DG,AT&gt;</A></I><BR>
+
+<I><A HREF="Class_Apollonius_graph_degeneracy_removal_policy_2.html#Cross_link_anchor_1472">CGAL::Apollonius_graph_degeneracy_removal_policy_2&lt;AG2&gt;</A></I><BR>
+
+<I><A HREF="Class_Apollonius_graph_caching_degeneracy_removal_policy_2.html#Cross_link_anchor_1476">CGAL::Apollonius_graph_caching_degeneracy_removal_policy_2&lt;AG2&gt;</A></I><BR>
+
+<I><A HREF="Class_Delaunay_triangulation_degeneracy_removal_policy_2.html#Cross_link_anchor_1473">CGAL::Delaunay_triangulation_degeneracy_removal_policy_2&lt;DT2&gt;</A></I><BR>
+
+<I><A HREF="Class_Delaunay_triangulation_caching_degeneracy_removal_policy_2.html#Cross_link_anchor_1477">CGAL::Delaunay_triangulation_caching_degeneracy_removal_policy_2&lt;DT2&gt;</A></I><BR>
+
+<I><A HREF="Class_Regular_triangulation_degeneracy_removal_policy_2.html#Cross_link_anchor_1474">CGAL::Regular_triangulation_degeneracy_removal_policy_2&lt;RT2&gt;</A></I><BR>
+
+<I><A HREF="Class_Regular_triangulation_caching_degeneracy_removal_policy_2.html#Cross_link_anchor_1478">CGAL::Regular_triangulation_caching_degeneracy_removal_policy_2&lt;RT2&gt;</A></I><BR>
+
+<I><A HREF="Class_Segment_Delaunay_graph_degeneracy_removal_policy_2.html#Cross_link_anchor_1475">CGAL::Segment_Delaunay_graph_degeneracy_removal_policy_2&lt;SDG2&gt;</A></I><BR>
+
+<I><A HREF="Class_Segment_Delaunay_graph_caching_degeneracy_removal_policy_2.html#Cross_link_anchor_1479">CGAL::Segment_Delaunay_graph_caching_degeneracy_removal_policy_2&lt;SDG2&gt;</A></I><BR>
+
+
+<P>
+
+<a name="Section_46.7"></a>
+        
+<h2>46.7&nbsp;&nbsp;&nbsp;Alphabetical List of Reference Pages</h2>
+<P>
+
+<table cellpadding="0">
+    
+  <tr><td> <a href="Concept_AdaptationPolicy_2.html"><I>AdaptationPolicy_2</I></a></td></tr>
+  <tr><td> <a href="Concept_AdaptationTraits_2.html"><I>AdaptationTraits_2</I></a></td></tr>
+  <tr><td> <a href="Class_Apollonius_graph_adaptation_traits_2.html"><I>Apollonius_graph_adaptation_traits_2&lt;AG2&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Apollonius_graph_caching_degeneracy_removal_policy_2.html"><I>Apollonius_graph_caching_degeneracy_removal_policy_2&lt;AG2&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Apollonius_graph_degeneracy_removal_policy_2.html"><I>Apollonius_graph_degeneracy_removal_policy_2&lt;AG2&gt;</I></a></td></tr>
+  <tr><td> <a href="Concept_DelaunayGraph_2.html"><I>DelaunayGraph_2</I></a></td></tr>
+  <tr><td> <a href="Class_Delaunay_triangulation_adaptation_traits_2.html"><I>Delaunay_triangulation_adaptation_traits_2&lt;DT2&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Delaunay_triangulation_caching_degeneracy_removal_policy_2.html"><I>Delaunay_triangulation_caching_degeneracy_removal_policy_2&lt;DT2&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Delaunay_triangulation_degeneracy_removal_policy_2.html"><I>Delaunay_triangulation_degeneracy_removal_policy_2&lt;DT2&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Identity_policy_2.html"><I>Identity_policy_2&lt;DG,AT&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Regular_triangulation_adaptation_traits_2.html"><I>Regular_triangulation_adaptation_traits_2&lt;RT2&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Regular_triangulation_caching_degeneracy_removal_policy_2.html"><I>Regular_triangulation_caching_degeneracy_removal_policy_2&lt;RT2&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Regular_triangulation_degeneracy_removal_policy_2.html"><I>Regular_triangulation_degeneracy_removal_policy_2&lt;RT2&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Segment_Delaunay_graph_adaptation_traits_2.html"><I>Segment_Delaunay_graph_adaptation_traits_2&lt;SDG2&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Segment_Delaunay_graph_caching_degeneracy_removal_policy_2.html"><I>Segment_Delaunay_graph_caching_degeneracy_removal_policy_2&lt;SDG2&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Segment_Delaunay_graph_degeneracy_removal_policy_2.html"><I>Segment_Delaunay_graph_degeneracy_removal_policy_2&lt;SDG2&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Voronoi_diagram_2-DG-AT-AP---Face.html"><I>Voronoi_diagram_2&lt;DG,AT,AP&gt;::Face</I></a></td></tr>
+  <tr><td> <a href="Class_Voronoi_diagram_2-DG-AT-AP---Halfedge.html"><I>Voronoi_diagram_2&lt;DG,AT,AP&gt;::Halfedge</I></a></td></tr>
+  <tr><td> <a href="Class_Voronoi_diagram_2-DG-AT-AP---Vertex.html"><I>Voronoi_diagram_2&lt;DG,AT,AP&gt;::Vertex</I></a></td></tr>
+  <tr><td> <a href="Class_Voronoi_diagram_2.html"><I>Voronoi_diagram_2&lt;DG,AT,AP&gt;</I></a></td></tr>
+    </table>
+    
+  
+
+  
+    
+  <div class="NavBottom">
+  
+  <strong>Navigation:</strong>
+
+  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
+  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
+  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
+  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
+  <a href="../title.html">Title</a>
+  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
+
+<div class="NavAddress">
+<SMALL><a href="http://www.cgal.org" target="_top">CGAL Open Source Project</a>.
+Release 4.1.
+23 October 2012.</SMALL>
+</div>
+</body>  </html>

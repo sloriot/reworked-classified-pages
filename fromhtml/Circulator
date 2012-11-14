@@ -1,0 +1,373 @@
+
+    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en-US"> <head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="generator" content="CGAL latex_to_html converter">
+<!-- by cc_extract_html, $Id: cc_extract_html.cpp 44195 2008-07-16 08:46:48Z spion $ -->
+<!-- LaTeX source file: './Circulator_ref/intro.tex' -->
+<link rel="canonical" href="http://www.cgal.org/Manual/latest/doc_html/cgal_manual/Circulator_ref/Chapter_intro.html">
+<link href="../latex_to_html.css" rel="STYLESHEET">
+<title>Handles, Ranges and Circulators Reference&nbsp;Manual</title>
+</head>
+<body bgcolor="white">
+
+<div class="NavTop">
+  
+  <strong>Navigation:</strong>
+<a href="Chapter_intro.html">Up</a>&nbsp;&nbsp;
+  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
+  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
+  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
+  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
+  <a href="../title.html">Title</a>
+  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
+<P>
+
+<h1>Handles, Ranges and Circulators<BR>
+<I>Reference&nbsp;Manual</I></h1>
+
+ 
+<p class="subtitle">Olivier Devillers, Lutz Kettner, Sylvain Pion, Michael Seel, and Mariette Yvinec</p>
+<P>
+
+The concept of iterators in the <span class="textsc">STL</span> is tailored for linear sequences.
+<P>
+
+<span class="textsc">Cgal</span> extends this in several directions.  First, it supports the notion
+of <I><A HREF="Concept_Handle.html#Cross_link_anchor_2063">Handle</A></I> (also sometimes refered to as the trivial iterator) which is
+used to document that no traversal operation is needed, only reference to an
+element.  It also uses the <I><A HREF="Concept_Range.html#Cross_link_anchor_2064">Range</A></I> and <I><A HREF="Concept_ConstRange.html#Cross_link_anchor_2065">ConstRange</A></I> concepts which
+encapsulates the access to both the first and the past-the-end iterators of an
+iterator range.
+<P>
+
+Besides linear sequences, circular sequences also occur naturally in many combinatorial
+and geometric structures. Examples are polyhedral surfaces and planar
+maps, where the edges emanating from a vertex or the edges around a
+facet form a circular sequence.
+<P>
+
+We provide several functions, classes and macros to assist in working
+with circulators: distance computation, adaptor classes converting
+between circulators and iterators, base classes to ease the implementation
+of circulators, and support for generic algorithms that work with
+circulators as well as with iterators.
+<P>
+
+<a name="Section_76.4"></a>
+        
+<h2>76.4&nbsp;&nbsp;&nbsp;Classified Reference Pages</h2>
+<P>
+
+<h3>Concepts</h3>
+<P>
+
+<I><A HREF="Concept_Handle.html#Cross_link_anchor_2063">Handle</A></I><BR>
+
+<I><A HREF="Concept_Range.html#Cross_link_anchor_2064">Range</A></I><BR>
+
+<I><A HREF="Concept_ConstRange.html#Cross_link_anchor_2065">ConstRange</A></I><BR>
+
+<I><A HREF="Concept_Circulator.html#Cross_link_anchor_2012">Circulator</A></I><BR>
+
+<I><A HREF="Concept_Circulator.html#Cross_link_anchor_2013">Forward_circulator</A></I><BR>
+
+<I><A HREF="Concept_Circulator.html#Cross_link_anchor_2014">Bidirectional_circulator</A></I><BR>
+
+<I><A HREF="Concept_Circulator.html#Cross_link_anchor_2015">Random_access_circulator</A></I><BR>
+
+
+<P>
+
+<h3>Classes</h3>
+<P>
+
+<I><A HREF="Class_Container_from_circulator.html#Cross_link_anchor_2060">CGAL::Container_from_circulator&lt;C&gt;</A></I><BR>
+
+<I><A HREF="Class_Circulator_from_iterator.html#Cross_link_anchor_2021">CGAL::Circulator_from_iterator&lt;I&gt;</A></I><BR>
+
+<I><A HREF="Class_Circulator_from_container.html#Cross_link_anchor_2016">CGAL::Circulator_from_container&lt;C&gt;</A></I><BR>
+
+<I><A HREF="Class_Circulator_from_container.html#Cross_link_anchor_2020">CGAL::Const_circulator_from_container&lt;C&gt;</A></I>
+<P>
+
+<I><A HREF="Class_Circulator_tag.html#Cross_link_anchor_2022">CGAL::Circulator_tag</A></I><BR>
+
+<I><A HREF="Class_Circulator_tag.html#Cross_link_anchor_2023">CGAL::Iterator_tag</A></I><BR>
+
+<I><A HREF="Class_Circulator_tag.html#Cross_link_anchor_2024">CGAL::Forward_circulator_tag</A></I><BR>
+
+<I><A HREF="Class_Circulator_tag.html#Cross_link_anchor_2025">CGAL::Bidirectional_circulator_tag</A></I><BR>
+
+<I><A HREF="Class_Circulator_tag.html#Cross_link_anchor_2026">CGAL::Random_access_circulator_tag</A></I>
+<P>
+
+<I><A HREF="Class_Circulator_tag.html#Cross_link_anchor_2027">CGAL::Circulator_base</A></I><BR>
+
+<I><A HREF="Class_Circulator_tag.html#Cross_link_anchor_2029">CGAL::Forward_circulator_base</A></I><BR>
+
+<I><A HREF="Class_Circulator_tag.html#Cross_link_anchor_2031">CGAL::Bidirectional_circulator_base</A></I><BR>
+
+<I><A HREF="Class_Circulator_tag.html#Cross_link_anchor_2033">CGAL::Random_access_circulator_base</A></I>
+<P>
+
+<I><A HREF="Class_Circulator_traits.html#Cross_link_anchor_2059">CGAL::Circulator_traits&lt;C&gt;</A></I>
+<P>
+
+<h3>Functions</h3>
+
+
+
+        <TABLE BORDER=0 CELLSPACING=2 CELLPADDING=0 WIDTH="950">
+        <TR><TD ALIGN=LEFT VALIGN=TOP WIDTH="25%" NOWRAP>
+        <I class="nowrap">
+    
+size_type
+
+        </I>
+        </TD><TD ALIGN=LEFT VALIGN=TOP WIDTH="25%" NOWRAP>
+        <I class="nowrap">
+    CGAL::circulator_size ( C c) 
+        </I>
+        </TD><TD ALIGN=LEFT VALIGN=TOP WIDTH="50%">
+    
+        </TD></TR>
+        
+        <TR><TD ALIGN=LEFT VALIGN=TOP WIDTH="25%" NOWRAP>
+        <I class="nowrap">
+    
+difference_type
+
+        </I>
+        </TD><TD ALIGN=LEFT VALIGN=TOP WIDTH="75%" NOWRAP COLSPAN=2>
+        <I class="nowrap">
+    CGAL::circulator_distance ( C c,  C d) 
+        </I>
+        </TR><TR><TD WIDTH="25%" NOWRAP></TD><TD WIDTH="25%" NOWRAP></TD><TD ALIGN=LEFT VALIGN=TOP WIDTH="50%">
+    
+        </TD></TR>
+        
+        <TR><TD ALIGN=LEFT VALIGN=TOP WIDTH="25%" NOWRAP>
+        <I class="nowrap">
+    
+difference_type
+
+        </I>
+        </TD><TD ALIGN=LEFT VALIGN=TOP WIDTH="75%" NOWRAP COLSPAN=2>
+        <I class="nowrap">
+    CGAL::iterator_distance ( IC ic1,  IC ic2) 
+        </I>
+        </TR><TR><TD WIDTH="25%" NOWRAP></TD><TD WIDTH="25%" NOWRAP></TD><TD ALIGN=LEFT VALIGN=TOP WIDTH="50%">
+    
+        </TD></TR>
+        
+        <TR><TD ALIGN=LEFT VALIGN=TOP WIDTH="25%" NOWRAP>
+        <I class="nowrap">
+    
+bool
+
+        </I>
+        </TD><TD ALIGN=LEFT VALIGN=TOP WIDTH="75%" NOWRAP COLSPAN=2>
+        <I class="nowrap">
+    CGAL::is_empty_range ( IC i,  IC j) 
+        </I>
+        </TR><TR><TD WIDTH="25%" NOWRAP></TD><TD WIDTH="25%" NOWRAP></TD><TD ALIGN=LEFT VALIGN=TOP WIDTH="50%">
+    
+        </TD></TR>
+        <TR><TD><BR></TD></TR>
+        <TR><TD ALIGN=LEFT VALIGN=TOP WIDTH="25%" NOWRAP>
+        <I class="nowrap">
+    
+<A HREF="Class_Circulator_tag.html#Cross_link_anchor_2022">CGAL::Circulator_tag</A>
+
+        </I>
+        </TD><TD ALIGN=LEFT VALIGN=TOP WIDTH="75%" NOWRAP COLSPAN=2>
+        <I class="nowrap">
+    CGAL::query_circulator_or_iterator ( C c) 
+        </I>
+        </TR><TR><TD WIDTH="25%" NOWRAP></TD><TD WIDTH="25%" NOWRAP></TD><TD ALIGN=LEFT VALIGN=TOP WIDTH="50%">
+    
+        </TD></TR>
+        
+        <TR><TD ALIGN=LEFT VALIGN=TOP WIDTH="25%" NOWRAP>
+        <I class="nowrap">
+    
+<A HREF="Class_Circulator_tag.html#Cross_link_anchor_2023">CGAL::Iterator_tag</A>
+
+        </I>
+        </TD><TD ALIGN=LEFT VALIGN=TOP WIDTH="75%" NOWRAP COLSPAN=2>
+        <I class="nowrap">
+    CGAL::query_circulator_or_iterator ( I i) 
+        </I>
+        
+    
+        </TR>
+        <TR><TD><BR></TD></TR>
+        <TR><TD ALIGN=LEFT VALIGN=TOP WIDTH="25%" NOWRAP>
+        <I class="nowrap">
+    
+void
+
+        </I>
+        </TD><TD ALIGN=LEFT VALIGN=TOP WIDTH="25%" NOWRAP>
+        <I class="nowrap">
+    CGAL::Assert_circulator ( C c) 
+        </I>
+        </TD><TD ALIGN=LEFT VALIGN=TOP WIDTH="50%">
+    
+        </TD></TR>
+        
+        <TR><TD ALIGN=LEFT VALIGN=TOP WIDTH="25%" NOWRAP>
+        <I class="nowrap">
+    
+void
+
+        </I>
+        </TD><TD ALIGN=LEFT VALIGN=TOP WIDTH="75%" NOWRAP COLSPAN=2>
+        <I class="nowrap">
+    CGAL::Assert_iterator ( I i) 
+        </I>
+        </TD>
+    
+        </TR>
+        
+        <TR><TD ALIGN=LEFT VALIGN=TOP WIDTH="25%" NOWRAP>
+        <I class="nowrap">
+    
+void
+
+        </I>
+        </TD><TD ALIGN=LEFT VALIGN=TOP WIDTH="75%" NOWRAP COLSPAN=2>
+        <I class="nowrap">
+    CGAL::Assert_input_category ( I i) 
+        </I>
+        
+    
+        </TR>
+        
+        <TR><TD ALIGN=LEFT VALIGN=TOP WIDTH="25%" NOWRAP>
+        <I class="nowrap">
+    
+void
+
+        </I>
+        </TD><TD ALIGN=LEFT VALIGN=TOP WIDTH="75%" NOWRAP COLSPAN=2>
+        <I class="nowrap">
+    CGAL::Assert_output_category ( I i) 
+        </I>
+        
+    
+        </TR>
+        
+        <TR><TD ALIGN=LEFT VALIGN=TOP WIDTH="25%" NOWRAP>
+        <I class="nowrap">
+    
+void
+
+        </I>
+        </TD><TD ALIGN=LEFT VALIGN=TOP WIDTH="75%" NOWRAP COLSPAN=2>
+        <I class="nowrap">
+    CGAL::Assert_forward_category ( IC ic) 
+        </I>
+        
+    
+        </TR>
+        
+        <TR><TD ALIGN=LEFT VALIGN=TOP WIDTH="25%" NOWRAP>
+        <I class="nowrap">
+    
+void
+
+        </I>
+        </TD><TD ALIGN=LEFT VALIGN=TOP WIDTH="75%" NOWRAP COLSPAN=2>
+        <I class="nowrap">
+    CGAL::Assert_bidirectional_category ( IC ic) 
+        </I>
+        
+    
+        </TR>
+        
+        <TR><TD ALIGN=LEFT VALIGN=TOP WIDTH="25%" NOWRAP>
+        <I class="nowrap">
+    
+void
+
+        </I>
+        </TD><TD ALIGN=LEFT VALIGN=TOP WIDTH="75%" NOWRAP COLSPAN=2>
+        <I class="nowrap">
+    CGAL::Assert_random_access_category ( IC ic) 
+        </I>
+        
+    
+        </TR>
+        
+        <TR><TD ALIGN=LEFT VALIGN=TOP WIDTH="25%" NOWRAP>
+        <I class="nowrap">
+    
+void
+
+        </I>
+        </TD><TD ALIGN=LEFT VALIGN=TOP WIDTH="75%" NOWRAP COLSPAN=2>
+        <I class="nowrap">
+    CGAL::Assert_circulator_or_iterator ( IC i) 
+        </I>
+        
+    
+        </TR>
+        </TABLE>
+<P>
+
+<h3>Macros</h3>
+<P>
+
+<I><A HREF="Macro_CGAL_For_all.html#Cross_link_anchor_2061">CGAL_For_all</A>(i,j)</I><BR>
+
+<I><A HREF="Macro_CGAL_For_all.html#Cross_link_anchor_2062">CGAL_For_all_backwards</A>(i,j)</I>
+<P>
+
+<a name="Section_76.5"></a>
+        
+<h2>76.5&nbsp;&nbsp;&nbsp;Alphabetical List of Reference Pages</h2>
+<P>
+
+<table cellpadding="0">
+    
+  <tr><td> <a href="Function_Assert_circulator.html"><I>Assert_circulator</I></a></td></tr>
+  <tr><td> <a href="Macro_CGAL_For_all.html"><I>CGAL_For_all</I></a></td></tr>
+  <tr><td> <a href="Function_circulator_distance.html"><I>circulator_distance</I></a></td></tr>
+  <tr><td> <a href="Class_Circulator_from_container.html"><I>Circulator_from_container&lt;C&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Circulator_from_iterator.html"><I>Circulator_from_iterator&lt;I&gt;</I></a></td></tr>
+  <tr><td> <a href="Function_circulator_size.html"><I>circulator_size</I></a></td></tr>
+  <tr><td> <a href="Class_Circulator_tag.html"><I>Circulator_tag</I></a></td></tr>
+  <tr><td> <a href="Class_Circulator_traits.html"><I>Circulator_traits&lt;C&gt;</I></a></td></tr>
+  <tr><td> <a href="Concept_Circulator.html"><I>Circulator</I></a></td></tr>
+  <tr><td> <a href="Concept_ConstRange.html"><I>ConstRange</I></a></td></tr>
+  <tr><td> <a href="Class_Container_from_circulator.html"><I>Container_from_circulator&lt;C&gt;</I></a></td></tr>
+  <tr><td> <a href="Concept_Handle.html"><I>Handle</I></a></td></tr>
+  <tr><td> <a href="Function_is_empty_range.html"><I>is_empty_range</I></a></td></tr>
+  <tr><td> <a href="Function_iterator_distance.html"><I>iterator_distance</I></a></td></tr>
+  <tr><td> <a href="Function_query_circulator_or_iterator.html"><I>query_circulator_or_iterator</I></a></td></tr>
+  <tr><td> <a href="Concept_Range.html"><I>Range</I></a></td></tr>
+    </table>
+    
+  
+
+  <div class="NavNext">Next chapter: <a href="../Generator/Chapter_main.html">Geometric Object Generators</a></div>
+    
+  <div class="NavBottom">
+  
+  <strong>Navigation:</strong>
+<a href="../Generator/Chapter_main.html">Up</a>&nbsp;&nbsp;
+  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
+  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
+  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
+  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
+  <a href="../title.html">Title</a>
+  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
+
+<div class="NavAddress">
+<SMALL><a href="http://www.cgal.org" target="_top">CGAL Open Source Project</a>.
+Release 4.1.
+23 October 2012.</SMALL>
+</div>
+</body>  </html>

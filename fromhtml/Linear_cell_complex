@@ -1,0 +1,119 @@
+
+    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en-US"> <head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="generator" content="CGAL latex_to_html converter">
+<!-- by cc_extract_html, $Id: cc_extract_html.cpp 44195 2008-07-16 08:46:48Z spion $ -->
+<!-- LaTeX source file: './Linear_cell_complex_ref/intro.tex' -->
+<link rel="canonical" href="http://www.cgal.org/Manual/latest/doc_html/cgal_manual/Linear_cell_complex_ref/Chapter_intro.html">
+<link href="../latex_to_html.css" rel="STYLESHEET">
+<title>Linear Cell Complex Reference&nbsp;Manual</title>
+</head>
+<body bgcolor="white">
+
+<div class="NavTop">
+  
+  <strong>Navigation:</strong>
+<a href="Chapter_intro.html">Up</a>&nbsp;&nbsp;
+  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
+  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
+  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
+  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
+  <a href="../title.html">Title</a>
+  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
+<P>
+
+<h1>Linear Cell Complex<BR>
+<I>Reference&nbsp;Manual</I></h1>
+<P>
+
+<a name="Section_28.6"></a>
+        
+<h2>28.6&nbsp;&nbsp;&nbsp;Classified Reference Pages</h2>
+<P>
+
+<a name="Subsection_28.6.1"></a>
+<h3>28.6.1&nbsp;&nbsp;&nbsp;Concepts</h3>
+<P>
+
+<I><A HREF="Concept_LinearCellComplexTraits.html#Cross_link_anchor_1162">LinearCellComplexTraits</A></I><BR>
+
+<I><A HREF="Concept_LinearCellComplexItems.html#Cross_link_anchor_1163">LinearCellComplexItems</A></I><BR>
+
+<I><A HREF="Concept_CellAttributeWithPoint.html#Cross_link_anchor_1164">CellAttributeWithPoint</A></I>
+<P>
+
+<a name="Subsection_28.6.2"></a>
+<h3>28.6.2&nbsp;&nbsp;&nbsp;Classes</h3>
+
+<I><A HREF="Class_Linear_cell_complex.html#Cross_link_anchor_1165">CGAL::Linear_cell_complex&lt;d,d2,LCCTraits,Items,Alloc&gt;</A></I><BR>
+
+<I><A HREF="Class_Linear_cell_complex_min_items.html#Cross_link_anchor_1166">CGAL::Linear_cell_complex_min_items&lt;d&gt;</A></I><BR>
+
+<I><A HREF="Class_Linear_cell_complex_traits.html#Cross_link_anchor_1167">CGAL::Linear_cell_complex_traits&lt;d,K&gt;</A></I><BR>
+
+<I><A HREF="Class_Cell_attribute_with_point.html#Cross_link_anchor_1168">CGAL::Cell_attribute_with_point&lt;LCC,Info_,Tag,OnMerge,OnSplit&gt;</A></I>
+<P>
+
+<a name="Subsection_28.6.3"></a>
+<h3>28.6.3&nbsp;&nbsp;&nbsp;Global Functions</h3>
+<P>
+
+<h4>Constructions for Linear cell complex</h4>
+
+<I><A HREF="Function_import_from_plane_graph.html#Cross_link_anchor_1169">CGAL::import_from_plane_graph&lt;LCC&gt;</A></I><BR>
+
+<I><A HREF="Function_import_from_triangulation_3.html#Cross_link_anchor_1170">CGAL::import_from_triangulation_3&lt;LCC,Triangulation&gt;</A></I><BR>
+
+<I><A HREF="Function_import_from_polyhedron_3.html#Cross_link_anchor_1171">CGAL::import_from_polyhedron_3&lt;LCC,Polyhedron&gt;</A></I>
+<P>
+
+<h4>Operations for Linear cell complex</h4>
+
+<I><A HREF="Function_compute_normal_of_cell_0.html#Cross_link_anchor_1172">CGAL::compute_normal_of_cell_0&lt;LCC&gt;</A></I><BR>
+
+<I><A HREF="Function_compute_normal_of_cell_2.html#Cross_link_anchor_1173">CGAL::compute_normal_of_cell_2&lt;LCC&gt;</A></I>
+<P>
+
+<a name="Section_28.7"></a>
+        
+<h2>28.7&nbsp;&nbsp;&nbsp;Alphabetical List of Reference Pages</h2>
+<P>
+
+<table cellpadding="0">
+    
+  <tr><td> <a href="Concept_CellAttributeWithPoint.html"><I>CellAttributeWithPoint</I></a></td></tr>
+  <tr><td> <a href="Class_Cell_attribute_with_point.html"><I>Cell_attribute_with_point&lt;LCC,Info_,Tag,OnMerge,OnSplit&gt;</I></a></td></tr>
+  <tr><td> <a href="Function_compute_normal_of_cell_0.html"><I>compute_normal_of_cell_0&lt;LCC&gt;</I></a></td></tr>
+  <tr><td> <a href="Function_compute_normal_of_cell_2.html"><I>compute_normal_of_cell_2&lt;LCC&gt;</I></a></td></tr>
+  <tr><td> <a href="Function_import_from_plane_graph.html"><I>import_from_plane_graph&lt;LCC&gt;</I></a></td></tr>
+  <tr><td> <a href="Function_import_from_polyhedron_3.html"><I>import_from_polyhedron_3&lt;LCC,Polyhedron&gt;</I></a></td></tr>
+  <tr><td> <a href="Function_import_from_triangulation_3.html"><I>import_from_triangulation_3&lt;LCC,Triangulation&gt;</I></a></td></tr>
+  <tr><td> <a href="Concept_LinearCellComplexItems.html"><I>LinearCellComplexItems</I></a></td></tr>
+  <tr><td> <a href="Concept_LinearCellComplexTraits.html"><I>LinearCellComplexTraits</I></a></td></tr>
+  <tr><td> <a href="Class_Linear_cell_complex.html"><I>Linear_cell_complex&lt;d,d2,LCCTraits,Items,Alloc&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Linear_cell_complex_min_items.html"><I>Linear_cell_complex_min_items&lt;d&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Linear_cell_complex_traits.html"><I>Linear_cell_complex_traits&lt;d,K&gt;</I></a></td></tr>
+    </table>
+    
+  
+
+  <div class="NavNext">Next chapter: <a href="../Nef_3/Chapter_main.html">3D Boolean Operations on Nef Polyhedra</a></div>
+    
+  <div class="NavBottom">
+  
+  <strong>Navigation:</strong>
+<a href="../Nef_3/Chapter_main.html">Up</a>&nbsp;&nbsp;
+  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
+  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
+  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
+  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
+  <a href="../title.html">Title</a>
+  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
+
+<div class="NavAddress">
+<SMALL><a href="http://www.cgal.org" target="_top">CGAL Open Source Project</a>.
+Release 4.1.
+23 October 2012.</SMALL>
+</div>
+</body>  </html>

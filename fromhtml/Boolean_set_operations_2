@@ -1,0 +1,198 @@
+
+    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en-US"> <head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="generator" content="CGAL latex_to_html converter">
+<!-- by cc_extract_html, $Id: cc_extract_html.cpp 44195 2008-07-16 08:46:48Z spion $ -->
+<!-- LaTeX source file: './Boolean_set_operations_2_ref/intro.tex' -->
+<link rel="canonical" href="http://www.cgal.org/Manual/latest/doc_html/cgal_manual/Boolean_set_operations_2_ref/Chapter_intro.html">
+<link href="../latex_to_html.css" rel="STYLESHEET">
+<title>2D Regularized Boolean Set-Operations Reference&nbsp;Manual</title>
+</head>
+<body bgcolor="white">
+
+<div class="NavTop">
+  
+  <strong>Navigation:</strong>
+<a href="Chapter_intro.html">Up</a>&nbsp;&nbsp;
+  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
+  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
+  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
+  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
+  <a href="../title.html">Title</a>
+  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
+<P>
+
+<A NAME="chapterBooleanOperationsRef"></A><h1>2D Regularized Boolean Set-Operations<BR>
+<I>Reference&nbsp;Manual</I></h1>
+
+ 
+
+<p class="subtitle">Efi Fogel, Ophir Setter, Ron Wein, Guy Zucker, Baruch Zukerman, and Dan Halperin</p>
+<P>
+
+<h2>Introduction</h2>
+
+
+<A NAME="bobs_ref_sec:intro"></A>
+This package consists of the implementation of Boolean set-operations
+on point sets bounded by <span class="math">x</span>-monotone curves in 2-dimensional
+Euclidean space. In particular, it contains the implementation of
+regularized Boolean set-operations, intersection predicates, and point
+containment predicates.
+<P>
+
+<a name="Section_19.5"></a>
+        
+<h2>19.5&nbsp;&nbsp;&nbsp;Classified Reference Pages</h2>
+<P>
+
+<h3>Concepts</h3>
+<P>
+
+<I><A HREF="Concept_GpsTraitsGeneralPolygon_2.html#Cross_link_anchor_1032">GpsTraitsGeneralPolygon_2</A></I><BR>
+
+<I><A HREF="Concept_GpsTraitsGeneralPolygonWithHoles_2.html#Cross_link_anchor_1033">GpsTraitsGeneralPolygonWithHoles_2</A></I><BR>
+
+<I><A HREF="Concept_GeneralPolygon_2.html#Cross_link_anchor_1004">GeneralPolygon_2</A></I><BR>
+
+<I><A HREF="Concept_GeneralPolygonWithHoles_2.html#Cross_link_anchor_1005">GeneralPolygonWithHoles_2</A></I><BR>
+
+<I><A HREF="Concept_ArrangementDirectionalXMonotoneTraits_2.html#Cross_link_anchor_1006">ArrangementDirectionalXMonotoneTraits_2</A></I><BR>
+
+<I><A HREF="Concept_GeneralPolygonSetTraits_2.html#Cross_link_anchor_1013">GeneralPolygonSetTraits_2</A></I><BR>
+
+<I><A HREF="Concept_GeneralPolygonSetDcel.html#Cross_link_anchor_1022">GeneralPolygonSetDcel</A></I><BR>
+
+<I><A HREF="Concept_GeneralPolygonSetDcelFace.html#Cross_link_anchor_1023">GeneralPolygonSetDcelFace</A></I>
+<P>
+
+<h3>Classes</h3>
+<P>
+
+<I><A HREF="Class_Polygon_with_holes_2.html#Cross_link_anchor_1015">CGAL::Polygon_with_holes_2</A>&lt;<A HREF="../Kernel_23_ref/Concept_Kernel.html#Cross_link_anchor_318">Kernel</A>,Container&gt;</I><BR>
+
+<I><A HREF="Class_Polygon_set_2.html#Cross_link_anchor_1016">CGAL::Polygon_set_2</A>&lt;<A HREF="../Kernel_23_ref/Concept_Kernel.html#Cross_link_anchor_318">Kernel</A>,Container,Dcel&gt;</I><BR>
+
+<I><A HREF="Class_General_polygon_set_2.html#Cross_link_anchor_1003">CGAL::General_polygon_set_2&lt;Traits,Dcel&gt;</A></I><BR>
+
+<I><A HREF="Class_General_polygon_2.html#Cross_link_anchor_1014">CGAL::General_polygon_2&lt;ArrTraits&gt;</A></I><BR>
+
+<I><A HREF="Class_General_polygon_with_holes_2.html#Cross_link_anchor_1017">CGAL::General_polygon_with_holes_2&lt;Polygon&gt;</A></I><BR>
+
+<I><A HREF="Class_Gps_segment_traits_2.html#Cross_link_anchor_1018">CGAL::Gps_segment_traits_2</A>&lt;<A HREF="../Kernel_23_ref/Concept_Kernel.html#Cross_link_anchor_318">Kernel</A>,Container,ArrSegmentTraits&gt;</I><BR>
+
+<I><A HREF="Class_Gps_circle_segment_traits_2.html#Cross_link_anchor_1019">CGAL::Gps_circle_segment_traits_2</A>&lt;<A HREF="../Kernel_23_ref/Concept_Kernel.html#Cross_link_anchor_318">Kernel</A>&gt;</I><BR>
+
+<I><A HREF="Class_Gps_traits_2.html#Cross_link_anchor_1020">CGAL::Gps_traits_2</A>&lt;ArrTraits,GeneralPolygon&gt;</I><BR>
+
+<I><A HREF="Class_Gps_default_dcel.html#Cross_link_anchor_1021">CGAL::Gps_default_dcel&lt;Traits&gt;</A></I>
+<P>
+
+<h3>Functions</h3>
+<P>
+
+<I><A HREF="Function_complement.html#Cross_link_anchor_1024">CGAL::complement</A></I><BR>
+
+<I><A HREF="Function_do_intersect.html#Cross_link_anchor_1026">CGAL::do_intersect</A></I><BR>
+
+<I><A HREF="Function_intersection.html#Cross_link_anchor_1028">CGAL::intersection</A></I><BR>
+
+<I><A HREF="Function_join.html#Cross_link_anchor_1029">CGAL::join</A></I><BR>
+
+<I><A HREF="Function_difference.html#Cross_link_anchor_1025">CGAL::difference</A></I><BR>
+
+<I><A HREF="Function_symmetric_difference.html#Cross_link_anchor_1030">CGAL::symmetric_difference</A></I><BR>
+
+<I><A HREF="Function_oriented_side.html#Cross_link_anchor_1027">CGAL::oriented_side</A></I><BR>
+
+<I><A HREF="Function_connect_holes.html#Cross_link_anchor_1031">CGAL::connect_holes</A></I><BR>
+
+<I>CGAL::operator&lt;&lt;</I>
+  <A HREF="Function_operator.html">(go there)</A><BR>
+
+<I>CGAL::operator&gt;&gt;</I>
+  <A HREF="Function_operator--.html">(go there)</A>
+<P>
+
+<a name="Section_19.6"></a>
+        
+<h2>19.6&nbsp;&nbsp;&nbsp;Alphabetical List of Reference Pages</h2>
+<P>
+
+<A NAME="ref_bso_difference"></A>
+<P>
+
+<A NAME="ref_bso_do_intersect"></A>
+<P>
+
+<A NAME="ref_bso_oriented_side"></A>
+<P>
+
+<A NAME="ref_bso_intersection"></A>
+<P>
+
+<A NAME="ref_bso_join"></A>
+<P>
+
+<A NAME="ref_bso_symmetric_difference"></A>
+<P>
+
+<table cellpadding="0">
+    
+  <tr><td> <a href="Concept_ArrangementDirectionalXMonotoneTraits_2.html"><I>ArrangementDirectionalXMonotoneTraits_2</I></a></td></tr>
+  <tr><td> <a href="Concept_ArrDirectionalTraits--AreMergeable_2.html"><I>ArrDirectionalTraits::AreMergeable_2</I></a></td></tr>
+  <tr><td> <a href="Concept_ArrDirectionalTraits--CompareEndpointsXy_2.html"><I>ArrDirectionalTraits::CompareEndpointsXy_2</I></a></td></tr>
+  <tr><td> <a href="Concept_ArrDirectionalTraits--ConstructOpposite_2.html"><I>ArrDirectionalTraits::ConstructOpposite_2</I></a></td></tr>
+  <tr><td> <a href="Concept_ArrDirectionalTraits--Intersect_2.html"><I>ArrDirectionalTraits::Intersect_2</I></a></td></tr>
+  <tr><td> <a href="Concept_ArrDirectionalTraits--Merge_2.html"><I>ArrDirectionalTraits::Merge_2</I></a></td></tr>
+  <tr><td> <a href="Concept_ArrDirectionalTraits--Split_2.html"><I>ArrDirectionalTraits::Split_2</I></a></td></tr>
+  <tr><td> <a href="Function_complement.html"><I>complement</I></a></td></tr>
+  <tr><td> <a href="Function_connect_holes.html"><I>connect_holes</I></a></td></tr>
+  <tr><td> <a href="Function_difference.html"><I>difference</I></a></td></tr>
+  <tr><td> <a href="Function_do_intersect.html"><I>do_intersect</I></a></td></tr>
+  <tr><td> <a href="Concept_GeneralPolygonSetDcelFace.html"><I>GeneralPolygonSetDcelFace</I></a></td></tr>
+  <tr><td> <a href="Concept_GeneralPolygonSetDcel.html"><I>GeneralPolygonSetDcel</I></a></td></tr>
+  <tr><td> <a href="Concept_GeneralPolygonSetTraits_2.html"><I>GeneralPolygonSetTraits_2</I></a></td></tr>
+  <tr><td> <a href="Concept_GeneralPolygonWithHoles_2.html"><I>GeneralPolygonWithHoles_2</I></a></td></tr>
+  <tr><td> <a href="Concept_GeneralPolygon_2.html"><I>GeneralPolygon_2</I></a></td></tr>
+  <tr><td> <a href="Class_General_polygon_2.html"><I>General_polygon_2&lt;ArrTraits&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_General_polygon_set_2.html"><I>General_polygon_set_2&lt;Traits,Dcel&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_General_polygon_with_holes_2.html"><I>General_polygon_with_holes_2&lt;Polygon&gt;</I></a></td></tr>
+  <tr><td> <a href="Concept_GpsTraitsGeneralPolygonWithHoles_2.html"><I>GpsTraitsGeneralPolygonWithHoles_2</I></a></td></tr>
+  <tr><td> <a href="Concept_GpsTraitsGeneralPolygon_2.html"><I>GpsTraitsGeneralPolygon_2</I></a></td></tr>
+  <tr><td> <a href="Class_Gps_circle_segment_traits_2.html"><I>Gps_circle_segment_traits_2&lt;Kernel&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Gps_default_dcel.html"><I>Gps_default_dcel&lt;Traits&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Gps_segment_traits_2.html"><I>Gps_segment_traits_2&lt;Kernel,Container,ArrSegmentTraits&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Gps_traits_2.html"><I>Gps_traits_2&lt;ArrTraits,GeneralPolygon_t&gt;</I></a></td></tr>
+  <tr><td> <a href="Function_intersection.html"><I>intersection</I></a></td></tr>
+  <tr><td> <a href="Function_join.html"><I>join</I></a></td></tr>
+  <tr><td> <a href="Function_operator.html"><I>operator&lt;&lt;</I></a></td></tr>
+  <tr><td> <a href="Function_operator--.html"><I>operator&gt;&gt;</I></a></td></tr>
+  <tr><td> <a href="Function_oriented_side.html"><I>oriented_side</I></a></td></tr>
+  <tr><td> <a href="Class_Polygon_set_2.html"><I>Polygon_set_2&lt;Kernel,Container,Dcel&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Polygon_with_holes_2.html"><I>Polygon_with_holes_2&lt;Kernel,Container&gt;</I></a></td></tr>
+  <tr><td> <a href="Function_symmetric_difference.html"><I>symmetric_difference</I></a></td></tr>
+    </table>
+    
+  
+
+  <div class="NavNext">Next chapter: <a href="../Nef_2/Chapter_main.html">2D Boolean Operations on Nef Polygons</a></div>
+    
+  <div class="NavBottom">
+  
+  <strong>Navigation:</strong>
+<a href="../Nef_2/Chapter_main.html">Up</a>&nbsp;&nbsp;
+  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
+  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
+  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
+  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
+  <a href="../title.html">Title</a>
+  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
+
+<div class="NavAddress">
+<SMALL><a href="http://www.cgal.org" target="_top">CGAL Open Source Project</a>.
+Release 4.1.
+23 October 2012.</SMALL>
+</div>
+</body>  </html>

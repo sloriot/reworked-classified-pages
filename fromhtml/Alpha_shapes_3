@@ -1,0 +1,191 @@
+
+    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en-US"> <head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="generator" content="CGAL latex_to_html converter">
+<!-- by cc_extract_html, $Id: cc_extract_html.cpp 44195 2008-07-16 08:46:48Z spion $ -->
+<!-- LaTeX source file: './Alpha_shapes_3_ref/intro.tex' -->
+<link rel="canonical" href="http://www.cgal.org/Manual/latest/doc_html/cgal_manual/Alpha_shapes_3_ref/Chapter_intro.html">
+<link href="../latex_to_html.css" rel="STYLESHEET">
+<title>3D Alpha Shapes Reference&nbsp;Manual</title>
+</head>
+<body bgcolor="white">
+
+<div class="NavTop">
+  
+  <strong>Navigation:</strong>
+<a href="Chapter_intro.html">Up</a>&nbsp;&nbsp;
+  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
+  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
+  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
+  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
+  <a href="../title.html">Title</a>
+  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
+<P>
+
+<h1>3D Alpha Shapes<BR>
+<I>Reference&nbsp;Manual</I></h1>
+
+ 
+<p class="subtitle">Tran Kai Frank Da, S&eacute;bastien Loriot, and Mariette Yvinec</p>
+<P>
+
+Alpha shapes definition is based on an underlying
+triangulation that may be a Delaunay triangulation 
+in case of basic alpha shapes or a regular triangulation 
+(cf. <A HREF="../Triangulation_3/Chapter_main.html#Triangulation3-sec-class-Regulartriangulation">39.3</A>)
+in case of weighted alpha shapes.
+<P>
+
+Let us consider the basic case with a Delaunay triangulation.
+We first define the alpha complex  of the set of points <span class="math">S</span>. 
+The  alpha complex is a subcomplex 
+of the Delaunay triangulation.
+For a given value of <span class="math">&alpha;</span>, the alpha complex includes
+all the simplices in the Delaunay triangulation which have
+an empty  circumscribing sphere with squared radius equal or smaller than <span class="math">&alpha;</span>.
+Here ``empty'' means  that the open sphere 
+do not include  any points of <span class="math">S</span>.
+The alpha shape is then simply the domain covered by the simplices
+of the alpha complex (see [<A HREF="../biblio.html#Biblio_em-tdas-94">EM94</A>]).
+<P>
+
+In general, an alpha complex is a non-connected and non-pure complex.
+This means in particular that the alpha complex may have
+singular faces.  For <span class="math">0  <span class="sym">&le;</span> k  <span class="sym">&le;</span> d-1</span>,
+a <span class="math">k</span>-simplex of the alpha complex  is said to be
+singular if it is not a facet of a <span class="math">(k+1)</span>-simplex of the complex
+<P>
+
+The alpha shapes of a  set of points 
+<span class="math">S</span> form a discrete family, even though they
+are defined for all real numbers <span class="math">&alpha;</span>.
+The entire family of alpha shapes can be represented 
+through  the underlying triangulation of <span class="math">S</span>. In this representation
+each <span class="math">k</span>-simplex of the underlying triangulation is associated with an
+interval that specifies for which values of <span class="math">&alpha;</span> the <span class="math">k</span>-simplex
+belongs to the alpha complex. Relying on this fact, the family of
+ alpha shapes can be computed efficiently and relatively
+easily. Furthermore, we can select the optimal value
+of  <span class="math">&alpha;</span> to get an alpha shape including all data points
+and having   less than a given number of connected components.
+<P>
+
+The definition is analog in the case of weighted alpha shapes.
+The input set is now a set of weighted points (which can be regarded
+as spheres) and the underlying triangulation 
+is the regular triangulation of this set.
+Two spheres, or two weighted points , with centers <span class="math">C<SUB>1</SUB>, C<SUB>2</SUB></span>
+and  radii <span class="math">r<SUB>1</SUB>, r<SUB>2</SUB> </span> are said to be orthogonal iff 
+<span class="math"> C<SUB>1</SUB>C<SUB>2</SUB> <SUP>2</SUP> = r<SUB>1</SUB><SUP>2</SUP> + r<SUB>2</SUB><SUP>2</SUP></span> and suborthogonal
+iff  <span class="math"> C<SUB>1</SUB>C<SUB>2</SUB> <SUP>2</SUP> &lt; r<SUB>1</SUB><SUP>2</SUP> + r<SUB>2</SUB><SUP>2</SUP></span>.
+For a given value of <span class="math">&alpha;</span>
+the weighted alpha complex is formed with the simplices of the 
+regular triangulation triangulation
+such that there is a sphere orthogonal to the weighted points associated
+with the vertices of the simplex  and suborthogonal to all the other
+input weighted points. Once again the alpha shape is then defined as
+the domain covered by a the alpha complex.
+<P>
+
+CGAL provides two versions to compute alpha shapes. 
+The first one gives access to an explicit classification of all the simplices for a fixed alpha value.
+The second one gives access to the entire family of alpha shapes of a set of points.
+This latter version comes with two modes. In the general mode,
+the alpha shapes correspond strictly to the definition previously made.
+The regularized mode provides a regularized version of the alpha shapes
+corresponding to the domain covered by a regularized version
+of the alpha complex where singular faces are removed.
+<P>
+
+<a name="Section_43.6"></a>
+        
+<h2>43.6&nbsp;&nbsp;&nbsp;Classified Reference Pages</h2>
+<P>
+
+<h3>Concepts</h3>
+<P>
+
+<I><A HREF="Concept_AlphaShapeTraits_3.html#Cross_link_anchor_1417">AlphaShapeTraits_3</A></I><BR>
+
+<I><A HREF="Concept_WeightedAlphaShapeTraits_3.html#Cross_link_anchor_1423">WeightedAlphaShapeTraits_3</A></I><BR>
+
+<I><A HREF="Concept_AlphaShapeCell_3.html#Cross_link_anchor_1416">AlphaShapeCell_3</A></I><BR>
+
+<I><A HREF="Concept_AlphaShapeVertex_3.html#Cross_link_anchor_1418">AlphaShapeVertex_3</A></I><BR>
+
+<I><A HREF="Concept_FixedAlphaShapeTraits_3.html#Cross_link_anchor_1425">FixedAlphaShapeTraits_3</A></I><BR>
+
+<I><A HREF="Concept_FixedWeightedAlphaShapeTraits_3.html#Cross_link_anchor_1431">FixedWeightedAlphaShapeTraits_3</A></I><BR>
+
+<I><A HREF="Concept_FixedAlphaShapeCell_3.html#Cross_link_anchor_1426">FixedAlphaShapeCell_3</A></I><BR>
+
+<I><A HREF="Concept_FixedAlphaShapeVertex_3.html#Cross_link_anchor_1427">FixedAlphaShapeVertex_3</A></I><BR>
+
+
+<P>
+
+<h3>Classes</h3>
+
+<I><A HREF="Class_Alpha_status.html#Cross_link_anchor_1422">CGAL::Alpha_status&lt;NT&gt;</A></I><BR>
+
+<I><A HREF="Class_Alpha_shape_3.html#Cross_link_anchor_1419">CGAL::Alpha_shape_3&lt;Dt,ExactAlphaComparisonTag&gt;</A></I><BR>
+
+<I><A HREF="Class_Alpha_shape_vertex_base_3.html#Cross_link_anchor_1421">CGAL::Alpha_shape_vertex_base_3</A>&lt;Traits,Vb&gt;</I><BR>
+
+<I><A HREF="Class_Alpha_shape_cell_base_3.html#Cross_link_anchor_1420">CGAL::Alpha_shape_cell_base_3</A>&lt;Traits,Fb&gt;</I>
+<P>
+
+<I><A HREF="Class_Fixed_alpha_shape_3.html#Cross_link_anchor_1428">CGAL::Fixed_alpha_shape_3&lt;Dt&gt;</A></I><BR>
+
+<I><A HREF="Class_Fixed_alpha_shape_vertex_base_3.html#Cross_link_anchor_1430">CGAL::Fixed_alpha_shape_vertex_base_3&lt;Traits,Vb&gt;</A></I><BR>
+
+<I><A HREF="Class_Fixed_alpha_shape_cell_base_3.html#Cross_link_anchor_1429">CGAL::Fixed_alpha_shape_cell_base_3&lt;Traits,Fb&gt;</A></I>
+<P>
+
+<a name="Section_43.7"></a>
+        
+<h2>43.7&nbsp;&nbsp;&nbsp;Alphabetical List of Reference Pages</h2>
+<P>
+
+<table cellpadding="0">
+    
+  <tr><td> <a href="Concept_AlphaShapeCell_3.html"><I>AlphaShapeCell_3</I></a></td></tr>
+  <tr><td> <a href="Concept_AlphaShapeTraits_3.html"><I>AlphaShapeTraits_3</I></a></td></tr>
+  <tr><td> <a href="Concept_AlphaShapeVertex_3.html"><I>AlphaShapeVertex_3</I></a></td></tr>
+  <tr><td> <a href="Class_Alpha_shape_3.html"><I>Alpha_shape_3&lt;Dt,ExactAlphaComparisonTag&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Alpha_shape_cell_base_3.html"><I>Alpha_shape_cell_base_3&lt;Traits,Fb,ExactAlphaComparisonTag,WeightedTag&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Alpha_shape_vertex_base_3.html"><I>Alpha_shape_vertex_base_3&lt;Traits,Vb,ExactAlphaComparisonTag,WeightedTag&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Alpha_status.html"><I>Alpha_status&lt;NT&gt;</I></a></td></tr>
+  <tr><td> <a href="Concept_FixedAlphaShapeCell_3.html"><I>FixedAlphaShapeCell_3</I></a></td></tr>
+  <tr><td> <a href="Concept_FixedAlphaShapeTraits_3.html"><I>FixedAlphaShapeTraits_3</I></a></td></tr>
+  <tr><td> <a href="Concept_FixedAlphaShapeVertex_3.html"><I>FixedAlphaShapeVertex_3</I></a></td></tr>
+  <tr><td> <a href="Concept_FixedWeightedAlphaShapeTraits_3.html"><I>FixedWeightedAlphaShapeTraits_3</I></a></td></tr>
+  <tr><td> <a href="Class_Fixed_alpha_shape_3.html"><I>Fixed_alpha_shape_3&lt;Dt&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Fixed_alpha_shape_cell_base_3.html"><I>Fixed_alpha_shape_cell_base_3&lt;Traits,Fb&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Fixed_alpha_shape_vertex_base_3.html"><I>Fixed_alpha_shape_vertex_base_3&lt;Traits,Vb&gt;</I></a></td></tr>
+  <tr><td> <a href="Concept_WeightedAlphaShapeTraits_3.html"><I>WeightedAlphaShapeTraits_3</I></a></td></tr>
+  <tr><td> <a href="Class_Weighted_alpha_shape_euclidean_traits_3.html"><I>Weighted_alpha_shape_euclidean_traits_3&lt;K&gt;</I></a></td></tr>
+    </table>
+    
+  
+
+  
+    
+  <div class="NavBottom">
+  
+  <strong>Navigation:</strong>
+
+  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
+  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
+  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
+  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
+  <a href="../title.html">Title</a>
+  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
+
+<div class="NavAddress">
+<SMALL><a href="http://www.cgal.org" target="_top">CGAL Open Source Project</a>.
+Release 4.1.
+23 October 2012.</SMALL>
+</div>
+</body>  </html>

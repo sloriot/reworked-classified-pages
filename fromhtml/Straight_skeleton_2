@@ -1,0 +1,162 @@
+
+    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en-US"> <head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="generator" content="CGAL latex_to_html converter">
+<!-- by cc_extract_html, $Id: cc_extract_html.cpp 44195 2008-07-16 08:46:48Z spion $ -->
+<!-- LaTeX source file: './Straight_skeleton_2_ref/intro.tex' -->
+<link rel="canonical" href="http://www.cgal.org/Manual/latest/doc_html/cgal_manual/Straight_skeleton_2_ref/Chapter_intro.html">
+<link href="../latex_to_html.css" rel="STYLESHEET">
+<title>2D Straight Skeleton  and Polygon Offsetting  Reference&nbsp;Manual</title>
+</head>
+<body bgcolor="white">
+
+<div class="NavTop">
+  
+  <strong>Navigation:</strong>
+<a href="Chapter_intro.html">Up</a>&nbsp;&nbsp;
+  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
+  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
+  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
+  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
+  <a href="../title.html">Title</a>
+  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
+<P>
+
+<A NAME="ref-chapter-straightskeleton2"></A><h1>2D Straight Skeleton  and Polygon Offsetting <BR>
+<I>Reference&nbsp;Manual</I></h1>
+<P>
+
+This chapter introduces the concepts and classes that correspond to the <span class="textsc">Cgal</span> <I>2D Straight Skeleton</I> package.<BR>
+
+The packages provides an algorithm for the construction of the
+straight skeleton in the interior of a simple polygon with holes and
+an algorithm for the construction of inward offset contours based on
+the straight skeleton.
+<P>
+
+<a name="Section_23.7"></a>
+        
+<h2>23.7&nbsp;&nbsp;&nbsp;Classified Reference Pages</h2>
+<P>
+
+<H3>Concepts</H3>
+<I><A HREF="Concept_StraightSkeletonVertex_2.html#Cross_link_anchor_1073">StraightSkeletonVertex_2</A></I><BR>
+
+<I><A HREF="Concept_StraightSkeletonHalfedge_2.html#Cross_link_anchor_1074">StraightSkeletonHalfedge_2</A></I><BR>
+
+<I><A HREF="Concept_StraightSkeletonFace_2.html#Cross_link_anchor_1075">StraightSkeletonFace_2</A></I><BR>
+
+<I><A HREF="Concept_StraightSkeleton_2.html#Cross_link_anchor_1072">StraightSkeleton_2</A></I><BR>
+
+<I><A HREF="Concept_StraightSkeletonBuilder_2_Visitor.html#Cross_link_anchor_1077">StraightSkeletonBuilder_2_Visitor</A></I><BR>
+
+<I><A HREF="Concept_StraightSkeletonBuilderTraits_2.html#Cross_link_anchor_1078">StraightSkeletonBuilderTraits_2</A></I><BR>
+
+<I><A HREF="Concept_StraightSkeletonItemsConverter_2.html#Cross_link_anchor_1076">StraightSkeletonItemsConverter_2</A></I><BR>
+
+<I><A HREF="Concept_PolygonOffsetBuilderTraits_2.html#Cross_link_anchor_1079">PolygonOffsetBuilderTraits_2</A></I><BR>
+
+<I><A HREF="Concept_VertexContainer_2.html#Cross_link_anchor_1080">VertexContainer_2</A></I><BR>
+
+
+<P>
+
+<H3>Classes</H3>
+<I><A HREF="Class_Straight_skeleton_vertex_base_2.html#Cross_link_anchor_1084">CGAL::Straight_skeleton_vertex_base_2&lt;Refs,Point,FT&gt;</A></I><BR>
+
+<I><A HREF="Class_Straight_skeleton_halfedge_base_2.html#Cross_link_anchor_1085">CGAL::Straight_skeleton_halfedge_base_2&lt;Refs&gt;</A></I><BR>
+
+<I><A HREF="Class_Straight_skeleton_face_base_2.html#Cross_link_anchor_1086">CGAL::Straight_skeleton_face_base_2&lt;Refs&gt;</A></I><BR>
+
+<I><A HREF="Class_Straight_skeleton_2.html#Cross_link_anchor_1083">CGAL::Straight_skeleton_2&lt;Traits,Items,Alloc&gt;</A></I><BR>
+
+<I><A HREF="Function_create_interior_straight_skeleton_2.html#Cross_link_anchor_1081">CGAL::create_interior_straight_skeleton_2</A></I><BR>
+
+<I><A HREF="Function_create_exterior_straight_skeleton_2.html#Cross_link_anchor_1082">CGAL::create_exterior_straight_skeleton_2</A></I><BR>
+
+<I><A HREF="Class_Straight_skeleton_builder_traits_2.html#Cross_link_anchor_1090">CGAL::Straight_skeleton_builder_traits_2</A>&lt;<A HREF="../Kernel_23_ref/Concept_Kernel.html#Cross_link_anchor_318">Kernel</A>&gt;</I><BR>
+
+<I><A HREF="Class_Straight_skeleton_builder_2.html#Cross_link_anchor_1091">CGAL::Straight_skeleton_builder_2&lt;Gt,Ss,Visitor&gt;</A></I><BR>
+
+<I><A HREF="Class_Straight_skeleton_items_converter_2.html#Cross_link_anchor_1087">CGAL::Straight_skeleton_items_converter_2&lt;SrcSs, TgtSs, NTConverter&gt;</A></I><BR>
+
+<I><A HREF="Class_Straight_skeleton_converter_2.html#Cross_link_anchor_1088">CGAL::Straight_skeleton_converter_2&lt;SrcSs,TgtSs,ItemsCvt&gt;</A></I><BR>
+
+<I><A HREF="Function_convert_straight_skeleton_2.html#Cross_link_anchor_1089">CGAL::convert_straight_skeleton_2&lt;TgtSs,SrcSs,ItemsCvt&gt;</A></I><BR>
+
+<I><A HREF="Function_create_offset_polygons_2.html#Cross_link_anchor_1093">CGAL::create_offset_polygons_2</A></I><BR>
+
+<I><A HREF="Function_arrange_offset_polygons_2.html#Cross_link_anchor_1094">CGAL::arrange_offset_polygons_2</A></I><BR>
+
+<I><A HREF="Function_create_interior_skeleton_and_offset_polygons_2.html#Cross_link_anchor_1095">CGAL::create_interior_skeleton_and_offset_polygons_2</A></I><BR>
+
+<I><A HREF="Function_create_exterior_skeleton_and_offset_polygons_2.html#Cross_link_anchor_1096">CGAL::create_exterior_skeleton_and_offset_polygons_2</A></I><BR>
+
+<I><A HREF="Class_Polygon_offset_builder_traits_2.html#Cross_link_anchor_1097">CGAL::Polygon_offset_builder_traits_2</A>&lt;<A HREF="../Kernel_23_ref/Concept_Kernel.html#Cross_link_anchor_318">Kernel</A>&gt;</I><BR>
+
+<I><A HREF="Class_Polygon_offset_builder_2.html#Cross_link_anchor_1098">CGAL::Polygon_offset_builder_2&lt;Ss,Gt,Container&gt;</A></I><BR>
+
+<I><A HREF="Class_Dummy_straight_skeleton_builder_2_visitor.html#Cross_link_anchor_1092">CGAL::Dummy_straight_skeleton_builder_2_visitor&lt;Ss&gt;</A></I><BR>
+
+
+<P>
+
+<a name="Section_23.8"></a>
+        
+<h2>23.8&nbsp;&nbsp;&nbsp;Alphabetical List of Reference Pages</h2>
+<P>
+
+<table cellpadding="0">
+    
+  <tr><td> <a href="Function_arrange_offset_polygons_2.html"><I>arrange_offset_polygons_2</I></a></td></tr>
+  <tr><td> <a href="Function_compute_outer_frame_margin.html"><I>compute_outer_frame_margin</I></a></td></tr>
+  <tr><td> <a href="Function_convert_straight_skeleton_2.html"><I>convert_straight_skeleton_2&lt;TgtSs,SrcSs,ItemsCvt&gt;</I></a></td></tr>
+  <tr><td> <a href="Function_create_exterior_skeleton_and_offset_polygons_2.html"><I>create_exterior_skeleton_and_offset_polygons_2</I></a></td></tr>
+  <tr><td> <a href="Function_create_exterior_straight_skeleton_2.html"><I>create_exterior_straight_skeleton_2</I></a></td></tr>
+  <tr><td> <a href="Function_create_interior_skeleton_and_offset_polygons_2.html"><I>create_interior_skeleton_and_offset_polygons_2</I></a></td></tr>
+  <tr><td> <a href="Function_create_interior_straight_skeleton_2.html"><I>create_interior_straight_skeleton_2</I></a></td></tr>
+  <tr><td> <a href="Function_create_offset_polygons_2.html"><I>create_offset_polygons_2</I></a></td></tr>
+  <tr><td> <a href="Class_Dummy_straight_skeleton_builder_2_visitor.html"><I>Dummy_straight_skeleton_builder_2_visitor&lt;Ss&gt;</I></a></td></tr>
+  <tr><td> <a href="Concept_PolygonOffsetBuilderTraits_2.html"><I>PolygonOffsetBuilderTraits_2</I></a></td></tr>
+  <tr><td> <a href="Class_Polygon_offset_builder_2.html"><I>Polygon_offset_builder_2&lt;Ss,Gt,Container&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Polygon_offset_builder_traits_2.html"><I>Polygon_offset_builder_traits_2&lt;Kernel&gt;</I></a></td></tr>
+  <tr><td> <a href="Concept_StraightSkeletonBuilderTraits_2.html"><I>StraightSkeletonBuilderTraits_2</I></a></td></tr>
+  <tr><td> <a href="Concept_StraightSkeletonBuilder_2_Visitor.html"><I>StraightSkeletonBuilder_2_Visitor</I></a></td></tr>
+  <tr><td> <a href="Concept_StraightSkeletonFace_2.html"><I>StraightSkeletonFace_2</I></a></td></tr>
+  <tr><td> <a href="Concept_StraightSkeletonHalfedge_2.html"><I>StraightSkeletonHalfedge_2</I></a></td></tr>
+  <tr><td> <a href="Concept_StraightSkeletonItemsConverter_2.html"><I>StraightSkeletonItemsConverter_2</I></a></td></tr>
+  <tr><td> <a href="Concept_StraightSkeletonVertex_2.html"><I>StraightSkeletonVertex_2</I></a></td></tr>
+  <tr><td> <a href="Concept_StraightSkeleton_2.html"><I>StraightSkeleton_2</I></a></td></tr>
+  <tr><td> <a href="Class_Straight_skeleton_2.html"><I>Straight_skeleton_2&lt;Traits,Items,Alloc&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Straight_skeleton_builder_2.html"><I>Straight_skeleton_builder_2&lt;Gt,Ss,Visitor&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Straight_skeleton_builder_traits_2.html"><I>Straight_skeleton_builder_traits_2&lt;Kernel&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Straight_skeleton_converter_2.html"><I>Straight_skeleton_converter_2&lt;SrcSs,TgtSs,ItemsCvt&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Straight_skeleton_face_base_2.html"><I>Straight_skeleton_face_base_2&lt;Refs&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Straight_skeleton_halfedge_base_2.html"><I>Straight_skeleton_halfedge_base_2&lt;Refs&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Straight_skeleton_items_converter_2.html"><I>Straight_skeleton_items_converter_2&lt;SrcSs, TgtSs, NTConverter&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Straight_skeleton_vertex_base_2.html"><I>Straight_skeleton_vertex_base_2&lt;Refs,Point,FT&gt;</I></a></td></tr>
+  <tr><td> <a href="Concept_VertexContainer_2.html"><I>VertexContainer_2</I></a></td></tr>
+    </table>
+    
+  
+
+  <div class="NavNext">Next chapter: <a href="../Minkowski_sum_2/Chapter_main.html">2D Minkowski Sums</a></div>
+    
+  <div class="NavBottom">
+  
+  <strong>Navigation:</strong>
+<a href="../Minkowski_sum_2/Chapter_main.html">Up</a>&nbsp;&nbsp;
+  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
+  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
+  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
+  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
+  <a href="../title.html">Title</a>
+  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
+
+<div class="NavAddress">
+<SMALL><a href="http://www.cgal.org" target="_top">CGAL Open Source Project</a>.
+Release 4.1.
+23 October 2012.</SMALL>
+</div>
+</body>  </html>

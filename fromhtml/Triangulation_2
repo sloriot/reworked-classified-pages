@@ -1,0 +1,218 @@
+
+    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en-US"> <head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="generator" content="CGAL latex_to_html converter">
+<!-- by cc_extract_html, $Id: cc_extract_html.cpp 44195 2008-07-16 08:46:48Z spion $ -->
+<!-- LaTeX source file: './Triangulation_2_ref/intro.tex' -->
+<link rel="canonical" href="http://www.cgal.org/Manual/latest/doc_html/cgal_manual/Triangulation_2_ref/Chapter_intro.html">
+<link href="../latex_to_html.css" rel="STYLESHEET">
+<title>2D Triangulations Reference&nbsp;Manual</title>
+</head>
+<body bgcolor="white">
+
+<div class="NavTop">
+  
+  <strong>Navigation:</strong>
+<a href="Chapter_intro.html">Up</a>&nbsp;&nbsp;
+  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
+  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
+  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
+  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
+  <a href="../title.html">Title</a>
+  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
+<P>
+
+<A NAME="ref_chapter_2D_Triangulations"></A><h1>2D Triangulations<BR>
+<I>Reference&nbsp;Manual</I></h1>
+
+ 
+<p class="subtitle">Mariette Yvinec</p>
+<P>
+
+A triangulation is a 2-dimensional simplicial complex which is pure
+connected and without singularities. Thus a triangulation
+can be viewed as a collection of triangular faces,
+such that two faces either have an empty intersection or share an edge or a vertex.
+<P>
+
+The basic elements of the representation are vertices and faces.
+Each triangular face gives access to its three incident vertices 
+and to its three adjacent faces. 
+Each vertex gives access to one of its incident faces
+and through that face to the circular list of its incident faces.
+The edges are not explicitly represented, they are only represented 
+through the adjacency relations of two faces.
+<P>
+
+The triangulation classes of <span class="textsc">Cgal</span> depend on two template parameters.
+The first template parameter stands for
+ a geometric traits class which is assumed to provide
+the geometric objects (points, segments and triangles) 
+forming  the triangulation and the geometric predicates on those objects.
+The second template parameter stands for a model
+of  triangulation data
+structure acting as a container for faces and vertices
+while  taking care of the combinatorial aspects of the triangulation. 
+The concepts and models relative to the triangulation data structure
+are described in
+Chapter&nbsp;<A HREF="../TDS_2_ref/Chapter_intro.html#ref_chapter_2D_Triangulation_Data_Structure">38</A>.
+<P>
+
+<a name="Section_37.13"></a>
+        
+<h2>37.13&nbsp;&nbsp;&nbsp;Classified Reference Pages</h2>
+<P>
+
+<h3>Concepts</h3>
+
+<I><A HREF="Concept_TriangulationTraits_2.html#Cross_link_anchor_1341">TriangulationTraits_2</A></I><BR>
+
+<I><A HREF="Concept_DelaunayTriangulationTraits_2.html#Cross_link_anchor_1328">DelaunayTriangulationTraits_2</A></I><BR>
+
+<I><A HREF="Concept_RegularTriangulationTraits_2.html#Cross_link_anchor_1332">RegularTriangulationTraits_2</A></I><BR>
+
+<I><A HREF="Concept_ConstrainedTriangulationTraits_2.html#Cross_link_anchor_1323">ConstrainedTriangulationTraits_2</A></I><BR>
+
+<I><A HREF="Concept_ConstrainedDelaunayTriangulationTraits_2.html#Cross_link_anchor_1321">ConstrainedDelaunayTriangulationTraits_2</A></I>
+<P>
+
+<I><A HREF="Concept_TriangulationFaceBase_2.html#Cross_link_anchor_1339">TriangulationFaceBase_2</A></I><BR>
+
+<I><A HREF="Concept_TriangulationVertexBase_2.html#Cross_link_anchor_1342">TriangulationVertexBase_2</A></I><BR>
+
+<I><A HREF="Concept_ConstrainedTriangulationFaceBase_2.html#Cross_link_anchor_1322">ConstrainedTriangulationFaceBase_2</A></I><BR>
+
+<I><A HREF="Concept_RegularTriangulationFaceBase_2.html#Cross_link_anchor_1331">RegularTriangulationFaceBase_2</A></I><BR>
+
+<I><A HREF="Concept_RegularTriangulationVertexBase_2.html#Cross_link_anchor_1333">RegularTriangulationVertexBase_2</A></I><BR>
+
+<I><A HREF="Concept_TriangulationHierarchyVertexBase_2.html#Cross_link_anchor_1340">TriangulationHierarchyVertexBase_2</A></I><BR>
+
+<I><A HREF="Concept_TriangulationVertexBaseWithInfo_2.html#Cross_link_anchor_1343">TriangulationVertexBaseWithInfo_2</A></I>
+<P>
+
+<h3>Classes</h3>
+<P>
+
+<I><A HREF="Class_Triangulation_2.html#Cross_link_anchor_1344">CGAL::Triangulation_2&lt;Traits,Tds&gt;</A></I><BR>
+
+<I><A HREF="Class_Delaunay_triangulation_2.html#Cross_link_anchor_1329">CGAL::Delaunay_triangulation_2&lt;Traits,Tds&gt;</A></I><BR>
+
+<I><A HREF="Class_Regular_triangulation_2.html#Cross_link_anchor_1334">CGAL::Regular_triangulation_2&lt;Traits,Tds&gt;</A></I><BR>
+
+<I><A HREF="Class_Constrained_triangulation_2.html#Cross_link_anchor_1325">CGAL::Constrained_triangulation_2&lt;Traits,Tds,Itag&gt;</A></I><BR>
+
+<I><A HREF="Class_Constrained_Delaunay_triangulation_2.html#Cross_link_anchor_1324">CGAL::Constrained_Delaunay_triangulation_2&lt;Traits,Tds,Itag&gt;</A></I><BR>
+
+<I><A HREF="Class_Constrained_triangulation_plus_2.html#Cross_link_anchor_1327">CGAL::Constrained_triangulation_plus_2&lt;Tr&gt;</A></I><BR>
+
+<I><A HREF="Class_Triangulation_hierarchy_2.html#Cross_link_anchor_1350">CGAL::Triangulation_hierarchy_2&lt;Tr&gt;</A></I><BR>
+
+
+<P>
+
+<I><A HREF="Class_Triangulation_euclidean_traits_2.html#Cross_link_anchor_1346">CGAL::Triangulation_euclidean_traits_2&lt;K&gt;</A></I><BR>
+
+<I><A HREF="Class_Triangulation_euclidean_traits_xy_3.html#Cross_link_anchor_1347">CGAL::Triangulation_euclidean_traits_xy_3&lt;K&gt;</A></I><BR>
+
+<I><A HREF="Class_Regular_triangulation_euclidean_traits_2.html#Cross_link_anchor_1335">CGAL::Regular_triangulation_euclidean_traits_2&lt;K,Weight&gt;</A></I><BR>
+
+<I><A HREF="Class_Regular_triangulation_filtered_traits_2.html#Cross_link_anchor_1336">CGAL::Regular_triangulation_filtered_traits_2&lt;FK&gt;</A></I><BR>
+
+
+<P>
+
+<I><A HREF="Class_Triangulation_face_base_2.html#Cross_link_anchor_1348">CGAL::Triangulation_face_base_2&lt;Traits,Fb&gt;</A></I><BR>
+
+<I><A HREF="Class_Triangulation_vertex_base_2.html#Cross_link_anchor_1352">CGAL::Triangulation_vertex_base_2&lt;Traits,Vb&gt;</A></I><BR>
+
+<I><A HREF="Class_Regular_triangulation_face_base_2.html#Cross_link_anchor_1337">CGAL::Regular_triangulation_face_base_2&lt;Traits,Fb&gt;</A></I><BR>
+
+<I><A HREF="Class_Regular_triangulation_vertex_base_2.html#Cross_link_anchor_1338">CGAL::Regular_triangulation_vertex_base_2&lt;Traits,Vb&gt;</A></I><BR>
+
+<I><A HREF="Class_Constrained_triangulation_face_base_2.html#Cross_link_anchor_1326">CGAL::Constrained_triangulation_face_base_2&lt;Traits,Fb&gt;</A></I><BR>
+
+<I><A HREF="Class_Triangulation_vertex_base_with_info_2.html#Cross_link_anchor_1353">CGAL::Triangulation_vertex_base_with_info_2&lt;Info,Traits,Vb&gt;</A></I><BR>
+
+<I><A HREF="Class_Triangulation_face_base_with_info_2.html#Cross_link_anchor_1349">CGAL::Triangulation_face_base_with_info_2&lt;Info,Traits,Fb&gt;</A></I><BR>
+
+<I><A HREF="Class_Triangulation_hierarchy_vertex_base_2.html#Cross_link_anchor_1351">CGAL::Triangulation_hierarchy_vertex_base_2&lt;Vb&gt;</A></I>
+<P>
+
+<I><A HREF="Class_Weighted_point.html#Cross_link_anchor_1354">CGAL::Weighted_point&lt;Pt,Wt&gt;</A></I><BR>
+
+<I><A HREF="Class_Triangulation_cw_ccw_2.html#Cross_link_anchor_1345">CGAL::Triangulation_cw_ccw_2</A></I><BR>
+
+
+<P>
+
+<h3>Enum</h3>
+
+<I><A HREF="Enum_Triangulation_2-Traits-Tds---Locate_type.html#Cross_link_anchor_1330">CGAL::Triangulation_2&lt;Traits,Tds&gt;::Locate_type</A></I>
+<P>
+
+<a name="Section_37.14"></a>
+        
+<h2>37.14&nbsp;&nbsp;&nbsp;Alphabetical List of Reference Pages</h2>
+<P>
+
+<table cellpadding="0">
+    
+  <tr><td> <a href="Concept_ConstrainedDelaunayTriangulationTraits_2.html"><I>ConstrainedDelaunayTriangulationTraits_2</I></a></td></tr>
+  <tr><td> <a href="Concept_ConstrainedTriangulationFaceBase_2.html"><I>ConstrainedTriangulationFaceBase_2</I></a></td></tr>
+  <tr><td> <a href="Concept_ConstrainedTriangulationTraits_2.html"><I>ConstrainedTriangulationTraits_2</I></a></td></tr>
+  <tr><td> <a href="Class_Constrained_Delaunay_triangulation_2.html"><I>Constrained_Delaunay_triangulation_2&lt;Traits,Tds,Itag&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Constrained_triangulation_2.html"><I>Constrained_triangulation_2&lt;Traits,Tds,Itag&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Constrained_triangulation_face_base_2.html"><I>Constrained_triangulation_face_base_2&lt;Traits,Fb&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Constrained_triangulation_plus_2.html"><I>Constrained_triangulation_plus_2&lt;Tr&gt;</I></a></td></tr>
+  <tr><td> <a href="Concept_DelaunayTriangulationTraits_2.html"><I>DelaunayTriangulationTraits_2</I></a></td></tr>
+  <tr><td> <a href="Class_Delaunay_triangulation_2.html"><I>Delaunay_triangulation_2&lt;Traits,Tds&gt;</I></a></td></tr>
+  <tr><td> <a href="Concept_RegularTriangulationFaceBase_2.html"><I>RegularTriangulationFaceBase_2</I></a></td></tr>
+  <tr><td> <a href="Concept_RegularTriangulationTraits_2.html"><I>RegularTriangulationTraits_2</I></a></td></tr>
+  <tr><td> <a href="Concept_RegularTriangulationVertexBase_2.html"><I>RegularTriangulationVertexBase_2</I></a></td></tr>
+  <tr><td> <a href="Class_Regular_triangulation_2.html"><I>Regular_triangulation_2&lt;Traits,Tds&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Regular_triangulation_euclidean_traits_2.html"><I>Regular_triangulation_euclidean_traits_2&lt;K,Weight&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Regular_triangulation_face_base_2.html"><I>Regular_triangulation_face_base_2&lt;Traits,Fb&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Regular_triangulation_filtered_traits_2.html"><I>Regular_triangulation_filtered_traits_2&lt;FK&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Regular_triangulation_vertex_base_2.html"><I>Regular_triangulation_vertex_base_2&lt;Traits,Vb&gt;</I></a></td></tr>
+  <tr><td> <a href="Concept_TriangulationFaceBase_2.html"><I>TriangulationFaceBase_2</I></a></td></tr>
+  <tr><td> <a href="Concept_TriangulationHierarchyVertexBase_2.html"><I>TriangulationHierarchyVertexBase_2</I></a></td></tr>
+  <tr><td> <a href="Concept_TriangulationTraits_2.html"><I>TriangulationTraits_2</I></a></td></tr>
+  <tr><td> <a href="Concept_TriangulationVertexBaseWithInfo_2.html"><I>TriangulationVertexBaseWithInfo_2</I></a></td></tr>
+  <tr><td> <a href="Concept_TriangulationVertexBase_2.html"><I>TriangulationVertexBase_2</I></a></td></tr>
+  <tr><td> <a href="Enum_Triangulation_2-Traits-Tds---Locate_type.html"><I>Triangulation_2&lt;Traits,Tds&gt;::Locate_type</I></a></td></tr>
+  <tr><td> <a href="Class_Triangulation_2.html"><I>Triangulation_2&lt;Traits,Tds&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Triangulation_cw_ccw_2.html"><I>Triangulation_cw_ccw_2</I></a></td></tr>
+  <tr><td> <a href="Class_Triangulation_euclidean_traits_2.html"><I>Triangulation_euclidean_traits_2&lt;K&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Triangulation_euclidean_traits_xy_3.html"><I>Triangulation_euclidean_traits_xy_3&lt;K&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Triangulation_face_base_2.html"><I>Triangulation_face_base_2&lt;Traits,Fb&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Triangulation_face_base_with_info_2.html"><I>Triangulation_face_base_with_info_2&lt;Info,Traits,Fb&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Triangulation_hierarchy_2.html"><I>Triangulation_hierarchy_2&lt;Tr&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Triangulation_hierarchy_vertex_base_2.html"><I>Triangulation_hierarchy_vertex_base_2&lt;Vb&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Triangulation_vertex_base_2.html"><I>Triangulation_vertex_base_2&lt;Traits,Vb&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Triangulation_vertex_base_with_info_2.html"><I>Triangulation_vertex_base_with_info_2&lt;Info,Traits,Vb&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Weighted_point.html"><I>Weighted_point&lt;Pt,Wt&gt;</I></a></td></tr>
+    </table>
+    
+  
+
+  <div class="NavNext">Next chapter: <a href="../TDS_2/Chapter_main.html">2D Triangulation Data Structure</a></div>
+    
+  <div class="NavBottom">
+  
+  <strong>Navigation:</strong>
+<a href="../TDS_2/Chapter_main.html">Up</a>&nbsp;&nbsp;
+  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
+  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
+  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
+  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
+  <a href="../title.html">Title</a>
+  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
+
+<div class="NavAddress">
+<SMALL><a href="http://www.cgal.org" target="_top">CGAL Open Source Project</a>.
+Release 4.1.
+23 October 2012.</SMALL>
+</div>
+</body>  </html>

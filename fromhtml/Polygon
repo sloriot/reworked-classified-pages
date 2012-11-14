@@ -1,0 +1,146 @@
+
+    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en-US"> <head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="generator" content="CGAL latex_to_html converter">
+<!-- by cc_extract_html, $Id: cc_extract_html.cpp 44195 2008-07-16 08:46:48Z spion $ -->
+<!-- LaTeX source file: './Polygon_ref/intro.tex' -->
+<link rel="canonical" href="http://www.cgal.org/Manual/latest/doc_html/cgal_manual/Polygon_ref/Chapter_intro.html">
+<link href="../latex_to_html.css" rel="STYLESHEET">
+<title>2D Polygons Reference&nbsp;Manual</title>
+</head>
+<body bgcolor="white">
+
+<div class="NavTop">
+  
+  <strong>Navigation:</strong>
+<a href="Chapter_intro.html">Up</a>&nbsp;&nbsp;
+  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
+  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
+  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
+  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
+  <a href="../title.html">Title</a>
+  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
+<P>
+
+<A NAME="chap:polygon_ref"></A><h1>2D Polygons<BR>
+<I>Reference&nbsp;Manual</I></h1>
+
+ 
+<p class="subtitle">Geert-Jan Giezeman  and Wieger Wesselink</p>
+<P>
+
+<H3>Assertions</H3>
+   
+     
+     
+<A NAME="Index_anchor_1129"></A> 
+
+   
+
+   
+     
+     
+<A NAME="Index_anchor_1130"></A> 
+
+   
+
+The assertion flags for the polygons and polygon operations use 
+<I>POLYGON</I> in their names (<I>e.g.</I>, <I>CGAL_POLYGON_NO_ASSERTIONS</I>).
+<P>
+
+<a name="Section_18.3"></a>
+        
+<h2>18.3&nbsp;&nbsp;&nbsp;Classified Reference Pages</h2>
+<P>
+
+<H3>Concepts</H3>
+<P>
+
+<I><A HREF="Concept_PolygonTraits_2.html#Cross_link_anchor_998">PolygonTraits_2</A></I><BR>
+
+
+<P>
+
+<H3>Classes</H3>
+<P>
+
+<I><A HREF="Class_Polygon_2.html#Cross_link_anchor_999">CGAL::Polygon_2</A>&lt;<A HREF="Concept_PolygonTraits_2.html#Cross_link_anchor_998">PolygonTraits_2</A>, Container&gt;</I><BR>
+
+
+<P>
+
+<H3>Global Functions</H3>
+<P>
+
+<I><A HREF="Function_area_2.html#Cross_link_anchor_989">CGAL::area_2</A></I><BR>
+
+<I><A HREF="Function_bbox_2.html#Cross_link_anchor_990">CGAL::bbox_2</A></I><BR>
+
+<I><A HREF="Function_bottom_vertex_2.html#Cross_link_anchor_991">CGAL::bottom_vertex_2</A></I><BR>
+
+<I><A HREF="Function_bounded_side_2.html#Cross_link_anchor_992">CGAL::bounded_side_2</A></I><BR>
+
+<I><A HREF="Function_is_convex_2.html#Cross_link_anchor_993">CGAL::is_convex_2</A></I><BR>
+
+<I><A HREF="Function_is_simple_2.html#Cross_link_anchor_994">CGAL::is_simple_2</A></I><BR>
+
+<I><A HREF="Function_left_vertex_2.html#Cross_link_anchor_995">CGAL::left_vertex_2</A></I><BR>
+
+<I><A HREF="Function_orientation_2.html#Cross_link_anchor_996">CGAL::orientation_2</A></I><BR>
+
+<I><A HREF="Function_oriented_side_2.html#Cross_link_anchor_997">CGAL::oriented_side_2</A></I><BR>
+
+<I><A HREF="Function_polygon_area_2.html#Cross_link_anchor_1000">CGAL::polygon_area_2</A></I><BR>
+
+<I><A HREF="Function_right_vertex_2.html#Cross_link_anchor_1001">CGAL::right_vertex_2</A></I><BR>
+
+<I><A HREF="Function_top_vertex_2.html#Cross_link_anchor_1002">CGAL::top_vertex_2</A></I><BR>
+
+
+<P>
+
+<a name="Section_18.4"></a>
+        
+<h2>18.4&nbsp;&nbsp;&nbsp;Alphabetical List of Reference Pages</h2>
+<P>
+
+<table cellpadding="0">
+    
+  <tr><td> <a href="Function_area_2.html"><I>area_2</I></a></td></tr>
+  <tr><td> <a href="Function_bbox_2.html"><I>bbox_2</I></a></td></tr>
+  <tr><td> <a href="Function_bottom_vertex_2.html"><I>bottom_vertex_2</I></a></td></tr>
+  <tr><td> <a href="Function_bounded_side_2.html"><I>bounded_side_2</I></a></td></tr>
+  <tr><td> <a href="Function_is_convex_2.html"><I>is_convex_2</I></a></td></tr>
+  <tr><td> <a href="Function_is_simple_2.html"><I>is_simple_2</I></a></td></tr>
+  <tr><td> <a href="Function_left_vertex_2.html"><I>left_vertex_2</I></a></td></tr>
+  <tr><td> <a href="Function_orientation_2.html"><I>orientation_2</I></a></td></tr>
+  <tr><td> <a href="Function_oriented_side_2.html"><I>oriented_side_2</I></a></td></tr>
+  <tr><td> <a href="Concept_PolygonTraits_2.html"><I>PolygonTraits_2</I></a></td></tr>
+  <tr><td> <a href="Class_Polygon_2.html"><I>Polygon_2&lt;PolygonTraits_2, Container&gt;</I></a></td></tr>
+  <tr><td> <a href="Function_polygon_area_2.html"><I>polygon_area_2</I></a></td></tr>
+  <tr><td> <a href="Function_right_vertex_2.html"><I>right_vertex_2</I></a></td></tr>
+  <tr><td> <a href="Function_top_vertex_2.html"><I>top_vertex_2</I></a></td></tr>
+    </table>
+    
+  
+
+  <div class="NavNext">Next chapter: <a href="../Boolean_set_operations_2/Chapter_main.html">2D Regularized Boolean Set-Operations</a></div>
+    
+  <div class="NavBottom">
+  
+  <strong>Navigation:</strong>
+<a href="../Boolean_set_operations_2/Chapter_main.html">Up</a>&nbsp;&nbsp;
+  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
+  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
+  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
+  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
+  <a href="../title.html">Title</a>
+  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
+
+<div class="NavAddress">
+<SMALL><a href="http://www.cgal.org" target="_top">CGAL Open Source Project</a>.
+Release 4.1.
+23 October 2012.</SMALL>
+</div>
+</body>  </html>

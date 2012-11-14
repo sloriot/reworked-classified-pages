@@ -1,0 +1,152 @@
+
+    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en-US"> <head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="generator" content="CGAL latex_to_html converter">
+<!-- by cc_extract_html, $Id: cc_extract_html.cpp 44195 2008-07-16 08:46:48Z spion $ -->
+<!-- LaTeX source file: './TriangulationDS_3_ref/intro.tex' -->
+<link rel="canonical" href="http://www.cgal.org/Manual/latest/doc_html/cgal_manual/TriangulationDS_3_ref/Chapter_intro.html">
+<link href="../latex_to_html.css" rel="STYLESHEET">
+<title>3D Triangulation Data Structure Reference&nbsp;Manual</title>
+</head>
+<body bgcolor="white">
+
+<div class="NavTop">
+  
+  <strong>Navigation:</strong>
+<a href="Chapter_intro.html">Up</a>&nbsp;&nbsp;
+  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
+  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
+  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
+  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
+  <a href="../title.html">Title</a>
+  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
+<P>
+
+<h1>3D Triangulation Data Structure<BR>
+<I>Reference&nbsp;Manual</I></h1>
+
+ 
+<p class="subtitle">Sylvain Pion  and Monique Teillaud</p>
+<P>
+
+The triangulation data structure is able to represent a
+triangulation of a topological sphere <span class="math">S<SUP>d</SUP></span> of <span class="math"><span class="sym">&#x211D;</span><SUP>d+1</SUP></span>, for 
+<span class="math">d  <span class="sym">&isin;</span> {-1,0,1,2,3}</span>. (See&nbsp;<A HREF="../TriangulationDS_3/Chapter_main.html#TDS3-sec-intro">40.1</A>.)
+<P>
+
+The vertex class of a 3D-triangulation data structure must define
+a number of types and operations. 
+The requirements that are of geometric nature are required only when
+the triangulation data structure is used as a layer for the geometric
+triangulation classes. (See Section&nbsp;<A HREF="../TriangulationDS_3/Chapter_main.html#TDS3-sec-design">40.2</A>.)
+<P>
+
+The cell class of a triangulation data structure stores
+four handles to its four vertices and four handles to its four
+neighbors. The vertices are indexed 0, 1, 2, and 3 in a consistent order.
+The neighbor indexed <span class="math">i</span> lies opposite to vertex <I>i</I>.
+<P>
+
+In degenerate dimensions, cells are used to store faces of maximal
+dimension: in dimension&nbsp;2, each cell represents only one
+facet of index 3, and 3 edges <span class="math">(0,1)</span>, <span class="math">(1,2)</span> and <span class="math">(2,0)</span>; in
+dimension&nbsp;1, each cell represents one edge <span class="math">(0,1)</span>. (See 
+Section&nbsp;<A HREF="../TriangulationDS_3/Chapter_main.html#TDS3-sec-intro">40.1</A>.)
+<P>
+
+<a name="Section_40.5"></a>
+        
+<h2>40.5&nbsp;&nbsp;&nbsp;Classified Reference Pages</h2>
+<P>
+
+<h3>Concepts</h3>
+<P>
+
+<I><A HREF="Concept_TriangulationDataStructure_3.html#Cross_link_anchor_1387">TriangulationDataStructure_3</A></I>
+<P>
+
+<I><A HREF="Concept_TriangulationDataStructure_3--Cell.html#Cross_link_anchor_1388">TriangulationDataStructure_3::Cell</A></I><BR>
+
+<I><A HREF="Concept_TriangulationDataStructure_3--Vertex.html#Cross_link_anchor_1389">TriangulationDataStructure_3::Vertex</A></I>
+<P>
+
+<I><A HREF="Concept_TriangulationDSCellBase_3.html#Cross_link_anchor_1390">TriangulationDSCellBase_3</A></I><BR>
+
+<I><A HREF="Concept_TriangulationDSVertexBase_3.html#Cross_link_anchor_1391">TriangulationDSVertexBase_3</A></I>
+<P>
+
+<h3>Classes</h3>
+<P>
+
+<I><A HREF="Class_Triangulation_data_structure_3.html#Cross_link_anchor_1392">CGAL::Triangulation_data_structure_3</A>&lt;<A HREF="Concept_TriangulationDSVertexBase_3.html#Cross_link_anchor_1391">TriangulationDSVertexBase_3</A>,<A HREF="Concept_TriangulationDSCellBase_3.html#Cross_link_anchor_1390">TriangulationDSCellBase_3</A>&gt;</I>
+<P>
+
+This class is a model for the concept of the 3D-triangulation data
+structure <I><A HREF="Concept_TriangulationDataStructure_3.html#Cross_link_anchor_1387">TriangulationDataStructure_3</A></I>.
+It is templated by base classes for vertices and cells.
+<P>
+
+<span class="textsc">Cgal</span> provides base vertex classes and base cell classes:
+<P>
+
+<I><A HREF="Class_Triangulation_ds_cell_base_3.html#Cross_link_anchor_1393">CGAL::Triangulation_ds_cell_base_3</A>&lt;&gt;</I><BR>
+
+<I><A HREF="Class_Triangulation_ds_vertex_base_3.html#Cross_link_anchor_1394">CGAL::Triangulation_ds_vertex_base_3</A>&lt;&gt;</I><BR>
+
+<I><A HREF="../Triangulation_3_ref/Class_Triangulation_cell_base_3.html#Cross_link_anchor_1377">CGAL::Triangulation_cell_base_3</A>&lt;<A HREF="../Triangulation_3_ref/Concept_TriangulationTraits_3.html#Cross_link_anchor_1367">TriangulationTraits_3</A>, <A HREF="Concept_TriangulationDSCellBase_3.html#Cross_link_anchor_1390">TriangulationDSCellBase_3</A>&gt;</I><BR>
+
+<I><A HREF="../Triangulation_3_ref/Class_Triangulation_vertex_base_3.html#Cross_link_anchor_1380">CGAL::Triangulation_vertex_base_3</A>&lt;<A HREF="../Triangulation_3_ref/Concept_TriangulationTraits_3.html#Cross_link_anchor_1367">TriangulationTraits_3</A>, <A HREF="Concept_TriangulationDSVertexBase_3.html#Cross_link_anchor_1391">TriangulationDSVertexBase_3</A>&gt;</I><BR>
+
+<I><A HREF="../Triangulation_3_ref/Class_Triangulation_hierarchy_vertex_base_3.html#Cross_link_anchor_1382">CGAL::Triangulation_hierarchy_vertex_base_3</A>&lt;<A HREF="../Triangulation_3_ref/Concept_TriangulationVertexBase_3.html#Cross_link_anchor_1372">TriangulationVertexBase_3</A>&gt;</I>
+<P>
+
+<h4>Helper Classes</h4>
+<P>
+
+<I><A HREF="Class_Triangulation_utils_3.html#Cross_link_anchor_1395">CGAL::Triangulation_utils_3</A></I>
+<P>
+
+It defines operations on the indices of vertices and neighbors within
+a cell of a triangulation.
+<P>
+
+<a name="Section_40.6"></a>
+        
+<h2>40.6&nbsp;&nbsp;&nbsp;Alphabetical List of Reference Pages</h2>
+<P>
+
+<table cellpadding="0">
+    
+  <tr><td> <a href="Concept_TriangulationDataStructure_3--Cell.html"><I>TriangulationDataStructure_3::Cell</I></a></td></tr>
+  <tr><td> <a href="Concept_TriangulationDataStructure_3--Vertex.html"><I>TriangulationDataStructure_3::Vertex</I></a></td></tr>
+  <tr><td> <a href="Concept_TriangulationDataStructure_3.html"><I>TriangulationDataStructure_3</I></a></td></tr>
+  <tr><td> <a href="Concept_TriangulationDSCellBase_3.html"><I>TriangulationDSCellBase_3</I></a></td></tr>
+  <tr><td> <a href="Concept_TriangulationDSVertexBase_3.html"><I>TriangulationDSVertexBase_3</I></a></td></tr>
+  <tr><td> <a href="Class_Triangulation_data_structure_3.html"><I>Triangulation_data_structure_3&lt;TriangulationDSVertexBase_3,TriangulationDSCellBase_3&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Triangulation_ds_cell_base_3.html"><I>Triangulation_ds_cell_base_3&lt;&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Triangulation_ds_vertex_base_3.html"><I>Triangulation_ds_vertex_base_3&lt;&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Triangulation_utils_3.html"><I>Triangulation_utils_3</I></a></td></tr>
+    </table>
+    
+  
+
+  <div class="NavNext">Next chapter: <a href="../Periodic_3_triangulation_3/Chapter_main.html">3D Periodic Triangulations</a></div>
+    
+  <div class="NavBottom">
+  
+  <strong>Navigation:</strong>
+<a href="../Periodic_3_triangulation_3/Chapter_main.html">Up</a>&nbsp;&nbsp;
+  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
+  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
+  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
+  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
+  <a href="../title.html">Title</a>
+  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
+
+<div class="NavAddress">
+<SMALL><a href="http://www.cgal.org" target="_top">CGAL Open Source Project</a>.
+Release 4.1.
+23 October 2012.</SMALL>
+</div>
+</body>  </html>

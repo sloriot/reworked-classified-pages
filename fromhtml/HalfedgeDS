@@ -1,0 +1,163 @@
+
+    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en-US"> <head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="generator" content="CGAL latex_to_html converter">
+<!-- by cc_extract_html, $Id: cc_extract_html.cpp 44195 2008-07-16 08:46:48Z spion $ -->
+<!-- LaTeX source file: './HalfedgeDS_ref/intro.tex' -->
+<link rel="canonical" href="http://www.cgal.org/Manual/latest/doc_html/cgal_manual/HalfedgeDS_ref/Chapter_intro.html">
+<link href="../latex_to_html.css" rel="STYLESHEET">
+<title>Halfedge Data Structure Reference&nbsp;Manual</title>
+</head>
+<body bgcolor="white">
+
+<div class="NavTop">
+  
+  <strong>Navigation:</strong>
+<a href="Chapter_intro.html">Up</a>&nbsp;&nbsp;
+  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
+  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
+  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
+  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
+  <a href="../title.html">Title</a>
+  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
+<P>
+
+<A NAME="chapterHalfedgeDSRef"></A><h1>Halfedge Data Structure<BR>
+<I>Reference&nbsp;Manual</I></h1>
+
+ 
+
+<p class="subtitle">Lutz Kettner</p>
+<P>
+
+A halfedge data structure (abbreviated as <I><A HREF="Concept_HalfedgeDS.html#Cross_link_anchor_1121">HalfedgeDS</A></I>, or
+<I>HDS</I> for template parameters) is an edge-centered data structure
+capable of maintaining incidence information of vertices, edges and
+faces, for example for planar maps or polyhedral surfaces. It is a
+combinatorial data structure, geometric interpretation is added by
+classes built on top of the halfedge data structure.  These classes
+might be more convenient to use than the halfedge data structure
+directly, since the halfedge data structure is meant as an
+implementation layer.  See for example the <I><A HREF="../Polyhedron_ref/Class_Polyhedron_3.html#Cross_link_anchor_1110">CGAL::Polyhedron_3</A></I>
+class in Chapter&nbsp;<A HREF="../Polyhedron_ref/Chapter_intro.html#chapterPolyhedronRef">25</A>.
+<P>
+
+The data structure provided here is known as the
+FE-structure&nbsp;[<A HREF="../biblio.html#Biblio_w-ebdss-85">Wei85</A>], as
+halfedges&nbsp;[<A HREF="../biblio.html#Biblio_m-ism-88">M&auml;n88</A>, <A HREF="../biblio.html#Biblio_cgal:bfh-mgedm-95">BFH95</A>] or as the doubly connected edge
+list (DCEL)&nbsp;[<A HREF="../biblio.html#Biblio_bkos-cgaa-97">dBvKOS97</A>], although the original reference for
+the DCEL&nbsp;[<A HREF="../biblio.html#Biblio_mp-fitcp-78">MP78</A>] describes a related but different data
+structure. The halfedge data structure can also be seen as one of the
+variants of the quad-edge data structure&nbsp;[<A HREF="../biblio.html#Biblio_gs-pmgsc-85">GS85</A>]. In
+general, the quad-edge data can represent non-orientable 2-manifolds,
+but the variant here is restricted to orientable 2-manifolds only. An
+overview and comparison of these different data structures together
+with a thorough description of the design implemented here can be
+found in&nbsp;[<A HREF="../biblio.html#Biblio_k-ugpdd-99">Ket99</A>].
+<P>
+
+<a name="Section_26.4"></a>
+        
+<h2>26.4&nbsp;&nbsp;&nbsp;Classified Reference Pages</h2>
+<P>
+
+<h3>Concepts</h3>
+<P>
+
+<I><A HREF="Concept_HalfedgeDS.html#Cross_link_anchor_1121">HalfedgeDS&lt;Traits,Items,Alloc&gt;</A></I><BR>
+
+<I><A HREF="Concept_HalfedgeDSItems.html#Cross_link_anchor_1124">HalfedgeDSItems</A></I><BR>
+
+<I><A HREF="Concept_HalfedgeDSVertex.html#Cross_link_anchor_1125">HalfedgeDSVertex</A></I><BR>
+
+<I><A HREF="Concept_HalfedgeDSHalfedge.html#Cross_link_anchor_1123">HalfedgeDSHalfedge</A></I><BR>
+
+<I><A HREF="Concept_HalfedgeDSFace.html#Cross_link_anchor_1122">HalfedgeDSFace</A></I>
+<P>
+
+<h3>Classes</h3>
+<P>
+
+<I><A HREF="Class_HalfedgeDS_default.html#Cross_link_anchor_1128">CGAL::HalfedgeDS_default</A>&lt;Traits,<A HREF="Concept_HalfedgeDSItems.html#Cross_link_anchor_1124">HalfedgeDSItems</A>,Alloc&gt;</I><BR>
+
+<I><A HREF="Class_HalfedgeDS_list.html#Cross_link_anchor_1137">CGAL::HalfedgeDS_list</A>&lt;Traits,<A HREF="Concept_HalfedgeDSItems.html#Cross_link_anchor_1124">HalfedgeDSItems</A>,Alloc&gt;</I><BR>
+
+<I><A HREF="Class_HalfedgeDS_vector.html#Cross_link_anchor_1138">CGAL::HalfedgeDS_vector</A>&lt;Traits,<A HREF="Concept_HalfedgeDSItems.html#Cross_link_anchor_1124">HalfedgeDSItems</A>,Alloc&gt;</I>
+<P>
+
+<I><A HREF="Class_HalfedgeDS_min_items.html#Cross_link_anchor_1136">CGAL::HalfedgeDS_min_items</A></I><BR>
+
+<I><A HREF="Class_HalfedgeDS_items_2.html#Cross_link_anchor_1134">CGAL::HalfedgeDS_items_2</A></I>
+<P>
+
+<I><A HREF="Class_HalfedgeDS_vertex_base.html#Cross_link_anchor_1139">CGAL::HalfedgeDS_vertex_base&lt;Refs&gt;</A></I><BR>
+
+<I><A HREF="Class_HalfedgeDS_halfedge_base.html#Cross_link_anchor_1132">CGAL::HalfedgeDS_halfedge_base&lt;Refs&gt;</A></I><BR>
+
+<I><A HREF="Class_HalfedgeDS_face_base.html#Cross_link_anchor_1130">CGAL::HalfedgeDS_face_base&lt;Refs&gt;</A></I>
+<P>
+
+<I><A HREF="Class_HalfedgeDS_vertex_min_base.html#Cross_link_anchor_1140">CGAL::HalfedgeDS_vertex_min_base&lt;Refs&gt;</A></I><BR>
+
+<I><A HREF="Class_HalfedgeDS_halfedge_min_base.html#Cross_link_anchor_1133">CGAL::HalfedgeDS_halfedge_min_base&lt;Refs&gt;</A></I><BR>
+
+<I><A HREF="Class_HalfedgeDS_face_min_base.html#Cross_link_anchor_1131">CGAL::HalfedgeDS_face_min_base&lt;Refs&gt;</A></I>
+<P>
+
+<I><A HREF="Class_HalfedgeDS_items_decorator.html#Cross_link_anchor_1135">CGAL::HalfedgeDS_items_decorator&lt;HDS&gt;</A></I><BR>
+
+<I><A HREF="Class_HalfedgeDS_decorator.html#Cross_link_anchor_1127">CGAL::HalfedgeDS_decorator&lt;HDS&gt;</A></I><BR>
+
+<I><A HREF="Class_HalfedgeDS_const_decorator.html#Cross_link_anchor_1126">CGAL::HalfedgeDS_const_decorator&lt;HDS&gt;</A></I>
+<P>
+
+<a name="Section_26.5"></a>
+        
+<h2>26.5&nbsp;&nbsp;&nbsp;Alphabetical List of Reference Pages</h2>
+<P>
+
+<table cellpadding="0">
+    
+  <tr><td> <a href="Concept_HalfedgeDS.html"><I>HalfedgeDS&lt;Traits,Items,Alloc&gt;</I></a></td></tr>
+  <tr><td> <a href="Concept_HalfedgeDSFace.html"><I>HalfedgeDSFace</I></a></td></tr>
+  <tr><td> <a href="Concept_HalfedgeDSHalfedge.html"><I>HalfedgeDSHalfedge</I></a></td></tr>
+  <tr><td> <a href="Concept_HalfedgeDSItems.html"><I>HalfedgeDSItems</I></a></td></tr>
+  <tr><td> <a href="Concept_HalfedgeDSVertex.html"><I>HalfedgeDSVertex</I></a></td></tr>
+  <tr><td> <a href="Class_HalfedgeDS_const_decorator.html"><I>HalfedgeDS_const_decorator&lt;HDS&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_HalfedgeDS_decorator.html"><I>HalfedgeDS_decorator&lt;HDS&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_HalfedgeDS_default.html"><I>HalfedgeDS_default&lt;Traits,HalfedgeDSItems,Alloc&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_HalfedgeDS_face_base.html"><I>HalfedgeDS_face_base&lt;Refs&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_HalfedgeDS_face_min_base.html"><I>HalfedgeDS_face_min_base&lt;Refs&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_HalfedgeDS_halfedge_base.html"><I>HalfedgeDS_halfedge_base&lt;Refs&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_HalfedgeDS_halfedge_min_base.html"><I>HalfedgeDS_halfedge_min_base&lt;Refs&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_HalfedgeDS_items_2.html"><I>HalfedgeDS_items_2</I></a></td></tr>
+  <tr><td> <a href="Class_HalfedgeDS_items_decorator.html"><I>HalfedgeDS_items_decorator&lt;HDS&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_HalfedgeDS_list.html"><I>HalfedgeDS_list&lt;Traits,HalfedgeDSItems,Alloc&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_HalfedgeDS_min_items.html"><I>HalfedgeDS_min_items</I></a></td></tr>
+  <tr><td> <a href="Class_HalfedgeDS_vector.html"><I>HalfedgeDS_vector&lt;Traits,HalfedgeDSItems,Alloc&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_HalfedgeDS_vertex_base.html"><I>HalfedgeDS_vertex_base&lt;Refs&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_HalfedgeDS_vertex_min_base.html"><I>HalfedgeDS_vertex_min_base&lt;Refs&gt;</I></a></td></tr>
+    </table>
+    
+  
+
+  <div class="NavNext">Next chapter: <a href="../Combinatorial_map/Chapter_main.html">Combinatorial Maps</a></div>
+    
+  <div class="NavBottom">
+  
+  <strong>Navigation:</strong>
+<a href="../Combinatorial_map/Chapter_main.html">Up</a>&nbsp;&nbsp;
+  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
+  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
+  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
+  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
+  <a href="../title.html">Title</a>
+  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
+
+<div class="NavAddress">
+<SMALL><a href="http://www.cgal.org" target="_top">CGAL Open Source Project</a>.
+Release 4.1.
+23 October 2012.</SMALL>
+</div>
+</body>  </html>

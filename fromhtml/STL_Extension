@@ -1,0 +1,317 @@
+
+    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en-US"> <head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="generator" content="CGAL latex_to_html converter">
+<!-- by cc_extract_html, $Id: cc_extract_html.cpp 44195 2008-07-16 08:46:48Z spion $ -->
+<!-- LaTeX source file: './STL_Extension_ref/intro.tex' -->
+<link rel="canonical" href="http://www.cgal.org/Manual/latest/doc_html/cgal_manual/STL_Extension_ref/Chapter_intro.html">
+<link href="../latex_to_html.css" rel="STYLESHEET">
+<title>STL Extensions for CGAL Reference&nbsp;Manual</title>
+</head>
+<body bgcolor="white">
+
+<div class="NavTop">
+  
+  <strong>Navigation:</strong>
+<a href="Chapter_intro.html">Up</a>&nbsp;&nbsp;
+  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
+  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
+  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
+  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
+  <a href="../title.html">Title</a>
+  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
+<P>
+
+<A NAME="chapterDataStructures"></A><h1>STL Extensions for CGAL<BR>
+<I>Reference&nbsp;Manual</I></h1>
+
+ <A NAME="chapterStlExtensions"></A>
+<P>
+
+<p class="subtitle">Michael Hoffmann, Lutz Kettner, Sylvain Pion, and Ron Wein</p>
+<P>
+
+<a name="Section_73.9"></a>
+        
+<h2>73.9&nbsp;&nbsp;&nbsp;Classified Reference Pages</h2>
+<P>
+
+<h3>Doubly-Connected List Managing Items in Place</h3>
+<P>
+
+<I><A HREF="Class_In_place_list.html#Cross_link_anchor_1897">CGAL::In_place_list&lt;T,bool&gt;</A></I><BR>
+
+<I><A HREF="Class_In_place_list_base.html#Cross_link_anchor_1896">CGAL::In_place_list_base&lt;T&gt;</A></I>
+<P>
+
+<h3>Compact Container</h3>
+<P>
+
+<I><A HREF="Class_Compact_container.html#Cross_link_anchor_1900">CGAL::Compact_container&lt;T, Allocator&gt;</A></I><BR>
+
+<I><A HREF="Class_Compact_container_traits.html#Cross_link_anchor_1899">CGAL::Compact_container_traits&lt;T&gt;</A></I><BR>
+
+<I><A HREF="Class_Compact_container_base.html#Cross_link_anchor_1898">CGAL::Compact_container_base</A></I>
+<P>
+
+<h3>Multiset with Extended Functionality</h3>
+<P>
+
+<I><A HREF="Class_Multiset.html#Cross_link_anchor_1901">CGAL::Multiset&lt;Type,Compare,Allocator&gt;</A></I>
+<P>
+
+<h3>Generic Algorithms</h3>
+<P>
+
+<I><A HREF="Function_cpp0x--copy_n.html#Cross_link_anchor_1907">CGAL::cpp0x::copy_n</A></I><BR>
+
+<I><A HREF="Function_copy_n.html#Cross_link_anchor_1908">CGAL::copy_n</A></I><BR>
+
+<I><A HREF="Function_min_max_element.html#Cross_link_anchor_1909">CGAL::min_max_element</A></I><BR>
+
+<I><A HREF="Function_cpp0x--next.html#Cross_link_anchor_1903">CGAL::cpp0x::next</A></I><BR>
+
+<I><A HREF="Function_cpp0x--prev.html#Cross_link_anchor_1904">CGAL::cpp0x::prev</A></I><BR>
+
+<I><A HREF="Function_predecessor.html#Cross_link_anchor_1905">CGAL::predecessor</A></I><BR>
+
+<I><A HREF="Function_successor.html#Cross_link_anchor_1906">CGAL::successor</A></I>
+<P>
+
+<h3>Iterators and Iterator/Circulator Adaptors.</h3>
+<P>
+
+<I><A HREF="Class_Dispatch_output_iterator.html#Cross_link_anchor_1910">CGAL::Dispatch_output_iterator&lt;V,O&gt;</A></I><BR>
+
+<I><A HREF="Class_Dispatch_or_drop_output_iterator.html#Cross_link_anchor_1911">CGAL::Dispatch_or_drop_output_iterator&lt;V,O&gt;</A></I><BR>
+
+<I><A HREF="Class_Emptyset_iterator.html#Cross_link_anchor_1912">CGAL::Emptyset_iterator</A></I><BR>
+
+<I><A HREF="Class_Oneset_iterator.html#Cross_link_anchor_1913">CGAL::Oneset_iterator&lt;T&gt;</A></I><BR>
+
+<I><A HREF="Class_Insert_iterator.html#Cross_link_anchor_1916">CGAL::Insert_iterator&lt;Container&gt;</A></I><BR>
+
+<I><A HREF="Class_Counting_iterator.html#Cross_link_anchor_1915">CGAL::Counting_iterator&lt;Iterator, Value&gt;</A></I><BR>
+
+<I><A HREF="Class_N_step_adaptor.html#Cross_link_anchor_1917">CGAL::N_step_adaptor</A>&lt;I,<A HREF="../NumberTypeSupport_ref/Class_int.html#Cross_link_anchor_80">int</A> N&gt;</I><BR>
+
+<I><A HREF="Class_Filter_iterator.html#Cross_link_anchor_1918">CGAL::Filter_iterator&lt;Iterator, Predicate&gt;</A></I><BR>
+
+<I><A HREF="Class_Join_input_iterator_1.html#Cross_link_anchor_1919">CGAL::Join_input_iterator_1&lt;Iterator, Creator&gt;</A></I><BR>
+
+<I><A HREF="Class_Inverse_index.html#Cross_link_anchor_1920">CGAL::Inverse_index&lt;IC&gt;</A></I><BR>
+
+<I><A HREF="Class_Random_access_adaptor.html#Cross_link_anchor_1921">CGAL::Random_access_adaptor&lt;IC&gt;</A></I><BR>
+
+<I><A HREF="Class_Random_access_value_adaptor.html#Cross_link_anchor_1922">CGAL::Random_access_value_adaptor&lt;IC,T&gt;</A></I>
+<P>
+
+<h3>Projection Function Objects</h3>
+<P>
+
+<I><A HREF="FunctionObjectClass_Identity.html#Cross_link_anchor_1926">CGAL::Identity&lt;Value&gt;</A></I><BR>
+
+<I><A HREF="FunctionObjectClass_Dereference.html#Cross_link_anchor_1927">CGAL::Dereference&lt;Value&gt;</A></I><BR>
+
+<I><A HREF="FunctionObjectClass_Get_address.html#Cross_link_anchor_1928">CGAL::Get_address&lt;Value&gt;</A></I><BR>
+
+<I><A HREF="FunctionObjectClass_Cast_function_object.html#Cross_link_anchor_1929">CGAL::Cast_function_object&lt;Arg, Result&gt;</A></I><BR>
+
+<I><A HREF="FunctionObjectClass_Project_vertex.html#Cross_link_anchor_1930">CGAL::Project_vertex&lt;Node&gt;</A></I><BR>
+
+<I><A HREF="FunctionObjectClass_Project_facet.html#Cross_link_anchor_1931">CGAL::Project_facet&lt;Node&gt;</A></I><BR>
+
+<I><A HREF="FunctionObjectClass_Project_point.html#Cross_link_anchor_1932">CGAL::Project_point&lt;Node&gt;</A></I><BR>
+
+<I><A HREF="FunctionObjectClass_Project_normal.html#Cross_link_anchor_1933">CGAL::Project_normal&lt;Node&gt;</A></I><BR>
+
+<I><A HREF="FunctionObjectClass_Project_plane.html#Cross_link_anchor_1934">CGAL::Project_plane&lt;Node&gt;</A></I><BR>
+
+<I><A HREF="FunctionObjectClass_Project_next.html#Cross_link_anchor_1935">CGAL::Project_next&lt;Node&gt;</A></I><BR>
+
+<I><A HREF="FunctionObjectClass_Project_prev.html#Cross_link_anchor_1936">CGAL::Project_prev&lt;Node&gt;</A></I><BR>
+
+<I><A HREF="FunctionObjectClass_Project_next_opposite.html#Cross_link_anchor_1937">CGAL::Project_next_opposite&lt;Node&gt;</A></I><BR>
+
+<I><A HREF="FunctionObjectClass_Project_opposite_prev.html#Cross_link_anchor_1938">CGAL::Project_opposite_prev&lt;Node&gt;</A></I>
+<P>
+
+<h3>Creator Function Objects</h3>
+<P>
+
+<I><A HREF="FunctionObjectClass_Creator_1.html#Cross_link_anchor_1939">CGAL::Creator_1&lt;Arg, Result&gt;</A></I><BR>
+
+<I><A HREF="FunctionObjectClass_Creator_2.html#Cross_link_anchor_1940">CGAL::Creator_2&lt;Arg1, Arg2, Result&gt;</A></I><BR>
+
+<I><A HREF="FunctionObjectClass_Creator_3.html#Cross_link_anchor_1941">CGAL::Creator_3&lt;Arg1, Arg2, Arg3, Result&gt;</A></I><BR>
+
+<I><A HREF="FunctionObjectClass_Creator_4.html#Cross_link_anchor_1942">CGAL::Creator_4&lt;Arg1, Arg2, Arg3, Arg4, Result&gt;</A></I><BR>
+
+<I><A HREF="FunctionObjectClass_Creator_5.html#Cross_link_anchor_1943">CGAL::Creator_5&lt;Arg1, Arg2, Arg3, Arg4, Arg5, Result&gt;</A></I><BR>
+
+<I><A HREF="FunctionObjectClass_Creator_uniform_2.html#Cross_link_anchor_1944">CGAL::Creator_uniform_2&lt;Arg, Result&gt;</A></I><BR>
+
+<I><A HREF="FunctionObjectClass_Creator_uniform_3.html#Cross_link_anchor_1945">CGAL::Creator_uniform_3&lt;Arg, Result&gt;</A></I><BR>
+
+<I><A HREF="FunctionObjectClass_Creator_uniform_4.html#Cross_link_anchor_1946">CGAL::Creator_uniform_4&lt;Arg, Result&gt;</A></I><BR>
+
+<I><A HREF="FunctionObjectClass_Creator_uniform_5.html#Cross_link_anchor_1947">CGAL::Creator_uniform_5&lt;Arg, Result&gt;</A></I><BR>
+
+<I><A HREF="FunctionObjectClass_Creator_uniform_6.html#Cross_link_anchor_1948">CGAL::Creator_uniform_6&lt;Arg, Result&gt;</A></I><BR>
+
+<I><A HREF="FunctionObjectClass_Creator_uniform_7.html#Cross_link_anchor_1949">CGAL::Creator_uniform_7&lt;Arg, Result&gt;</A></I><BR>
+
+<I><A HREF="FunctionObjectClass_Creator_uniform_8.html#Cross_link_anchor_1950">CGAL::Creator_uniform_8&lt;Arg, Result&gt;</A></I><BR>
+
+<I><A HREF="FunctionObjectClass_Creator_uniform_9.html#Cross_link_anchor_1951">CGAL::Creator_uniform_9&lt;Arg, Result&gt;</A></I><BR>
+
+<I><A HREF="FunctionObjectClass_Creator_uniform_d.html#Cross_link_anchor_1952">CGAL::Creator_uniform_d&lt;Arg, Result&gt;</A></I>
+<P>
+
+<h3>Utilities</h3>
+
+<I><A HREF="Class_Twotuple.html#Cross_link_anchor_1953">CGAL::Twotuple&lt;T&gt;</A></I><BR>
+
+<I><A HREF="Class_Threetuple.html#Cross_link_anchor_1954">CGAL::Threetuple&lt;T&gt;</A></I><BR>
+
+<I><A HREF="Class_Fourtuple.html#Cross_link_anchor_1955">CGAL::Fourtuple&lt;T&gt;</A></I><BR>
+
+<I><A HREF="Class_Sixtuple.html#Cross_link_anchor_1956">CGAL::Sixtuple&lt;T&gt;</A></I><BR>
+
+<I><A HREF="Class_Triple.html#Cross_link_anchor_1957">CGAL::Triple&lt;T1, T2, T3&gt;</A></I><BR>
+
+<I><A HREF="Class_Quadruple.html#Cross_link_anchor_1958">CGAL::Quadruple&lt;T1, T2, T3, T4&gt;</A></I><BR>
+
+<I><A HREF="Class_Boolean_tag.html#Cross_link_anchor_1959">CGAL::Boolean_tag</A>&lt;bool value&gt;</I><BR>
+
+<I><A HREF="Class_Tag_true.html#Cross_link_anchor_1960">CGAL::Tag_true</A></I><BR>
+
+<I><A HREF="Class_Tag_false.html#Cross_link_anchor_1961">CGAL::Tag_false</A></I><BR>
+
+<I><A HREF="Class_Null_tag.html#Cross_link_anchor_1963">CGAL::Null_tag</A></I><BR>
+
+<I><A HREF="Class_Null_functor.html#Cross_link_anchor_1962">CGAL::Null_functor</A></I><BR>
+
+<I><A HREF="Class_Uncertain.html#Cross_link_anchor_1964">CGAL::Uncertain&lt;T&gt;</A></I><BR>
+
+<I><A HREF="Class_Default.html#Cross_link_anchor_1972">CGAL::Default</A></I><BR>
+
+<I><A HREF="Class_Fast.html#Cross_link_anchor_1967">CGAL::Fast</A></I><BR>
+
+<I><A HREF="Class_Compact.html#Cross_link_anchor_1968">CGAL::Compact</A></I><BR>
+
+<I><A HREF="Class_Location_policy.html#Cross_link_anchor_1969">CGAL::Location_policy&lt;Tag&gt;</A></I><BR>
+
+<I><A HREF="Class_Fast_location.html#Cross_link_anchor_1970">CGAL::Fast_location</A></I><BR>
+
+<I><A HREF="Class_Compact_location.html#Cross_link_anchor_1971">CGAL::Compact_location</A></I>
+<P>
+
+<a name="Section_73.10"></a>
+        
+<h2>73.10&nbsp;&nbsp;&nbsp;Alphabetical List of Reference Pages</h2>
+<P>
+
+<table cellpadding="0">
+    
+  <tr><td> <a href="Class_Boolean_tag.html"><I>Boolean_tag&lt;bool value&gt;</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectClass_Cast_function_object.html"><I>Cast_function_object&lt;Arg, Result&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Compact_container.html"><I>Compact_container&lt;T, Allocator&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Compact_container_base.html"><I>Compact_container_base</I></a></td></tr>
+  <tr><td> <a href="Class_Compact_container_traits.html"><I>Compact_container_traits&lt;T&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Compact_location.html"><I>Compact_location</I></a></td></tr>
+  <tr><td> <a href="Class_Compact.html"><I>Compact</I></a></td></tr>
+  <tr><td> <a href="Class_Compare_to_less.html"><I>Compare_to_less&lt;F&gt;</I></a></td></tr>
+  <tr><td> <a href="Function_compare_to_less.html"><I>compare_to_less</I></a></td></tr>
+  <tr><td> <a href="Class_Const_oneset_iterator.html"><I>Const_oneset_iterator&lt;T&gt;</I></a></td></tr>
+  <tr><td> <a href="Function_copy_n.html"><I>copy_n</I></a></td></tr>
+  <tr><td> <a href="Class_Counting_iterator.html"><I>Counting_iterator&lt;Iterator, Value&gt;</I></a></td></tr>
+  <tr><td> <a href="Function_cpp0x--copy_n.html"><I>cpp0x::copy_n</I></a></td></tr>
+  <tr><td> <a href="Function_cpp0x--next.html"><I>cpp0x::next</I></a></td></tr>
+  <tr><td> <a href="Function_cpp0x--prev.html"><I>cpp0x::prev</I></a></td></tr>
+  <tr><td> <a href="Class_cpp11--array.html"><I>cpp11::array&lt;T, int&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_cpp11--tuple.html"><I>cpp11::tuple&lt;...&gt;</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectClass_Creator_1.html"><I>Creator_1&lt;Arg, Result&gt;</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectClass_Creator_2.html"><I>Creator_2&lt;Arg1, Arg2, Result&gt;</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectClass_Creator_3.html"><I>Creator_3&lt;Arg1, Arg2, Arg3, Result&gt;</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectClass_Creator_4.html"><I>Creator_4&lt;Arg1, Arg2, Arg3, Arg4, Result&gt;</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectClass_Creator_5.html"><I>Creator_5&lt;Arg1, Arg2, Arg3, Arg4, Arg5, Result&gt;</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectClass_Creator_uniform_2.html"><I>Creator_uniform_2&lt;Arg, Result&gt;</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectClass_Creator_uniform_3.html"><I>Creator_uniform_3&lt;Arg, Result&gt;</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectClass_Creator_uniform_4.html"><I>Creator_uniform_4&lt;Arg, Result&gt;</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectClass_Creator_uniform_5.html"><I>Creator_uniform_5&lt;Arg, Result&gt;</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectClass_Creator_uniform_6.html"><I>Creator_uniform_6&lt;Arg, Result&gt;</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectClass_Creator_uniform_7.html"><I>Creator_uniform_7&lt;Arg, Result&gt;</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectClass_Creator_uniform_8.html"><I>Creator_uniform_8&lt;Arg, Result&gt;</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectClass_Creator_uniform_9.html"><I>Creator_uniform_9&lt;Arg, Result&gt;</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectClass_Creator_uniform_d.html"><I>Creator_uniform_d&lt;Arg, Result&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Default.html"><I>Default</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectClass_Dereference.html"><I>Dereference&lt;Value&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Dispatch_or_drop_output_iterator.html"><I>Dispatch_or_drop_output_iterator&lt;V,O&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Dispatch_output_iterator.html"><I>Dispatch_output_iterator&lt;V,O&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Emptyset_iterator.html"><I>Emptyset_iterator</I></a></td></tr>
+  <tr><td> <a href="Class_Fast_location.html"><I>Fast_location</I></a></td></tr>
+  <tr><td> <a href="Class_Fast.html"><I>Fast</I></a></td></tr>
+  <tr><td> <a href="Class_Filter_iterator.html"><I>Filter_iterator&lt;Iterator, Predicate&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Fourtuple.html"><I>Fourtuple&lt;T&gt;</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectClass_Get_address.html"><I>Get_address&lt;Value&gt;</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectClass_Identity.html"><I>Identity&lt;Value&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Insert_iterator.html"><I>Insert_iterator&lt;Container&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Inverse_index.html"><I>Inverse_index&lt;IC&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_In_place_list.html"><I>In_place_list&lt;T,bool&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_In_place_list_base.html"><I>In_place_list_base&lt;T&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Join_input_iterator_1.html"><I>Join_input_iterator_1&lt;Iterator, Creator&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Location_policy.html"><I>Location_policy&lt;Tag&gt;</I></a></td></tr>
+  <tr><td> <a href="Function_min_max_element.html"><I>min_max_element</I></a></td></tr>
+  <tr><td> <a href="Class_Multiset.html"><I>Multiset&lt;Type,Compare,Allocator&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Null_functor.html"><I>Null_functor</I></a></td></tr>
+  <tr><td> <a href="Class_Null_tag.html"><I>Null_tag</I></a></td></tr>
+  <tr><td> <a href="Class_N_step_adaptor.html"><I>N_step_adaptor&lt;I,int N&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Object.html"><I>Object</I></a></td></tr>
+  <tr><td> <a href="Class_Oneset_iterator.html"><I>Oneset_iterator&lt;T&gt;</I></a></td></tr>
+  <tr><td> <a href="Function_predecessor.html"><I>predecessor</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectConcept_Projection_object.html"><I>Projection_object</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectClass_Project_facet.html"><I>Project_facet&lt;Node&gt;</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectClass_Project_next.html"><I>Project_next&lt;Node&gt;</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectClass_Project_next_opposite.html"><I>Project_next_opposite&lt;Node&gt;</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectClass_Project_normal.html"><I>Project_normal&lt;Node&gt;</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectClass_Project_opposite_prev.html"><I>Project_opposite_prev&lt;Node&gt;</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectClass_Project_plane.html"><I>Project_plane&lt;Node&gt;</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectClass_Project_point.html"><I>Project_point&lt;Node&gt;</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectClass_Project_prev.html"><I>Project_prev&lt;Node&gt;</I></a></td></tr>
+  <tr><td> <a href="FunctionObjectClass_Project_vertex.html"><I>Project_vertex&lt;Node&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Quadruple.html"><I>Quadruple&lt;T1, T2, T3, T4&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Random_access_adaptor.html"><I>Random_access_adaptor&lt;IC&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Random_access_value_adaptor.html"><I>Random_access_value_adaptor&lt;IC,T&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Sixtuple.html"><I>Sixtuple&lt;T&gt;</I></a></td></tr>
+  <tr><td> <a href="Function_successor.html"><I>successor</I></a></td></tr>
+  <tr><td> <a href="Class_Tag_false.html"><I>Tag_false</I></a></td></tr>
+  <tr><td> <a href="Class_Tag_true.html"><I>Tag_true</I></a></td></tr>
+  <tr><td> <a href="Class_Threetuple.html"><I>Threetuple&lt;T&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Triple.html"><I>Triple&lt;T1, T2, T3&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Twotuple.html"><I>Twotuple&lt;T&gt;</I></a></td></tr>
+  <tr><td> <a href="Class_Uncertain.html"><I>Uncertain&lt;T&gt;</I></a></td></tr>
+    </table>
+    
+  
+
+  <div class="NavNext">Next chapter: <a href="../BGL/Chapter_main.html">CGAL and the Boost Graph Library</a></div>
+    
+  <div class="NavBottom">
+  
+  <strong>Navigation:</strong>
+<a href="../BGL/Chapter_main.html">Up</a>&nbsp;&nbsp;
+  <a href="../contents.html">Table of Contents</A>&nbsp;&nbsp;
+  <a href="../packages.html">Package Overview</a>&nbsp;&nbsp;
+  <a href="../biblio.html">Bibliography</a>&nbsp;&nbsp;
+  <a href="../manual_index.html">Index</a>&nbsp;&nbsp;
+  <a href="../title.html">Title</a>
+  &nbsp;&nbsp;<a href="../acknowledge.html">Acknowledging CGAL</a></div>
+
+<div class="NavAddress">
+<SMALL><a href="http://www.cgal.org" target="_top">CGAL Open Source Project</a>.
+Release 4.1.
+23 October 2012.</SMALL>
+</div>
+</body>  </html>
