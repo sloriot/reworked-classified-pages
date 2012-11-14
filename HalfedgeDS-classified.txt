@@ -34,9 +34,9 @@ found in \cite k-ugpdd-99.
 
 - `HalfedgeDSVertex`
 
-- `::HalfedgeDSHalfedge`
+- `HalfedgeDSHalfedge`
 
-- `::HalfedgeDSFace`
+- `HalfedgeDSFace`
 
 ## Classes ##
 

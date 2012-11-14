@@ -10,7 +10,7 @@ helper classes that allow their activity to be monitored.
 Sorting
 --------------
 
-- `::Kinetic::Sort<Traits, Visitor>`
+- `Kinetic::Sort<Traits, Visitor>`
 
 - `Kinetic::SortVisitor`
 

@@ -21,7 +21,7 @@ Here we list the main classes and concepts provided by the framework to support 
 
 - `Kinetic::ActiveObjectsTable`
 - `CGAL::Kinetic::Active_objects_vector<MovingObject>`
-- `::Kinetic::Cartesian<FunctionKernel>`
+- `Kinetic::Cartesian<FunctionKernel>`
 - `Kinetic::FunctionKernel`
 - `Kinetic::InstantaneousKernel`
 - `CGAL::Kinetic::Default_instantaneous_kernel<ActiveObjectsTable, StaticKernel>`

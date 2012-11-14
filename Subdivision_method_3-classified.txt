@@ -18,13 +18,13 @@ host.
 
 ## Concepts ##
 
-- `::PQQMask_3`
+- `PQQMask_3`
 
-- `::PTQMask_3`
+- `PTQMask_3`
 
-- `::DQQMask_3`
+- `DQQMask_3`
 
-- `::Sqrt3Mask_3`
+- `Sqrt3Mask_3`
 
 ## Classes ##
 

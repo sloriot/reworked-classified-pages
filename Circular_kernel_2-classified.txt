@@ -106,9 +106,9 @@
 
 - `CGAL::has_on`
 
-- `::Kernel::do_intersect "CGAL::do_intersect"`
+- `Kernel::do_intersect "CGAL::do_intersect"`
 
-- `::Kernel::intersection "CGAL::intersection"`
+- `Kernel::intersection "CGAL::intersection"`
 
 - `CGAL::x_extremal_point`
 

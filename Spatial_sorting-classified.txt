@@ -30,11 +30,11 @@ Traits classes
 Concepts
 --------------
 
-- `::SpatialSortingTraits_2`
+- `SpatialSortingTraits_2`
 
-- `::SpatialSortingTraits_3`
+- `SpatialSortingTraits_3`
 
-- `::SpatialSortingTraits_d`
+- `SpatialSortingTraits_d`
 
 Utilities
 --------------

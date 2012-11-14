@@ -147,9 +147,9 @@
 
 - `CGAL::theta_extremal_points`
 
-- `::Kernel::do_intersect "CGAL::do_intersect"`
+- `Kernel::do_intersect "CGAL::do_intersect"`
 
-- `::Kernel::intersection "CGAL::intersection"`
+- `Kernel::intersection "CGAL::intersection"`
 
 # Algebraic Concepts #
 

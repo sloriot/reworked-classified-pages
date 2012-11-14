@@ -76,7 +76,7 @@
 
 ## Relates Algebraic Extensions ##
 
-- `::RootOf_2`
+- `RootOf_2`
 
 - `CGAL::Root_of_traits<RT>`
 

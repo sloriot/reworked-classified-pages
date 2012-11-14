@@ -21,9 +21,9 @@ surface can be used without knowing the halfedge data structure.
 
 ## Concepts ##
 
-- `::PolyhedronTraits_3`
+- `PolyhedronTraits_3`
 
-- `::PolyhedronItems_3`
+- `PolyhedronItems_3`
 
 ## Classes ##
 
