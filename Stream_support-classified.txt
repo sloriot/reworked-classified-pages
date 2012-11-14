@@ -10,44 +10,44 @@ the printing mode.
 
 ## Enum ##
 
-\ref ::CGAL::Mode 
+\ref CGAL::Mode
 
 ## Functions ##
 
-\ref ::CGAL::get_mode 
+\ref CGAL::get_mode
 
-\ref ::CGAL::is_ascii 
+\ref CGAL::is_ascii
 
-\ref ::CGAL::is_binary 
+\ref CGAL::is_binary
 
-\ref ::CGAL::is_pretty 
+\ref CGAL::is_pretty
 
-\ref ::CGAL::set_mode 
+\ref CGAL::set_mode
 
-\ref ::CGAL::set_ascii_mode 
+\ref CGAL::set_ascii_mode
 
-\ref ::CGAL::set_binary_mode 
+\ref CGAL::set_binary_mode
 
-\ref ::CGAL::set_pretty_mode 
+\ref CGAL::set_pretty_mode
 
-\ref ::CGAL::operator>> 
+\ref CGAL::operator>>
 
-\ref ::CGAL::operator<< 
+\ref CGAL::operator<<
 
-\ref ::CGAL::iformat 
+\ref CGAL::iformat
 
-\ref ::CGAL::oformat
+\ref CGAL::oformat
 
 ## Classes ##
 
-\ref ::CGAL::Color
+\ref CGAL::Color
 
-\ref ::CGAL::Istream_iterator<T,Stream>
+\ref CGAL::Istream_iterator<T,Stream>
 
-\ref ::CGAL::Ostream_iterator<T,Stream>
+\ref CGAL::Ostream_iterator<T,Stream>
 
-\ref ::CGAL::Verbose_ostream
+\ref CGAL::Verbose_ostream
 
-\ref ::CGAL::Input_rep<T,F>
+\ref CGAL::Input_rep<T,F>
 
-\ref ::CGAL::Output_rep<T,F>
+\ref CGAL::Output_rep<T,F>

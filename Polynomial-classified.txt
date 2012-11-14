@@ -114,107 +114,107 @@
 
 ## Classes ##
 
-\ref ::CGAL::Polynomial<Coeff>
+\ref CGAL::Polynomial<Coeff>
 
-\ref ::CGAL::Polynomial_traits_d<Polynomial_d>
+\ref CGAL::Polynomial_traits_d<Polynomial_d>
 
-\ref ::CGAL::Exponent_vector
+\ref CGAL::Exponent_vector
 
-\ref ::CGAL::Polynomial_type_generator<T,d>
+\ref CGAL::Polynomial_type_generator<T,d>
 
 ## Functions ##
- 
 
-\ref ::CGAL::get_coefficient
 
-\ref ::CGAL::get_innermost_coefficient
+\ref CGAL::get_coefficient
 
-\ref ::CGAL::permute
+\ref CGAL::get_innermost_coefficient
 
-\ref ::CGAL::swap
+\ref CGAL::permute
 
-\ref ::CGAL::move
+\ref CGAL::swap
 
-\ref ::CGAL::degree
+\ref CGAL::move
 
-\ref ::CGAL::total_degree
+\ref CGAL::degree
 
-\ref ::CGAL::degree_vector
+\ref CGAL::total_degree
 
-\ref ::CGAL::leading_coefficient
+\ref CGAL::degree_vector
 
-\ref ::CGAL::innermost_leading_coefficient
+\ref CGAL::leading_coefficient
 
-\ref ::CGAL::canonicalize
+\ref CGAL::innermost_leading_coefficient
 
-\ref ::CGAL::differentiate
+\ref CGAL::canonicalize
 
-\ref ::CGAL::evaluate
+\ref CGAL::differentiate
 
-\ref ::CGAL::evaluate_homogeneous
+\ref CGAL::evaluate
 
-\ref ::CGAL::substitute
+\ref CGAL::evaluate_homogeneous
 
-\ref ::CGAL::substitute_homogeneous
+\ref CGAL::substitute
 
-\ref ::CGAL::is_zero_at
+\ref CGAL::substitute_homogeneous
 
-\ref ::CGAL::is_zero_at_homogeneous
+\ref CGAL::is_zero_at
 
-\ref ::CGAL::sign_at
+\ref CGAL::is_zero_at_homogeneous
 
-\ref ::CGAL::sign_at_homogeneous
+\ref CGAL::sign_at
 
-\ref ::CGAL::compare
+\ref CGAL::sign_at_homogeneous
 
-\ref ::CGAL::univariate_content
+\ref CGAL::compare
 
-\ref ::CGAL::multivariate_content
+\ref CGAL::univariate_content
 
-\ref ::CGAL::square_free_factorize
+\ref CGAL::multivariate_content
 
-\ref ::CGAL::make_square_free
+\ref CGAL::square_free_factorize
 
-\ref ::CGAL::pseudo_division
+\ref CGAL::make_square_free
 
-\ref ::CGAL::pseudo_division_quotient
+\ref CGAL::pseudo_division
 
-\ref ::CGAL::pseudo_division_remainder
+\ref CGAL::pseudo_division_quotient
 
-\ref ::CGAL::gcd_up_to_constant_factor
+\ref CGAL::pseudo_division_remainder
 
-\ref ::CGAL::integral_division_up_to_constant_factor
+\ref CGAL::gcd_up_to_constant_factor
 
-\ref ::CGAL::univariate_content_up_to_constant_factor
+\ref CGAL::integral_division_up_to_constant_factor
 
-\ref ::CGAL::square_free_factorize_up_to_constant_factor
+\ref CGAL::univariate_content_up_to_constant_factor
 
-\ref ::CGAL::shift
+\ref CGAL::square_free_factorize_up_to_constant_factor
 
-\ref ::CGAL::negate
+\ref CGAL::shift
 
-\ref ::CGAL::invert
+\ref CGAL::negate
 
-\ref ::CGAL::translate
+\ref CGAL::invert
 
-\ref ::CGAL::translate_homogeneous
+\ref CGAL::translate
 
-\ref ::CGAL::scale
+\ref CGAL::translate_homogeneous
 
-\ref ::CGAL::scale_homogeneous
+\ref CGAL::scale
 
-\ref ::CGAL::resultant
+\ref CGAL::scale_homogeneous
 
-\ref ::CGAL::polynomial_subresultants
+\ref CGAL::resultant
 
-\ref ::CGAL::polynomial_subresultants_with_cofactors
+\ref CGAL::polynomial_subresultants
 
-\ref ::CGAL::principal_subresultants
+\ref CGAL::polynomial_subresultants_with_cofactors
 
-\ref ::CGAL::sturm_habicht_sequence
+\ref CGAL::principal_subresultants
 
-\ref ::CGAL::sturm_habicht_sequence_with_cofactors
+\ref CGAL::sturm_habicht_sequence
 
-\ref ::CGAL::principal_sturm_habicht_sequence
+\ref CGAL::sturm_habicht_sequence_with_cofactors
 
-\ref ::CGAL::number_of_real_roots
+\ref CGAL::principal_sturm_habicht_sequence
+
+\ref CGAL::number_of_real_roots

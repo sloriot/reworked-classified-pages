@@ -2,39 +2,39 @@
 
 ## Concepts ##
 
-`TriangulatedSurfaceMesh` 
+`TriangulatedSurfaceMesh`
 
-`Vertex2FTPropertyMap` 
+`Vertex2FTPropertyMap`
 
-`Vertex2VectorPropertyMap` 
+`Vertex2VectorPropertyMap`
 
 ## Enums ##
 
-\ref ::CGAL::Ridge_type
+\ref CGAL::Ridge_type
 
-\ref ::CGAL::Ridge_order
+\ref CGAL::Ridge_order
 
-\ref ::CGAL::Umbilic_type
+\ref CGAL::Umbilic_type
 
 ## Classes ##
 
-\ref ::CGAL::Ridge_line<TriangulatedSurfaceMesh>
+\ref CGAL::Ridge_line<TriangulatedSurfaceMesh>
 
-\ref ::CGAL::Umbilic<TriangulatedSurfaceMesh>
+\ref CGAL::Umbilic<TriangulatedSurfaceMesh>
 
-\ref ::CGAL::Ridge_approximation<TriangulatedSurfaceMesh,Vertex2FTPropertyMap,Vertex2VectorPropertyMap>
+\ref CGAL::Ridge_approximation<TriangulatedSurfaceMesh,Vertex2FTPropertyMap,Vertex2VectorPropertyMap>
 
-\ref ::CGAL::Umbilic_approximation<TriangulatedSurfaceMesh,Vertex2FTPropertyMap,Vertex2VectorPropertyMap>
+\ref CGAL::Umbilic_approximation<TriangulatedSurfaceMesh,Vertex2FTPropertyMap,Vertex2VectorPropertyMap>
 
 ## Global Functions ##
 
-\ref ::CGAL::compute_max_ridges
+\ref CGAL::compute_max_ridges
 
-\ref ::CGAL::compute_min_ridges
+\ref CGAL::compute_min_ridges
 
-\ref ::CGAL::compute_crest_ridges
+\ref CGAL::compute_crest_ridges
 
-\ref ::CGAL::compute_umbilics
+\ref CGAL::compute_umbilics
 
 The insert operator \f$ <<\f$ is overloaded for the classes `Ridge_line` and
 `Umbilic`.

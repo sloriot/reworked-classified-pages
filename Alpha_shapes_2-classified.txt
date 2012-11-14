@@ -4,8 +4,8 @@ This chapter presents a framework for alpha shapes. The description is based on
 the articles \cite em-tdas-94,e-was-92. Alpha shapes are
 the generalization of the convex hull of a point set. Let \f$ S\f$ be a finite set of
 points in \f$ \R^d\f$, \f$ d = 2,3\f$ and \f$ \alpha\f$ a parameter with \f$ 0 \leq \alpha \leq
-\infty\f$. For \f$ \alpha = \infty\f$, the \f$ \alpha\f$-shape is the convex hull of \f$ S\f$. As 
-\f$ \alpha\f$ decreases, the \f$ \alpha\f$-shape shrinks and develops cavities, as soon as 
+\infty\f$. For \f$ \alpha = \infty\f$, the \f$ \alpha\f$-shape is the convex hull of \f$ S\f$. As
+\f$ \alpha\f$ decreases, the \f$ \alpha\f$-shape shrinks and develops cavities, as soon as
 a sphere of radius \f$ \sqrt{\alpha}\f$ can be put inside.
 Finally, for \f$ \alpha = 0\f$, the \f$ \alpha\f$-shape is the set \f$ S\f$ itself.
 
@@ -13,9 +13,9 @@ We distinguish two versions of alpha shapes, one is based on the Delaunay
 triangulation and the other on its generalization, the regular triangulation,
 replacing the natural distance by the power to weighted points. The metric used
 determines an underlying triangulation of the alpha shape and thus, the version
-computed. 
+computed.
 The <I>basic alpha shape</I> (cf.  \ref I1_SectClassicAS2D) is associated with the Delaunay triangulation
-(cf.  \ref Section_2D_Triangulations_Delaunay). 
+(cf.  \ref Section_2D_Triangulations_Delaunay).
 The <I>weighted alpha shape</I> (cf.  \ref I1_SectWeightedAS2D) is associated with the regular triangulation
 (cf.  \ref Section_2D_Triangulations_Regular).
 
@@ -45,9 +45,9 @@ easily. Furthermore, we can select an appropriate \f$ \alpha\f$-shape from a
 finite number of different \f$ \alpha\f$-shapes and corresponding
 \f$ \alpha\f$-values.
 
-# Classified Reference Pages #
+\section gitClassifiedReferencePages Classified Reference Pages
 
-## Concepts ##
+\subsection gitConcepts Concepts
 
 `AlphaShapeTraits_2`
 
@@ -55,13 +55,13 @@ finite number of different \f$ \alpha\f$-shapes and corresponding
 
 `AlphaShapeVertex_2`
 
-## Classes ##
+\subsection gitClasses Classes
 
-\ref ::CGAL::Alpha_shape_2<Dt>
+\ref CGAL::Alpha_shape_2<Dt>
 
-\ref ::CGAL::Weighted_alpha_shape_euclidean_traits_2<K>
+\ref CGAL::Weighted_alpha_shape_euclidean_traits_2<K>
 
-\ref ::CGAL::Alpha_shape_vertex_base_2<AlphaShapeTraits_2>
+\ref CGAL::Alpha_shape_vertex_base_2<AlphaShapeTraits_2>
 
-\ref ::CGAL::Alpha_shape_face_base_2<AlphaShapeTraits_2, 
+\ref CGAL::Alpha_shape_face_base_2<AlphaShapeTraits_2,
                                                TriangulationFaceBase_2>

@@ -10,41 +10,41 @@ and segment trees in the same data structure.
 
 # Classified Reference Pages #
 
-Concepts 
+Concepts
 --------------
 
-`RangeSegmentTreeTraits_k` 
+`RangeSegmentTreeTraits_k`
 
-`Sublayer` 
+`Sublayer`
 
-Traits Classes 
+Traits Classes
 --------------
 
-\ref ::CGAL::Range_segment_tree_traits_set_2<R> 
+\ref CGAL::Range_segment_tree_traits_set_2<R>
 
-\ref ::CGAL::Range_segment_tree_traits_set_3<R> 
+\ref CGAL::Range_segment_tree_traits_set_3<R>
 
-\ref ::CGAL::Range_tree_traits_map_2<R,T> 
+\ref CGAL::Range_tree_traits_map_2<R,T>
 
-\ref ::CGAL::Range_tree_traits_map_3<R,T> 
+\ref CGAL::Range_tree_traits_map_3<R,T>
 
-\ref ::CGAL::Segment_tree_traits_map_2<R,T> 
+\ref CGAL::Segment_tree_traits_map_2<R,T>
 
-\ref ::CGAL::Segment_tree_traits_map_3<R,T> 
+\ref CGAL::Segment_tree_traits_map_3<R,T>
 
-\ref ::CGAL::tree_interval_traits 
+\ref CGAL::tree_interval_traits
 
-\ref ::CGAL::tree_point_traits 
+\ref CGAL::tree_point_traits
 
-Search Structure Classes 
+Search Structure Classes
 --------------
 
-\ref ::CGAL::Range_tree_d<Data, Window, Traits>
+\ref CGAL::Range_tree_d<Data, Window, Traits>
 
-\ref ::CGAL::Range_tree_k<Traits>
+\ref CGAL::Range_tree_k<Traits>
 
-\ref ::CGAL::Segment_tree_d<Data, Window, Traits>
+\ref CGAL::Segment_tree_d<Data, Window, Traits>
 
-\ref ::CGAL::Segment_tree_k<Traits>
+\ref CGAL::Segment_tree_k<Traits>
 
-\ref ::CGAL::Tree_anchor<Data, Window>
+\ref CGAL::Tree_anchor<Data, Window>

@@ -7,30 +7,30 @@ This package provides some classes which allow to use \cgal classes in
 
 ## GraphicsItem Classes ##
 
-\ref ::CGAL::Qt::GraphicsItem
+\ref CGAL::Qt::GraphicsItem
 
-\ref ::CGAL::Qt::TriangulationGraphicsItem<T>
+\ref CGAL::Qt::TriangulationGraphicsItem<T>
 
-\ref ::CGAL::Qt::ConstrainedTriangulationGraphicsItem<CT>
+\ref CGAL::Qt::ConstrainedTriangulationGraphicsItem<CT>
 
-\ref ::CGAL::Qt::VoronoiGraphicsItem<DT>
+\ref CGAL::Qt::VoronoiGraphicsItem<DT>
 
 ## Input Classes ##
 
-\ref ::CGAL::Qt::GraphicsViewInput
+\ref CGAL::Qt::GraphicsViewInput
 
-\ref ::CGAL::Qt::GraphicsViewCircleInput<K>
+\ref CGAL::Qt::GraphicsViewCircleInput<K>
 
-\ref ::CGAL::Qt::GraphicsViewCircularArcInput<K>
+\ref CGAL::Qt::GraphicsViewCircularArcInput<K>
 
-\ref ::CGAL::Qt::GraphicsViewIsoRectangleInput<K>
+\ref CGAL::Qt::GraphicsViewIsoRectangleInput<K>
 
-\ref ::CGAL::Qt::GraphicsViewPolylineInput<K>
+\ref CGAL::Qt::GraphicsViewPolylineInput<K>
 
 ## Miscellaneous Classes ##
 
-\ref ::CGAL::Qt::Converter<K>
+\ref CGAL::Qt::Converter<K>
 
-\ref ::CGAL::Qt::PainterOstream<K>
+\ref CGAL::Qt::PainterOstream<K>
 
-\ref ::CGAL::Qt::GraphicsViewNavigation
+\ref CGAL::Qt::GraphicsViewNavigation

@@ -34,20 +34,20 @@ construct the streamlines, and should be instantiated by a model of the concept
 
 ## Concepts ##
 
-`StreamLinesTraits_2` 
+`StreamLinesTraits_2`
 
-`Integrator_2` 
+`Integrator_2`
 
-`VectorField_2` 
+`VectorField_2`
 
 ## Classes ##
 
-\ref ::CGAL::Stream_lines_2<VectorField_2,Integrator_2>
+\ref CGAL::Stream_lines_2<VectorField_2,Integrator_2>
 
-\ref ::CGAL::Euler_integrator_2<VectorField_2>
+\ref CGAL::Euler_integrator_2<VectorField_2>
 
-\ref ::CGAL::Runge_kutta_integrator_2<VectorField_2>
+\ref CGAL::Runge_kutta_integrator_2<VectorField_2>
 
-\ref ::CGAL::Regular_grid_2<StreamLinesTraits_2>
+\ref CGAL::Regular_grid_2<StreamLinesTraits_2>
 
-\ref ::CGAL::Triangular_field_2<StreamLinesTraits_2>
+\ref CGAL::Triangular_field_2<StreamLinesTraits_2>

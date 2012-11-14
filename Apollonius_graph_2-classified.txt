@@ -20,32 +20,32 @@ aforementioned concepts.
 
 # Classified Reference Pages #
 
-Concepts 
+Concepts
 --------------
 
-`ApolloniusSite_2` 
+`ApolloniusSite_2`
 
-`ApolloniusGraphDataStructure_2` 
+`ApolloniusGraphDataStructure_2`
 
-`ApolloniusGraphVertexBase_2` 
+`ApolloniusGraphVertexBase_2`
 
-`ApolloniusGraphTraits_2` 
+`ApolloniusGraphTraits_2`
 
 `ApolloniusGraphHierarchyVertexBase_2`
 
-Classes 
+Classes
 --------------
 
-\ref ::CGAL::Apollonius_graph_2<Gt,Agds>
+\ref CGAL::Apollonius_graph_2<Gt,Agds>
 
-\ref ::CGAL::Apollonius_site_2<K>
+\ref CGAL::Apollonius_site_2<K>
 
-\ref ::CGAL::Apollonius_graph_vertex_base_2<Gt,StoreHidden>
+\ref CGAL::Apollonius_graph_vertex_base_2<Gt,StoreHidden>
 
-\ref ::CGAL::Apollonius_graph_traits_2<K,Method_tag>
+\ref CGAL::Apollonius_graph_traits_2<K,Method_tag>
 
-\ref ::CGAL::Apollonius_graph_filtered_traits_2<CK,CM,EK,EM,FK,FM>
+\ref CGAL::Apollonius_graph_filtered_traits_2<CK,CM,EK,EM,FK,FM>
 
-\ref ::CGAL::Apollonius_graph_hierarchy_2<Gt,Agds> 
+\ref CGAL::Apollonius_graph_hierarchy_2<Gt,Agds>
 
-\ref ::CGAL::Apollonius_graph_hierarchy_vertex_base_2<Agvb>
+\ref CGAL::Apollonius_graph_hierarchy_vertex_base_2<Agvb>

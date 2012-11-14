@@ -76,58 +76,58 @@
 
 ## Kernels ##
 
-\ref ::CGAL::Circular_kernel_2<Kernel,AlgebraicKernelForCircles> 
+\ref CGAL::Circular_kernel_2<Kernel,AlgebraicKernelForCircles>
 
-\ref ::CGAL::Exact_circular_kernel_2
+\ref CGAL::Exact_circular_kernel_2
 
 ## Points ##
 
-\ref ::CGAL::Circular_arc_point_2<CircularKernel>
+\ref CGAL::Circular_arc_point_2<CircularKernel>
 
 ## Arcs ##
 
-\ref ::CGAL::Circular_arc_2<CircularKernel>
+\ref CGAL::Circular_arc_2<CircularKernel>
 
-\ref ::CGAL::Line_arc_2<CircularKernel>
+\ref CGAL::Line_arc_2<CircularKernel>
 
 # Geometric Global Functions #
 
-\ref ::CGAL::compare_x
+\ref CGAL::compare_x
 
-\ref ::CGAL::compare_y
+\ref CGAL::compare_y
 
-\ref ::CGAL::compare_xy
+\ref CGAL::compare_xy
 
-\ref ::CGAL::compare_y_at_x
+\ref CGAL::compare_y_at_x
 
-\ref ::CGAL::compare_y_to_right
+\ref CGAL::compare_y_to_right
 
-\ref ::CGAL::has_in_x_range
+\ref CGAL::has_in_x_range
 
-\ref ::CGAL::has_on
+\ref CGAL::has_on
 
 \ref ::Kernel::do_intersect "CGAL::do_intersect"
 
 \ref ::Kernel::intersection "CGAL::intersection"
 
-\ref ::CGAL::x_extremal_point
+\ref CGAL::x_extremal_point
 
-\ref ::CGAL::y_extremal_point
+\ref CGAL::y_extremal_point
 
-\ref ::CGAL::x_extremal_points
+\ref CGAL::x_extremal_points
 
-\ref ::CGAL::y_extremal_points
+\ref CGAL::y_extremal_points
 
-\ref ::CGAL::make_x_monotone
+\ref CGAL::make_x_monotone
 
-\ref ::CGAL::make_xy_monotone
+\ref CGAL::make_xy_monotone
 
 # Algebraic Concepts #
 
 `AlgebraicKernelForCircles`
 
 ## Functors ##
- 
+
 
 `AlgebraicKernelForCircles::ConstructPolynomial_1_2`
 
@@ -151,18 +151,18 @@
 
 ## Kernel ##
 
-\ref ::CGAL::Algebraic_kernel_for_circles_2_2<RT>
+\ref CGAL::Algebraic_kernel_for_circles_2_2<RT>
 
 ## Polynomials ##
 
-\ref ::CGAL::Polynomial_1_2<RT>
+\ref CGAL::Polynomial_1_2<RT>
 
-\ref ::CGAL::Polynomial_for_circles_2_2<FT>
+\ref CGAL::Polynomial_for_circles_2_2<FT>
 
 ## Roots of Polynomials ##
 
-\ref ::CGAL::Sqrt_extension<NT,ROOT>
+\ref CGAL::Sqrt_extension<NT,ROOT>
 
-\ref ::CGAL::Root_for_circles_2_2<FT>
+\ref CGAL::Root_for_circles_2_2<FT>
 
-\ref ::CGAL::Root_of_traits_2<RT>
+\ref CGAL::Root_of_traits_2<RT>

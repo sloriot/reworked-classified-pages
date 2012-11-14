@@ -7,70 +7,70 @@ geometric data structures. \cgal provides several prepackaged kinetic
 data structures. Here we present those kinetic data structures and the
 helper classes that allow their activity to be monitored.
 
-Sorting 
+Sorting
 --------------
 
 \ref ::Kinetic::Sort<Traits, Visitor>
 
 `Kinetic::SortVisitor`
 
-\ref ::CGAL::Kinetic::Sort_visitor_base
+\ref CGAL::Kinetic::Sort_visitor_base
 
-\ref ::CGAL::Kinetic::Sort_event_log_visitor
+\ref CGAL::Kinetic::Sort_event_log_visitor
 
-Delaunay Triangulation in 2D 
+Delaunay Triangulation in 2D
 --------------
 
-\ref ::CGAL::Kinetic::Delaunay_triangulation_2<Traits, Visitor, Triangulation>
+\ref CGAL::Kinetic::Delaunay_triangulation_2<Traits, Visitor, Triangulation>
 
 `Kinetic::DelaunayTriangulationVisitor_2`
 
-\ref ::CGAL::Kinetic::Delaunay_triangulation_event_log_visitor_2
+\ref CGAL::Kinetic::Delaunay_triangulation_event_log_visitor_2
 
-\ref ::CGAL::Kinetic::Delaunay_triangulation_recent_edges_visitor_2<Triangulation>
+\ref CGAL::Kinetic::Delaunay_triangulation_recent_edges_visitor_2<Triangulation>
 
-\ref ::CGAL::Kinetic::Delaunay_triangulation_visitor_base_2
+\ref CGAL::Kinetic::Delaunay_triangulation_visitor_base_2
 
-\ref ::CGAL::Kinetic::Delaunay_triangulation_face_base_2<Traits, Base>
+\ref CGAL::Kinetic::Delaunay_triangulation_face_base_2<Traits, Base>
 
-Delaunay and Regular Triangulations in 3D 
+Delaunay and Regular Triangulations in 3D
 --------------
 
-\ref ::CGAL::Kinetic::Delaunay_triangulation_3<Traits, Visitor, Triangulation>
+\ref CGAL::Kinetic::Delaunay_triangulation_3<Traits, Visitor, Triangulation>
 
 `Kinetic::DelaunayTriangulationVisitor_3`
 
-\ref ::CGAL::Kinetic::Delaunay_triangulation_event_log_visitor_3
+\ref CGAL::Kinetic::Delaunay_triangulation_event_log_visitor_3
 
-\ref ::CGAL::Kinetic::Delaunay_triangulation_visitor_base_3
+\ref CGAL::Kinetic::Delaunay_triangulation_visitor_base_3
 
-\ref ::CGAL::Kinetic::Delaunay_triangulation_cell_base_3<Traits, Base>
+\ref CGAL::Kinetic::Delaunay_triangulation_cell_base_3<Traits, Base>
 
-\ref ::CGAL::Kinetic::Regular_triangulation_3<Traits, Visitor, Triangulation>
+\ref CGAL::Kinetic::Regular_triangulation_3<Traits, Visitor, Triangulation>
 
 `Kinetic::RegularTriangulationVisitor_3`
 
-\ref ::CGAL::Kinetic::Regular_triangulation_visitor_base_3
+\ref CGAL::Kinetic::Regular_triangulation_visitor_base_3
 
-\ref ::CGAL::Kinetic::Regular_triangulation_event_log_visitor_3
+\ref CGAL::Kinetic::Regular_triangulation_event_log_visitor_3
 
-\ref ::CGAL::Kinetic::Regular_triangulation_cell_base_3<Traits, Base>
+\ref CGAL::Kinetic::Regular_triangulation_cell_base_3<Traits, Base>
 
-\ref ::CGAL::Kinetic::Regular_triangulation_vertex_base_3<Traits, Base>
+\ref CGAL::Kinetic::Regular_triangulation_vertex_base_3<Traits, Base>
 
-Support Classes 
+Support Classes
 --------------
 
-\ref ::CGAL::Kinetic::Enclosing_box_2<Traits>
+\ref CGAL::Kinetic::Enclosing_box_2<Traits>
 
-\ref ::CGAL::Kinetic::Enclosing_box_3<Traits>
+\ref CGAL::Kinetic::Enclosing_box_3<Traits>
 
-\ref ::CGAL::Kinetic::Insert_event<ActiveObjectsTable>
+\ref CGAL::Kinetic::Insert_event<ActiveObjectsTable>
 
-\ref ::CGAL::Kinetic::Erase_event<ActiveObjectsTable>
+\ref CGAL::Kinetic::Erase_event<ActiveObjectsTable>
 
-\ref ::CGAL::Kinetic::Qt_moving_points_2<Traits, QtWidget_2>
+\ref CGAL::Kinetic::Qt_moving_points_2<Traits, QtWidget_2>
 
-\ref ::CGAL::Kinetic::Qt_triangulation_2<KineticTriangulation_2, QtWidget_2, QtMovingPoints_2>
+\ref CGAL::Kinetic::Qt_triangulation_2<KineticTriangulation_2, QtWidget_2, QtMovingPoints_2>
 
-\ref ::CGAL::Kinetic::Qt_widget_2<Simulator>
+\ref CGAL::Kinetic::Qt_widget_2<Simulator>

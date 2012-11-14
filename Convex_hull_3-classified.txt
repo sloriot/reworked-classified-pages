@@ -1,18 +1,18 @@
 A subset \f$ S \subseteq \R^3\f$ is convex if for any two points \f$ p\f$ and \f$ q\f$
 in the set the line segment with endpoints \f$ p\f$ and \f$ q\f$ is contained
-in \f$ S\f$. The convex hull of a set \f$ S\f$ is 
+in \f$ S\f$. The convex hull of a set \f$ S\f$ is
 the smallest convex set containing
-\f$ S\f$. The convex hull of a set of points \f$ P\f$ is a convex 
-polytope with vertices in \f$ P\f$.  A point in \f$ P\f$ is an extreme point 
-(with respect to \f$ P\f$) if it is a vertex 
+\f$ S\f$. The convex hull of a set of points \f$ P\f$ is a convex
+polytope with vertices in \f$ P\f$.  A point in \f$ P\f$ is an extreme point
+(with respect to \f$ P\f$) if it is a vertex
 of the convex hull of \f$ P\f$.
 
-\cgal provides functions for computing convex hulls in two, three 
-and arbitrary dimensions as well as functions for testing if a given set of 
+\cgal provides functions for computing convex hulls in two, three
+and arbitrary dimensions as well as functions for testing if a given set of
 points in is strongly convex or not.  This chapter describes the functions
 available for three dimensions.
 
-Assertions 
+Assertions
 --------------
 
 The assertion flags for the convex hull and extreme point algorithms
@@ -25,7 +25,7 @@ defining `CGAL_CH_CHECK_EXPENSIVE`.
 
 # Classified Reference Pages #
 
-Concepts 
+Concepts
 --------------
 
 `ConvexHullPolyhedron_3`
@@ -36,25 +36,25 @@ Concepts
 
 `ConvexHullPolyhedronVertex_3`
 
-`ConvexHullTraits_3` 
+`ConvexHullTraits_3`
 
 `IsStronglyConvexTraits_3`
 
-Traits Classes 
+Traits Classes
 --------------
 
-\ref ::CGAL::Convex_hull_traits_3<R>
+\ref CGAL::Convex_hull_traits_3<R>
 
-Convex Hull Functions 
+Convex Hull Functions
 --------------
 
-\ref ::CGAL::convex_hull_3 
+\ref CGAL::convex_hull_3
 
-\ref ::CGAL::convex_hull_incremental_3
+\ref CGAL::convex_hull_incremental_3
 
-\ref ::CGAL::convex_hull_3_to_polyhedron_3
+\ref CGAL::convex_hull_3_to_polyhedron_3
 
-Convexity Checking Function 
+Convexity Checking Function
 --------------
 
-\ref ::CGAL::is_strongly_convex_3
+\ref CGAL::is_strongly_convex_3

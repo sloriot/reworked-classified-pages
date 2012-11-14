@@ -10,13 +10,13 @@ diagram cell is unique.
 
 ## Functions ##
 
-\ref ::CGAL::lower_envelope_3
+\ref CGAL::lower_envelope_3
 
-\ref ::CGAL::upper_envelope_3
+\ref CGAL::upper_envelope_3
 
-\ref ::CGAL::lower_envelope_xy_monotone_3
+\ref CGAL::lower_envelope_xy_monotone_3
 
-\ref ::CGAL::upper_envelope_xy_monotone_3
+\ref CGAL::upper_envelope_xy_monotone_3
 
 ## Concepts ##
 
@@ -24,12 +24,12 @@ diagram cell is unique.
 
 ## Classes ##
 
-\ref ::CGAL::Envelope_diagram_2<EnvTraits>
+\ref CGAL::Envelope_diagram_2<EnvTraits>
 
-\ref ::CGAL::Env_triangle_traits_3<Kernel>
+\ref CGAL::Env_triangle_traits_3<Kernel>
 
-\ref ::CGAL::Env_sphere_traits_3<ConicTraits>
+\ref CGAL::Env_sphere_traits_3<ConicTraits>
 
-\ref ::CGAL::Env_plane_traits_3<Kernel>
+\ref CGAL::Env_plane_traits_3<Kernel>
 
-\ref ::CGAL::Env_surface_data_traits_3<Traits,XyData,SData,Cnv>
+\ref CGAL::Env_surface_data_traits_3<Traits,XyData,SData,Cnv>

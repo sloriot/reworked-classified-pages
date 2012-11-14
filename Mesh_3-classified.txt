@@ -6,17 +6,17 @@
 
 Here are the main concepts of this package:
 
-`MeshComplex_3InTriangulation_3` 
+`MeshComplex_3InTriangulation_3`
 
 `MeshComplexWithFeatures_3InTriangulation_3`
 
-`MeshDomain_3` 
+`MeshDomain_3`
 
 `MeshDomainWithFeatures_3`
 
-`MeshCriteria_3` 
+`MeshCriteria_3`
 
-`MeshCriteriaWithFeatures_3` 
+`MeshCriteriaWithFeatures_3`
 
 `MeshCellCriteria_3`
 
@@ -24,100 +24,100 @@ Here are the main concepts of this package:
 
 `MeshEdgeCriteria_3`
 
-The following concepts are secondary concepts, 
+The following concepts are secondary concepts,
 related to the template parameters of some models of the main concepts:
 
 `BisectionGeometricTraits_3`
 
-`IntersectionGeometricTraits_3` 
+`IntersectionGeometricTraits_3`
 
-`LabeledImage_3` 
+`LabeledImage_3`
 
-`MeshCellBase_3` 
+`MeshCellBase_3`
 
-`MeshVertexBase_3` 
+`MeshVertexBase_3`
 
-`MeshDomainField_3` 
+`MeshDomainField_3`
 
-`MeshPolyline_3` 
+`MeshPolyline_3`
 
 `TriangleAccessor_3`
 
 ## Classes ##
 
-\ref ::CGAL::Mesh_complex_3_in_triangulation_3<Tr,CornerIndex,CurveSegmentIndex> 
+\ref CGAL::Mesh_complex_3_in_triangulation_3<Tr,CornerIndex,CurveSegmentIndex>
 
-\ref ::CGAL::Mesh_triangulation_3<MD,Gt> 
+\ref CGAL::Mesh_triangulation_3<MD,Gt>
 
-\ref ::CGAL::Mesh_vertex_base_3<MD,Gt,Vb> 
+\ref CGAL::Mesh_vertex_base_3<MD,Gt,Vb>
 
-\ref ::CGAL::Mesh_cell_base_3<MD,Gt,Cb> 
+\ref CGAL::Mesh_cell_base_3<MD,Gt,Cb>
 
-\ref ::CGAL::Mesh_criteria_3<Tr> 
+\ref CGAL::Mesh_criteria_3<Tr>
 
-\ref ::CGAL::Mesh_cell_criteria_3<Tr> 
+\ref CGAL::Mesh_cell_criteria_3<Tr>
 
-\ref ::CGAL::Mesh_facet_criteria_3<Tr> 
+\ref CGAL::Mesh_facet_criteria_3<Tr>
 
-\ref ::CGAL::Mesh_edge_criteria_3<Tr> 
+\ref CGAL::Mesh_edge_criteria_3<Tr>
 
-\ref ::CGAL::Mesh_constant_domain_field_3<Gt,Index> 
+\ref CGAL::Mesh_constant_domain_field_3<Gt,Index>
 
 The following classes are models of domain concepts
 and their associated classes:
 
-\ref ::CGAL::Implicit_mesh_domain_3<Function,BGT> 
+\ref CGAL::Implicit_mesh_domain_3<Function,BGT>
 
-\ref ::CGAL::Polyhedral_mesh_domain_3<Polyhedron,IGT,TriangleAccessor> 
+\ref CGAL::Polyhedral_mesh_domain_3<Polyhedron,IGT,TriangleAccessor>
 
-\ref ::CGAL::Polyhedral_mesh_domain_with_features_3<IGT> 
+\ref CGAL::Polyhedral_mesh_domain_with_features_3<IGT>
 
-\ref ::CGAL::Labeled_image_mesh_domain_3<Image,BGT> 
+\ref CGAL::Labeled_image_mesh_domain_3<Image,BGT>
 
-\ref ::CGAL::Mesh_domain_with_polyline_features_3<MeshDomain_3> 
+\ref CGAL::Mesh_domain_with_polyline_features_3<MeshDomain_3>
 
-\ref ::CGAL::Mesh_polyhedron_3<IGT> 
+\ref CGAL::Mesh_polyhedron_3<IGT>
 
-\ref ::CGAL::Triangle_accessor_3<CGAL::Polyhedron_3<K>,K> 
+\ref CGAL::Triangle_accessor_3<CGAL::Polyhedron_3<K>,K>
 
 ## Function Templates ##
 
-\ref ::CGAL::make_mesh_3 
+\ref CGAL::make_mesh_3
 
-\ref ::CGAL::refine_mesh_3 
+\ref CGAL::refine_mesh_3
 
-\ref ::CGAL::exude_mesh_3 
+\ref CGAL::exude_mesh_3
 
-\ref ::CGAL::perturb_mesh_3 
+\ref CGAL::perturb_mesh_3
 
-\ref ::CGAL::lloyd_optimize_mesh_3 
+\ref CGAL::lloyd_optimize_mesh_3
 
-\ref ::CGAL::odt_optimize_mesh_3 
+\ref CGAL::odt_optimize_mesh_3
 
 ## CGAL::parameters Functions ##
 
-\ref ::CGAL::parameters::features 
+\ref CGAL::parameters::features
 
-\ref ::CGAL::parameters::no_features 
+\ref CGAL::parameters::no_features
 
-\ref ::CGAL::parameters::exude 
+\ref CGAL::parameters::exude
 
-\ref ::CGAL::parameters::no_exude 
+\ref CGAL::parameters::no_exude
 
-\ref ::CGAL::parameters::perturb 
+\ref CGAL::parameters::perturb
 
-\ref ::CGAL::parameters::no_perturb 
+\ref CGAL::parameters::no_perturb
 
-\ref ::CGAL::parameters::lloyd 
+\ref CGAL::parameters::lloyd
 
-\ref ::CGAL::parameters::no_lloyd 
+\ref CGAL::parameters::no_lloyd
 
-\ref ::CGAL::parameters::odt 
+\ref CGAL::parameters::odt
 
-\ref ::CGAL::parameters::no_odt 
+\ref CGAL::parameters::no_odt
 
 ## Enumerations ##
 
-\ref ::CGAL::Mesh_optimization_return_code 
+\ref CGAL::Mesh_optimization_return_code
 
-\ref ::CGAL::Mesh_facet_topology 
+\ref CGAL::Mesh_facet_topology

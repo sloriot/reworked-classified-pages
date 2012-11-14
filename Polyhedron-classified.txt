@@ -22,28 +22,28 @@ surface can be used without knowing the halfedge data structure.
 ## Concepts ##
 
 \ref ::PolyhedronTraits_3
- 
+
 \ref ::PolyhedronItems_3
 
 ## Classes ##
 
-\ref ::CGAL::Polyhedron_3<Traits>
- 
-\ref ::CGAL::Polyhedron_3<Traits>::Vertex
- 
-\ref ::CGAL::Polyhedron_3<Traits>::Halfedge
- 
-\ref ::CGAL::Polyhedron_3<Traits>::Facet
- 
-\ref ::CGAL::Polyhedron_traits_3<Kernel>
- 
-\ref ::CGAL::Polyhedron_traits_with_normals_3<Kernel>
- 
-\ref ::CGAL::Polyhedron_items_3
- 
-\ref ::CGAL::Polyhedron_min_items_3
- 
-\ref ::CGAL::Polyhedron_incremental_builder_3<HDS>
+\ref CGAL::Polyhedron_3<Traits>
+
+\ref CGAL::Polyhedron_3<Traits>::Vertex
+
+\ref CGAL::Polyhedron_3<Traits>::Halfedge
+
+\ref CGAL::Polyhedron_3<Traits>::Facet
+
+\ref CGAL::Polyhedron_traits_3<Kernel>
+
+\ref CGAL::Polyhedron_traits_with_normals_3<Kernel>
+
+\ref CGAL::Polyhedron_items_3
+
+\ref CGAL::Polyhedron_min_items_3
+
+\ref CGAL::Polyhedron_incremental_builder_3<HDS>
 
 ## Functions ##
 
@@ -54,14 +54,14 @@ END:REF
 SPLICE DOC HERE
 CONVERROR StrangeDoc placement
 <A HREF="Function_operator.html">(go there)</A>
-     
+
 */
 template <class Traits>
-            ostream& operator<<( ostream& out, 
+            ostream& operator<<( ostream& out,
                                  const CGAL::Polyhedron_3<Traits>& P);
 
 BEGIN:REF
- 
+
 
 END:REF
 
@@ -70,10 +70,10 @@ END:REF
 SPLICE DOC HERE
 CONVERROR StrangeDoc placement
 <A HREF="Function_operator--.html">(go there)</A>
-     
+
 */
 template <class Traits>
-            istream& operator>>( istream& in, 
+            istream& operator>>( istream& in,
                                  CGAL::Polyhedron_3<Traits>& P);
 
 BEGIN:REF

@@ -6,22 +6,22 @@ introduction.
 
 # Classified Reference Pages #
 
-Concepts 
+Concepts
 --------------
 
-`ExtendedKernelTraits_2` 
+`ExtendedKernelTraits_2`
 
-Classes 
+Classes
 --------------
 
-\ref ::CGAL::Extended_cartesian<FT> 
+\ref CGAL::Extended_cartesian<FT>
 
-\ref ::CGAL::Extended_homogeneous<RT> 
+\ref CGAL::Extended_homogeneous<RT>
 
-\ref ::CGAL::Filtered_extended_homogeneous<RT> 
+\ref CGAL::Filtered_extended_homogeneous<RT>
 
-\ref ::CGAL::Nef_polyhedron_2<T> 
+\ref CGAL::Nef_polyhedron_2<T>
 
-\ref ::CGAL::Explorer 
+\ref CGAL::Explorer
 
-\ref ::CGAL::Topological_explorer 
+\ref CGAL::Topological_explorer

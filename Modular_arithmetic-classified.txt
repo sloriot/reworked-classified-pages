@@ -14,6 +14,6 @@
 
 ## Types ##
 
-\ref ::CGAL::Residue
+\ref CGAL::Residue
 
-\ref ::CGAL::Modular_traits<T>
+\ref CGAL::Modular_traits<T>

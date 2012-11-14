@@ -4,13 +4,13 @@ This package provides a framework for interfacing \cgal data structures with alg
 
 # Classified Reference Pages #
 
-Classes 
+Classes
 --------------
 
-\ref ::CGAL::Dereference_property_map<T>  
+\ref CGAL::Dereference_property_map<T>
 
-\ref ::CGAL::First_of_pair_property_map<Pair>  
+\ref CGAL::First_of_pair_property_map<Pair>
 
-\ref ::CGAL::Second_of_pair_property_map<Pair>  
+\ref CGAL::Second_of_pair_property_map<Pair>
 
-\ref ::CGAL::Nth_of_tuple_property_map<N, Tuple>  
+\ref CGAL::Nth_of_tuple_property_map<N, Tuple>

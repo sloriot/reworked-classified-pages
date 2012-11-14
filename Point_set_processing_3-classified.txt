@@ -4,26 +4,26 @@ This \cgal component implements methods to analyze and process unorganized point
 
 ## Functions ##
 
-\ref ::CGAL::read_off_points  
+\ref CGAL::read_off_points
 
-\ref ::CGAL::read_xyz_points  
+\ref CGAL::read_xyz_points
 
-\ref ::CGAL::compute_average_spacing  
+\ref CGAL::compute_average_spacing
 
-\ref ::CGAL::remove_outliers  
+\ref CGAL::remove_outliers
 
-\ref ::CGAL::grid_simplify_point_set  
+\ref CGAL::grid_simplify_point_set
 
-\ref ::CGAL::random_simplify_point_set  
+\ref CGAL::random_simplify_point_set
 
-\ref ::CGAL::jet_smooth_point_set  
+\ref CGAL::jet_smooth_point_set
 
-\ref ::CGAL::jet_estimate_normals  
+\ref CGAL::jet_estimate_normals
 
-\ref ::CGAL::pca_estimate_normals  
+\ref CGAL::pca_estimate_normals
 
-\ref ::CGAL::mst_orient_normals  
+\ref CGAL::mst_orient_normals
 
-\ref ::CGAL::write_off_points  
+\ref CGAL::write_off_points
 
-\ref ::CGAL::write_xyz_points  
+\ref CGAL::write_xyz_points

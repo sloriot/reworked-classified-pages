@@ -2,7 +2,7 @@
 
 # Classified Reference Pages #
 
-Definition 
+Definition
 --------------
 
 Kinetic data structures are a way of adding motion to classical
@@ -14,23 +14,23 @@ package. The user can use an existing kinetic data structure, write a
 new kinetic data structure, or replace parts of the framework.The
 first level is covered in the Chapter  \ref refchapterkinetic.
 
-Main Support Classes and Concepts 
+Main Support Classes and Concepts
 --------------
 
 Here we list the main classes and concepts provided by the framework to support implementing kinetic data structures
 
-`Kinetic::ActiveObjectsTable` 
-\ref ::CGAL::Kinetic::Active_objects_vector<MovingObject>   
-\ref ::Kinetic::Cartesian<FunctionKernel>  
+`Kinetic::ActiveObjectsTable`
+\ref CGAL::Kinetic::Active_objects_vector<MovingObject>
+\ref ::Kinetic::Cartesian<FunctionKernel>
 `Kinetic::FunctionKernel`
 `Kinetic::InstantaneousKernel`
-\ref ::CGAL::Kinetic::Default_instantaneous_kernel<ActiveObjectsTable, StaticKernel>  
+\ref CGAL::Kinetic::Default_instantaneous_kernel<ActiveObjectsTable, StaticKernel>
 `Kinetic::Kernel`
 `Kinetic::SimulationTraits`
-`Kinetic::Simulator`  
-\ref ::CGAL::Kinetic::Default_simulator<FunctionKernel, EventQueue>
+`Kinetic::Simulator`
+\ref CGAL::Kinetic::Default_simulator<FunctionKernel, EventQueue>
 
-Other Concepts 
+Other Concepts
 --------------
 
 `Key`
@@ -44,210 +44,210 @@ Other Concepts
 `Kinetic::Simulator::Event`
 `Kinetic::Simulator::Time`
 
-Other Classes 
+Other Classes
 --------------
 
-\ref ::CGAL::Listener<Interface>  
-\ref ::CGAL::Multi_listener<Interface>  
-\ref ::CGAL::Ref_counted<T>  
-\ref ::CGAL::Kinetic::Active_objects_listener_helper<ActiveObjectsTable, KDS> 
-\ref ::CGAL::Kinetic::Erase_event<ActiveObjectsTable> 
-\ref ::CGAL::Kinetic::Insert_event<ActiveObjectsTable>  
-\ref ::CGAL::Kinetic::Qt_moving_points_2<Traits, QtWidget_2>  
-\ref ::CGAL::Kinetic::Qt_triangulation_2<KineticTriangulation_2, QtWidget_2, QtMovingPoints_2>  
-\ref ::CGAL::Kinetic::Qt_widget_2<Simulator>  
-\ref ::CGAL::Kinetic::Regular_triangulation_instantaneous_kernel<ActiveObjectsTable, StaticKernel>  
-\ref ::CGAL::Kinetic::Simulator_kds_listener<Listener, KDS>  
-\ref ::CGAL::Kinetic::Simulator_objects_listener<Simulator_listener, KDS>
+\ref CGAL::Listener<Interface>
+\ref CGAL::Multi_listener<Interface>
+\ref CGAL::Ref_counted<T>
+\ref CGAL::Kinetic::Active_objects_listener_helper<ActiveObjectsTable, KDS>
+\ref CGAL::Kinetic::Erase_event<ActiveObjectsTable>
+\ref CGAL::Kinetic::Insert_event<ActiveObjectsTable>
+\ref CGAL::Kinetic::Qt_moving_points_2<Traits, QtWidget_2>
+\ref CGAL::Kinetic::Qt_triangulation_2<KineticTriangulation_2, QtWidget_2, QtMovingPoints_2>
+\ref CGAL::Kinetic::Qt_widget_2<Simulator>
+\ref CGAL::Kinetic::Regular_triangulation_instantaneous_kernel<ActiveObjectsTable, StaticKernel>
+\ref CGAL::Kinetic::Simulator_kds_listener<Listener, KDS>
+\ref CGAL::Kinetic::Simulator_objects_listener<Simulator_listener, KDS>
 
-   
-  
-  
-  
-  
-  
-  
-    
-    
-  
 
-   
-  
-  
-  
-  
-  
-    
 
-   
-  
-  
-  
-  
-  
-  
-    
-    
-  
 
-   
-  
-  
-  
-  
-  
-  
-    
-    
-  
 
-   
-  
-  
-  
-  
-  
-    
 
-   
-  
-  
-  
-  
-  
-    
 
-   
-  
-  
-  
-  
-  
-    
 
-   
-  
-  
-  
-  
-  
-    
 
-   
-  
-  
-  
-  
-  
-    
 
-   
-  
-  
-  
-  
-  
-    
 
-   
-  
-  
-  
-  
-  
-    
 
-   
-  
-  
-  
-  
-  
-  
-    
-    
-  
 
-   
-  
-  
-  
-  
-  
-    
 
-   
-  
-  
-  
-  
-  
-    
 
-   
-  
-  
-  
-  
-  
-    
 
-   
-  
-  
-  
-  
-  
-  
-    
-    
-  
 
-   
-  
-  
-  
-  
-  
-  
-    
-    
-  
 
-   
-  
-  
-  
-  
-  
-  
-    
-    
-  
 
-   
-  
-  
-  
-  
-  
-    
 
-   
-  
-  
-  
-  
-  
-    
 
-Example 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Example
 --------------
 
 The simulation traits class is simply there for convenience in order to bundle a set of related typedefs and create a few objects. As a resulting, creating your own requires little though, and just copying and changing a few lines. An example is below which sets up to use the CORE Sturm sequences to solve polynomials rather than our own (faster) solvers. It can be found in examples/Kinetic_framework/defining_a_simulation_traits.cpp.
 
   \code{.cpp}
-  
+
 
 #include <CGAL/Polynomial/Sturm_root_stack_traits.h>
 #include <CGAL/Polynomial/Sturm_root_stack.h>
@@ -282,7 +282,7 @@ struct My_simulation_traits {
   typedef Active_objects_vector<Kinetic_kernel::Point_2> Active_points_2_table;
   typedef Active_objects_vector<Kinetic_kernel::Point_3> Active_points_3_table;
   // typedef Active_objects_vector<Kinetic_kernel::Weighted_point_3> Active_weighted_points_3_table;
- 
+
   typedef Default_instantaneous_kernel<This> Instantaneous_kernel;
 
   Active_points_1_table* active_points_1_table_handle() const { return ap1_.get();}
@@ -293,7 +293,7 @@ struct My_simulation_traits {
   Simulator* simulator_handle() const { return sim_.get();}
   const Static_kernel& static_kernel_object() const {return k_;}
   const Kinetic_kernel& kinetic_kernel_object() const {return kk_;}
- 
+
   Instantaneous_kernel instantaneous_kernel_object() const {
     return Instantaneous_kernel(*this);
   }
@@ -305,8 +305,8 @@ struct My_simulation_traits {
 						      ap3_(new Active_points_3_table())
 						      //awp3_(new Active_weighted_points_3_table())
 {}
- 
-  
+
+
   bool is_exact() const {
     return true;
   }

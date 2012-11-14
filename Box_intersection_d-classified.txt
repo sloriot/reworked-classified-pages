@@ -16,18 +16,18 @@ simple all-pairs test as a generic function.
 
 ## Classes ##
 
-\ref ::CGAL::Box_intersection_d::Box_d<NT,int D,IdPolicy>
+\ref CGAL::Box_intersection_d::Box_d<NT,int D,IdPolicy>
 
-\ref ::CGAL::Box_intersection_d::Box_with_handle_d<NT, int D, Handle, IdPolicy>
+\ref CGAL::Box_intersection_d::Box_with_handle_d<NT, int D, Handle, IdPolicy>
 
-\ref ::CGAL::Box_intersection_d::Box_traits_d<BoxHandle>
+\ref CGAL::Box_intersection_d::Box_traits_d<BoxHandle>
 
 ## Functions ##
 
-\ref ::CGAL::box_intersection_d 
+\ref CGAL::box_intersection_d
 
-\ref ::CGAL::box_self_intersection_d
+\ref CGAL::box_self_intersection_d
 
-\ref ::CGAL::box_intersection_all_pairs_d
+\ref CGAL::box_intersection_all_pairs_d
 
-\ref ::CGAL::box_self_intersection_all_pairs_d
+\ref CGAL::box_self_intersection_all_pairs_d

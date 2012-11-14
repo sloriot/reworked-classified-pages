@@ -1,6 +1,6 @@
 
 
-This chapter describes concepts, classes, and functions for 
+This chapter describes concepts, classes, and functions for
 monotone and sorted matrix search.
 
 # Assertions #
@@ -12,16 +12,16 @@ checking off, cf. Section  \ref secchecks.
 
 # Classified References Pages #
 
-\ref ::CGAL::monotone_matrix_search
+\ref CGAL::monotone_matrix_search
 
-\ref ::CGAL::Dynamic_matrix<M>
+\ref CGAL::Dynamic_matrix<M>
 
 `MonotoneMatrixSearchTraits`
 
 `BasicMatrix`<BR>
 
-\ref ::CGAL::sorted_matrix_search
+\ref CGAL::sorted_matrix_search
 
-\ref ::CGAL::Sorted_matrix_search_traits_adaptor<F,M>
+\ref CGAL::Sorted_matrix_search_traits_adaptor<F,M>
 
 `SortedMatrixSearchTraits`<BR>

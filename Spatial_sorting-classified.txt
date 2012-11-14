@@ -1,50 +1,50 @@
 
 
-Functions 
+Functions
 --------------
 
-\ref ::CGAL::spatial_sort 
+\ref CGAL::spatial_sort
 
-\ref ::CGAL::hilbert_sort 
+\ref CGAL::hilbert_sort
 
-Function Objects 
+Function Objects
 --------------
 
-\ref ::CGAL::Multiscale_sort<Sort> 
+\ref CGAL::Multiscale_sort<Sort>
 
-\ref ::CGAL::Hilbert_sort_2<Traits, PolicyTag> 
+\ref CGAL::Hilbert_sort_2<Traits, PolicyTag>
 
-\ref ::CGAL::Hilbert_sort_3<Traits, PolicyTag> 
+\ref CGAL::Hilbert_sort_3<Traits, PolicyTag>
 
-\ref ::CGAL::Hilbert_sort_d<Traits, PolicyTag> 
+\ref CGAL::Hilbert_sort_d<Traits, PolicyTag>
 
-Traits classes 
+Traits classes
 --------------
 
-\ref ::CGAL::Spatial_sort_traits_adapter_2<Base_traits,PointPropertyMap> 
+\ref CGAL::Spatial_sort_traits_adapter_2<Base_traits,PointPropertyMap>
 
-\ref ::CGAL::Spatial_sort_traits_adapter_3<Base_traits,PointPropertyMap> 
+\ref CGAL::Spatial_sort_traits_adapter_3<Base_traits,PointPropertyMap>
 
-\ref ::CGAL::Spatial_sort_traits_adapter_d<Base_traits,PointPropertyMap> 
+\ref CGAL::Spatial_sort_traits_adapter_d<Base_traits,PointPropertyMap>
 
-Concepts 
+Concepts
 --------------
 
-\ref ::SpatialSortingTraits_2 
+\ref ::SpatialSortingTraits_2
 
-\ref ::SpatialSortingTraits_3 
+\ref ::SpatialSortingTraits_3
 
-\ref ::SpatialSortingTraits_d 
+\ref ::SpatialSortingTraits_d
 
-Utilities 
+Utilities
 --------------
 
-\ref ::CGAL::Median
+\ref CGAL::Median
 
-\ref ::CGAL::Middle
+\ref CGAL::Middle
 
-\ref ::CGAL::Hilbert_policy<Tag>
+\ref CGAL::Hilbert_policy<Tag>
 
-\ref ::CGAL::Hilbert_sort_median_policy
+\ref CGAL::Hilbert_sort_median_policy
 
-\ref ::CGAL::Hilbert_sort_middle_policy
+\ref CGAL::Hilbert_sort_middle_policy

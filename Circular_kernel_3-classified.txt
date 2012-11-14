@@ -93,59 +93,59 @@
 
 ## Kernels ##
 
-\ref ::CGAL::Spherical_kernel_3<Kernel,AlgebraicKernelForSpheres>
+\ref CGAL::Spherical_kernel_3<Kernel,AlgebraicKernelForSpheres>
 
-\ref ::CGAL::Exact_spherical_kernel_3
+\ref CGAL::Exact_spherical_kernel_3
 
 ## Points ##
 
-\ref ::CGAL::Circular_arc_point_3<SphericalKernel>
+\ref CGAL::Circular_arc_point_3<SphericalKernel>
 
 ## Arcs ##
 
-\ref ::CGAL::Line_arc_3<SphericalKernel>
+\ref CGAL::Line_arc_3<SphericalKernel>
 
-\ref ::CGAL::Circular_arc_3<SphericalKernel>
+\ref CGAL::Circular_arc_3<SphericalKernel>
 
 ## Constants and Enumerations ##
 
-\ref ::CGAL::Circle_type
+\ref CGAL::Circle_type
 
 # Geometric Global Functions #
 
-\ref ::CGAL::compare_x
+\ref CGAL::compare_x
 
-\ref ::CGAL::compare_y
+\ref CGAL::compare_y
 
-\ref ::CGAL::compare_z
+\ref CGAL::compare_z
 
-\ref ::CGAL::compare_xy
+\ref CGAL::compare_xy
 
-\ref ::CGAL::compare_xyz
+\ref CGAL::compare_xyz
 
-\ref ::CGAL::compare_theta
+\ref CGAL::compare_theta
 
-\ref ::CGAL::compare_theta_z
+\ref CGAL::compare_theta_z
 
-\ref ::CGAL::is_theta_monotone
+\ref CGAL::is_theta_monotone
 
-\ref ::CGAL::classify
+\ref CGAL::classify
 
-\ref ::CGAL::x_extremal_point
+\ref CGAL::x_extremal_point
 
-\ref ::CGAL::y_extremal_point
+\ref CGAL::y_extremal_point
 
-\ref ::CGAL::z_extremal_point
+\ref CGAL::z_extremal_point
 
-\ref ::CGAL::theta_extremal_point
+\ref CGAL::theta_extremal_point
 
-\ref ::CGAL::x_extremal_points
+\ref CGAL::x_extremal_points
 
-\ref ::CGAL::y_extremal_points
+\ref CGAL::y_extremal_points
 
-\ref ::CGAL::z_extremal_points
+\ref CGAL::z_extremal_points
 
-\ref ::CGAL::theta_extremal_points
+\ref CGAL::theta_extremal_points
 
 \ref ::Kernel::do_intersect "CGAL::do_intersect"
 
@@ -187,20 +187,20 @@
 
 ## Kernel ##
 
-\ref ::CGAL::Algebraic_kernel_for_spheres_2_3<RT>
+\ref CGAL::Algebraic_kernel_for_spheres_2_3<RT>
 
 ## Polynomials ##
 
-\ref ::CGAL::Polynomial_1_3<RT>
+\ref CGAL::Polynomial_1_3<RT>
 
-\ref ::CGAL::Polynomial_for_spheres_2_3<FT>
+\ref CGAL::Polynomial_for_spheres_2_3<FT>
 
-\ref ::CGAL::Polynomials_for_lines_3<FT>
+\ref CGAL::Polynomials_for_lines_3<FT>
 
 ## Roots of Polynomials ##
 
-\ref ::CGAL::Sqrt_extension<NT,ROOT>
+\ref CGAL::Sqrt_extension<NT,ROOT>
 
-\ref ::CGAL::Root_for_spheres_2_3<RT>
+\ref CGAL::Root_for_spheres_2_3<RT>
 
-\ref ::CGAL::Root_of_traits_2<RT>
+\ref CGAL::Root_of_traits_2<RT>

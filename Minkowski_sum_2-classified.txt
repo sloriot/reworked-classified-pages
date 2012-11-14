@@ -16,15 +16,15 @@ bounds, in order to speed up the computation time.
 
 ## Functions ##
 
-\ref ::CGAL::minkowski_sum_2
+\ref CGAL::minkowski_sum_2
 
-\ref ::CGAL::approximated_offset_2
+\ref CGAL::approximated_offset_2
 
-\ref ::CGAL::approximated_inset_2
+\ref CGAL::approximated_inset_2
 
-\ref ::CGAL::offset_polygon_2
+\ref CGAL::offset_polygon_2
 
-\ref ::CGAL::inset_polygon_2
+\ref CGAL::inset_polygon_2
 
 ## Concepts ##
 
@@ -32,10 +32,10 @@ bounds, in order to speed up the computation time.
 
 ## Classes ##
 
-\ref ::CGAL::Small_side_angle_bisector_decomposition_2<Kernel,Container>
+\ref CGAL::Small_side_angle_bisector_decomposition_2<Kernel,Container>
 
-\ref ::CGAL::Optimal_convex_decomposition_2<Kernel,Container>
+\ref CGAL::Optimal_convex_decomposition_2<Kernel,Container>
 
-\ref ::CGAL::Hertel_Mehlhorn_convex_decomposition_2<Kernel,Container>
+\ref CGAL::Hertel_Mehlhorn_convex_decomposition_2<Kernel,Container>
 
-\ref ::CGAL::Greene_convex_decomposition_2<Kernel,Container>
+\ref CGAL::Greene_convex_decomposition_2<Kernel,Container>

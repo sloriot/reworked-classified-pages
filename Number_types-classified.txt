@@ -68,40 +68,40 @@
 
 ## Relates Rational ##
 
-\ref ::CGAL::Rational_traits<NT> 
+\ref CGAL::Rational_traits<NT>
 
-\ref ::CGAL::simplest_rational_in_interval 
+\ref CGAL::simplest_rational_in_interval
 
-\ref ::CGAL::to_rational 
+\ref CGAL::to_rational
 
 ## Relates Algebraic Extensions ##
 
 \ref ::RootOf_2
 
-\ref ::CGAL::Root_of_traits<RT>
+\ref CGAL::Root_of_traits<RT>
 
-\ref ::CGAL::make_root_of_2<RT>
+\ref CGAL::make_root_of_2<RT>
 
-\ref ::CGAL::make_sqrt<RT>
+\ref CGAL::make_sqrt<RT>
 
-\ref ::CGAL::compute_roots_of_2<RT,OutputIterator>
+\ref CGAL::compute_roots_of_2<RT,OutputIterator>
 
-\ref ::CGAL::Sqrt_extension<NT,ROOT>
+\ref CGAL::Sqrt_extension<NT,ROOT>
 
 ## Utilities ##
- 
-\ref ::CGAL::Min<T,Less>
 
-\ref ::CGAL::Max<T,Less>
+\ref CGAL::Min<T,Less>
 
-\ref ::CGAL::Is_valid<T>
- 
-\ref ::CGAL::min
+\ref CGAL::Max<T,Less>
 
-\ref ::CGAL::max
+\ref CGAL::Is_valid<T>
 
-\ref ::CGAL::is_valid
+\ref CGAL::min
 
-\ref ::CGAL::Set_ieee_double_precision
+\ref CGAL::max
 
-\ref ::CGAL::Protect_FPU_rounding<Protected>
+\ref CGAL::is_valid
+
+\ref CGAL::Set_ieee_double_precision
+
+\ref CGAL::Protect_FPU_rounding<Protected>
