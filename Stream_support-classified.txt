@@ -1,0 +1,53 @@
+
+
+All classes in the \cgal kernel provide input and output operators for
+IO streams.
+\cgal provides three different printing mode, defined in the enum
+`Mode`, as well as different functions to set and get
+the printing mode.
+
+# Classified Reference Pages #
+
+## Enum ##
+
+\ref ::CGAL::Mode 
+
+## Functions ##
+
+\ref ::CGAL::get_mode 
+
+\ref ::CGAL::is_ascii 
+
+\ref ::CGAL::is_binary 
+
+\ref ::CGAL::is_pretty 
+
+\ref ::CGAL::set_mode 
+
+\ref ::CGAL::set_ascii_mode 
+
+\ref ::CGAL::set_binary_mode 
+
+\ref ::CGAL::set_pretty_mode 
+
+\ref ::CGAL::operator>> 
+
+\ref ::CGAL::operator<< 
+
+\ref ::CGAL::iformat 
+
+\ref ::CGAL::oformat
+
+## Classes ##
+
+\ref ::CGAL::Color
+
+\ref ::CGAL::Istream_iterator<T,Stream>
+
+\ref ::CGAL::Ostream_iterator<T,Stream>
+
+\ref ::CGAL::Verbose_ostream
+
+\ref ::CGAL::Input_rep<T,F>
+
+\ref ::CGAL::Output_rep<T,F>

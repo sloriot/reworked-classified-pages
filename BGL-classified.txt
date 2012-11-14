@@ -1,0 +1,42 @@
+
+This chapter introduces the concepts and classes that allow to interface \cgal data structures 
+with the algorithms of the <span class="textsc">Bgl</span>, as well as a new graph concept.
+
+# Classified Reference Pages #
+
+Concepts 
+--------------
+
+`HalfedgeGraph`
+
+Enums 
+--------------
+
+\ref ::boost::edge_index_t
+
+\ref ::CGAL::edge_is_border_t
+
+\ref ::CGAL::vertex_is_border_t
+
+\ref ::CGAL::vertex_point_t
+
+Classes 
+--------------
+
+\ref ::boost::graph_traits< CGAL::Arrangement_2<Traits,Dcel> >
+
+\ref ::boost::graph_traits< CGAL::Polyhedron_3<Traits> >
+
+\ref ::CGAL::halfedge_graph_traits< CGAL::Polyhedron_3<Traits> >
+
+\ref ::boost::graph_traits< CGAL::Triangulation_2<GT, TDS> >
+
+\ref ::CGAL::Triangulation_vertex_base_with_id_2<TriangulationTraits_2, TriangulationVertexBase_2>
+
+\ref ::CGAL::HalfedgeDS_vertex_max_base_with_id<Refs>
+
+\ref ::CGAL::HalfedgeDS_halfedge_max_base_with_id<Refs>
+
+\ref ::CGAL::HalfedgeDS_face_max_base_with_id<Refs>
+
+\ref ::CGAL::Polyhedron_items_with_id_3

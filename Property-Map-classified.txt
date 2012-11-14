@@ -1,0 +1,16 @@
+
+
+This package provides a framework for interfacing \cgal data structures with algorithms expecting Boost Property Maps.
+
+# Classified Reference Pages #
+
+Classes 
+--------------
+
+\ref ::CGAL::Dereference_property_map<T>  
+
+\ref ::CGAL::First_of_pair_property_map<Pair>  
+
+\ref ::CGAL::Second_of_pair_property_map<Pair>  
+
+\ref ::CGAL::Nth_of_tuple_property_map<N, Tuple>  

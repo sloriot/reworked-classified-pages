@@ -1,0 +1,23 @@
+
+
+The function `convex_decomposition_3` takes a
+`Nef_polyhedron_3` \f$ N\f$ as input parameter and inserts additional facets, 
+such that each bounded marked volume (the outer volume is unbounded)
+is subdivided into convex pieces.
+
+# Classified Reference Pages #
+
+## Functions ##
+
+END:REF
+
+/*!
+\ingroup PkgConvexDecomposition3
+SPLICE DOC HERE
+CONVERROR StrangeDoc placement
+<A HREF="Function_convex_decomposition_3.html">(go there)</A>
+     
+*/
+void convex_decomposition_3(Nef_polyhedron_3& N);
+
+BEGIN:REF

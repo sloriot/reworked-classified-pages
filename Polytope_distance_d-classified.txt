@@ -1,0 +1,39 @@
+
+
+This chapter describes concepts, classes, and functions for 2D all furthest neigbors, 
+3D width of a point set, and dD polytope distance.
+
+# Assertions #
+
+The optimization code uses infix `OPTIMISATION` in the assertions,
+e.g. defining the compiler flag
+`CGAL_OPTIMISATION_NO_PRECONDITIONS` switches precondition
+checking off, cf. Section  \ref secchecks.
+
+# Classified References Pages #
+
+## All furthest neighbors ##
+
+\ref ::CGAL::all_furthest_neighbors_2
+
+`AllFurthestNeighborsTraits_2`
+
+## Width ##
+
+\ref ::CGAL::Width_3<Traits>
+
+\ref ::CGAL::Width_default_traits_3<K>
+
+`WidthTraits_3`
+
+## Polytope Distance ##
+
+\ref ::CGAL::Polytope_distance_d<Traits>
+
+\ref ::CGAL::Polytope_distance_d_traits_2<K,ET,NT>
+
+\ref ::CGAL::Polytope_distance_d_traits_3<K,ET,NT>
+
+\ref ::CGAL::Polytope_distance_d_traits_d<K,ET,NT>
+
+`PolytopeDistanceDTraits`

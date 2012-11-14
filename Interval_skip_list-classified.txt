@@ -1,0 +1,34 @@
+
+
+This chapter presents the interval skip list introduced by Hanson \cite h-islds-91,
+and derived from the skip list data structure \cite p-slpab-90.
+
+The data structure stores intervals and allows to perform stabbing queries,
+that is to test whether a point is covered by any of the intervals.
+It further allows to find all intervals that contain a point.
+
+The interval skip list is, as far as its functionality is concerned,
+related to the `Segment_tree`. Both allow to do stabbing queries
+and both allow to find all intervals that contain a given point.  The
+implementation of segment trees in \cgal works in higher
+dimensions, whereas the interval skip list is limited to the 1D
+case. However, this interval skip list implementation is fully
+dynamic, whereas the segment tree implementation in \cgal is
+static, that is all intervals must be known in advance.
+
+This package has one concept, namely for the interval with which 
+the interval skip list class is parameterized.
+
+# Classified Reference Pages #
+
+## Concepts ##
+
+`Interval`
+
+## Classes ##
+
+\ref ::CGAL::Interval_skip_list<Interval>
+
+\ref ::CGAL::Interval_skip_list_interval<Value>
+
+\ref ::CGAL::Level_interval<FaceHandle>

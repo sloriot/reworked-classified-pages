@@ -1,0 +1,4 @@
+
+
+Snap Rounding is a method for converting arbitrary-precision
+arrangements of segments into a fixed-precision representation.

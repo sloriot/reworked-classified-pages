@@ -1,0 +1,100 @@
+
+
+A subset \f$ S \subseteq \R^2\f$ is convex if for any two points \f$ p\f$ and \f$ q\f$
+in the set the line segment with endpoints \f$ p\f$ and \f$ q\f$ is contained
+in \f$ S\f$. The convex hull of a set \f$ S\f$ is 
+the smallest convex set containing
+\f$ S\f$. The convex hull of a set of points \f$ P\f$ is a convex 
+polygon with vertices in \f$ P\f$.  A point in \f$ P\f$ is an extreme point 
+(with respect to \f$ P\f$) if it is a vertex 
+of the convex hull of \f$ P\f$.
+
+\cgal provides functions for computing convex hulls in two dimensions
+as well as functions for testing if a given set of points is strongly 
+convex or not.  There are also a number of functions available for computing 
+particular extreme points in 2D and subsequences of the hull points, such as 
+the lower hull or upper hull of a set of points.
+
+# Classified Reference Pages #
+
+Assertions 
+--------------
+
+The assertion flags for the convex hull and extreme point algorithms
+use `CH` in their names (<I>e.g.</I>, `CGAL_CH_NO_POSTCONDITIONS`).
+For the convex hull algorithms, the postcondition
+check tests only convexity (if not disabled), but not containment of the
+input points in the polygon or polyhedron defined by the output points.
+The latter is considered an expensive checking and can be enabled by
+defining `CGAL_CH_CHECK_EXPENSIVE`
+.
+
+Concepts 
+--------------
+
+`ConvexHullTraits_2`
+
+Traits Classes 
+--------------
+
+\ref ::CGAL::Convex_hull_constructive_traits_2<R>  
+
+\ref ::CGAL::Convex_hull_projective_xy_traits_2<Point_3>  
+
+\ref ::CGAL::Convex_hull_projective_xz_traits_2<Point_3>  
+
+\ref ::CGAL::Convex_hull_projective_yz_traits_2<Point_3>  
+
+\ref ::CGAL::Convex_hull_traits_2<R>
+
+Convex Hull Functions 
+--------------
+
+\ref ::CGAL::ch_akl_toussaint 
+
+\ref ::CGAL::ch_bykat 
+
+\ref ::CGAL::ch_eddy 
+
+\ref ::CGAL::ch_graham_andrew 
+
+\ref ::CGAL::ch_jarvis 
+
+\ref ::CGAL::ch_melkman 
+
+\ref ::CGAL::convex_hull_2
+
+Convexity Checking Functions 
+--------------
+
+\ref ::CGAL::is_ccw_strongly_convex_2 
+
+\ref ::CGAL::is_cw_strongly_convex_2
+
+Hull Subsequence Functions 
+--------------
+
+\ref ::CGAL::ch_graham_andrew_scan 
+
+\ref ::CGAL::ch_jarvis_march 
+
+\ref ::CGAL::lower_hull_points_2 
+
+\ref ::CGAL::upper_hull_points_2
+
+Extreme Point Functions 
+--------------
+
+\ref ::CGAL::ch_e_point 
+
+\ref ::CGAL::ch_nswe_point 
+
+\ref ::CGAL::ch_n_point 
+
+\ref ::CGAL::ch_ns_point 
+
+\ref ::CGAL::ch_s_point 
+
+\ref ::CGAL::ch_w_point 
+
+\ref ::CGAL::ch_we_point

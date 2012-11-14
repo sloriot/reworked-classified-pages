@@ -1,0 +1,33 @@
+
+
+We provide an efficient algorithm \cite cgal:ze-fsbi-02 for finding all
+intersecting\footnote{Boxes represent volumes or point-sets. So, <I>intersection</I> means intersection of the point-set enclosed by the box and not only intersection of the boundary, of course.} pairs for large numbers of iso-oriented boxes, i.e.,
+typically these will be bounding boxes of more complicated geometries.
+For comparison and as a base case for other methods, we also offer the
+simple all-pairs test as a generic function.
+
+# Classified Reference Pages #
+
+## Concepts ##
+
+`BoxIntersectionBox_d`
+
+`BoxIntersectionTraits_d`
+
+## Classes ##
+
+\ref ::CGAL::Box_intersection_d::Box_d<NT,int D,IdPolicy>
+
+\ref ::CGAL::Box_intersection_d::Box_with_handle_d<NT, int D, Handle, IdPolicy>
+
+\ref ::CGAL::Box_intersection_d::Box_traits_d<BoxHandle>
+
+## Functions ##
+
+\ref ::CGAL::box_intersection_d 
+
+\ref ::CGAL::box_self_intersection_d
+
+\ref ::CGAL::box_intersection_all_pairs_d
+
+\ref ::CGAL::box_self_intersection_all_pairs_d

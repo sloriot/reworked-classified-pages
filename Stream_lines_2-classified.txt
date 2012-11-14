@@ -1,0 +1,53 @@
+
+
+Vector and direction fields are commonly used for modeling physical
+phenomena, where a direction and magnitude, namely a vector is assigned to
+each point inside a domain.
+
+A streamline is a curve everywhere tangent to the field. It can be
+considered as the path traced by an imaginary massless particle
+dropped into a steady fluid flow described by the field.
+
+A streamline is represented as a polyline iteratively elongated by
+bidirectional numerical integration started from a seed point, until
+it comes close to another streamline, hits the domain boundary, or
+reaches a critical point.
+
+The `Stream_lines_2` class consists of saturating the domain with
+a set of tangential streamlines in accordance with a specified
+density.
+
+Streamlines are represented as containers of points, manipulated by an
+iterator range of points, and the whole placement is accessible via an
+iterator range of streamlines.
+
+The main class in this package, the `Stream_lines_2` class of \cgal depends on two template
+parameters.  The first template parameter stands for a class which
+represents both the vector field and the visualization domain with
+operations on them, and should be instantiated by a model of the concept
+`VectorField_2`.  The second template parameter stands for a
+function object that ensures the numerical integration used to
+construct the streamlines, and should be instantiated by a model of the concept
+`Integrator_2`.
+
+# Classified Reference Pages #
+
+## Concepts ##
+
+`StreamLinesTraits_2` 
+
+`Integrator_2` 
+
+`VectorField_2` 
+
+## Classes ##
+
+\ref ::CGAL::Stream_lines_2<VectorField_2,Integrator_2>
+
+\ref ::CGAL::Euler_integrator_2<VectorField_2>
+
+\ref ::CGAL::Runge_kutta_integrator_2<VectorField_2>
+
+\ref ::CGAL::Regular_grid_2<StreamLinesTraits_2>
+
+\ref ::CGAL::Triangular_field_2<StreamLinesTraits_2>

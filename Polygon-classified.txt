@@ -1,0 +1,46 @@
+
+
+Assertions 
+--------------
+
+The assertion flags for the polygons and polygon operations use 
+`POLYGON` in their names (<I>e.g.</I>, `CGAL_POLYGON_NO_ASSERTIONS`).
+
+# Classified Reference Pages #
+
+Concepts 
+--------------
+
+`PolygonTraits_2` 
+
+Classes 
+--------------
+
+\ref ::CGAL::Polygon_2<PolygonTraits_2, Container> 
+
+Global Functions 
+--------------
+
+\ref ::CGAL::area_2 
+
+\ref ::CGAL::bbox_2 
+
+\ref ::CGAL::bottom_vertex_2 
+
+\ref ::CGAL::bounded_side_2 
+
+\ref ::CGAL::is_convex_2 
+
+\ref ::CGAL::is_simple_2 
+
+\ref ::CGAL::left_vertex_2 
+
+\ref ::CGAL::orientation_2 
+
+\ref ::CGAL::oriented_side_2 
+
+\ref ::CGAL::polygon_area_2 
+
+\ref ::CGAL::right_vertex_2 
+
+\ref ::CGAL::top_vertex_2 

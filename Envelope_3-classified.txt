@@ -1,0 +1,35 @@
+
+
+# Introduction #
+
+This package consists of functions that compute the lower (or upper)
+envelope of a set of arbitrary surfaces in 3D. The output is
+represented as an 2D envelope diagram  -  a planar subdivision such
+that the identity of the surfaces that induce the envelope over each
+diagram cell is unique.
+
+## Functions ##
+
+\ref ::CGAL::lower_envelope_3
+
+\ref ::CGAL::upper_envelope_3
+
+\ref ::CGAL::lower_envelope_xy_monotone_3
+
+\ref ::CGAL::upper_envelope_xy_monotone_3
+
+## Concepts ##
+
+`EnvelopeTraits_3`
+
+## Classes ##
+
+\ref ::CGAL::Envelope_diagram_2<EnvTraits>
+
+\ref ::CGAL::Env_triangle_traits_3<Kernel>
+
+\ref ::CGAL::Env_sphere_traits_3<ConicTraits>
+
+\ref ::CGAL::Env_plane_traits_3<Kernel>
+
+\ref ::CGAL::Env_surface_data_traits_3<Traits,XyData,SData,Cnv>

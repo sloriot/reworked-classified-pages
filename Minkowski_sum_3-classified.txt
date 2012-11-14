@@ -1,0 +1,21 @@
+
+
+The function `minkowski_sum_3` computes the Minkowski sum of two
+given 3D Nef polyhedra.
+
+# Classified Reference Pages #
+
+## Functions ##
+
+END:REF
+
+/*!
+\ingroup PkgMinkowskiSum3
+SPLICE DOC HERE
+CONVERROR StrangeDoc placement
+<A HREF="Function_minkowski_sum_3.html">(go there)</A>
+     
+*/
+Nef_polyhedron_3 minkowski_sum_3(Nef_polyhedron_3 N0, Nef_polyhedron_3 N1);
+
+BEGIN:REF
