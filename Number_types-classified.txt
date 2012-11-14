@@ -68,40 +68,40 @@
 
 ## Relates Rational ##
 
-\ref CGAL::Rational_traits<NT>
+- `CGAL::Rational_traits<NT>`
 
-\ref CGAL::simplest_rational_in_interval
+- `CGAL::simplest_rational_in_interval`
 
-\ref CGAL::to_rational
+- `CGAL::to_rational`
 
 ## Relates Algebraic Extensions ##
 
-\ref ::RootOf_2
+- `::RootOf_2`
 
-\ref CGAL::Root_of_traits<RT>
+- `CGAL::Root_of_traits<RT>`
 
-\ref CGAL::make_root_of_2<RT>
+- `CGAL::make_root_of_2<RT>`
 
-\ref CGAL::make_sqrt<RT>
+- `CGAL::make_sqrt<RT>`
 
-\ref CGAL::compute_roots_of_2<RT,OutputIterator>
+- `CGAL::compute_roots_of_2<RT,OutputIterator>`
 
-\ref CGAL::Sqrt_extension<NT,ROOT>
+- `CGAL::Sqrt_extension<NT,ROOT>`
 
 ## Utilities ##
 
-\ref CGAL::Min<T,Less>
+- `CGAL::Min<T,Less>`
 
-\ref CGAL::Max<T,Less>
+- `CGAL::Max<T,Less>`
 
-\ref CGAL::Is_valid<T>
+- `CGAL::Is_valid<T>`
 
-\ref CGAL::min
+- `CGAL::min`
 
-\ref CGAL::max
+- `CGAL::max`
 
-\ref CGAL::is_valid
+- `CGAL::is_valid`
 
-\ref CGAL::Set_ieee_double_precision
+- `CGAL::Set_ieee_double_precision`
 
-\ref CGAL::Protect_FPU_rounding<Protected>
+- `CGAL::Protect_FPU_rounding<Protected>`

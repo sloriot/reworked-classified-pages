@@ -34,36 +34,36 @@ found in \cite k-ugpdd-99.
 
 `HalfedgeDSVertex`
 
-\ref ::HalfedgeDSHalfedge
+- `::HalfedgeDSHalfedge`
 
-\ref ::HalfedgeDSFace
+- `::HalfedgeDSFace`
 
 ## Classes ##
 
-\ref CGAL::HalfedgeDS_default<Traits,HalfedgeDSItems,Alloc>
+- `CGAL::HalfedgeDS_default<Traits,HalfedgeDSItems,Alloc>`
 
-\ref CGAL::HalfedgeDS_list<Traits,HalfedgeDSItems,Alloc>
+- `CGAL::HalfedgeDS_list<Traits,HalfedgeDSItems,Alloc>`
 
-\ref CGAL::HalfedgeDS_vector<Traits,HalfedgeDSItems,Alloc>
+- `CGAL::HalfedgeDS_vector<Traits,HalfedgeDSItems,Alloc>`
 
-\ref CGAL::HalfedgeDS_min_items
+- `CGAL::HalfedgeDS_min_items`
 
-\ref CGAL::HalfedgeDS_items_2
+- `CGAL::HalfedgeDS_items_2`
 
-\ref CGAL::HalfedgeDS_vertex_base<Refs>
+- `CGAL::HalfedgeDS_vertex_base<Refs>`
 
-\ref CGAL::HalfedgeDS_halfedge_base<Refs>
+- `CGAL::HalfedgeDS_halfedge_base<Refs>`
 
-\ref CGAL::HalfedgeDS_face_base<Refs>
+- `CGAL::HalfedgeDS_face_base<Refs>`
 
-\ref CGAL::HalfedgeDS_vertex_min_base<Refs>
+- `CGAL::HalfedgeDS_vertex_min_base<Refs>`
 
-\ref CGAL::HalfedgeDS_halfedge_min_base<Refs>
+- `CGAL::HalfedgeDS_halfedge_min_base<Refs>`
 
-\ref CGAL::HalfedgeDS_face_min_base<Refs>
+- `CGAL::HalfedgeDS_face_min_base<Refs>`
 
-\ref CGAL::HalfedgeDS_items_decorator<HDS>
+- `CGAL::HalfedgeDS_items_decorator<HDS>`
 
-\ref CGAL::HalfedgeDS_decorator<HDS>
+- `CGAL::HalfedgeDS_decorator<HDS>`
 
-\ref CGAL::HalfedgeDS_const_decorator<HDS>
+- `CGAL::HalfedgeDS_const_decorator<HDS>`

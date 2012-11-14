@@ -12,31 +12,31 @@ Concepts
 Enums
 --------------
 
-\ref ::boost::edge_index_t
+- `::boost::edge_index_t`
 
-\ref CGAL::edge_is_border_t
+- `CGAL::edge_is_border_t`
 
-\ref CGAL::vertex_is_border_t
+- `CGAL::vertex_is_border_t`
 
-\ref CGAL::vertex_point_t
+- `CGAL::vertex_point_t`
 
 Classes
 --------------
 
-\ref ::boost::graph_traits< CGAL::Arrangement_2<Traits,Dcel> >
+- `::boost::graph_traits< CGAL::Arrangement_2<Traits,Dcel> >`
 
-\ref ::boost::graph_traits< CGAL::Polyhedron_3<Traits> >
+- `::boost::graph_traits< CGAL::Polyhedron_3<Traits> >`
 
-\ref CGAL::halfedge_graph_traits< CGAL::Polyhedron_3<Traits> >
+- `CGAL::halfedge_graph_traits< CGAL::Polyhedron_3<Traits> >`
 
-\ref ::boost::graph_traits< CGAL::Triangulation_2<GT, TDS> >
+- `::boost::graph_traits< CGAL::Triangulation_2<GT, TDS> >`
 
-\ref CGAL::Triangulation_vertex_base_with_id_2<TriangulationTraits_2, TriangulationVertexBase_2>
+- `CGAL::Triangulation_vertex_base_with_id_2<TriangulationTraits_2, TriangulationVertexBase_2>`
 
-\ref CGAL::HalfedgeDS_vertex_max_base_with_id<Refs>
+- `CGAL::HalfedgeDS_vertex_max_base_with_id<Refs>`
 
-\ref CGAL::HalfedgeDS_halfedge_max_base_with_id<Refs>
+- `CGAL::HalfedgeDS_halfedge_max_base_with_id<Refs>`
 
-\ref CGAL::HalfedgeDS_face_max_base_with_id<Refs>
+- `CGAL::HalfedgeDS_face_max_base_with_id<Refs>`
 
-\ref CGAL::Polyhedron_items_with_id_3
+- `CGAL::Polyhedron_items_with_id_3`

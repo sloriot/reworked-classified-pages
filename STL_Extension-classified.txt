@@ -2,156 +2,156 @@
 
 ## Doubly-Connected List Managing Items in Place ##
 
-\ref CGAL::In_place_list<T,bool>
+- `CGAL::In_place_list<T,bool>`
 
-\ref CGAL::In_place_list_base<T>
+- `CGAL::In_place_list_base<T>`
 
 ## Compact Container ##
 
-\ref CGAL::Compact_container<T, Allocator>
+- `CGAL::Compact_container<T, Allocator>`
 
-\ref CGAL::Compact_container_traits<T>
+- `CGAL::Compact_container_traits<T>`
 
-\ref CGAL::Compact_container_base
+- `CGAL::Compact_container_base`
 
 ## Multiset with Extended Functionality ##
 
-\ref CGAL::Multiset<Type,Compare,Allocator>
+- `CGAL::Multiset<Type,Compare,Allocator>`
 
 ## Generic Algorithms ##
 
-\ref CGAL::cpp0x::copy_n
+- `CGAL::cpp0x::copy_n`
 
-\ref CGAL::copy_n
+- `CGAL::copy_n`
 
-\ref CGAL::min_max_element
+- `CGAL::min_max_element`
 
-\ref CGAL::cpp0x::next
+- `CGAL::cpp0x::next`
 
-\ref CGAL::cpp0x::prev
+- `CGAL::cpp0x::prev`
 
-\ref CGAL::predecessor
+- `CGAL::predecessor`
 
-\ref CGAL::successor
+- `CGAL::successor`
 
 ## Iterators and Iterator/Circulator Adaptors. ##
 
-\ref CGAL::Dispatch_output_iterator<V,O>
+- `CGAL::Dispatch_output_iterator<V,O>`
 
-\ref CGAL::Dispatch_or_drop_output_iterator<V,O>
+- `CGAL::Dispatch_or_drop_output_iterator<V,O>`
 
-\ref CGAL::Emptyset_iterator
+- `CGAL::Emptyset_iterator`
 
-\ref CGAL::Oneset_iterator<T>
+- `CGAL::Oneset_iterator<T>`
 
-\ref CGAL::Insert_iterator<Container>
+- `CGAL::Insert_iterator<Container>`
 
-\ref CGAL::Counting_iterator<Iterator, Value>
+- `CGAL::Counting_iterator<Iterator, Value>`
 
-\ref CGAL::N_step_adaptor<I,int N>
+- `CGAL::N_step_adaptor<I,int N>`
 
-\ref CGAL::Filter_iterator<Iterator, Predicate>
+- `CGAL::Filter_iterator<Iterator, Predicate>`
 
-\ref CGAL::Join_input_iterator_1<Iterator, Creator>
+- `CGAL::Join_input_iterator_1<Iterator, Creator>`
 
-\ref CGAL::Inverse_index<IC>
+- `CGAL::Inverse_index<IC>`
 
-\ref CGAL::Random_access_adaptor<IC>
+- `CGAL::Random_access_adaptor<IC>`
 
-\ref CGAL::Random_access_value_adaptor<IC,T>
+- `CGAL::Random_access_value_adaptor<IC,T>`
 
 ## Projection Function Objects ##
 
-\ref CGAL::Identity<Value>
+- `CGAL::Identity<Value>`
 
-\ref CGAL::Dereference<Value>
+- `CGAL::Dereference<Value>`
 
-\ref CGAL::Get_address<Value>
+- `CGAL::Get_address<Value>`
 
-\ref CGAL::Cast_function_object<Arg, Result>
+- `CGAL::Cast_function_object<Arg, Result>`
 
-\ref CGAL::Project_vertex<Node>
+- `CGAL::Project_vertex<Node>`
 
-\ref CGAL::Project_facet<Node>
+- `CGAL::Project_facet<Node>`
 
-\ref CGAL::Project_point<Node>
+- `CGAL::Project_point<Node>`
 
-\ref CGAL::Project_normal<Node>
+- `CGAL::Project_normal<Node>`
 
-\ref CGAL::Project_plane<Node>
+- `CGAL::Project_plane<Node>`
 
-\ref CGAL::Project_next<Node>
+- `CGAL::Project_next<Node>`
 
-\ref CGAL::Project_prev<Node>
+- `CGAL::Project_prev<Node>`
 
-\ref CGAL::Project_next_opposite<Node>
+- `CGAL::Project_next_opposite<Node>`
 
-\ref CGAL::Project_opposite_prev<Node>
+- `CGAL::Project_opposite_prev<Node>`
 
 ## Creator Function Objects ##
 
-\ref CGAL::Creator_1<Arg, Result>
+- `CGAL::Creator_1<Arg, Result>`
 
-\ref CGAL::Creator_2<Arg1, Arg2, Result>
+- `CGAL::Creator_2<Arg1, Arg2, Result>`
 
-\ref CGAL::Creator_3<Arg1, Arg2, Arg3, Result>
+- `CGAL::Creator_3<Arg1, Arg2, Arg3, Result>`
 
-\ref CGAL::Creator_4<Arg1, Arg2, Arg3, Arg4, Result>
+- `CGAL::Creator_4<Arg1, Arg2, Arg3, Arg4, Result>`
 
-\ref CGAL::Creator_5<Arg1, Arg2, Arg3, Arg4, Arg5, Result>
+- `CGAL::Creator_5<Arg1, Arg2, Arg3, Arg4, Arg5, Result>`
 
-\ref CGAL::Creator_uniform_2<Arg, Result>
+- `CGAL::Creator_uniform_2<Arg, Result>`
 
-\ref CGAL::Creator_uniform_3<Arg, Result>
+- `CGAL::Creator_uniform_3<Arg, Result>`
 
-\ref CGAL::Creator_uniform_4<Arg, Result>
+- `CGAL::Creator_uniform_4<Arg, Result>`
 
-\ref CGAL::Creator_uniform_5<Arg, Result>
+- `CGAL::Creator_uniform_5<Arg, Result>`
 
-\ref CGAL::Creator_uniform_6<Arg, Result>
+- `CGAL::Creator_uniform_6<Arg, Result>`
 
-\ref CGAL::Creator_uniform_7<Arg, Result>
+- `CGAL::Creator_uniform_7<Arg, Result>`
 
-\ref CGAL::Creator_uniform_8<Arg, Result>
+- `CGAL::Creator_uniform_8<Arg, Result>`
 
-\ref CGAL::Creator_uniform_9<Arg, Result>
+- `CGAL::Creator_uniform_9<Arg, Result>`
 
-\ref CGAL::Creator_uniform_d<Arg, Result>
+- `CGAL::Creator_uniform_d<Arg, Result>`
 
 ## Utilities ##
 
-\ref CGAL::Twotuple<T>
+- `CGAL::Twotuple<T>`
 
-\ref CGAL::Threetuple<T>
+- `CGAL::Threetuple<T>`
 
-\ref CGAL::Fourtuple<T>
+- `CGAL::Fourtuple<T>`
 
-\ref CGAL::Sixtuple<T>
+- `CGAL::Sixtuple<T>`
 
-\ref CGAL::Triple<T1, T2, T3>
+- `CGAL::Triple<T1, T2, T3>`
 
-\ref CGAL::Quadruple<T1, T2, T3, T4>
+- `CGAL::Quadruple<T1, T2, T3, T4>`
 
-\ref CGAL::Boolean_tag<bool value>
+- `CGAL::Boolean_tag<bool value>`
 
-\ref CGAL::Tag_true
+- `CGAL::Tag_true`
 
-\ref CGAL::Tag_false
+- `CGAL::Tag_false`
 
-\ref CGAL::Null_tag
+- `CGAL::Null_tag`
 
-\ref CGAL::Null_functor
+- `CGAL::Null_functor`
 
-\ref CGAL::Uncertain<T>
+- `CGAL::Uncertain<T>`
 
-\ref CGAL::Default
+- `CGAL::Default`
 
-\ref CGAL::Fast
+- `CGAL::Fast`
 
-\ref CGAL::Compact
+- `CGAL::Compact`
 
-\ref CGAL::Location_policy<Tag>
+- `CGAL::Location_policy<Tag>`
 
-\ref CGAL::Fast_location
+- `CGAL::Fast_location`
 
-\ref CGAL::Compact_location
+- `CGAL::Compact_location`

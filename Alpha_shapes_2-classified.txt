@@ -57,11 +57,11 @@ finite number of different \f$ \alpha\f$-shapes and corresponding
 
 \subsection gitClasses Classes
 
-\ref CGAL::Alpha_shape_2<Dt>
+- `CGAL::Alpha_shape_2<Dt>`
 
-\ref CGAL::Weighted_alpha_shape_euclidean_traits_2<K>
+- `CGAL::Weighted_alpha_shape_euclidean_traits_2<K>`
 
-\ref CGAL::Alpha_shape_vertex_base_2<AlphaShapeTraits_2>
+- `CGAL::Alpha_shape_vertex_base_2<AlphaShapeTraits_2>`
 
-\ref CGAL::Alpha_shape_face_base_2<AlphaShapeTraits_2,
+- `CGAL::Alpha_shape_face_base_2<AlphaShapeTraits_2,`
                                                TriangulationFaceBase_2>

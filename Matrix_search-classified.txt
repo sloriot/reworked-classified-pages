@@ -12,16 +12,16 @@ checking off, cf. Section  \ref secchecks.
 
 # Classified References Pages #
 
-\ref CGAL::monotone_matrix_search
+- `CGAL::monotone_matrix_search`
 
-\ref CGAL::Dynamic_matrix<M>
+- `CGAL::Dynamic_matrix<M>`
 
 `MonotoneMatrixSearchTraits`
 
 `BasicMatrix`<BR>
 
-\ref CGAL::sorted_matrix_search
+- `CGAL::sorted_matrix_search`
 
-\ref CGAL::Sorted_matrix_search_traits_adaptor<F,M>
+- `CGAL::Sorted_matrix_search_traits_adaptor<F,M>`
 
 `SortedMatrixSearchTraits`<BR>

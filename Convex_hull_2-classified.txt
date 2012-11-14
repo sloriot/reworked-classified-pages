@@ -37,64 +37,64 @@ Concepts
 Traits Classes
 --------------
 
-\ref CGAL::Convex_hull_constructive_traits_2<R>
+- `CGAL::Convex_hull_constructive_traits_2<R>`
 
-\ref CGAL::Convex_hull_projective_xy_traits_2<Point_3>
+- `CGAL::Convex_hull_projective_xy_traits_2<Point_3>`
 
-\ref CGAL::Convex_hull_projective_xz_traits_2<Point_3>
+- `CGAL::Convex_hull_projective_xz_traits_2<Point_3>`
 
-\ref CGAL::Convex_hull_projective_yz_traits_2<Point_3>
+- `CGAL::Convex_hull_projective_yz_traits_2<Point_3>`
 
-\ref CGAL::Convex_hull_traits_2<R>
+- `CGAL::Convex_hull_traits_2<R>`
 
 Convex Hull Functions
 --------------
 
-\ref CGAL::ch_akl_toussaint
+- `CGAL::ch_akl_toussaint`
 
-\ref CGAL::ch_bykat
+- `CGAL::ch_bykat`
 
-\ref CGAL::ch_eddy
+- `CGAL::ch_eddy`
 
-\ref CGAL::ch_graham_andrew
+- `CGAL::ch_graham_andrew`
 
-\ref CGAL::ch_jarvis
+- `CGAL::ch_jarvis`
 
-\ref CGAL::ch_melkman
+- `CGAL::ch_melkman`
 
-\ref CGAL::convex_hull_2
+- `CGAL::convex_hull_2`
 
 Convexity Checking Functions
 --------------
 
-\ref CGAL::is_ccw_strongly_convex_2
+- `CGAL::is_ccw_strongly_convex_2`
 
-\ref CGAL::is_cw_strongly_convex_2
+- `CGAL::is_cw_strongly_convex_2`
 
 Hull Subsequence Functions
 --------------
 
-\ref CGAL::ch_graham_andrew_scan
+- `CGAL::ch_graham_andrew_scan`
 
-\ref CGAL::ch_jarvis_march
+- `CGAL::ch_jarvis_march`
 
-\ref CGAL::lower_hull_points_2
+- `CGAL::lower_hull_points_2`
 
-\ref CGAL::upper_hull_points_2
+- `CGAL::upper_hull_points_2`
 
 Extreme Point Functions
 --------------
 
-\ref CGAL::ch_e_point
+- `CGAL::ch_e_point`
 
-\ref CGAL::ch_nswe_point
+- `CGAL::ch_nswe_point`
 
-\ref CGAL::ch_n_point
+- `CGAL::ch_n_point`
 
-\ref CGAL::ch_ns_point
+- `CGAL::ch_ns_point`
 
-\ref CGAL::ch_s_point
+- `CGAL::ch_s_point`
 
-\ref CGAL::ch_w_point
+- `CGAL::ch_w_point`
 
-\ref CGAL::ch_we_point
+- `CGAL::ch_we_point`

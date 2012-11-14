@@ -43,18 +43,18 @@ Concepts
 Traits Classes
 --------------
 
-\ref CGAL::Convex_hull_traits_3<R>
+- `CGAL::Convex_hull_traits_3<R>`
 
 Convex Hull Functions
 --------------
 
-\ref CGAL::convex_hull_3
+- `CGAL::convex_hull_3`
 
-\ref CGAL::convex_hull_incremental_3
+- `CGAL::convex_hull_incremental_3`
 
-\ref CGAL::convex_hull_3_to_polyhedron_3
+- `CGAL::convex_hull_3_to_polyhedron_3`
 
 Convexity Checking Function
 --------------
 
-\ref CGAL::is_strongly_convex_3
+- `CGAL::is_strongly_convex_3`

@@ -36,16 +36,16 @@ Concepts
 Classes
 --------------
 
-\ref CGAL::Apollonius_graph_2<Gt,Agds>
+- `CGAL::Apollonius_graph_2<Gt,Agds>`
 
-\ref CGAL::Apollonius_site_2<K>
+- `CGAL::Apollonius_site_2<K>`
 
-\ref CGAL::Apollonius_graph_vertex_base_2<Gt,StoreHidden>
+- `CGAL::Apollonius_graph_vertex_base_2<Gt,StoreHidden>`
 
-\ref CGAL::Apollonius_graph_traits_2<K,Method_tag>
+- `CGAL::Apollonius_graph_traits_2<K,Method_tag>`
 
-\ref CGAL::Apollonius_graph_filtered_traits_2<CK,CM,EK,EM,FK,FM>
+- `CGAL::Apollonius_graph_filtered_traits_2<CK,CM,EK,EM,FK,FM>`
 
-\ref CGAL::Apollonius_graph_hierarchy_2<Gt,Agds>
+- `CGAL::Apollonius_graph_hierarchy_2<Gt,Agds>`
 
-\ref CGAL::Apollonius_graph_hierarchy_vertex_base_2<Agvb>
+- `CGAL::Apollonius_graph_hierarchy_vertex_base_2<Agvb>`

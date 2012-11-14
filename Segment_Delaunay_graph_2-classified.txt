@@ -39,23 +39,23 @@ Concepts
 Classes
 --------------
 
-\ref CGAL::Segment_Delaunay_graph_2<Gt,DS>
+- `CGAL::Segment_Delaunay_graph_2<Gt,DS>`
 
-\ref CGAL::Segment_Delaunay_graph_site_2<K>
+- `CGAL::Segment_Delaunay_graph_site_2<K>`
 
-\ref CGAL::Segment_Delaunay_graph_storage_site_2<Gt>
+- `CGAL::Segment_Delaunay_graph_storage_site_2<Gt>`
 
-\ref CGAL::Segment_Delaunay_graph_vertex_base_2<Gt,SSTag>
+- `CGAL::Segment_Delaunay_graph_vertex_base_2<Gt,SSTag>`
 
-\ref CGAL::Segment_Delaunay_graph_traits_2<K,MTag>
+- `CGAL::Segment_Delaunay_graph_traits_2<K,MTag>`
 
-\ref CGAL::Segment_Delaunay_graph_traits_without_intersections_2<K,MTag>
+- `CGAL::Segment_Delaunay_graph_traits_without_intersections_2<K,MTag>`
 
-\ref CGAL::Segment_Delaunay_graph_filtered_traits_2<CK,CM,EK,EM,FK,FM>
+- `CGAL::Segment_Delaunay_graph_filtered_traits_2<CK,CM,EK,EM,FK,FM>`
 
-\ref CGAL::Segment_Delaunay_graph_filtered_traits_without_intersections_2<CK,CM,EK,EM,FK,FM>
+- `CGAL::Segment_Delaunay_graph_filtered_traits_without_intersections_2<CK,CM,EK,EM,FK,FM>`
 
-\ref CGAL::Segment_Delaunay_graph_hierarchy_2<Gt,STag,DS>
+- `CGAL::Segment_Delaunay_graph_hierarchy_2<Gt,STag,DS>`
 
-\ref CGAL::Segment_Delaunay_graph_hierarchy_vertex_base_2<Vbb>
+- `CGAL::Segment_Delaunay_graph_hierarchy_vertex_base_2<Vbb>`
 

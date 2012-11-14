@@ -14,26 +14,26 @@ checking off, cf. Section  \ref secchecks.
 
 ## All furthest neighbors ##
 
-\ref CGAL::all_furthest_neighbors_2
+- `CGAL::all_furthest_neighbors_2`
 
 `AllFurthestNeighborsTraits_2`
 
 ## Width ##
 
-\ref CGAL::Width_3<Traits>
+- `CGAL::Width_3<Traits>`
 
-\ref CGAL::Width_default_traits_3<K>
+- `CGAL::Width_default_traits_3<K>`
 
 `WidthTraits_3`
 
 ## Polytope Distance ##
 
-\ref CGAL::Polytope_distance_d<Traits>
+- `CGAL::Polytope_distance_d<Traits>`
 
-\ref CGAL::Polytope_distance_d_traits_2<K,ET,NT>
+- `CGAL::Polytope_distance_d_traits_2<K,ET,NT>`
 
-\ref CGAL::Polytope_distance_d_traits_3<K,ET,NT>
+- `CGAL::Polytope_distance_d_traits_3<K,ET,NT>`
 
-\ref CGAL::Polytope_distance_d_traits_d<K,ET,NT>
+- `CGAL::Polytope_distance_d_traits_d<K,ET,NT>`
 
 `PolytopeDistanceDTraits`

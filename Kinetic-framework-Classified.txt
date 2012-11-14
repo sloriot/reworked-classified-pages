@@ -20,15 +20,15 @@ Main Support Classes and Concepts
 Here we list the main classes and concepts provided by the framework to support implementing kinetic data structures
 
 `Kinetic::ActiveObjectsTable`
-\ref CGAL::Kinetic::Active_objects_vector<MovingObject>
-\ref ::Kinetic::Cartesian<FunctionKernel>
+- `CGAL::Kinetic::Active_objects_vector<MovingObject>`
+- `::Kinetic::Cartesian<FunctionKernel>`
 `Kinetic::FunctionKernel`
 `Kinetic::InstantaneousKernel`
-\ref CGAL::Kinetic::Default_instantaneous_kernel<ActiveObjectsTable, StaticKernel>
+- `CGAL::Kinetic::Default_instantaneous_kernel<ActiveObjectsTable, StaticKernel>`
 `Kinetic::Kernel`
 `Kinetic::SimulationTraits`
 `Kinetic::Simulator`
-\ref CGAL::Kinetic::Default_simulator<FunctionKernel, EventQueue>
+- `CGAL::Kinetic::Default_simulator<FunctionKernel, EventQueue>`
 
 Other Concepts
 --------------
@@ -47,18 +47,18 @@ Other Concepts
 Other Classes
 --------------
 
-\ref CGAL::Listener<Interface>
-\ref CGAL::Multi_listener<Interface>
-\ref CGAL::Ref_counted<T>
-\ref CGAL::Kinetic::Active_objects_listener_helper<ActiveObjectsTable, KDS>
-\ref CGAL::Kinetic::Erase_event<ActiveObjectsTable>
-\ref CGAL::Kinetic::Insert_event<ActiveObjectsTable>
-\ref CGAL::Kinetic::Qt_moving_points_2<Traits, QtWidget_2>
-\ref CGAL::Kinetic::Qt_triangulation_2<KineticTriangulation_2, QtWidget_2, QtMovingPoints_2>
-\ref CGAL::Kinetic::Qt_widget_2<Simulator>
-\ref CGAL::Kinetic::Regular_triangulation_instantaneous_kernel<ActiveObjectsTable, StaticKernel>
-\ref CGAL::Kinetic::Simulator_kds_listener<Listener, KDS>
-\ref CGAL::Kinetic::Simulator_objects_listener<Simulator_listener, KDS>
+- `CGAL::Listener<Interface>`
+- `CGAL::Multi_listener<Interface>`
+- `CGAL::Ref_counted<T>`
+- `CGAL::Kinetic::Active_objects_listener_helper<ActiveObjectsTable, KDS>`
+- `CGAL::Kinetic::Erase_event<ActiveObjectsTable>`
+- `CGAL::Kinetic::Insert_event<ActiveObjectsTable>`
+- `CGAL::Kinetic::Qt_moving_points_2<Traits, QtWidget_2>`
+- `CGAL::Kinetic::Qt_triangulation_2<KineticTriangulation_2, QtWidget_2, QtMovingPoints_2>`
+- `CGAL::Kinetic::Qt_widget_2<Simulator>`
+- `CGAL::Kinetic::Regular_triangulation_instantaneous_kernel<ActiveObjectsTable, StaticKernel>`
+- `CGAL::Kinetic::Simulator_kds_listener<Listener, KDS>`
+- `CGAL::Kinetic::Simulator_objects_listener<Simulator_listener, KDS>`
 
 
 

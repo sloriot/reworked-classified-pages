@@ -14,6 +14,6 @@
 
 ## Types ##
 
-\ref CGAL::Residue
+- `CGAL::Residue`
 
-\ref CGAL::Modular_traits<T>
+- `CGAL::Modular_traits<T>`

@@ -18,22 +18,22 @@ host.
 
 ## Concepts ##
 
-\ref ::PQQMask_3
+- `::PQQMask_3`
 
-\ref ::PTQMask_3
+- `::PTQMask_3`
 
-\ref ::DQQMask_3
+- `::DQQMask_3`
 
-\ref ::Sqrt3Mask_3
+- `::Sqrt3Mask_3`
 
 ## Classes ##
 
-\ref CGAL::Subdivision_method_3
+- `CGAL::Subdivision_method_3`
 
-\ref CGAL::CatmullClark_mask_3<Polyhedron_3>
+- `CGAL::CatmullClark_mask_3<Polyhedron_3>`
 
-\ref CGAL::Loop_mask_3<Polyhedron_3>
+- `CGAL::Loop_mask_3<Polyhedron_3>`
 
-\ref CGAL::DooSabin_mask_3<Polyhedron_3>
+- `CGAL::DooSabin_mask_3<Polyhedron_3>`
 
-\ref CGAL::Sqrt3_mask_3<Polyhedron_3>
+- `CGAL::Sqrt3_mask_3<Polyhedron_3>`

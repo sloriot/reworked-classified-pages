@@ -27,76 +27,76 @@ classes that are described in the reference pages.
 Search Classes
 --------------
 
-\ref CGAL::K_neighbor_search<Traits, GeneralDistance, Splitter, SpatialTree>
+- `CGAL::K_neighbor_search<Traits, GeneralDistance, Splitter, SpatialTree>`
 
-\ref CGAL::Incremental_neighbor_search<Traits, GeneralDistance, Splitter, SpatialTree>
+- `CGAL::Incremental_neighbor_search<Traits, GeneralDistance, Splitter, SpatialTree>`
 
-\ref CGAL::Orthogonal_incremental_neighbor_search<Traits, OrthogonalDistance, Splitter, SpatialTree>
+- `CGAL::Orthogonal_incremental_neighbor_search<Traits, OrthogonalDistance, Splitter, SpatialTree>`
 
-\ref CGAL::Orthogonal_k_neighbor_search<Traits, OrthogonalDistance, Splitter, SpatialTree>
+- `CGAL::Orthogonal_k_neighbor_search<Traits, OrthogonalDistance, Splitter, SpatialTree>`
 
-\ref CGAL::Kd_tree<Traits, Splitter, UseExtendedNode>
+- `CGAL::Kd_tree<Traits, Splitter, UseExtendedNode>`
 
 Range Query Item Classes
 --------------
 
-\ref CGAL::Fuzzy_iso_box<Traits>
+- `CGAL::Fuzzy_iso_box<Traits>`
 
-\ref CGAL::Fuzzy_sphere<Traits>
+- `CGAL::Fuzzy_sphere<Traits>`
 
 Search Traits Classes
 --------------
 
-\ref CGAL::Search_traits_2<Kernel>
+- `CGAL::Search_traits_2<Kernel>`
 
-\ref CGAL::Search_traits_3<Kernel>
+- `CGAL::Search_traits_3<Kernel>`
 
-\ref CGAL::Search_traits_d<Kernel>
+- `CGAL::Search_traits_d<Kernel>`
 
-\ref CGAL::Search_traits<NT,Point,CartesianIterator,ConstructCartesianIterator,ConstructMinVertex,ConstructMaxVertex>
+- `CGAL::Search_traits<NT,Point,CartesianIterator,ConstructCartesianIterator,ConstructMinVertex,ConstructMaxVertex>`
 
-\ref CGAL::Search_traits_adapter<Key,PointPropertyMap,BaseTraits>
+- `CGAL::Search_traits_adapter<Key,PointPropertyMap,BaseTraits>`
 
 Distance Classes
 --------------
 
-\ref CGAL::Euclidean_distance<Traits>
+- `CGAL::Euclidean_distance<Traits>`
 
-\ref CGAL::Euclidean_distance_sphere_point<Traits>
+- `CGAL::Euclidean_distance_sphere_point<Traits>`
 
-\ref CGAL::Manhattan_distance_iso_box_point<Traits>
+- `CGAL::Manhattan_distance_iso_box_point<Traits>`
 
-\ref CGAL::Weighted_Minkowski_distance<Traits>
+- `CGAL::Weighted_Minkowski_distance<Traits>`
 
-\ref CGAL::Distance_for_point_adapter<Key,PointPropertyMap,Base_distance>
+- `CGAL::Distance_for_point_adapter<Key,PointPropertyMap,Base_distance>`
 
 Splitter Classes
 --------------
 
-\ref CGAL::Sliding_midpoint<Traits, SpatialSeparator>
+- `CGAL::Sliding_midpoint<Traits, SpatialSeparator>`
 
-\ref CGAL::Sliding_fair<Traits, SpatialSeparator>
+- `CGAL::Sliding_fair<Traits, SpatialSeparator>`
 
-\ref CGAL::Fair<Traits, SpatialSeparator>
+- `CGAL::Fair<Traits, SpatialSeparator>`
 
-\ref CGAL::Median_of_max_spread<Traits, SpatialSeparator>
+- `CGAL::Median_of_max_spread<Traits, SpatialSeparator>`
 
-\ref CGAL::Median_of_rectangle<Traits, SpatialSeparator>
+- `CGAL::Median_of_rectangle<Traits, SpatialSeparator>`
 
-\ref CGAL::Midpoint_of_max_spread<Traits, SpatialSeparator>
+- `CGAL::Midpoint_of_max_spread<Traits, SpatialSeparator>`
 
-\ref CGAL::Midpoint_of_rectangle<Traits, SpatialSeparator>
+- `CGAL::Midpoint_of_rectangle<Traits, SpatialSeparator>`
 
 Advanced Classes
 --------------
 
-\ref CGAL::Kd_tree_node<Traits, Splitter, UseExtendedNode>
+- `CGAL::Kd_tree_node<Traits, Splitter, UseExtendedNode>`
 
-\ref CGAL::Kd_tree_rectangle<FT>
+- `CGAL::Kd_tree_rectangle<FT>`
 
-\ref CGAL::Plane_separator<FT>
+- `CGAL::Plane_separator<FT>`
 
-\ref CGAL::Point_container<Traits>
+- `CGAL::Point_container<Traits>`
 
 Concepts
 --------------

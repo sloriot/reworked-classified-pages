@@ -14,14 +14,14 @@ Concepts
 Classes
 --------------
 
-\ref CGAL::Extended_cartesian<FT>
+- `CGAL::Extended_cartesian<FT>`
 
-\ref CGAL::Extended_homogeneous<RT>
+- `CGAL::Extended_homogeneous<RT>`
 
-\ref CGAL::Filtered_extended_homogeneous<RT>
+- `CGAL::Filtered_extended_homogeneous<RT>`
 
-\ref CGAL::Nef_polyhedron_2<T>
+- `CGAL::Nef_polyhedron_2<T>`
 
-\ref CGAL::Explorer
+- `CGAL::Explorer`
 
-\ref CGAL::Topological_explorer
+- `CGAL::Topological_explorer`

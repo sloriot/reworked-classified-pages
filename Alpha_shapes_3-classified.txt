@@ -83,16 +83,16 @@ of the alpha complex where singular faces are removed.
 
 ## Classes ##
 
-\ref CGAL::Alpha_status<NT>
+- `CGAL::Alpha_status<NT>`
 
-\ref CGAL::Alpha_shape_3<Dt,ExactAlphaComparisonTag>
+- `CGAL::Alpha_shape_3<Dt,ExactAlphaComparisonTag>`
 
-\ref CGAL::Alpha_shape_vertex_base_3<Traits,Vb>
+- `CGAL::Alpha_shape_vertex_base_3<Traits,Vb>`
 
-\ref CGAL::Alpha_shape_cell_base_3<Traits,Fb>
+- `CGAL::Alpha_shape_cell_base_3<Traits,Fb>`
 
-\ref CGAL::Fixed_alpha_shape_3<Dt>
+- `CGAL::Fixed_alpha_shape_3<Dt>`
 
-\ref CGAL::Fixed_alpha_shape_vertex_base_3<Traits,Vb>
+- `CGAL::Fixed_alpha_shape_vertex_base_3<Traits,Vb>`
 
-\ref CGAL::Fixed_alpha_shape_cell_base_3<Traits,Fb>
+- `CGAL::Fixed_alpha_shape_cell_base_3<Traits,Fb>`

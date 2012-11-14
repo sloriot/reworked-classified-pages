@@ -29,8 +29,8 @@ Concepts
 Classes
 --------------
 
-\ref CGAL::Convex_hull_d_traits_3<R>
+- `CGAL::Convex_hull_d_traits_3<R>`
 
-\ref CGAL::Convex_hull_d<R>
+- `CGAL::Convex_hull_d<R>`
 
-\ref CGAL::Delaunay_d< R, Lifted_R >
+- `CGAL::Delaunay_d< R, Lifted_R >`

@@ -16,17 +16,17 @@ implemented as peripheral classes or as free (global) functions.
 
 ## Enumerations ##
 
-\ref CGAL::Arr_parameter_space
+- `CGAL::Arr_parameter_space`
 
-\ref CGAL::Arr_curve_end
+- `CGAL::Arr_curve_end`
 
-\ref CGAL::Arr_halfedge_direction
+- `CGAL::Arr_halfedge_direction`
 
 ## Tags ##
 
-\ref CGAL::Arr_oblivious_side_tag
+- `CGAL::Arr_oblivious_side_tag`
 
-\ref CGAL::Arr_open_side_tag
+- `CGAL::Arr_open_side_tag`
 
 ## Concepts ##
 
@@ -125,113 +125,113 @@ implemented as peripheral classes or as free (global) functions.
 
 ## Classes ##
 
-\ref CGAL::Arrangement_2<Traits,Dcel>
+- `CGAL::Arrangement_2<Traits,Dcel>`
 
-\ref CGAL::Arr_accessor<Arrangement>
+- `CGAL::Arr_accessor<Arrangement>`
 
-\ref CGAL::Arr_observer<Arrangement>
+- `CGAL::Arr_observer<Arrangement>`
 
-\ref CGAL::Arrangement_with_history_2<Traits,Dcel>
-
-
-
-\ref CGAL::Arrangement_2<Traits,Dcel>::Vertex
-
-\ref CGAL::Arrangement_2<Traits,Dcel>::Halfedge
-
-\ref CGAL::Arrangement_2<Traits,Dcel>::Face
-
-\ref CGAL::Arr_dcel_base<V,H,F>
-
-\ref CGAL::Arr_default_dcel<Traits>
-
-\ref CGAL::Arr_face_extended_dcel<Traits,FData,V,H,F>
-
-\ref CGAL::Arr_extended_dcel<Traits,VData,HData,FData,V,H,F>
+- `CGAL::Arrangement_with_history_2<Traits,Dcel>`
 
 
 
-\ref CGAL::Arr_segment_traits_2<Kernel>
+- `CGAL::Arrangement_2<Traits,Dcel>::Vertex`
 
-\ref CGAL::Arr_non_caching_segment_traits_2<Kernel>
+- `CGAL::Arrangement_2<Traits,Dcel>::Halfedge`
 
-\ref CGAL::Arr_linear_traits_2<Kernel>
+- `CGAL::Arrangement_2<Traits,Dcel>::Face`
 
-\ref CGAL::Arr_polyline_traits_2<SegmentTraits>
+- `CGAL::Arr_dcel_base<V,H,F>`
 
-\ref CGAL::Arr_circle_segment_traits_2<Kernel>
+- `CGAL::Arr_default_dcel<Traits>`
 
-\ref CGAL::Arr_line_arc_traits_2<CircularKernel>
+- `CGAL::Arr_face_extended_dcel<Traits,FData,V,H,F>`
 
-\ref CGAL::Arr_circular_arc_traits_2<CircularKernel>
-
-\ref CGAL::Arr_circular_line_arc_traits_2<CircularKernel>
-
-\ref CGAL::Arr_conic_traits_2<RatKernel,AlgKernel,NtTraits>
-
-\ref CGAL::Arr_rational_function_traits_2<AlgebraicKernel_d_1>
-
-\ref CGAL::Arr_Bezier_curve_traits_2<RatKernel,AlgKernel,NtTraits>
-
-\ref CGAL::Arr_algebraic_segment_traits_2<Coefficient>
-
-\ref CGAL::Arr_curve_data_traits_2<Tr,XData,Mrg,CData,Cnv>
-
-\ref CGAL::Arr_consolidated_curve_data_traits_2<Traits,Data>
+- `CGAL::Arr_extended_dcel<Traits,VData,HData,FData,V,H,F>`
 
 
 
-\ref CGAL::Arr_text_formatter<Arrangement>
+- `CGAL::Arr_segment_traits_2<Kernel>`
 
-\ref CGAL::Arr_face_extended_text_formatter<Arrangement>
+- `CGAL::Arr_non_caching_segment_traits_2<Kernel>`
 
-\ref CGAL::Arr_extended_dcel_text_formatter<Arrangement>
+- `CGAL::Arr_linear_traits_2<Kernel>`
 
-\ref CGAL::Arr_with_history_text_formatter<ArrFormatter>
+- `CGAL::Arr_polyline_traits_2<SegmentTraits>`
+
+- `CGAL::Arr_circle_segment_traits_2<Kernel>`
+
+- `CGAL::Arr_line_arc_traits_2<CircularKernel>`
+
+- `CGAL::Arr_circular_arc_traits_2<CircularKernel>`
+
+- `CGAL::Arr_circular_line_arc_traits_2<CircularKernel>`
+
+- `CGAL::Arr_conic_traits_2<RatKernel,AlgKernel,NtTraits>`
+
+- `CGAL::Arr_rational_function_traits_2<AlgebraicKernel_d_1>`
+
+- `CGAL::Arr_Bezier_curve_traits_2<RatKernel,AlgKernel,NtTraits>`
+
+- `CGAL::Arr_algebraic_segment_traits_2<Coefficient>`
+
+- `CGAL::Arr_curve_data_traits_2<Tr,XData,Mrg,CData,Cnv>`
+
+- `CGAL::Arr_consolidated_curve_data_traits_2<Traits,Data>`
 
 
 
-\ref CGAL::Arr_naive_point_location<Arrangement>
+- `CGAL::Arr_text_formatter<Arrangement>`
 
-\ref CGAL::Arr_walk_along_line_point_location<Arrangement>
+- `CGAL::Arr_face_extended_text_formatter<Arrangement>`
 
-\ref CGAL::Arr_trapezoid_ric_point_location<Arrangement>
+- `CGAL::Arr_extended_dcel_text_formatter<Arrangement>`
 
-\ref CGAL::Arr_landmarks_point_location<Arrangement,Generator>
+- `CGAL::Arr_with_history_text_formatter<ArrFormatter>`
+
+
+
+- `CGAL::Arr_naive_point_location<Arrangement>`
+
+- `CGAL::Arr_walk_along_line_point_location<Arrangement>`
+
+- `CGAL::Arr_trapezoid_ric_point_location<Arrangement>`
+
+- `CGAL::Arr_landmarks_point_location<Arrangement,Generator>`
 
 ## Tags ##
 
-\ref CGAL::Arr_oblivious_side_tag
+- `CGAL::Arr_oblivious_side_tag`
 
-\ref CGAL::Arr_open_side_tag
+- `CGAL::Arr_open_side_tag`
 
 ## Functions ##
 
-\ref CGAL::is_valid
+- `CGAL::is_valid`
 
-\ref CGAL::insert
+- `CGAL::insert`
 
-\ref CGAL::insert_non_intersecting_curve
+- `CGAL::insert_non_intersecting_curve`
 
-\ref CGAL::insert_non_intersecting_curves
+- `CGAL::insert_non_intersecting_curves`
 
-\ref CGAL::insert_point
+- `CGAL::insert_point`
 
-\ref CGAL::remove_edge
+- `CGAL::remove_edge`
 
-\ref CGAL::remove_vertex
+- `CGAL::remove_vertex`
 
-\ref CGAL::locate
+- `CGAL::locate`
 
-\ref CGAL::decompose
+- `CGAL::decompose`
 
-\ref CGAL::overlay
+- `CGAL::overlay`
 
-\ref CGAL::read
+- `CGAL::read`
 
-\ref CGAL::write
+- `CGAL::write`
 
-\ref CGAL::remove_curve
+- `CGAL::remove_curve`
 
 `CGAL::operator<<`
   <A HREF="Function_operator.html">(go there)</A>

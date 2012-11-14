@@ -13,17 +13,17 @@ checking off, cf. Section  \ref secchecks.
 
 # Classified References Pages #
 
-\ref CGAL::maximum_area_inscribed_k_gon_2
+- `CGAL::maximum_area_inscribed_k_gon_2`
 
-\ref CGAL::maximum_perimeter_inscribed_k_gon_2
+- `CGAL::maximum_perimeter_inscribed_k_gon_2`
 
-\ref CGAL::extremal_polygon_2
+- `CGAL::extremal_polygon_2`
 
-\ref CGAL::Largest_empty_iso_rectangle_2<T>
+- `CGAL::Largest_empty_iso_rectangle_2<T>`
 
-\ref CGAL::Extremal_polygon_area_traits_2<K>
+- `CGAL::Extremal_polygon_area_traits_2<K>`
 
-\ref CGAL::Extremal_polygon_perimeter_traits_2<K>
+- `CGAL::Extremal_polygon_perimeter_traits_2<K>`
 
 `ExtremalPolygonTraits_2`
 
