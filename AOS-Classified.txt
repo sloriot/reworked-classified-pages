@@ -118,9 +118,5 @@
 - `CGAL::read`
 - `CGAL::write`
 - `CGAL::remove_curve`
-- `CGAL::operator<<`
-  <A HREF="Function_operator.html">(go there)</A>
-
-
-- `CGAL::operator>>`
-  <A HREF="Function_operator--.html">(go there)</A>
+- \ref PkgArrangement2op_left_shift "`CGAL::operator<<`"
+- \ref PkgArrangement2op_right_shift "`CGAL::operator<<`"
