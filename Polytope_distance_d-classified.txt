@@ -1,15 +1,3 @@
-
-
-This chapter describes concepts, classes, and functions for 2D all furthest neigbors,
-3D width of a point set, and dD polytope distance.
-
-# Assertions #
-
-The optimization code uses infix `OPTIMISATION` in the assertions,
-e.g. defining the compiler flag
-- `CGAL_OPTIMISATION_NO_PRECONDITIONS` switches precondition
-checking off, cf. Section  \ref secchecks.
-
 # Classified References Pages #
 
 ## All furthest neighbors ##

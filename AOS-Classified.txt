@@ -1,17 +1,3 @@
-
-
-Given a set \f$ \mathcal{C}\f$ of planar curves, the <I>arrangement</I>
-\f$ {\mathcal A}({\mathcal C})\f$ is the subdivision of the plane induced
-by the curves in \f$ \mathcal{C}\f$ into maximally connected cells. The cells
-can be \f$ 0\f$-dimensional (<I>vertices</I>), \f$ 1\f$-dimensional (<I>edges</I>)
-or \f$ 2\f$-dimensional (<I>faces</I>).
-
-The class `Arrangement_2<Traits,Dcel>` encapsulates a data structure
-that maintains arrangements of arbitrary bounded planar curves. It comes
-with a variety of algorithms that operate on planar arrangement,
-such as point-location queries and overlay computations, which are
-implemented as peripheral classes or as free (global) functions.
-
 # Classified Reference Pages #
 
 ## Enumerations ##

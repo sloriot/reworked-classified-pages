@@ -1,17 +1,11 @@
-
-
-Planar Nef Polyhedra are whatever can be constructed with a finite number of
-Boolean operations on halfspaces. See the user manual pages for a detailed
-introduction.
-
 # Classified Reference Pages #
 
-Concepts
---------------
+## Concepts ##
+
 - `ExtendedKernelTraits_2`
 
-Classes
---------------
+## Classes ##
+
 - `CGAL::Extended_cartesian<FT>`
 - `CGAL::Extended_homogeneous<RT>`
 - `CGAL::Filtered_extended_homogeneous<RT>`

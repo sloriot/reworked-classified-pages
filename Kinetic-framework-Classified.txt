@@ -1,9 +1,7 @@
-
-
 # Classified Reference Pages #
 
-Definition
---------------
+## Definition ##
+
 
 Kinetic data structures are a way of adding motion to classical
 geometric data structures. \cgal provides a number of classes to aid
@@ -14,8 +12,8 @@ package. The user can use an existing kinetic data structure, write a
 new kinetic data structure, or replace parts of the framework.The
 first level is covered in the Chapter  \ref refchapterkinetic.
 
-Main Support Classes and Concepts
---------------
+## Main Support Classes and Concepts ##
+
 
 Here we list the main classes and concepts provided by the framework to support implementing kinetic data structures
 
@@ -30,8 +28,8 @@ Here we list the main classes and concepts provided by the framework to support 
 - `Kinetic::Simulator`
 - `CGAL::Kinetic::Default_simulator<FunctionKernel, EventQueue>`
 
-Other Concepts
---------------
+## Other Concepts ##
+
 - `Key`
 - `Kinetic::Certificate`
 - `Kinetic::CertificateGenerator`
@@ -43,8 +41,8 @@ Other Concepts
 - `Kinetic::Simulator::Event`
 - `Kinetic::Simulator::Time`
 
-Other Classes
---------------
+## Other Classes ##
+
 - `CGAL::Listener<Interface>`
 - `CGAL::Multi_listener<Interface>`
 - `CGAL::Ref_counted<T>`
@@ -58,8 +56,8 @@ Other Classes
 - `CGAL::Kinetic::Simulator_kds_listener<Listener, KDS>`
 - `CGAL::Kinetic::Simulator_objects_listener<Simulator_listener, KDS>`
 
-Example
---------------
+## Example ##
+
 
 The simulation traits class is simply there for convenience in order to bundle a set of related typedefs and create a few objects. As a resulting, creating your own requires little though, and just copying and changing a few lines. An example is below which sets up to use the CORE Sturm sequences to solve polynomials rather than our own (faster) solvers. It can be found in examples/Kinetic_framework/defining_a_simulation_traits.cpp.
 

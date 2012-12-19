@@ -1,23 +1,15 @@
-
-
-Assertions
---------------
-
-The assertion flags for the polygons and polygon operations use
-- `POLYGON` in their names (<I>e.g.</I>, `CGAL_POLYGON_NO_ASSERTIONS`).
-
 # Classified Reference Pages #
 
-Concepts
---------------
+## Concepts ##
+
 - `PolygonTraits_2`
 
-Classes
---------------
+## Classes ##
+
 - `CGAL::Polygon_2<PolygonTraits_2, Container>`
 
-Global Functions
---------------
+## Global Functions ##
+
 - `CGAL::area_2`
 - `CGAL::bbox_2`
 - `CGAL::bottom_vertex_2`

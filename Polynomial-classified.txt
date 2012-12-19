@@ -1,5 +1,3 @@
-
-
 # Classified Reference Pages #
 
 ## Polynomial_d ##

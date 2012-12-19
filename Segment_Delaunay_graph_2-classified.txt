@@ -1,5 +1,3 @@
-
-
 \cgal provides the class
 - `CGAL::Segment_Delaunay_graph_2<Gt,DS>` for
 computing the 2D Delaunay graph of segments and points. The two
@@ -21,8 +19,8 @@ the class
 
 # Classified Reference Pages #
 
-Concepts
---------------
+## Concepts ##
+
 - `SegmentDelaunayGraphSite_2`
 - `SegmentDelaunayGraphStorageSite_2`
 - `SegmentDelaunayGraphDataStructure_2`
@@ -30,8 +28,8 @@ Concepts
 - `SegmentDelaunayGraphTraits_2`
 - `SegmentDelaunayGraphHierarchyVertexBase_2`
 
-Classes
---------------
+## Classes ##
+
 - `CGAL::Segment_Delaunay_graph_2<Gt,DS>`
 - `CGAL::Segment_Delaunay_graph_site_2<K>`
 - `CGAL::Segment_Delaunay_graph_storage_site_2<Gt>`

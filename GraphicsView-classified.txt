@@ -1,8 +1,3 @@
-
-
-This package provides some classes which allow to use \cgal classes in
-<I>Qt</I> applications which make use of the <A HREF="http://doc.qt.nokia.com/latest/graphicsview.html">Qt Graphics View Framework</A>.
-
 # Classified Reference Pages #
 
 ## GraphicsItem Classes ##
